@@ -1,0 +1,462 @@
+/* Site-wide type and text-colour system. Loaded after layout styles. */
+:root {
+  --ink: #19211f;
+  --muted: #596151;
+  --text-on-dark: #f8f7ee;
+  --muted-on-dark: #c4ccbc;
+  --accent-on-light: var(--yellow);
+  --accent-link-on-light: #765600;
+  --type-page: clamp(40px, 4.5vw, 68px);
+  --type-section: clamp(34px, 3.7vw, 56px);
+  --type-card: clamp(22px, 2vw, 28px);
+}
+body {
+  color: var(--ink);
+  font-size: 16px;
+}
+h1,
+h2 {
+  font-weight: 500;
+  letter-spacing: -0.045em;
+  line-height: 1.08;
+}
+h3 {
+  font-weight: 600;
+  letter-spacing: -0.025em;
+  line-height: 1.2;
+}
+p {
+  line-height: 1.65;
+}
+h1 em {
+  background: none;
+  color: var(--accent-on-light);
+}
+h2 em {
+  color: inherit;
+}
+.headline-highlight {
+  color: var(--accent-on-light);
+  background: none;
+}
+.headline-yellow {
+  color: var(--yellow);
+}
+.edit-heading h2 span {
+  color: inherit;
+}
+.edit-heading h2 .headline-highlight {
+  color: var(--accent-on-light);
+}
+.index-intro h2,
+.edit-heading h2,
+.studio-copy h2,
+.section-heading h2,
+.company-story h2,
+.resource-teaser h2,
+.advisor-banner h2 {
+  font-size: var(--type-section);
+  line-height: 1.08;
+  letter-spacing: -0.045em;
+}
+.intro-row h1,
+.catalogue-title-row h1,
+.solution-detail-hero h1 {
+  font-size: var(--type-page);
+  line-height: 1.06;
+  font-weight: 500;
+}
+.detail-copy h1 {
+  font-size: clamp(36px, 4vw, 60px);
+  line-height: 1.1;
+}
+.discovery-copy h2 {
+  font-size: clamp(32px, 3vw, 44px);
+  line-height: 1.1;
+}
+.advisor-sidebar h1 {
+  font-size: clamp(32px, 3vw, 42px);
+  line-height: 1.12;
+}
+.advisor-main > h2,
+.detail-information h2,
+.resource-request h2,
+.enquiry-form h2,
+.prose h2,
+.company-pillars h2 {
+  font-size: clamp(28px, 2.5vw, 36px);
+  line-height: 1.15;
+}
+.space-headline h1 {
+  font-weight: 600;
+  letter-spacing: -0.055em;
+  line-height: 1.04;
+}
+.specimen-bottom h3,
+.catalogue-item-copy h3,
+.product-info h3 {
+  font-size: var(--type-card);
+  line-height: 1.18;
+  letter-spacing: -0.025em;
+  font-weight: 500;
+}
+.application-tile h3 {
+  line-height: 1.14;
+  letter-spacing: -0.03em;
+}
+.eyebrow,
+.mono-label,
+.space-topline,
+.scene-note > span,
+.discovery-copy .mono-label,
+.catalogue-title-row .mono-label,
+.catalogue-guidance .mono-label,
+.edit-heading .mono-label,
+.step-meta,
+.contact-details span,
+.specimen-top,
+.product-brand,
+.product-info .eyebrow,
+.advisor-main .product-info .eyebrow,
+.catalogue-item-category,
+.detail-image > span {
+  font-size: 11px;
+  line-height: 1.5;
+  letter-spacing: 0.08em;
+}
+.breadcrumbs {
+  font-size: 12px;
+  line-height: 1.5;
+}
+.fineprint,
+.image-note,
+.studio-note,
+.footer-bottom,
+.footer-bottom a,
+.about-wide small,
+.studio-visual small,
+.resource-list span,
+.answers-summary > div,
+.answers-summary button,
+.step-meta button,
+.advisor-help p,
+.detail-tags a,
+.catalogue-results-top h2 span,
+.catalogue-active-filters button,
+.catalogue-categories small,
+.search-hint {
+  font-size: 12px;
+  line-height: 1.5;
+}
+.intro-side > p,
+.solution-detail-hero p,
+.detail-copy > p,
+.detail-information p,
+.technical-accordion p,
+.technical-accordion ul,
+.company-pillars p,
+.advisor-sidebar > p,
+.advisor-main > p,
+.contact-details p,
+.enquiry-form > p,
+.draft-result p,
+.draft-result pre,
+.comparison-grid p,
+.comparison-grid li,
+.catalogue-intro p,
+.studio-copy p,
+.discovery-copy p,
+.index-intro p,
+.section-heading p,
+.advisor-banner p {
+  font-size: 15px;
+  line-height: 1.65;
+}
+.product-desc,
+.specimen-bottom p,
+.catalogue-item-copy p,
+.choice span,
+.notice,
+.enquiry-form > .fineprint {
+  font-size: 14px;
+  line-height: 1.6;
+}
+.catalogue-item-category {
+  min-height: 33px;
+  color: var(--muted);
+}
+.catalogue-item-copy p {
+  color: var(--muted);
+}
+.specimen-bottom p {
+  color: var(--muted);
+  max-width: 34ch;
+  min-height: 3.2em;
+}
+.product-desc {
+  color: var(--muted);
+}
+.choice strong {
+  font-size: 16px;
+  line-height: 1.4;
+}
+.advisor-progress > span {
+  font-size: 13px;
+  color: var(--muted);
+}
+.button,
+.text-link,
+.compare-toggle,
+.scene-note > a,
+.catalogue-intro > a,
+.discovery-action,
+.catalogue-results-top > a,
+.catalogue-categories button,
+.catalogue-item-actions button,
+.catalogue-item-actions a,
+.catalogue-guidance > span:last-child,
+.catalogue-endnote,
+.application-filter label,
+.resource-filter,
+.enquiry-form label,
+.index-foot {
+  font-size: 13px;
+  line-height: 1.5;
+}
+.catalogue-categories button {
+  padding: 12px;
+}
+.catalogue-item-actions {
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.catalogue-item-actions button,
+.catalogue-item-actions a {
+  min-height: 40px;
+}
+.catalogue-searchbar input,
+.search-box input,
+.enquiry-form input,
+.enquiry-form select,
+.enquiry-form textarea,
+.application-filter select,
+.resource-filter select {
+  font-size: 16px;
+  line-height: 1.5;
+}
+table {
+  font-size: 14px;
+  line-height: 1.55;
+}
+.resource-list h2 {
+  font-size: 20px;
+  line-height: 1.3;
+  font-weight: 500;
+}
+.resource-list span {
+  letter-spacing: 0.04em;
+}
+.comparison-grid h2 {
+  font-size: 26px;
+}
+.comparison-grid h3 {
+  font-size: 15px;
+}
+.contact-details strong {
+  font-size: 16px;
+}
+.footer-grid h3 {
+  font-size: 13px;
+  line-height: 1.4;
+}
+.footer-grid a,
+.footer-grid p {
+  font-size: 14px;
+  line-height: 1.65;
+  color: var(--muted-on-dark);
+}
+.footer-bottom {
+  color: var(--muted-on-dark);
+}
+.footer-grid a:hover {
+  color: var(--yellow);
+}
+.footer-top h2 {
+  font-size: var(--type-section);
+  line-height: 1.08;
+}
+footer h2 em,
+.studio-copy h2 em {
+  color: var(--yellow);
+}
+.catalogue-title-row h1 span,
+.hero-word-accent {
+  color: var(--yellow);
+}
+.catalogue-intro p,
+.studio-copy p,
+.studio-note,
+.discovery-brand p {
+  color: var(--muted-on-dark);
+}
+.discovery-brand .headline-yellow {
+  color: var(--yellow);
+}
+.application-tile p {
+  font-size: 13px;
+  line-height: 1.5;
+  color: #f4f5ed;
+  opacity: 1;
+}
+.application-tile::before {
+  background: linear-gradient(180deg, #10191205 10%, #10191235 35%, #101912ed);
+}
+.scene-switch button span {
+  font-size: 15px;
+  line-height: 1.5;
+}
+.menu-nav-item {
+  letter-spacing: -0.035em;
+}
+.menu-contact p,
+.menu-contact a {
+  font-size: 14px;
+}
+.full-menu .eyebrow {
+  color: var(--muted-on-dark);
+}
+:focus-visible {
+  outline: 3px solid #765600;
+  outline-offset: 4px;
+}
+.header :focus-visible,
+.full-menu :focus-visible,
+footer :focus-visible,
+.space-hero :focus-visible,
+.advisor-studio :focus-visible,
+.catalogue-masthead :focus-visible {
+  outline-color: var(--yellow);
+}
+::placeholder {
+  color: #626b5b;
+  opacity: 1;
+}
+@media (max-width: 1100px) and (min-width: 701px) {
+  .discovery-resources .document-art {
+    opacity: 0.2;
+  }
+}
+@media (max-width: 760px) {
+  .catalogue-product-grid {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+  .catalogue-item-image {
+    height: 230px;
+  }
+  .catalogue-item-image img {
+    height: 185px;
+  }
+  .catalogue-item-copy {
+    padding: 20px;
+  }
+  .catalogue-item-actions {
+    margin: 0 20px;
+  }
+  .catalogue-searchbar {
+    min-height: 60px;
+    height: auto;
+  }
+  .catalogue-searchbar input {
+    height: 58px;
+  }
+  .catalogue-item-category {
+    min-height: 0;
+  }
+  .catalogue-results-top h2 {
+    font-size: 22px;
+  }
+}
+@media (max-width: 650px) {
+  .header-brandline {
+    display: none;
+  }
+  .header-cta {
+    font-size: 10px;
+    letter-spacing: 0.06em;
+  }
+  .discovery-copy p {
+    max-width: 100%;
+  }
+  .discovery-resources .discovery-copy {
+    max-width: 100%;
+  }
+  .discovery-resources .document-art {
+    display: none;
+  }
+  .discovery-panel {
+    min-height: 365px;
+  }
+  .studio-visual > span {
+    font-size: clamp(48px, 14vw, 68px);
+  }
+  .application-tile h3 {
+    font-size: 22px;
+  }
+  .tile-roof h3 {
+    font-size: 34px;
+  }
+  .scene-note h2 {
+    font-size: 30px;
+  }
+  .scene-note > a {
+    font-size: 13px;
+  }
+  .scene-switch button {
+    min-height: 48px;
+  }
+  .footer-grid a,
+  .footer-grid p {
+    overflow-wrap: anywhere;
+  }
+  .footer-top h2 {
+    font-size: 36px;
+  }
+  .intro-row {
+    gap: 24px;
+  }
+  .contact-details strong {
+    overflow-wrap: anywhere;
+  }
+}
+.search-hint,
+.product-brand,
+.image-note {
+  color: var(--muted);
+}
+.solution-top > span {
+  font-size: 12px;
+}
+
+/* One family across display copy, navigation, labels and form controls. */
+body, button, input, select, textarea, pre, code, kbd, samp {
+  font-family: var(--font-sans);
+}
+/* Arial supplies regular and bold: use these deliberately rather than
+   relying on intermediate weights resolving differently across devices. */
+h1, h2, h3,
+.space-headline h1, .intro-row h1, .catalogue-title-row h1,
+.solution-detail-hero h1, .edit-heading h2, .discovery-copy h2,
+.specimen-bottom h3, .catalogue-item-copy h3, .product-info h3,
+.application-tile h3, .application-gallery-copy h3 {
+  font-weight: 400;
+}
+.eyebrow, .mono-label, .space-topline, .specimen-top,
+.product-brand, .catalogue-item-category, .step-meta,
+.footer-grid h3, .button, .header-cta, .header-brandline {
+  font-weight: 700;
+}
+.eyebrow, .mono-label, .space-topline, .specimen-top,
+.product-brand, .catalogue-item-category, .step-meta {
+  letter-spacing: .07em;
+}

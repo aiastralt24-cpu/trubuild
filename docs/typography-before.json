@@ -1,0 +1,636 @@
+[
+  {
+    "path": "/",
+    "headings": [
+      {
+        "color": "rgb(248, 247, 238)",
+        "size": "100.8px",
+        "text": "Great spaces.Start beneath."
+      },
+      {
+        "color": "rgb(244, 244, 238)",
+        "size": "39px",
+        "text": "Above it all."
+      },
+      {
+        "color": "rgb(23, 34, 28)",
+        "size": "74.88px",
+        "text": "Big ideas.Solid foundations."
+      },
+      {
+        "color": "rgb(25, 33, 31)",
+        "size": "50.4px",
+        "text": "Small details.Serious performance."
+      },
+      {
+        "color": "rgb(244, 244, 238)",
+        "size": "64.8px",
+        "text": "Good projectsstart with theright questions."
+      },
+      {
+        "color": "rgb(25, 33, 31)",
+        "size": "46.08px",
+        "text": "Know yournext layer."
+      }
+    ],
+    "overflow": 1440,
+    "small": [
+      {
+        "class": "",
+        "size": "11px",
+        "text": "TRUBUILD / CONSTRUCTION SOLUTIONS"
+      },
+      {
+        "class": "",
+        "size": "11px",
+        "text": "IN YOUR ELEMENT"
+      },
+      {
+        "class": "mono-label",
+        "size": "11px",
+        "text": "FIND YOUR APPLICATION"
+      },
+      {
+        "class": "mono-label",
+        "size": "11px",
+        "text": "THE MATERIAL DIFFERENCE"
+      },
+      {
+        "class": "",
+        "size": "10px",
+        "text": "Roof Acrylic Coatings"
+      },
+      {
+        "class": "",
+        "size": "10px",
+        "text": "Cementitious Coatings"
+      }
+    ],
+    "width": 1440
+  },
+  {
+    "path": "/products",
+    "headings": [
+      {
+        "color": "rgb(248, 247, 238)",
+        "size": "74.88px",
+        "text": "Every layer.Covered."
+      },
+      {
+        "color": "rgb(25, 33, 31)",
+        "size": "13px",
+        "text": "Browse by category"
+      },
+      {
+        "color": "rgb(25, 33, 31)",
+        "size": "22px",
+        "text": "All products 31 results"
+      }
+    ],
+    "overflow": 1440,
+    "small": [
+      {
+        "class": "",
+        "size": "10px",
+        "text": "Home"
+      },
+      {
+        "class": "",
+        "size": "10px",
+        "text": "/"
+      },
+      {
+        "class": "",
+        "size": "10px",
+        "text": "Products"
+      },
+      {
+        "class": "mono-label",
+        "size": "10px",
+        "text": "THE TRUBUILD COLLECTION"
+      },
+      {
+        "class": "search-hint",
+        "size": "9px",
+        "text": "EXPLORE THE RANGE"
+      },
+      {
+        "class": "mono-label",
+        "size": "9px",
+        "text": "A PROJECT IN MIND?"
+      }
+    ],
+    "width": 1440
+  },
+  {
+    "path": "/products/trubuild-aqualock-flexi",
+    "headings": [
+      {
+        "color": "rgb(32, 38, 36)",
+        "size": "57px",
+        "text": "Aqualock Flexi"
+      },
+      {
+        "color": "rgb(32, 38, 36)",
+        "size": "35px",
+        "text": "Technical information"
+      },
+      {
+        "color": "rgb(32, 38, 36)",
+        "size": "48.96px",
+        "text": "Explore the range."
+      }
+    ],
+    "overflow": 1440,
+    "small": [
+      {
+        "class": "",
+        "size": "10px",
+        "text": "Home"
+      },
+      {
+        "class": "",
+        "size": "10px",
+        "text": "/"
+      },
+      {
+        "class": "",
+        "size": "10px",
+        "text": "Products"
+      },
+      {
+        "class": "",
+        "size": "10px",
+        "text": "/"
+      },
+      {
+        "class": "",
+        "size": "10px",
+        "text": "Aqualock Flexi"
+      },
+      {
+        "class": "",
+        "size": "10px",
+        "text": "ASTRAL TRUBUILD"
+      }
+    ],
+    "width": 1440
+  },
+  {
+    "path": "/solutions",
+    "headings": [
+      {
+        "color": "rgb(32, 38, 36)",
+        "size": "67.68px",
+        "text": "Every space.A stronger solution."
+      },
+      {
+        "color": "rgb(32, 38, 36)",
+        "size": "50.4px",
+        "text": "The right product.Without the guesswork."
+      }
+    ],
+    "overflow": 1440,
+    "small": [
+      {
+        "class": "",
+        "size": "10px",
+        "text": "Home"
+      },
+      {
+        "class": "",
+        "size": "10px",
+        "text": "/"
+      },
+      {
+        "class": "",
+        "size": "10px",
+        "text": "OUR SOLUTIONS"
+      },
+      {
+        "class": "eyebrow",
+        "size": "10px",
+        "text": "OUR SOLUTIONS"
+      },
+      {
+        "class": "",
+        "size": "10px",
+        "text": "01"
+      },
+      {
+        "class": "",
+        "size": "10px",
+        "text": "02"
+      }
+    ],
+    "width": 1440
+  },
+  {
+    "path": "/solutions/roof",
+    "headings": [
+      {
+        "color": "rgb(32, 38, 36)",
+        "size": "58px",
+        "text": "Roof & terrace."
+      },
+      {
+        "color": "rgb(32, 38, 36)",
+        "size": "48.96px",
+        "text": "Products for your project."
+      },
+      {
+        "color": "rgb(32, 38, 36)",
+        "size": "50.4px",
+        "text": "The right product.Without the guesswork."
+      }
+    ],
+    "overflow": 1440,
+    "small": [
+      {
+        "class": "",
+        "size": "10px",
+        "text": "Home"
+      },
+      {
+        "class": "",
+        "size": "10px",
+        "text": "/"
+      },
+      {
+        "class": "",
+        "size": "10px",
+        "text": "Solutions"
+      },
+      {
+        "class": "",
+        "size": "10px",
+        "text": "/"
+      },
+      {
+        "class": "",
+        "size": "10px",
+        "text": "Roof & terrace"
+      },
+      {
+        "class": "eyebrow",
+        "size": "10px",
+        "text": "Roof Waterproofing"
+      }
+    ],
+    "width": 1440
+  },
+  {
+    "path": "/about",
+    "headings": [
+      {
+        "color": "rgb(32, 38, 36)",
+        "size": "67.68px",
+        "text": "Built on trust.Built for life."
+      },
+      {
+        "color": "rgb(32, 38, 36)",
+        "size": "48.96px",
+        "text": "Good buildings startwith good decisions."
+      },
+      {
+        "color": "rgb(32, 38, 36)",
+        "size": "36px",
+        "text": "Protect."
+      },
+      {
+        "color": "rgb(32, 38, 36)",
+        "size": "36px",
+        "text": "Connect."
+      },
+      {
+        "color": "rgb(32, 38, 36)",
+        "size": "36px",
+        "text": "Restore."
+      },
+      {
+        "color": "rgb(32, 38, 36)",
+        "size": "50.4px",
+        "text": "The right product.Without the guesswork."
+      }
+    ],
+    "overflow": 1440,
+    "small": [
+      {
+        "class": "",
+        "size": "10px",
+        "text": "Home"
+      },
+      {
+        "class": "",
+        "size": "10px",
+        "text": "/"
+      },
+      {
+        "class": "",
+        "size": "10px",
+        "text": "ABOUT TRUBUILD"
+      },
+      {
+        "class": "eyebrow",
+        "size": "10px",
+        "text": "ABOUT TRUBUILD"
+      },
+      {
+        "class": "eyebrow",
+        "size": "10px",
+        "text": "AN ASTRAL BRAND"
+      },
+      {
+        "class": "",
+        "size": "11px",
+        "text": "01"
+      }
+    ],
+    "width": 1440
+  },
+  {
+    "path": "/advisor",
+    "headings": [
+      {
+        "color": "rgb(32, 38, 36)",
+        "size": "42px",
+        "text": "A little guidance.A stronger start."
+      },
+      {
+        "color": "rgb(32, 38, 36)",
+        "size": "35px",
+        "text": "What are you working on?"
+      }
+    ],
+    "overflow": 1440,
+    "small": [
+      {
+        "class": "",
+        "size": "10px",
+        "text": "Home"
+      },
+      {
+        "class": "",
+        "size": "10px",
+        "text": "/"
+      },
+      {
+        "class": "",
+        "size": "10px",
+        "text": "Product Advisor"
+      },
+      {
+        "class": "eyebrow",
+        "size": "10px",
+        "text": "PRODUCT ADVISOR"
+      },
+      {
+        "class": "",
+        "size": "11px",
+        "text": "01 Your task"
+      },
+      {
+        "class": "",
+        "size": "11px",
+        "text": "02 Your requirements"
+      }
+    ],
+    "width": 1440
+  },
+  {
+    "path": "/resources",
+    "headings": [
+      {
+        "color": "rgb(32, 38, 36)",
+        "size": "67.68px",
+        "text": "Knowledge thatbuilds confidence."
+      },
+      {
+        "color": "rgb(32, 38, 36)",
+        "size": "19px",
+        "text": "Waterproofing Solutions"
+      },
+      {
+        "color": "rgb(32, 38, 36)",
+        "size": "19px",
+        "text": "Tiling and Grouting Solutions"
+      },
+      {
+        "color": "rgb(32, 38, 36)",
+        "size": "19px",
+        "text": "Guide to Building Structures"
+      },
+      {
+        "color": "rgb(32, 38, 36)",
+        "size": "19px",
+        "text": "TRUBUILD TILE GROUT"
+      },
+      {
+        "color": "rgb(32, 38, 36)",
+        "size": "19px",
+        "text": "TRUBUILD AQUALOCK"
+      }
+    ],
+    "overflow": 1440,
+    "small": [
+      {
+        "class": "",
+        "size": "10px",
+        "text": "Home"
+      },
+      {
+        "class": "",
+        "size": "10px",
+        "text": "/"
+      },
+      {
+        "class": "",
+        "size": "10px",
+        "text": "TECHNICAL RESOURCES"
+      },
+      {
+        "class": "eyebrow",
+        "size": "10px",
+        "text": "TECHNICAL RESOURCES"
+      },
+      {
+        "class": "resource-filter",
+        "size": "11px",
+        "text": "Document typeAll documentsBrochures & guidesTechnical d"
+      },
+      {
+        "class": "",
+        "size": "9px",
+        "text": "OFFICIAL DOCUMENT · PDF · 32.4 MB"
+      }
+    ],
+    "width": 1440
+  },
+  {
+    "path": "/contact",
+    "headings": [
+      {
+        "color": "rgb(32, 38, 36)",
+        "size": "67.68px",
+        "text": "Good projects startwith a conversation."
+      },
+      {
+        "color": "rgb(32, 38, 36)",
+        "size": "38px",
+        "text": "Let’s talk."
+      },
+      {
+        "color": "rgb(32, 38, 36)",
+        "size": "32px",
+        "text": "Tell us about your project."
+      }
+    ],
+    "overflow": 1440,
+    "small": [
+      {
+        "class": "",
+        "size": "10px",
+        "text": "Home"
+      },
+      {
+        "class": "",
+        "size": "10px",
+        "text": "/"
+      },
+      {
+        "class": "",
+        "size": "10px",
+        "text": "CONTACT & ENQUIRIES"
+      },
+      {
+        "class": "eyebrow",
+        "size": "10px",
+        "text": "CONTACT & ENQUIRIES"
+      },
+      {
+        "class": "",
+        "size": "9px",
+        "text": "CALL OUR TEAM"
+      },
+      {
+        "class": "",
+        "size": "9px",
+        "text": "EMAIL"
+      }
+    ],
+    "width": 1440
+  },
+  {
+    "path": "/compare",
+    "headings": [
+      {
+        "color": "rgb(32, 38, 36)",
+        "size": "67.68px",
+        "text": "The details.Side by side."
+      },
+      {
+        "color": "rgb(32, 38, 36)",
+        "size": "48.96px",
+        "text": "Your comparison is empty."
+      }
+    ],
+    "overflow": 1440,
+    "small": [
+      {
+        "class": "",
+        "size": "10px",
+        "text": "Home"
+      },
+      {
+        "class": "",
+        "size": "10px",
+        "text": "/"
+      },
+      {
+        "class": "",
+        "size": "10px",
+        "text": "PRODUCT COMPARISON"
+      },
+      {
+        "class": "eyebrow",
+        "size": "10px",
+        "text": "PRODUCT COMPARISON"
+      },
+      {
+        "class": "",
+        "size": "9px",
+        "text": "Privacy policy ↗"
+      },
+      {
+        "class": "",
+        "size": "9px",
+        "text": "Content & image credits"
+      }
+    ],
+    "width": 1440
+  },
+  {
+    "path": "/sources",
+    "headings": [
+      {
+        "color": "rgb(32, 38, 36)",
+        "size": "67.68px",
+        "text": "Clear information.Traceable sources."
+      },
+      {
+        "color": "rgb(32, 38, 36)",
+        "size": "30px",
+        "text": "Product and company information"
+      },
+      {
+        "color": "rgb(32, 38, 36)",
+        "size": "30px",
+        "text": "Photography and branding"
+      },
+      {
+        "color": "rgb(32, 38, 36)",
+        "size": "30px",
+        "text": "Information that needs confirmation"
+      },
+      {
+        "color": "rgb(32, 38, 36)",
+        "size": "30px",
+        "text": "How the Product Advisor works"
+      }
+    ],
+    "overflow": 1440,
+    "small": [
+      {
+        "class": "",
+        "size": "10px",
+        "text": "Home"
+      },
+      {
+        "class": "",
+        "size": "10px",
+        "text": "/"
+      },
+      {
+        "class": "",
+        "size": "10px",
+        "text": "CONTENT & IMAGE CREDITS"
+      },
+      {
+        "class": "eyebrow",
+        "size": "10px",
+        "text": "CONTENT & IMAGE CREDITS"
+      },
+      {
+        "class": "",
+        "size": "9px",
+        "text": "Privacy policy ↗"
+      },
+      {
+        "class": "",
+        "size": "9px",
+        "text": "Content & image credits"
+      }
+    ],
+    "width": 1440
+  }
+]

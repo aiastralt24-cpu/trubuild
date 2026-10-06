@@ -1,0 +1,887 @@
+[
+  {
+    "path": "/",
+    "documentWidth": 1440,
+    "headings": [
+      {
+        "size": "100.8px",
+        "text": "Great spaces.Start beneath."
+      },
+      {
+        "size": "39px",
+        "text": "Above it all."
+      },
+      {
+        "size": "53.28px",
+        "text": "Big ideas.Solid foundations."
+      },
+      {
+        "size": "53.28px",
+        "text": "Small details.Serious performance."
+      },
+      {
+        "size": "53.28px",
+        "text": "Good projectsstart with theright questions."
+      },
+      {
+        "size": "43.2px",
+        "text": "Know yournext layer."
+      }
+    ],
+    "small": [
+      {
+        "class": "document-format",
+        "size": "7px",
+        "text": "DATA SHEETS & GUIDES"
+      }
+    ],
+    "width": 1440
+  },
+  {
+    "path": "/products",
+    "documentWidth": 1440,
+    "headings": [
+      {
+        "size": "64.8px",
+        "text": "Every layer.Covered."
+      },
+      {
+        "size": "13px",
+        "text": "Browse by category"
+      },
+      {
+        "size": "22px",
+        "text": "All products 31 results"
+      }
+    ],
+    "small": [],
+    "width": 1440
+  },
+  {
+    "path": "/products/trubuild-aqualock-flexi",
+    "documentWidth": 1440,
+    "headings": [
+      {
+        "size": "57.6px",
+        "text": "Aqualock Flexi"
+      },
+      {
+        "size": "36px",
+        "text": "Technical information"
+      },
+      {
+        "size": "53.28px",
+        "text": "Explore the range."
+      }
+    ],
+    "small": [],
+    "width": 1440
+  },
+  {
+    "path": "/solutions",
+    "documentWidth": 1440,
+    "headings": [
+      {
+        "size": "64.8px",
+        "text": "Every space.A stronger solution."
+      },
+      {
+        "size": "53.28px",
+        "text": "The right product.Without the guesswork."
+      }
+    ],
+    "small": [
+      {
+        "class": "",
+        "size": "10px",
+        "text": "01"
+      },
+      {
+        "class": "",
+        "size": "10px",
+        "text": "02"
+      },
+      {
+        "class": "",
+        "size": "10px",
+        "text": "03"
+      },
+      {
+        "class": "",
+        "size": "10px",
+        "text": "04"
+      },
+      {
+        "class": "",
+        "size": "10px",
+        "text": "05"
+      },
+      {
+        "class": "",
+        "size": "10px",
+        "text": "06"
+      },
+      {
+        "class": "",
+        "size": "10px",
+        "text": "07"
+      },
+      {
+        "class": "",
+        "size": "10px",
+        "text": "08"
+      }
+    ],
+    "width": 1440
+  },
+  {
+    "path": "/solutions/roof",
+    "documentWidth": 1440,
+    "headings": [
+      {
+        "size": "64.8px",
+        "text": "Roof & terrace."
+      },
+      {
+        "size": "53.28px",
+        "text": "Products for your project."
+      },
+      {
+        "size": "53.28px",
+        "text": "The right product.Without the guesswork."
+      }
+    ],
+    "small": [],
+    "width": 1440
+  },
+  {
+    "path": "/about",
+    "documentWidth": 1440,
+    "headings": [
+      {
+        "size": "64.8px",
+        "text": "Built on trust.Built for life."
+      },
+      {
+        "size": "53.28px",
+        "text": "Good buildings startwith good decisions."
+      },
+      {
+        "size": "36px",
+        "text": "Protect."
+      },
+      {
+        "size": "36px",
+        "text": "Connect."
+      },
+      {
+        "size": "36px",
+        "text": "Restore."
+      },
+      {
+        "size": "53.28px",
+        "text": "The right product.Without the guesswork."
+      }
+    ],
+    "small": [],
+    "width": 1440
+  },
+  {
+    "path": "/advisor",
+    "documentWidth": 1440,
+    "headings": [
+      {
+        "size": "42px",
+        "text": "A little guidance.A stronger start."
+      },
+      {
+        "size": "36px",
+        "text": "What are you working on?"
+      }
+    ],
+    "small": [],
+    "width": 1440
+  },
+  {
+    "path": "/resources",
+    "documentWidth": 1440,
+    "headings": [
+      {
+        "size": "64.8px",
+        "text": "Knowledge thatbuilds confidence."
+      },
+      {
+        "size": "20px",
+        "text": "Waterproofing Solutions"
+      },
+      {
+        "size": "20px",
+        "text": "Tiling and Grouting Solutions"
+      },
+      {
+        "size": "20px",
+        "text": "Guide to Building Structures"
+      },
+      {
+        "size": "20px",
+        "text": "TRUBUILD TILE GROUT"
+      },
+      {
+        "size": "20px",
+        "text": "TRUBUILD AQUALOCK"
+      }
+    ],
+    "small": [],
+    "width": 1440
+  },
+  {
+    "path": "/contact",
+    "documentWidth": 1440,
+    "headings": [
+      {
+        "size": "64.8px",
+        "text": "Good projects startwith a conversation."
+      },
+      {
+        "size": "38px",
+        "text": "Let’s talk."
+      },
+      {
+        "size": "36px",
+        "text": "Tell us about your project."
+      }
+    ],
+    "small": [],
+    "width": 1440
+  },
+  {
+    "path": "/compare",
+    "documentWidth": 1440,
+    "headings": [
+      {
+        "size": "64.8px",
+        "text": "The details.Side by side."
+      },
+      {
+        "size": "48.96px",
+        "text": "Your comparison is empty."
+      }
+    ],
+    "small": [],
+    "width": 1440
+  },
+  {
+    "path": "/sources",
+    "documentWidth": 1440,
+    "headings": [
+      {
+        "size": "64.8px",
+        "text": "Clear information.Traceable sources."
+      },
+      {
+        "size": "36px",
+        "text": "Product and company information"
+      },
+      {
+        "size": "36px",
+        "text": "Photography and branding"
+      },
+      {
+        "size": "36px",
+        "text": "Information that needs confirmation"
+      },
+      {
+        "size": "36px",
+        "text": "How the Product Advisor works"
+      }
+    ],
+    "small": [],
+    "width": 1440
+  },
+  {
+    "path": "/",
+    "documentWidth": 390,
+    "headings": [
+      {
+        "size": "41.34px",
+        "text": "Great spaces.Start beneath."
+      },
+      {
+        "size": "30px",
+        "text": "Above it all."
+      },
+      {
+        "size": "34px",
+        "text": "Big ideas.Solid foundations."
+      },
+      {
+        "size": "34px",
+        "text": "Small details.Serious performance."
+      },
+      {
+        "size": "34px",
+        "text": "Good projectsstart with theright questions."
+      },
+      {
+        "size": "32px",
+        "text": "Know yournext layer."
+      }
+    ],
+    "small": [],
+    "width": 390
+  },
+  {
+    "path": "/products",
+    "documentWidth": 390,
+    "headings": [
+      {
+        "size": "40px",
+        "text": "Every layer.Covered."
+      },
+      {
+        "size": "13px",
+        "text": "Browse by category"
+      },
+      {
+        "size": "22px",
+        "text": "All products 31 results"
+      }
+    ],
+    "small": [],
+    "width": 390
+  },
+  {
+    "path": "/products/trubuild-aqualock-flexi",
+    "documentWidth": 390,
+    "headings": [
+      {
+        "size": "36px",
+        "text": "Aqualock Flexi"
+      },
+      {
+        "size": "28px",
+        "text": "Technical information"
+      },
+      {
+        "size": "34px",
+        "text": "Explore the range."
+      }
+    ],
+    "small": [],
+    "width": 390
+  },
+  {
+    "path": "/solutions",
+    "documentWidth": 390,
+    "headings": [
+      {
+        "size": "40px",
+        "text": "Every space.A stronger solution."
+      },
+      {
+        "size": "34px",
+        "text": "The right product.Without the guesswork."
+      }
+    ],
+    "small": [
+      {
+        "class": "",
+        "size": "10px",
+        "text": "01"
+      },
+      {
+        "class": "",
+        "size": "10px",
+        "text": "02"
+      },
+      {
+        "class": "",
+        "size": "10px",
+        "text": "03"
+      },
+      {
+        "class": "",
+        "size": "10px",
+        "text": "04"
+      },
+      {
+        "class": "",
+        "size": "10px",
+        "text": "05"
+      },
+      {
+        "class": "",
+        "size": "10px",
+        "text": "06"
+      },
+      {
+        "class": "",
+        "size": "10px",
+        "text": "07"
+      },
+      {
+        "class": "",
+        "size": "10px",
+        "text": "08"
+      }
+    ],
+    "width": 390
+  },
+  {
+    "path": "/solutions/roof",
+    "documentWidth": 390,
+    "headings": [
+      {
+        "size": "40px",
+        "text": "Roof & terrace."
+      },
+      {
+        "size": "34px",
+        "text": "Products for your project."
+      },
+      {
+        "size": "34px",
+        "text": "The right product.Without the guesswork."
+      }
+    ],
+    "small": [],
+    "width": 390
+  },
+  {
+    "path": "/about",
+    "documentWidth": 390,
+    "headings": [
+      {
+        "size": "40px",
+        "text": "Built on trust.Built for life."
+      },
+      {
+        "size": "34px",
+        "text": "Good buildings startwith good decisions."
+      },
+      {
+        "size": "28px",
+        "text": "Protect."
+      },
+      {
+        "size": "28px",
+        "text": "Connect."
+      },
+      {
+        "size": "28px",
+        "text": "Restore."
+      },
+      {
+        "size": "34px",
+        "text": "The right product.Without the guesswork."
+      }
+    ],
+    "small": [],
+    "width": 390
+  },
+  {
+    "path": "/advisor",
+    "documentWidth": 390,
+    "headings": [
+      {
+        "size": "32px",
+        "text": "A little guidance.A stronger start."
+      },
+      {
+        "size": "28px",
+        "text": "What are you working on?"
+      }
+    ],
+    "small": [],
+    "width": 390
+  },
+  {
+    "path": "/resources",
+    "documentWidth": 390,
+    "headings": [
+      {
+        "size": "40px",
+        "text": "Knowledge thatbuilds confidence."
+      },
+      {
+        "size": "20px",
+        "text": "Waterproofing Solutions"
+      },
+      {
+        "size": "20px",
+        "text": "Tiling and Grouting Solutions"
+      },
+      {
+        "size": "20px",
+        "text": "Guide to Building Structures"
+      },
+      {
+        "size": "20px",
+        "text": "TRUBUILD TILE GROUT"
+      },
+      {
+        "size": "20px",
+        "text": "TRUBUILD AQUALOCK"
+      }
+    ],
+    "small": [],
+    "width": 390
+  },
+  {
+    "path": "/contact",
+    "documentWidth": 390,
+    "headings": [
+      {
+        "size": "40px",
+        "text": "Good projects startwith a conversation."
+      },
+      {
+        "size": "38px",
+        "text": "Let’s talk."
+      },
+      {
+        "size": "28px",
+        "text": "Tell us about your project."
+      }
+    ],
+    "small": [],
+    "width": 390
+  },
+  {
+    "path": "/compare",
+    "documentWidth": 390,
+    "headings": [
+      {
+        "size": "40px",
+        "text": "The details.Side by side."
+      },
+      {
+        "size": "34px",
+        "text": "Your comparison is empty."
+      }
+    ],
+    "small": [],
+    "width": 390
+  },
+  {
+    "path": "/sources",
+    "documentWidth": 390,
+    "headings": [
+      {
+        "size": "40px",
+        "text": "Clear information.Traceable sources."
+      },
+      {
+        "size": "28px",
+        "text": "Product and company information"
+      },
+      {
+        "size": "28px",
+        "text": "Photography and branding"
+      },
+      {
+        "size": "28px",
+        "text": "Information that needs confirmation"
+      },
+      {
+        "size": "28px",
+        "text": "How the Product Advisor works"
+      }
+    ],
+    "small": [],
+    "width": 390
+  },
+  {
+    "path": "/",
+    "documentWidth": 320,
+    "headings": [
+      {
+        "size": "33.92px",
+        "text": "Great spaces.Start beneath."
+      },
+      {
+        "size": "30px",
+        "text": "Above it all."
+      },
+      {
+        "size": "34px",
+        "text": "Big ideas.Solid foundations."
+      },
+      {
+        "size": "34px",
+        "text": "Small details.Serious performance."
+      },
+      {
+        "size": "34px",
+        "text": "Good projectsstart with theright questions."
+      },
+      {
+        "size": "32px",
+        "text": "Know yournext layer."
+      }
+    ],
+    "small": [],
+    "width": 320
+  },
+  {
+    "path": "/products",
+    "documentWidth": 320,
+    "headings": [
+      {
+        "size": "40px",
+        "text": "Every layer.Covered."
+      },
+      {
+        "size": "13px",
+        "text": "Browse by category"
+      },
+      {
+        "size": "22px",
+        "text": "All products 31 results"
+      }
+    ],
+    "small": [],
+    "width": 320
+  },
+  {
+    "path": "/products/trubuild-aqualock-flexi",
+    "documentWidth": 320,
+    "headings": [
+      {
+        "size": "36px",
+        "text": "Aqualock Flexi"
+      },
+      {
+        "size": "28px",
+        "text": "Technical information"
+      },
+      {
+        "size": "34px",
+        "text": "Explore the range."
+      }
+    ],
+    "small": [],
+    "width": 320
+  },
+  {
+    "path": "/solutions",
+    "documentWidth": 320,
+    "headings": [
+      {
+        "size": "40px",
+        "text": "Every space.A stronger solution."
+      },
+      {
+        "size": "34px",
+        "text": "The right product.Without the guesswork."
+      }
+    ],
+    "small": [
+      {
+        "class": "",
+        "size": "10px",
+        "text": "01"
+      },
+      {
+        "class": "",
+        "size": "10px",
+        "text": "02"
+      },
+      {
+        "class": "",
+        "size": "10px",
+        "text": "03"
+      },
+      {
+        "class": "",
+        "size": "10px",
+        "text": "04"
+      },
+      {
+        "class": "",
+        "size": "10px",
+        "text": "05"
+      },
+      {
+        "class": "",
+        "size": "10px",
+        "text": "06"
+      },
+      {
+        "class": "",
+        "size": "10px",
+        "text": "07"
+      },
+      {
+        "class": "",
+        "size": "10px",
+        "text": "08"
+      }
+    ],
+    "width": 320
+  },
+  {
+    "path": "/solutions/roof",
+    "documentWidth": 320,
+    "headings": [
+      {
+        "size": "40px",
+        "text": "Roof & terrace."
+      },
+      {
+        "size": "34px",
+        "text": "Products for your project."
+      },
+      {
+        "size": "34px",
+        "text": "The right product.Without the guesswork."
+      }
+    ],
+    "small": [],
+    "width": 320
+  },
+  {
+    "path": "/about",
+    "documentWidth": 320,
+    "headings": [
+      {
+        "size": "40px",
+        "text": "Built on trust.Built for life."
+      },
+      {
+        "size": "34px",
+        "text": "Good buildings startwith good decisions."
+      },
+      {
+        "size": "28px",
+        "text": "Protect."
+      },
+      {
+        "size": "28px",
+        "text": "Connect."
+      },
+      {
+        "size": "28px",
+        "text": "Restore."
+      },
+      {
+        "size": "34px",
+        "text": "The right product.Without the guesswork."
+      }
+    ],
+    "small": [],
+    "width": 320
+  },
+  {
+    "path": "/advisor",
+    "documentWidth": 320,
+    "headings": [
+      {
+        "size": "32px",
+        "text": "A little guidance.A stronger start."
+      },
+      {
+        "size": "28px",
+        "text": "What are you working on?"
+      }
+    ],
+    "small": [],
+    "width": 320
+  },
+  {
+    "path": "/resources",
+    "documentWidth": 320,
+    "headings": [
+      {
+        "size": "40px",
+        "text": "Knowledge thatbuilds confidence."
+      },
+      {
+        "size": "20px",
+        "text": "Waterproofing Solutions"
+      },
+      {
+        "size": "20px",
+        "text": "Tiling and Grouting Solutions"
+      },
+      {
+        "size": "20px",
+        "text": "Guide to Building Structures"
+      },
+      {
+        "size": "20px",
+        "text": "TRUBUILD TILE GROUT"
+      },
+      {
+        "size": "20px",
+        "text": "TRUBUILD AQUALOCK"
+      }
+    ],
+    "small": [],
+    "width": 320
+  },
+  {
+    "path": "/contact",
+    "documentWidth": 320,
+    "headings": [
+      {
+        "size": "40px",
+        "text": "Good projects startwith a conversation."
+      },
+      {
+        "size": "38px",
+        "text": "Let’s talk."
+      },
+      {
+        "size": "28px",
+        "text": "Tell us about your project."
+      }
+    ],
+    "small": [],
+    "width": 320
+  },
+  {
+    "path": "/compare",
+    "documentWidth": 320,
+    "headings": [
+      {
+        "size": "40px",
+        "text": "The details.Side by side."
+      },
+      {
+        "size": "34px",
+        "text": "Your comparison is empty."
+      }
+    ],
+    "small": [],
+    "width": 320
+  },
+  {
+    "path": "/sources",
+    "documentWidth": 320,
+    "headings": [
+      {
+        "size": "40px",
+        "text": "Clear information.Traceable sources."
+      },
+      {
+        "size": "28px",
+        "text": "Product and company information"
+      },
+      {
+        "size": "28px",
+        "text": "Photography and branding"
+      },
+      {
+        "size": "28px",
+        "text": "Information that needs confirmation"
+      },
+      {
+        "size": "28px",
+        "text": "How the Product Advisor works"
+      }
+    ],
+    "small": [],
+    "width": 320
+  }
+]

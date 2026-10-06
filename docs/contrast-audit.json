@@ -1,0 +1,5 @@
+{
+  "checked": 626,
+  "fails": [],
+  "note": "Solid computed backgrounds only. Image/gradient/opacity contexts require visual inspection."
+}
