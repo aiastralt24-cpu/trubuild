@@ -14,6 +14,7 @@ import {
   Sources,
 } from "./Pages";
 import { products } from "./data";
+import { applyMetadata } from "./seo.mjs";
 function getComparison() {
   try {
     return JSON.parse(sessionStorage.getItem("trubuild-compare") || "[]")
@@ -24,34 +25,16 @@ function getComparison() {
   }
 }
 export default function App() {
-  const [compare, setCompare] = useState(getComparison),
+  const [compare, setCompare] = useState([]),
     [notice, setNotice] = useState("");
   const loc = useLocation();
   useEffect(() => {
     if (!loc.hash) window.scrollTo({ top: 0, left: 0, behavior: "instant" });
-    const page = loc.pathname.split("/")[1];
-    const titles = {
-      products: "Product catalogue",
-      solutions: "Solutions",
-      advisor: "Product Advisor",
-      about: "About TruBuild",
-      resources: "Technical resources",
-      contact: "Contact & enquiries",
-      compare: "Compare products",
-      sources: "Sources",
-    };
-    const p = products.find((p) => loc.pathname === "/products/" + p.id);
-    document.title =
-      (p ? p.name : titles[page] || "Built for life.") + " | TruBuild";
-    if (p)
-      document.querySelector('meta[name="description"]').content =
-        p.description.slice(0, 160);
-    else
-      document.querySelector('meta[name="description"]').content =
-        "Explore TruBuild waterproofing, tiling, grouting and repair solutions. Find products, technical documents and guidance for your next project.";
+    applyMetadata(loc.pathname);
     if (!loc.hash)
       document.getElementById("main")?.focus({ preventScroll: true });
   }, [loc.pathname, loc.hash]);
+  useEffect(() => { setCompare(getComparison()); }, []);
   useEffect(() => {
     try {
       sessionStorage.setItem("trubuild-compare", JSON.stringify(compare));

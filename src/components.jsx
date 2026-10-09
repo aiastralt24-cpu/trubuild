@@ -8,7 +8,7 @@ import {
   X,
   Plus,
   Check,
-  MoveRight,
+  Columns2,
   FileDown,
 } from "lucide-react";
 import { solutions, shortDescription } from "./data";
@@ -293,11 +293,10 @@ export function ProductCard({ product: p, compare, toggle }) {
   return (
     <article className="product-card">
       <Link className="product-media" to={"/products/" + p.id}>
-        <span className="product-brand">ASTRAL TRUBUILD</span>
         <img
           loading="lazy"
           src={p.image}
-          alt={"TruBuild " + p.name + " official packaging"}
+          alt={"TruBuild " + p.name + (p.imageKind === "document" ? " technical data sheet preview" : " official packaging")}
         />
         <span className="circle-arrow">
           <ArrowUpRight size={22} />
@@ -309,16 +308,20 @@ export function ProductCard({ product: p, compare, toggle }) {
           <h3>{p.name}</h3>
         </Link>
         <p className="product-desc">{shortDescription(p)}</p>
+        <div className="product-card-actions">
+          <Link className="product-card-view" to={"/products/" + p.id}>View product <ArrowUpRight size={15} /></Link>
         {toggle && (
           <button
             className={"compare-toggle " + (compare ? "selected" : "")}
             onClick={() => toggle(p.id)}
             aria-pressed={!!compare}
+            aria-label={(compare ? "Remove " : "Add ") + p.name + (compare ? " from comparison" : " to comparison")}
           >
-            {compare ? <Check size={15} /> : <Plus size={15} />}{" "}
-            {compare ? "Added to comparison" : "Compare product"}
+            {compare ? <Check size={16} /> : <Columns2 size={16} />}{" "}
+            {compare ? "Selected" : "Compare"}
           </button>
         )}
+        </div>
       </div>
     </article>
   );

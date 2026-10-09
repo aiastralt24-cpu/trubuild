@@ -1,278 +1,465 @@
 [
   {
-    "url": "https://www.trubuild.in/wp-content/uploads/2024/03/TRUBUILD-WATERPROOFING-BROCHURE.pdf",
-    "title": "Download to know more about our Comprehensive Range of Waterproofing Solutions.",
-    "local": "/documents/document-0.pdf",
-    "bytes": 33922874
-  },
-  {
-    "url": "https://www.trubuild.in/wp-content/uploads/2024/03/Trubuild-Tiles-Adhesives-Brochure-CC.pdf",
-    "title": "Download to know more about our Comprehensive Range of Tiling and Grouting Solutions.",
-    "local": "/documents/document-1.pdf",
-    "bytes": 30122610
-  },
-  {
-    "url": "https://www.trubuild.in/wp-content/uploads/2024/03/Trubuild-CHS-Brochure.pdf",
-    "title": "Download to browse through our Comprehensive Guide for Building Structures.",
-    "local": "/documents/document-2.pdf",
-    "bytes": 14987072
-  },
-  {
     "url": "https://www.trubuild.in/wp-content/uploads/2025/04/TRUBUILD-TILE-GROUT-25-AUG-23.pdf",
-    "title": "TRUBUILD TILE GROUT",
+    "title": "TRUBUILD STYLO CEM",
     "local": "/documents/document-3.pdf",
-    "bytes": 592563
+    "bytes": 592563,
+    "kind": "tds",
+    "sourceTitle": "TRUBUILD TILE GROUT",
+    "productId": "trubuild-stylo-cem",
+    "legacyLabel": true
   },
   {
     "url": "https://www.trubuild.in/wp-content/uploads/2026/09/01_TRUBUILD-AQUALOCK_RC.pdf",
     "title": "TRUBUILD AQUALOCK",
-    "local": "/documents/document-4.pdf",
-    "bytes": 21067728
+    "local": "/documents/tds/trubuild-aqualock.pdf",
+    "bytes": 5548139,
+    "productId": "trubuild-aqualock",
+    "version": "N.1",
+    "reviewed": "2026-10-09",
+    "sourceFile": "01_TRUBUILD AQUALOCK_RC.pdf",
+    "sha256": "002a1e0693bc2bc604494140f4854b7ec7c500dedec52499c3fa669eb67c3025",
+    "kind": "tds"
   },
   {
     "url": "https://www.trubuild.in/wp-content/uploads/2026/09/02_TRUBUILD-AQUALOCK-FLEXI_RC.pdf",
     "title": "TRUBUILD AQUALOCK FLEXI",
-    "local": "/documents/document-5.pdf",
-    "bytes": 19335756
+    "local": "/documents/tds/trubuild-aqualock-flexi.pdf",
+    "bytes": 3170674,
+    "productId": "trubuild-aqualock-flexi",
+    "version": "N.1",
+    "reviewed": "2026-10-09",
+    "sourceFile": "02_TRUBUILD AQUALOCK FLEXI_RC.pdf",
+    "sha256": "1c58bb8a6a5e556d9f47a31346fb403268e34787b81fc72f876eb8fee79b5cfa",
+    "kind": "tds"
   },
   {
     "url": "https://www.trubuild.in/wp-content/uploads/2025/04/TA-220-25-AUG-23.pdf",
-    "title": "TRUBUILD TILE ADHESIVE TA-220",
+    "title": "TRUBUILD TRUFIX 220 GREY",
     "local": "/documents/document-6.pdf",
-    "bytes": 733735
+    "bytes": 733735,
+    "kind": "tds",
+    "sourceTitle": "TRUBUILD TILE ADHESIVE TA-220",
+    "productId": "trufix-220-grey",
+    "legacyLabel": true
   },
   {
     "url": "https://www.trubuild.in/wp-content/uploads/2026/09/04_TDS_TRUFFIX_220-PLUS_GREY_RC.pdf",
-    "title": "TRUBUILD TILE ADHESIVE TA-220 PLUS GREY",
+    "title": "TRUBUILD TRUFIX 220+ GREY",
     "local": "/documents/document-7.pdf",
-    "bytes": 14596975
+    "bytes": 14596975,
+    "kind": "tds",
+    "sourceTitle": "TRUBUILD TILE ADHESIVE TA-220 PLUS GREY",
+    "productId": "trufix-220-plus-grey",
+    "legacyLabel": true
   },
   {
     "url": "https://www.trubuild.in/wp-content/uploads/2026/09/05_TDS_TRUFIX_220-PLUS_-White_RC.pdf",
-    "title": "TRUBUILD TILE ADHESIVE TA-220 PLUS WHITE",
+    "title": "TRUBUILD TRUFIX 220+ WHITE",
     "local": "/documents/document-8.pdf",
-    "bytes": 16838367
+    "bytes": 16838367,
+    "kind": "tds",
+    "sourceTitle": "TRUBUILD TILE ADHESIVE TA-220 PLUS WHITE",
+    "productId": "trufix-220-plus-white",
+    "legacyLabel": true
   },
   {
     "url": "https://www.trubuild.in/wp-content/uploads/2026/09/06_TDS_TRUFIX_330_GREY_RC.pdf",
-    "title": "TRUBUILD TILE ADHESIVE TA-330 GREY",
+    "title": "TRUBUILD TRUFIX 330 GREY",
     "local": "/documents/document-9.pdf",
-    "bytes": 16557454
+    "bytes": 16557454,
+    "kind": "tds",
+    "sourceTitle": "TRUBUILD TILE ADHESIVE TA-330 GREY",
+    "productId": "trufix-330-grey",
+    "legacyLabel": true
   },
   {
     "url": "https://www.trubuild.in/wp-content/uploads/2026/09/07_TDS_TRUFIX-_330_White_RC.pdf",
-    "title": "TRUBUILD TILE ADHESIVE TA-330 WHITE",
+    "title": "TRUBUILD TRUFIX 330 WHITE",
     "local": "/documents/document-10.pdf",
-    "bytes": 16230347
+    "bytes": 16230347,
+    "kind": "tds",
+    "sourceTitle": "TRUBUILD TILE ADHESIVE TA-330 WHITE",
+    "productId": "trufix-330-white",
+    "legacyLabel": true
   },
   {
     "url": "https://www.trubuild.in/wp-content/uploads/2025/04/TA-660-GREY-25-AUG-23.pdf",
-    "title": "TRUBUILD TILE ADHESIVE TA-660 GREY",
+    "title": "TRUBUILD TRUFIX 440 GREY",
     "local": "/documents/document-11.pdf",
-    "bytes": 716677
+    "bytes": 716677,
+    "kind": "tds",
+    "sourceTitle": "TRUBUILD TILE ADHESIVE TA-660 GREY",
+    "productId": "trufix-440-grey",
+    "legacyLabel": true
   },
   {
     "url": "https://www.trubuild.in/wp-content/uploads/2025/04/TA-660-WHITE-25-AUG-23.pdf",
-    "title": "TRUBUILD TILE ADHESIVE TA-660 WHITE",
+    "title": "TRUBUILD TRUFIX 440 WHITE",
     "local": "/documents/document-12.pdf",
-    "bytes": 758184
+    "bytes": 758184,
+    "kind": "tds",
+    "sourceTitle": "TRUBUILD TILE ADHESIVE TA-660 WHITE",
+    "productId": "trufix-440-white",
+    "legacyLabel": true
   },
   {
     "url": "https://www.trubuild.in/wp-content/uploads/2025/04/TRUBUILD-STAIN-FREE-EPOXY-GROUT-25-AUG-23.pdf",
-    "title": "TRUBUILD STAIN FREE EPOXY GROUT",
+    "title": "TRUBUILD STYLO 3K",
     "local": "/documents/document-13.pdf",
-    "bytes": 770001
-  },
-  {
-    "url": "https://www.trubuild.in/wp-content/uploads/2023/08/TDS-TRUBUILD-EFX-666-25-AUG-23.pdf",
-    "title": "TRUBUILD WPC 666",
-    "local": "/documents/document-14.pdf",
-    "bytes": 763114
+    "bytes": 770001,
+    "kind": "tds",
+    "sourceTitle": "TRUBUILD STAIN FREE EPOXY GROUT",
+    "productId": "trubuild-stylo-3k",
+    "legacyLabel": true
   },
   {
     "url": "https://www.trubuild.in/wp-content/uploads/2026/09/07_TDS-Walltect-Pro-Basecoat.pdf",
-    "title": "TRUBUILD WALLTECT BASECOAT",
+    "title": "TRUBUILD Walltect Pro Basecoat",
     "local": "/documents/document-15.pdf",
-    "bytes": 18329502
+    "bytes": 18329502,
+    "kind": "tds",
+    "sourceTitle": "TRUBUILD WALLTECT BASECOAT",
+    "productId": "trubuild-walltect-basecoat",
+    "legacyLabel": true
   },
   {
     "url": "https://www.trubuild.in/wp-content/uploads/2026/09/08_TDS-Walltect-Pro-Topcoat.pdf",
-    "title": "TRUBUILD WALLTECT TOP COAT",
+    "title": "TRUBUILD Walltect Pro Topcoat",
     "local": "/documents/document-16.pdf",
-    "bytes": 17028623
+    "bytes": 17028623,
+    "kind": "tds",
+    "sourceTitle": "TRUBUILD WALLTECT TOP COAT",
+    "productId": "trubuild-walltect-top-coat",
+    "legacyLabel": true
   },
   {
     "url": "https://www.trubuild.in/wp-content/uploads/2026/09/13_TDS_SBR-333-WPL-333_RC.pdf",
-    "title": "TRUBUILD WPL 333",
-    "local": "/documents/document-17.pdf",
-    "bytes": 15696477
+    "title": "TRUBUILD SBR 333",
+    "local": "/documents/tds/trubuild-sbr-333.pdf",
+    "bytes": 2641758,
+    "productId": "trubuild-sbr-333",
+    "version": "N.1",
+    "reviewed": "2026-10-09",
+    "sourceFile": "13_TDS_SBR 333 (WPL 333)_RC.pdf",
+    "sha256": "f454e4dbeb3376d1b028531e1eadff97501da97d9633f6c68d7b8f69c0bb381f",
+    "kind": "tds"
   },
   {
     "url": "https://www.trubuild.in/wp-content/uploads/2025/04/WSL-334-28-AUG-23.pdf",
-    "title": "TRUBUILD WSL-334",
+    "title": "TRUBUILD SBR PRO-334",
     "local": "/documents/document-18.pdf",
-    "bytes": 1113841
-  },
-  {
-    "url": "https://www.trubuild.in/wp-content/uploads/2025/04/TDS-TRUBUILD-APC-225-28-AUG-23.pdf",
-    "title": "TRUBUILD APC-225",
-    "local": "/documents/document-19.pdf",
-    "bytes": 983590
+    "bytes": 1113841,
+    "kind": "tds",
+    "sourceTitle": "TRUBUILD WSL-334",
+    "productId": "trubuild-sbr-pro-334",
+    "legacyLabel": true
   },
   {
     "url": "https://www.trubuild.in/wp-content/uploads/2026/09/29_TRUBUILD-CPS-111_RC.pdf",
-    "title": "TRUBUILD CPS 111",
+    "title": "TRUBUILD CPS 111 \u2014 earlier website document",
     "local": "/documents/document-20.pdf",
-    "bytes": 19122867
+    "bytes": 19122867,
+    "kind": "tds"
   },
   {
     "url": "https://www.trubuild.in/wp-content/uploads/2023/08/23_TRUBUILD-TRUBUILD-TRU-PU_RC-1.pdf",
     "title": "TRUBUILD TRU PU",
-    "local": "/documents/document-21.pdf",
-    "bytes": 20460808
+    "local": "/documents/tds/trubuild-waterproofing-membrane-tru-pu.pdf",
+    "bytes": 2985694,
+    "productId": "trubuild-waterproofing-membrane-tru-pu",
+    "version": "N.1",
+    "reviewed": "2026-10-09",
+    "sourceFile": "23_TRUBUILD TRUBUILD TRU PU_RC.pdf",
+    "sha256": "b37940be33f0a3318ecba163e84defa5de6f807c0565fdef5260daac5f045660",
+    "kind": "tds"
   },
   {
     "url": "https://www.trubuild.in/wp-content/uploads/2026/09/02_TDS_EFX-_550_RC_EFX-666.pdf",
-    "title": "TRUBUILD EFX 550",
+    "title": "TRUBUILD TRUFIX 550",
     "local": "/documents/document-22.pdf",
-    "bytes": 16993008
+    "bytes": 16993008,
+    "kind": "tds",
+    "sourceTitle": "TRUBUILD EFX 550",
+    "productId": "trubuild-trufix-550",
+    "legacyLabel": true
   },
   {
     "url": "https://www.trubuild.in/wp-content/uploads/2026/09/02_TDS_-TRUBUILD-ROOFTECT-Advance.pdf",
-    "title": "TRUBUILD ROOFTECT ADVANCED",
+    "title": "TRUBUILD Rooftect Advanced",
     "local": "/documents/document-23.pdf",
-    "bytes": 19062845
-  },
-  {
-    "url": "https://www.trubuild.in/wp-content/uploads/2025/09/TDS-TRUBUILD-ROOFTECT-PRO-28-AUG-23.pdf",
-    "title": "TRUBUILD ROOFTECT PRO",
-    "local": "/documents/document-24.pdf",
-    "bytes": 697921
+    "bytes": 19062845,
+    "kind": "tds",
+    "sourceTitle": "TRUBUILD ROOFTECT ADVANCED",
+    "productId": "trubuild-rooftect-advanced",
+    "legacyLabel": true
   },
   {
     "url": "https://www.trubuild.in/wp-content/uploads/2026/09/03_TDS_AQUAPOXY_RC.pdf",
     "title": "TRUBUILD AQUAPOXY",
-    "local": "/documents/document-25.pdf",
-    "bytes": 14698052
+    "local": "/documents/tds/trubuild-aquapoxy.pdf",
+    "bytes": 2918043,
+    "productId": "trubuild-aquapoxy",
+    "version": "N.1",
+    "reviewed": "2026-10-09",
+    "sourceFile": "03_TDS_AQUAPOXY_RC.pdf",
+    "sha256": "96db34f8127e3c48d313bd2a08e3754512b91ce9130138567782195203f05e16",
+    "kind": "tds"
   },
   {
     "url": "https://www.trubuild.in/wp-content/uploads/2026/09/03_TDS_TRUFFIX_110-GREY_RC.pdf",
-    "title": "TRUBUILD TILE ADHESIVE TA 110",
+    "title": "TRUBUILD TRUFIX 110",
     "local": "/documents/document-26.pdf",
-    "bytes": 11844950
+    "bytes": 11844950,
+    "kind": "tds",
+    "sourceTitle": "TRUBUILD TILE ADHESIVE TA 110",
+    "productId": "trufix-110",
+    "legacyLabel": true
   },
   {
     "url": "https://www.trubuild.in/wp-content/uploads/2026/09/04_TRUBUILD-BORETITE_RC.pdf",
     "title": "TRUBUILD BORETITE",
-    "local": "/documents/document-27.pdf",
-    "bytes": 14596549
+    "local": "/documents/tds/trubuild-boretite.pdf",
+    "bytes": 2090380,
+    "productId": "trubuild-boretite",
+    "version": "N.1",
+    "reviewed": "2026-10-09",
+    "sourceFile": "04_TRUBUILD-BORETITE_RC.pdf",
+    "sha256": "92fa1c53cbafeb9a854aac22b6471fa15c52072f5d3b7019c14d830fac35d07e",
+    "kind": "tds"
   },
   {
     "url": "https://www.trubuild.in/wp-content/uploads/2026/09/05_TRUBUILD-BUILDCRETE_RC.pdf",
     "title": "TRUBUILD BUILDCRETE",
-    "local": "/documents/document-28.pdf",
-    "bytes": 11378861
+    "local": "/documents/tds/trubuild-buildcrete.pdf",
+    "bytes": 2610810,
+    "productId": "trubuild-buildcrete",
+    "version": "N.1",
+    "reviewed": "2026-10-09",
+    "sourceFile": "05_TRUBUILD BUILDCRETE_RC.pdf",
+    "sha256": "a45ed5167d3f55f4d125ccbd0f2669fadcea87b933e26ee18f6ee3b454f8ed74",
+    "kind": "tds"
   },
   {
     "url": "https://www.trubuild.in/wp-content/uploads/2026/09/33_TRUBUILD-CRYSTASEAL-1K_RC.pdf",
     "title": "TRUBUILD CRYSTASEAL 1K",
-    "local": "/documents/document-29.pdf",
-    "bytes": 18510911
+    "local": "/documents/tds/trubuild-crystaseal-1k.pdf",
+    "bytes": 3092457,
+    "productId": "trubuild-crystaseal-1k",
+    "version": "N.1",
+    "reviewed": "2026-10-09",
+    "sourceFile": "33_TRUBUILD CRYSTASEAL 1K_RC.pdf",
+    "sha256": "2b145fbb34d686860ea926d3bba9205e4a662ec0f4fc859e1dcda9fe00c3d26e",
+    "kind": "tds"
   },
   {
     "url": "https://www.trubuild.in/wp-content/uploads/2026/09/34_TRUBUILD-CRYSTASEAL-ADMIX_RC.pdf",
     "title": "TRUBUILD CRYSTASEAL ADMIX",
-    "local": "/documents/document-30.pdf",
-    "bytes": 18929327
+    "local": "/documents/tds/trubuild-crystaseal-admix.pdf",
+    "bytes": 2641912,
+    "productId": "trubuild-crystaseal-admix",
+    "version": "N.1",
+    "reviewed": "2026-10-09",
+    "sourceFile": "34_TRUBUILD CRYSTASEAL ADMIX_RC.pdf",
+    "sha256": "4b4d8f05b09a5124c918599b96098bcd901ad3d3a471a1f979638136a7a2ac7b",
+    "kind": "tds"
   },
   {
     "url": "https://www.trubuild.in/wp-content/uploads/2026/09/11_TDS_PRIMESURE-EPMI.pdf",
     "title": "TRUBUILD PRIMESURE EPMI",
-    "local": "/documents/document-31.pdf",
-    "bytes": 10215251
+    "local": "/documents/tds/trubuild-primesure-epmi.pdf",
+    "bytes": 2181939,
+    "productId": "trubuild-primesure-epmi",
+    "version": "N.1",
+    "reviewed": "2026-10-09",
+    "sourceFile": "11_TDS_PRIMESURE EPMI.pdf",
+    "sha256": "eeaa38d55db5ab82b3a7166fa8d63eac1368c14a2c426f7b9f175d2de8e5371f",
+    "kind": "tds"
   },
   {
     "url": "https://www.trubuild.in/wp-content/uploads/2026/09/35_TRUBUILD-SEALMASTER-FLEXI_RC.pdf",
     "title": "TRUBUILD SEALMASTER FLEXI",
-    "local": "/documents/document-32.pdf",
-    "bytes": 9206556
+    "local": "/documents/tds/trubuild-sealmaster-flexi.pdf",
+    "bytes": 2651676,
+    "productId": "trubuild-sealmaster-flexi",
+    "version": "N.1",
+    "reviewed": "2026-10-09",
+    "sourceFile": "35_TRUBUILD SEALMASTER FLEXI_RC.pdf",
+    "sha256": "7821981ffbe11dc1dae201975e82c582f4b974cc21d7b2a2773bf08855f15b2a",
+    "kind": "tds"
   },
   {
     "url": "https://www.trubuild.in/wp-content/uploads/2026/09/37_TRUBUILD-TRU-PU-PURA-1K_RC.pdf",
     "title": "TRUBUILD TRU PU PURA 1K",
-    "local": "/documents/document-33.pdf",
-    "bytes": 15551344
+    "local": "/documents/tds/tru-pu-pura-1k.pdf",
+    "bytes": 3100035,
+    "productId": "tru-pu-pura-1k",
+    "version": "N.1",
+    "reviewed": "2026-10-09",
+    "sourceFile": "37_TRUBUILD TRU PU PURA 1K_RC.pdf",
+    "sha256": "f4ea409a301adbf4b9904d94b755092d658333fd4eb6e1afb2345de2632fb9f2",
+    "kind": "tds"
   },
   {
     "url": "https://www.trubuild.in/wp-content/uploads/2025/09/TDS-TRUBUILD-TRUBOND-DS-TAPE.pdf",
     "title": "TRUBUILD TRUBOND DS TAPE",
-    "local": "/documents/document-34.pdf",
-    "bytes": 235296
+    "local": "/documents/tds/trubuild-trubond-ds-tape.pdf",
+    "bytes": 2046119,
+    "productId": "trubuild-trubond-ds-tape",
+    "version": "N.1",
+    "reviewed": "2026-10-09",
+    "sourceFile": "36_TRUBUILD TRUBOND DS TAPE_RC.pdf",
+    "sha256": "7ce462e423764c1d36343161856134c9596e6eb1bca5838b42bd58c48cc0a8c5",
+    "kind": "tds"
   },
   {
     "url": "https://www.trubuild.in/wp-content/uploads/2026/09/25_TRUBUILD-TRUBOND-PRO-1.5MM_RC-2.pdf",
     "title": "TRUBUILD TRUBOND PRO 1.5MM",
     "local": "/documents/document-35.pdf",
-    "bytes": 13520136
+    "bytes": 13520136,
+    "kind": "tds"
   },
   {
     "url": "https://www.trubuild.in/wp-content/uploads/2025/09/TDS-TRUBUILD-TRUBOND-PRO-W-1.5MM.pdf",
     "title": "TRUBUILD TRUBOND PRO W 1.5MM",
     "local": "/documents/document-36.pdf",
-    "bytes": 487490
+    "bytes": 487490,
+    "kind": "tds"
   },
   {
     "url": "https://www.trubuild.in/wp-content/uploads/2026/09/24_TRUBUILD-TRUBOND_RC.pdf",
     "title": "TRUBUILD TRUBOND",
     "local": "/documents/document-37.pdf",
-    "bytes": 15218417
+    "bytes": 15218417,
+    "kind": "tds"
   },
   {
     "url": "https://www.trubuild.in/wp-content/uploads/2026/09/06_TRUBUILD-CRACKFILL-PASTE_RC_CFP-425.pdf",
-    "title": "TRUBUILD CFP 425",
-    "local": "/documents/document-38.pdf",
-    "bytes": 17734251
+    "title": "TRUBUILD CRACKFILL PASTE",
+    "local": "/documents/tds/trubuild-crack-filler-cfp-425.pdf",
+    "bytes": 2589110,
+    "productId": "trubuild-crack-filler-cfp-425",
+    "version": "N.1",
+    "reviewed": "2026-10-09",
+    "sourceFile": "06_TRUBUILD CRACKFILL PASTE_RC.pdf",
+    "sha256": "6ccf6f4b9fba9a3eaacbf8b88ec9c9d29bc8efeebb524846d932fdd030458988",
+    "kind": "tds"
   },
   {
     "url": "https://www.trubuild.in/wp-content/uploads/2026/09/07_TRUBUILD-CRACKFILL-POWDER_RC_CFP-525.pdf",
-    "title": "TRUBUILD CFP 525",
-    "local": "/documents/document-39.pdf",
-    "bytes": 14063828
+    "title": "TRUBUILD CRACKFILL POWDER",
+    "local": "/documents/tds/trubuild-crack-filler-cfp-525.pdf",
+    "bytes": 2987553,
+    "productId": "trubuild-crack-filler-cfp-525",
+    "version": "N.1",
+    "reviewed": "2026-10-09",
+    "sourceFile": "07_TRUBUILD CRACKFILL POWDER_RC.pdf",
+    "sha256": "850a9195914b873fc674d2e1aa15542800d68d972453ba03b9550c557802914b",
+    "kind": "tds"
   },
   {
     "url": "https://www.trubuild.in/wp-content/uploads/2026/09/41_TRUBUILD-PRIMESURE-PREMIUM_RC.pdf",
     "title": "TRUBUILD PRIMESURE PREMIUM",
     "local": "/documents/document-40.pdf",
-    "bytes": 12983866
-  },
-  {
-    "url": "https://www.trubuild.in/wp-content/uploads/2025/09/TRUBUILD-PRIMESURE-PRIMER.pdf",
-    "title": "TRUBUILD PRIMESURE PRIMER",
-    "local": "/documents/document-41.pdf",
-    "bytes": 713798
+    "bytes": 12983866,
+    "kind": "tds"
   },
   {
     "url": "https://www.trubuild.in/wp-content/uploads/2026/09/43_TRUBUILD-TCSR-555_RC.pdf",
     "title": "TRUBUILD TCSR-555",
-    "local": "/documents/document-42.pdf",
-    "bytes": 3361473
+    "local": "/documents/tds/trubuild-tcsr-555.pdf",
+    "bytes": 2560827,
+    "productId": "trubuild-tcsr-555",
+    "version": "N.1",
+    "reviewed": "2026-10-09",
+    "sourceFile": "43_TRUBUILD TCSR-555_RC.pdf",
+    "sha256": "e3b9f865ccb9b5a90ebae55294c4d2b3e8592d475b3e98cd2fad12c70a6dac88",
+    "kind": "tds"
   },
   {
     "url": "https://www.trubuild.in/wp-content/uploads/2026/09/44_TRUBUILD-WRP-777_RC.pdf",
     "title": "TRUBUILD WRP 777",
-    "local": "/documents/document-43.pdf",
-    "bytes": 16448626
+    "local": "/documents/tds/trubuild-water-repellent-wrp-777.pdf",
+    "bytes": 3478956,
+    "productId": "trubuild-water-repellent-wrp-777",
+    "version": "N.1",
+    "reviewed": "2026-10-09",
+    "sourceFile": "44_TRUBUILD WRP 777_RC.pdf",
+    "sha256": "142af10a8d98f5d20d2e5e224c0eea4d47cc2eaf29b7c1ecb8b989f18c0f348e",
+    "kind": "tds"
   },
   {
     "url": "https://www.trubuild.in/wp-content/uploads/2026/09/40_TRUBUILD-WTS-888_RC.pdf",
     "title": "TRUBUILD WTS 888",
-    "local": "/documents/document-44.pdf",
-    "bytes": 8775950
+    "local": "/documents/tds/trubuild-water-thinnable-sealer-wts-888.pdf",
+    "bytes": 2816763,
+    "productId": "trubuild-water-thinnable-sealer-wts-888",
+    "version": "N.1",
+    "reviewed": "2026-10-09",
+    "sourceFile": "40_TRUBUILD WTS 888_RC.pdf",
+    "sha256": "50a2b5ae826a76e4aba79577e1ccec6cd4609306fa2720a88c9cc33d4511ec00",
+    "kind": "tds"
   },
   {
     "url": "https://www.trubuild.in/wp-content/uploads/2026/09/31_TRUBUILD-NON-SHRINK-GROUT-HS_RC.pdf",
-    "title": "TRUBUILD NON SHRINK GROUT HS",
-    "local": "/documents/document-45.pdf",
-    "bytes": 14773747
+    "title": "TRUBUILD NON-SHRINK GROUT HS",
+    "local": "/documents/tds/trubuild-non-shrink-grout-hs.pdf",
+    "bytes": 2853439,
+    "productId": "trubuild-non-shrink-grout-hs",
+    "version": "N.1",
+    "reviewed": "2026-10-09",
+    "sourceFile": "31_TRUBUILD NON SHRINK GROUT HS_RC.pdf",
+    "sha256": "324201e88955b93d1a065e33530636a849a8e6dbf094628a5f2c37ff32174806",
+    "kind": "tds"
+  },
+  {
+    "title": "TRUBUILD TRUSHIELD",
+    "local": "/documents/tds/trubuild-trushield.pdf",
+    "bytes": 2723007,
+    "productId": "trubuild-trushield",
+    "version": "N.1",
+    "reviewed": "2026-10-09",
+    "sourceFile": "06_TRUBUILD TRUSHIELD.pdf",
+    "sha256": "e88374073e4346d6115b4f5824d3869c602f4e36d0c6f9805edd5ead2bbac563",
+    "url": "/documents/tds/trubuild-trushield.pdf",
+    "kind": "tds"
+  },
+  {
+    "title": "TRUBUILD PLASTERBOND",
+    "local": "/documents/tds/trubuild-plasterbond.pdf",
+    "bytes": 2072158,
+    "productId": "trubuild-plasterbond",
+    "version": "N.1",
+    "reviewed": "2026-10-09",
+    "sourceFile": "09_TDS_PLASTERBOND.pdf",
+    "sha256": "abceefc6ca58ec668e065fe9f942166164199a1eeae567ec05433086d3bd9244",
+    "url": "/documents/tds/trubuild-plasterbond.pdf",
+    "kind": "tds"
+  },
+  {
+    "title": "TRUBUILD PLASTERBOND ECO",
+    "local": "/documents/tds/trubuild-plasterbond-eco.pdf",
+    "bytes": 2097083,
+    "productId": "trubuild-plasterbond-eco",
+    "version": "N.1",
+    "reviewed": "2026-10-09",
+    "sourceFile": "10_TDS_PLASTERBOND ECO.pdf",
+    "sha256": "eb22a3182f3019c4cd07f2041f0d5cb993c2670d6f723e525d841b7836770343",
+    "url": "/documents/tds/trubuild-plasterbond-eco.pdf",
+    "kind": "tds"
+  },
+  {
+    "title": "TRUBUILD CPS 111 (TDS labelled IW+ 111)",
+    "local": "/documents/tds/trubuild-iw-plus-111.pdf",
+    "bytes": 3261506,
+    "productId": "trubuild-iw-plus-111",
+    "version": "N.1",
+    "reviewed": "2026-10-09",
+    "sourceFile": "29_TRUBUILD IW+ 111_RC.pdf",
+    "sha256": "94faa505a3dd40784a22e3fb98e22f2f874900960f3ae71c68600b1243d5e6b9",
+    "url": "/documents/tds/trubuild-iw-plus-111.pdf",
+    "kind": "tds",
+    "sourceTitle": "TRUBUILD IW+ 111",
+    "legacyLabel": true
   }
 ]

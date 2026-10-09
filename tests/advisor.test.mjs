@@ -90,20 +90,20 @@ test("all possible recommendations point to real products and retain requirement
   }
 });
 test("catalogue records have original source, image, category and specifications", () => {
-  assert.equal(products.length, 31);
+  assert.equal(products.length, 40);
   for (const p of products) {
-    assert.ok(p.source.startsWith("https://www.trubuild.in/products/"));
+    assert.ok(p.source.startsWith("https://www.trubuild.in/products/") || (p.tdsVersion && p.source === p.tds));
     assert.ok(p.category);
     assert.ok(p.fields.length);
     assert.ok(fs.existsSync(new URL("../public" + p.image, import.meta.url)));
-    assert.notEqual(p.name, "CPS 111");
+
   }
 });
 test("download library contains real PDF files", () => {
   const docs = JSON.parse(
     fs.readFileSync(new URL("../src/resources.json", import.meta.url)),
   );
-  assert.equal(docs.length, 46);
+  assert.equal(docs.length, 43);
   for (const d of docs) {
     assert.ok(d.local);
     const b = fs.readFileSync(new URL("../public" + d.local, import.meta.url));

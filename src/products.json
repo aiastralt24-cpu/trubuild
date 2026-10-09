@@ -3,120 +3,294 @@
     "id": "trubuild-buildcrete",
     "name": "Buildcrete",
     "category": "Integral and Latex Polymers",
-    "applications": ["Concrete and Mortar"],
+    "applications": [
+      "Concrete and Mortar",
+      "Wet Areas",
+      "Roof Waterproofing",
+      "Substructure Waterproofing",
+      "Water Tanks and Other Areas"
+    ],
     "source": "https://www.trubuild.in/products/trubuild-buildcrete/",
     "imageSource": "https://www.trubuild.in/wp-content/uploads/2023/10/Trubuild_BUILDCRETE_Jar_Mockup-copy.png",
-    "image": "/images/trubuild-buildcrete.webp",
-    "subtitle": "",
-    "description": "Trubuild Buildcrete is an acrylic polymer-based compound that forms a matrix when mixed with cement and exhibits excellent waterproofing properties. It enhances the properties of cement slurry/ mortar, making it an excellent choice for new as well as renovation work. It is ideal for waterproofing toilets, kitchens, bathrooms, terraces, swimming pools and basements, etc.",
+    "image": "/images/packaging/30.webp",
+    "subtitle": "An acrylic polymer modifier for cement slurry and mortar, used in waterproofing and concrete repair for new construction and renovation.",
+    "description": "An acrylic polymer modifier for cement slurry and mortar, used in waterproofing and concrete repair for new construction and renovation.",
     "benefits": [
       "Excellent bonding",
       "UV stable",
-      "Good in waterproofing and repair"
+      "Waterproofing and repair applications"
     ],
-    "packaging": "1 Kg 5 Kg 20 Kg",
+    "packaging": "1 kg, 5 kg",
     "fields": [
-      "It is ideal for waterproofing toilets",
-      "kitchens",
-      "bathrooms",
-      "terraces",
-      "swimming pools and basements, etc"
+      "Waterproofing toilets, kitchens, bathrooms, terraces, swimming pools and basements",
+      "Repair mortar and bonding coats"
     ],
-    "applicationNotes": [],
+    "applicationNotes": [
+      "For waterproofing slurry mix Buildcrete:cement 1:2 by weight. For a bond coat use 1:1.5 by weight.",
+      "Apply on a saturated surface dry substrate. Apply repair mortar while the bond coat remains tacky.",
+      "Use at least two coats, 5\u20136 hours apart; moist cure for 24 hours, then air cure for 3\u20135 days before a protective screed."
+    ],
     "specs": [
-      ["Physical State", "", "Viscous Liquid"],
-      ["Appearance", "", "Opaque"],
-      ["Colour", "", "Milky white"],
-      ["Density (gm/cc)", "ASTM D 1475-2013", "Approx. 1.02 ± 0.02"],
-      ["% Solid", "ASTM D 1644-2001", "30 ± 3"],
-      ["pH", "IS 9103-1999", ">7"],
-      ["Pull of Strength (mPa)-14", "", ""],
-      ["days (1:2=Buildcrete: Cement, by Weight)", "ASTM D 7234-2022", ">1"],
-      ["Compressive strength (mPa)-14 days", "", ""],
-      ["(15% Dosing by Weight of Cement)", "ASTM C 109-2021", "Approx. 25"],
       [
-        "Bond Strength (mPa)-14 days(1:1=Buildcrete: Cement, by Volume)",
+        "Physical state",
+        "-",
+        "Viscous liquid"
+      ],
+      [
+        "Appearance",
+        "-",
+        "Opaque"
+      ],
+      [
+        "Colour",
+        "-",
+        "Milky white"
+      ],
+      [
+        "Density(gm/cc)",
+        "ASTM D 1475-2013",
+        "Approx. 1.02 \u00b1 0.02"
+      ],
+      [
+        "% Solid",
+        "ASTM D 1644-2001",
+        "30 \u00b1 3"
+      ],
+      [
+        "pH",
+        "IS 9103-1999",
+        ">7"
+      ],
+      [
+        "Pull-off strength(MPa)-14 days(1:2=buildcrete : cement, by wt.)",
+        "ASTM D 7234-2022",
+        ">1"
+      ],
+      [
+        "Compressive strength(MPa)-14 days (15% dosing by wt. of cement)",
+        "ASTM C 109-2021",
+        "Approx. 25"
+      ],
+      [
+        "Bond strength(MPa)-14 days(1:1=Buildcrete : cement, by volume)",
         "ASTM C 1042:1999",
         "Approx. 4"
       ],
-      ["Water Absorption- 24hrs", "Karsten", "Nil"]
+      [
+        "Water absorption- 24hrs.",
+        "Karsten",
+        "Nil"
+      ]
     ],
-    "tds": "https://www.trubuild.in/wp-content/uploads/2023/10/05_TRUBUILD-BUILDCRETE_RC.pdf",
-    "verified": "2026-10-05",
-    "sourceNotes": []
+    "tds": "/documents/tds/trubuild-buildcrete.pdf",
+    "verified": "2026-10-09",
+    "sourceNotes": [],
+    "documentId": "trubuild-buildcrete",
+    "tdsVersion": "N.1",
+    "tdsFile": "05_TRUBUILD BUILDCRETE_RC.pdf",
+    "tdsSha256": "a45ed5167d3f55f4d125ccbd0f2669fadcea87b933e26ee18f6ee3b454f8ed74",
+    "coverage": "25\u201330 sq ft/kg for two coats.",
+    "shelfLife": "24 months from manufacture under the TDS storage conditions.",
+    "specPages": [
+      2
+    ],
+    "storage": "5\u201330\u00b0C; sealed, protected from freezing and direct sunlight.",
+    "tdsStatus": "final-approved",
+    "imageKind": "packaging"
   },
   {
     "id": "trubuild-tcsr-555",
-    "name": "TCSR 555",
+    "name": "TCSR-555",
     "category": "Epoxy Coatings",
     "applications": [
-      "Concrete and Mortar",
-      "Water Tanks and Other Areas",
-      "Wet Areas"
+      "Concrete and Mortar"
     ],
     "source": "https://www.trubuild.in/products/trubuild-tcsr-555/",
     "imageSource": "https://www.trubuild.in/wp-content/uploads/2023/08/TCSR-555-500-G.png",
-    "image": "/images/trubuild-tcsr-555.webp",
-    "subtitle": "",
-    "description": "TCSR 555 is a two component, solvent free epoxy system for repairing cracked and damaged concrete structures. It is used for bonding new structural concrete to old concrete, bricks, and steel components, as it gives excellent bonding properties with various construction surfaces.",
+    "image": "/images/packaging/59.webp",
+    "subtitle": "Two-component solvent-free epoxy system for repairing cracked or damaged concrete and bonding new concrete to existing concrete, brick and steel.",
+    "description": "Two-component solvent-free epoxy system for repairing cracked or damaged concrete and bonding new concrete to existing concrete, brick and steel.",
     "benefits": [
-      "It has excellent adhesion and strength on various construction substrates and is easy to apply due to low mix viscosity",
-      "It has very low shrinkage and high open time",
-      "Easy to apply",
-      "Free flowing",
-      "Moisture insensitive",
-      "High density ensures complete water displacement",
-      "High mechanical strength even after hardening under water"
+      "Low shrinkage",
+      "High mechanical strength",
+      "Bonding to construction substrates"
     ],
-    "packaging": "300 gm set 1.5 Kg set 7.5 Kg set",
+    "packaging": "300 g set, 1.5 kg set, 7.5 kg set",
     "fields": [
-      "Excellent system for bonding of old to new concrete/mortar, repair old concrete structure and it can be extended further. It can be injected to seal damp & wet cracks more than 2mm by high-pressure injection and for better adhesion of concrete and steel."
+      "Bonding new concrete or mortar to old concrete",
+      "Repairing concrete structures",
+      "Holdfast grouting and protected waterproofing as detailed in the TDS"
     ],
-    "applicationNotes": [],
+    "applicationNotes": [
+      "Resin:hardener mixing ratio is 100:50. Holdfast grouting uses Part A:Part B:silica powder 2:1:8.",
+      "For old-to-new concrete bonding, place fresh concrete while the epoxy bond coat is still workable.",
+      "Follow the protective mortar requirement for waterproofing applications; do not infer suitability for water tanks from general waterproofing use."
+    ],
     "specs": [
-      ["PART - A", "", ""],
-      ["Chemical Base", "", "Epoxy Resin"],
-      ["Physical State", "", "Viscous Liquid"],
-      ["Appearance", "", "Transparent"],
-      ["Color", "", "Colorless"],
-      ["EEW", "ASTM D-1652-11", "170-190"],
-      ["Viscosity @25°C", "ASTM D-4402", "500-1000 cps"],
-      ["Specific Gravity", "", "1.15"],
-      ["PART-B", "", ""],
-      ["Chemical Base", "", "Polyamide Hardener"],
-      ["Physical State", "", "Viscous Liquid"],
-      ["Appearance", "", "Transparent"],
-      ["Color", "", "Yellow"],
-      ["Amine Value", "IS 9162-1979", "350-400"],
-      ["Viscosity @25°C", "ASTM D-4402", "8000-12000 cps"],
-      ["Specific Gravity", "", "0.98"],
-      ["Mixing Ratio", "", "100:50"],
-      ["Mix Viscosity @35°C", "ASTM D 4402", "500-1500 cps"],
-      ["Mix Viscosity @40°C", "ASTM D 4402", "2000-3000 cps"],
-      ["Mix Density", "", "1.12 gm/cc"],
-      ["Pot Life @ 30°C", "Visual", "150-180 min in 100 gm mix"],
-      ["Pot Life @ 35°C", "Visual", "100-130 min in 100 gm mix"],
-      ["Hardening Time", "", "12-15 Hrs"],
-      ["Curing Time", "", "24 Hrs"],
-      ["Application Temperature", "", "10-35°C"],
-      ["Shore-D-Hardness", "ASTM D 2240", "60-65"],
-      ["Compressive Strength (After 24 Hrs)", "ASTM C 597", "45 N/mm2"],
-      ["Compressive Strength With Silica", "ASTM C 597", "55 N/mm2"],
-      ["In 2:1:8 Ratio (after 7 day)", "", ""],
-      ["Lap Shear Strength (After 24 Hrs)", "", "70-100 kg/cm2"]
+      [
+        "PART-A \u00b7 Chemical base",
+        "",
+        "Epoxy resin"
+      ],
+      [
+        "PART-A \u00b7 Physical state",
+        "",
+        "Viscous liquid"
+      ],
+      [
+        "PART-A \u00b7 Appearance",
+        "",
+        "Transparent"
+      ],
+      [
+        "PART-A \u00b7 Color",
+        "",
+        "Colorless"
+      ],
+      [
+        "PART-A \u00b7 EEW",
+        "ASTM D-1652-11",
+        "170-190"
+      ],
+      [
+        "PART-A \u00b7 Viscosity @25\u00b0C",
+        "ASTM D-4402",
+        "500-1000 cps"
+      ],
+      [
+        "PART-A \u00b7 Sp. gravity",
+        "",
+        "1.15"
+      ],
+      [
+        "PART-B \u00b7 Chemical base",
+        "",
+        "Polyamide hardener"
+      ],
+      [
+        "PART-B \u00b7 Physical state",
+        "",
+        "Viscous liquid"
+      ],
+      [
+        "PART-B \u00b7 Appearance",
+        "",
+        "Transparent"
+      ],
+      [
+        "PART-B \u00b7 Color",
+        "",
+        "Yellow"
+      ],
+      [
+        "PART-B \u00b7 Amine value",
+        "IS 9162-1979",
+        "350-400"
+      ],
+      [
+        "PART-B \u00b7 Viscosity @25\u00b0C",
+        "ASTM D-4402",
+        "8000-12000 cps"
+      ],
+      [
+        "PART-B \u00b7 Sp. gravity",
+        "",
+        "0.98"
+      ],
+      [
+        "Mixing ratio",
+        "",
+        "100:50"
+      ],
+      [
+        "Mix viscosity @35\u00b0C",
+        "ASTM D 4402",
+        "500-1500 cps"
+      ],
+      [
+        "Mix viscosity @40\u00b0C",
+        "ASTM D 4402",
+        "2000-3000 cps"
+      ],
+      [
+        "Mix density",
+        "",
+        "1.12 gm/cc"
+      ],
+      [
+        "Pot life @ 30\u00b0C",
+        "Visual",
+        "150-180 min in 100 gm mix"
+      ],
+      [
+        "Pot life @ 35\u00b0C",
+        "Visual",
+        "100-130 min in 100 gm mix"
+      ],
+      [
+        "Hardening time",
+        "",
+        "12-15 hrs"
+      ],
+      [
+        "Curing time",
+        "",
+        "24 hrs"
+      ],
+      [
+        "Application temperature",
+        "",
+        "10-35\u00b0C"
+      ],
+      [
+        "Shore-D-hardness",
+        "ASTM D 2240",
+        "60-65"
+      ],
+      [
+        "Compressive strength (after 24hrs)",
+        "ASTM C 579",
+        "45 N/mm\u00b2"
+      ],
+      [
+        "Compressive strength with silica in 2:1:8 ratio (after 7 days)",
+        "ASTM C 579",
+        "55 N/mm\u00b2"
+      ],
+      [
+        "Lap shear strength (after 24hr)",
+        "\u2014",
+        "70-100 kg/cm\u00b2"
+      ]
     ],
-    "tds": "https://www.trubuild.in/wp-content/uploads/2023/08/TRUBUILD-TCSR-555-1.pdf",
-    "verified": "2026-10-05",
-    "sourceNotes": []
+    "tds": "/documents/tds/trubuild-tcsr-555.pdf",
+    "verified": "2026-10-09",
+    "sourceNotes": [],
+    "documentId": "trubuild-tcsr-555",
+    "tdsVersion": "N.1",
+    "tdsFile": "43_TRUBUILD TCSR-555_RC.pdf",
+    "tdsSha256": "e3b9f865ccb9b5a90ebae55294c4d2b3e8592d475b3e98cd2fad12c70a6dac88",
+    "coverage": "15\u201320 sq ft/kg for two coats at 300 microns, as stated in the coverage section.",
+    "shelfLife": "24 months from manufacture under the TDS storage conditions.",
+    "specPages": [
+      2
+    ],
+    "storage": "2\u201340\u00b0C; original properly closed packaging in a dry place. Follow the complete TDS storage instructions.",
+    "tdsStatus": "final-approved",
+    "imageKind": "packaging"
   },
   {
     "id": "trubuild-sbr-pro-334",
     "name": "SBR PRO-334",
     "category": "Integral and Latex Polymers",
-    "applications": ["Concrete and Mortar", "Roof Waterproofing", "Wet Areas"],
+    "applications": [
+      "Concrete and Mortar",
+      "Roof Waterproofing",
+      "Wet Areas"
+    ],
     "source": "https://www.trubuild.in/products/trubuild-sbr-pro-334/",
     "imageSource": "https://www.trubuild.in/wp-content/uploads/2023/08/Trubuild-SBR-PRO_334_Jar.png",
-    "image": "/images/trubuild-sbr-pro-334.webp",
+    "image": "/images/packaging/48.webp",
     "subtitle": "Super Latex",
     "description": "Trubuild WSL 334 (Super Latex) is a ready-to-use styrene butadiene latex used for high-performance applications of repairs and waterproofing. It is used for repairing of old constructions like floor, beams slabs, etc. and waterproofing of toilets, kitchen, bathroom and terraces. It has excellent bonding strength for old to new concrete and to plaster.",
     "benefits": [
@@ -136,236 +310,565 @@
     ],
     "applicationNotes": [],
     "specs": [
-      ["Physical State", "Visual", "Low Viscous Liquid"],
-      ["Appearance", "Visual", "Opaque"],
-      ["Colour", "Visual", "Milky White"],
-      ["pH", "IS: 9103:1999", "7 to 9"],
-      ["Specific Gravity", "", "approx 1.01 - 1.03"],
-      ["% Solid", "ASTM D 1644:2001", "42 - 44 %"],
-      ["Compressive Strength", "ASTM C 109-2021", "30-40 N/mm2"]
+      [
+        "Physical State",
+        "Visual",
+        "Low Viscous Liquid"
+      ],
+      [
+        "Appearance",
+        "Visual",
+        "Opaque"
+      ],
+      [
+        "Colour",
+        "Visual",
+        "Milky White"
+      ],
+      [
+        "pH",
+        "IS: 9103:1999",
+        "7 to 9"
+      ],
+      [
+        "Specific Gravity",
+        "",
+        "approx 1.01 - 1.03"
+      ],
+      [
+        "% Solid",
+        "ASTM D 1644:2001",
+        "42 - 44 %"
+      ],
+      [
+        "Compressive Strength",
+        "ASTM C 109-2021",
+        "30-40 N/mm2"
+      ]
     ],
     "tds": "https://www.trubuild.in/wp-content/uploads/2023/08/TDS-TRUBUILD-WSL-334.pdf",
     "verified": "2026-10-05",
     "sourceNotes": [
       "Some official copy and documents use legacy product names; confirm the current code and document revision."
-    ]
+    ],
+    "imageKind": "packaging"
   },
   {
     "id": "trubuild-sbr-333",
-    "name": "SBR-333",
+    "name": "SBR 333",
     "category": "Integral and Latex Polymers",
-    "applications": ["Concrete and Mortar", "Roof Waterproofing", "Wet Areas"],
+    "applications": [
+      "Concrete and Mortar",
+      "Wet Areas",
+      "Roof Waterproofing",
+      "Substructure Waterproofing",
+      "Water Tanks and Other Areas"
+    ],
     "source": "https://www.trubuild.in/products/trubuild-sbr-333/",
     "imageSource": "https://www.trubuild.in/wp-content/uploads/2023/08/Trubuild-SBR-333-WPL-333-500ml_Jar-Sticker.png",
-    "image": "/images/trubuild-sbr-333.webp",
-    "subtitle": "Waterproofing Latex",
-    "description": "TRUBUILD WPL 333 is a ready-to-use styrene butadiene latex (SBR). It is used for repairing of old construction like floor, beams slabs, etc. and waterproofing of toilets, kitchen, roof, bathroom and terraces. It has excellent bonding strength for old to new concrete and to plaster. It reduces shrinkage, cracking, etc.",
+    "image": "/images/packaging/47.webp",
+    "subtitle": "Ready-to-use styrene-butadiene latex, formerly WPL 333, for waterproofing, repair mortar and bonding old concrete to new concrete or plaster.",
+    "description": "Ready-to-use styrene-butadiene latex, formerly WPL 333, for waterproofing, repair mortar and bonding old concrete to new concrete or plaster.",
     "benefits": [
-      "Forms high DFT coating",
-      "Good waterproof barrier",
-      "Prevents corrosion",
-      "It prevents cracking, improves hardness & flexural strength",
-      "It has excellent bonding on various substrates like concrete, masonry, stone work, plasters, etc"
+      "Cement modifier",
+      "Bonding to concrete and masonry",
+      "Reduced shrinkage and cracking"
     ],
-    "packaging": "200 gm 500 gm 1 Kg 5 Kg 10 Kg 20 Kg 50 Kg",
+    "packaging": "200 g, 500 g, 1 kg, 5 kg, 10 kg, 20 kg, 50 kg",
     "fields": [
-      "It can be used for different concrete repair applications like spalled concrete, floor, columns, beams, slab & parapet, etc",
-      "Also, it can be used for waterproofing of toilets, kitchen, bathroom and terraces",
-      "It can be used as a bond coat and bonding mortar for old to new concrete for tiles & panel, etc",
-      "It can also be used as an additive polymer for cement-based injection grouting",
-      "It can be used for crack filling",
-      "It can be used as anti-corrosive coating for reinforcement",
-      "It is also used for waterproofing of retaining wall, swimming pool & RCC water tanks"
+      "Concrete repairs to floors, columns, beams, slabs and parapets",
+      "Waterproofing toilets, kitchens, bathrooms, terraces, retaining walls, pools and RCC water tanks",
+      "Bond coats, cement-based injection grouting and crack filling"
     ],
-    "applicationNotes": [],
+    "applicationNotes": [
+      "Waterproofing slurry: SBR 333:cement 1:1.5 by volume. Bonding primer: 1:1 by volume.",
+      "Apply two waterproofing coats 4\u20136 hours apart; moist cure for 24 hours, then air cure for 3\u20135 days before a protective screed.",
+      "Use the full TDS for repair-mortar and screed mix proportions."
+    ],
     "specs": [
-      ["Physical State", "Visual", "Low Viscous Liquid"],
-      ["Appearance", "Visual", "Opaque"],
-      ["Colour", "Visual", "Milky White"],
-      ["pH", "IS: 9103:1999", "7 to 9"],
-      ["Specific Gravity", "", "Approx 1.01 - 1.03"],
-      ["% Solid", "IS:101 (P-8/S-6):1993", "36 - 40"],
-      ["Compressive Strength", "ASTM C 109-2021", "30-40 N/mm2"]
+      [
+        "Physical state",
+        "",
+        "Low viscous liquid"
+      ],
+      [
+        "Appearance",
+        "",
+        "Opaque"
+      ],
+      [
+        "Colour",
+        "",
+        "White"
+      ],
+      [
+        "pH",
+        "IS:9103-199",
+        "7-9"
+      ],
+      [
+        "Density (g/cc)",
+        "ASTM D 1475-2013",
+        "Approx. 1.01-1.03"
+      ],
+      [
+        "%Solid",
+        "ASTM D 1664-2001",
+        "38 \u00b1 2"
+      ],
+      [
+        "Compressive strength",
+        "ASTM C 109-2021",
+        "Approx. 30-40 N/mm\u00b2"
+      ]
     ],
-    "tds": "https://www.trubuild.in/wp-content/uploads/2023/08/13_TDS_SBR-333-WPL-333_RC.pdf",
-    "verified": "2026-10-05",
-    "sourceNotes": [
-      "Some official copy and documents use legacy product names; confirm the current code and document revision."
-    ]
+    "tds": "/documents/tds/trubuild-sbr-333.pdf",
+    "verified": "2026-10-09",
+    "sourceNotes": [],
+    "documentId": "trubuild-sbr-333",
+    "tdsVersion": "N.1",
+    "tdsFile": "13_TDS_SBR 333 (WPL 333)_RC.pdf",
+    "tdsSha256": "f454e4dbeb3376d1b028531e1eadff97501da97d9633f6c68d7b8f69c0bb381f",
+    "coverage": "20\u201322 sq ft/kg for two waterproofing coats.",
+    "shelfLife": "24 months from manufacture under the TDS storage conditions.",
+    "aliases": [
+      "WPL 333",
+      "SBR-333"
+    ],
+    "specPages": [
+      2
+    ],
+    "storage": "2\u201340\u00b0C; original properly closed packaging in a dry place. Follow the complete TDS storage instructions.",
+    "tdsStatus": "final-approved",
+    "imageKind": "packaging"
   },
   {
     "id": "trubuild-water-thinnable-sealer-wts-888",
     "name": "WTS 888",
     "category": "Protective Coatings",
-    "applications": ["Exterior Waterproofing"],
+    "applications": [
+      "Exterior Waterproofing"
+    ],
     "source": "https://www.trubuild.in/products/trubuild-water-thinnable-sealer-wts-888/",
     "imageSource": "https://www.trubuild.in/wp-content/uploads/2023/08/WTS888_STICKER_1-L-BLUE-CAP.png",
-    "image": "/images/trubuild-water-thinnable-sealer-wts-888.webp",
-    "subtitle": "Water Thinnable Sealer",
-    "description": "Trubuild WTS 888 Water Thinnable Sealer is a single-component, water thinnable, polymeric liquid used for sealing the porosity of sandstone, concrete, and other porous surfaces. Water can be added in any quantity depending on the porosity of the surface and the desired gloss.",
-    "benefits": [],
-    "packaging": "5 Kg",
+    "image": "/images/packaging/92.webp",
+    "subtitle": "Single-component water-thinnable polymeric sealer for sandstone, concrete and other porous surfaces.",
+    "description": "Single-component water-thinnable polymeric sealer for sandstone, concrete and other porous surfaces.",
+    "benefits": [
+      "Water dilutable",
+      "Porosity sealing"
+    ],
+    "packaging": "1 L, 5 L",
     "fields": [
-      "As a sealer for sand stone, concrete & marble surfaces",
-      "Restores colour of terracotta tile",
-      "As a sealer for wood to reduce the consumption of paint and clear lacquer",
-      "Can be used on bricks"
+      "Sealing sandstone, concrete, marble and bricks",
+      "Restoring terracotta tile colour",
+      "Sealing wood before paint or clear lacquer"
     ],
-    "applicationNotes": [],
+    "applicationNotes": [
+      "Test a small patch before use on a larger area.",
+      "Select water dilution according to substrate porosity and required gloss, following technical guidance."
+    ],
     "specs": [
-      ["Physical State", "Visual", "Low Viscous Liquid"],
-      ["Appearance", "Visual", "Opaque"],
-      ["Colour", "Visual", "White"],
-      ["Drying Time", "", "15 minutes"],
-      ["Viscosity by Ford Cup-04", "ASTM D 1200-2010", "21 sec"],
-      ["UV Resistance-500 hrs", "ASTM G 154-2016", "No Colour Change"],
-      ["Water Absorption Test", "", ""],
-      ["Natural Stone – Control Sample", "", "0.06%"],
-      ["Natural Stone with Coating", "", "Nil"],
-      ["Brick – Control Sample", "", "16.33%"],
-      ["Brick with Coating", "", "10.28%"],
-      ["Concrete– Control Sample", "", "2.01%"],
-      ["Concrete with Coating", "", "1.32%"]
+      [
+        "Physical state",
+        "-",
+        "Low viscous liquid"
+      ],
+      [
+        "Appearance",
+        "-",
+        "Opaque"
+      ],
+      [
+        "Colour",
+        "-",
+        "White"
+      ],
+      [
+        "Drying time (Minutes)",
+        "-",
+        "15"
+      ],
+      [
+        "Viscosity by ford cup-04 (Sec)",
+        "ASTM D 1200-2010",
+        "21"
+      ],
+      [
+        "UV resistance-500 hrs",
+        "ASTM G 154-2016",
+        "No colour change"
+      ],
+      [
+        "Natural stone \u2013 control sample (%)",
+        "-",
+        "0.06"
+      ],
+      [
+        "Natural stone with coating (%)",
+        "-",
+        "Nil"
+      ],
+      [
+        "Brick \u2013 control sample (%)",
+        "-",
+        "16.33"
+      ],
+      [
+        "Brick with coating (%)",
+        "-",
+        "10.28"
+      ],
+      [
+        "Concrete \u2013 control sample (%)",
+        "-",
+        "2.01"
+      ],
+      [
+        "Concrete with coating (%)",
+        "-",
+        "1.32"
+      ]
     ],
-    "tds": "https://www.trubuild.in/wp-content/uploads/2023/08/TRUBUILD-WTS-888-1.pdf",
-    "verified": "2026-10-05",
-    "sourceNotes": []
+    "tds": "/documents/tds/trubuild-water-thinnable-sealer-wts-888.pdf",
+    "verified": "2026-10-09",
+    "sourceNotes": [],
+    "documentId": "trubuild-water-thinnable-sealer-wts-888",
+    "tdsVersion": "N.1",
+    "tdsFile": "40_TRUBUILD WTS 888_RC.pdf",
+    "tdsSha256": "50a2b5ae826a76e4aba79577e1ccec6cd4609306fa2720a88c9cc33d4511ec00",
+    "coverage": "8\u201310 m\u00b2/kg/coat, depending on substrate porosity.",
+    "shelfLife": "24 months from manufacture under the TDS storage conditions.",
+    "specPages": [
+      1
+    ],
+    "storage": "2\u201340\u00b0C; original properly closed packaging in a dry place. Follow the complete TDS storage instructions.",
+    "tdsStatus": "final-approved",
+    "imageKind": "packaging"
   },
   {
     "id": "trubuild-water-repellent-wrp-777",
     "name": "WRP 777",
     "category": "Protective Coatings",
-    "applications": ["Exterior Waterproofing"],
+    "applications": [
+      "Exterior Waterproofing"
+    ],
     "source": "https://www.trubuild.in/products/trubuild-water-repellent-wrp-777/",
     "imageSource": "https://www.trubuild.in/wp-content/uploads/2023/08/TRUBUILD_WRP-777_20-L.png",
-    "image": "/images/trubuild-water-repellent-wrp-777.webp",
-    "subtitle": "Water Repellent",
-    "description": "Trubuild WRP 777 (Water Repellent) is a silane-based, non-flammable, water-soluble solution designed to incorporate water repellence in various surfaces such as sandstone, marble, concrete, exposed bricks, and terracotta tiles. It is used for waterproofing most construction surfaces, as it deeply penetrates the surface and provides excellent water repellence without altering the appearance or color of the substrate.",
+    "image": "/images/packaging/91.webp",
+    "subtitle": "Ready-to-use silane-based water repellent for porous construction surfaces, designed to retain their appearance and colour.",
+    "description": "Ready-to-use silane-based water repellent for porous construction surfaces, designed to retain their appearance and colour.",
     "benefits": [
-      "Brushable and easy-to-use",
-      "Trubuild WRP 777 is breathable, penetrable and supplied in ready-to-use form",
-      "Doesn't stain or alter the appearance and color of the substrate",
-      "Cost effective",
-      "Anti-Fungal & waterproof for porous stone, concrete, plasters, etc.",
-      "Due to its low viscosity, the penetration into the substrate is very high",
-      "Use of Trubuild WRP 777 reduces efflorescence, improves resistance to the effects of weathering and seals porous substrates against moisture"
+      "Breathable",
+      "Deep penetration",
+      "Reduced efflorescence"
     ],
-    "packaging": "",
+    "packaging": "1 L, 5 L, 20 L",
     "fields": [
-      "As a sealer for sand stone, concrete & marble surfaces",
-      "Can be used on any porous substrate"
+      "Sandstone, marble, concrete, exposed bricks and terracotta tiles",
+      "Other porous substrates after a successful patch test"
     ],
-    "applicationNotes": [],
+    "applicationNotes": [
+      "Use on clean, dry surfaces and test a small patch first.",
+      "Do not dilute. Confirm the recoating method with the technical team because the supplied sheet gives conflicting instructions."
+    ],
     "specs": [
-      ["Appearance", "", "Transparent"],
-      ["Colour", "", "Colorless"],
-      ["Density (gm/cc)", "", "1.01 ± 0.01"],
-      ["% Active Ingredient", "", "2.5-3.5%"],
-      ["Surface Dry Times, minutes", "", "20-30"],
-      ["Water Repellence", "IS: 12027: 1987", "Repel water in bead form"],
-      ["Water Absorption %", "IS: 12027: 1987", "Pass,<3%"]
+      [
+        "Appearance",
+        "",
+        "Transparent"
+      ],
+      [
+        "Colour",
+        "",
+        "Colorless"
+      ],
+      [
+        "Density (gm/cc)",
+        "ASTM D 1475-2013",
+        "1.01 \u00b1 0.01"
+      ],
+      [
+        "% active ingredient",
+        "",
+        "2.5-3.5%"
+      ],
+      [
+        "Surface dry time, minutes",
+        "IS: 12027: 1987",
+        "20-30"
+      ],
+      [
+        "Water repellence",
+        "IS: 12027: 1987",
+        "Repels water in bead form"
+      ],
+      [
+        "Water absorption %",
+        "",
+        "Pass <3%"
+      ]
     ],
-    "tds": "https://www.trubuild.in/wp-content/uploads/2023/08/TRUBUILD-WRP-777-1.pdf",
-    "verified": "2026-10-05",
-    "sourceNotes": [
-      "Current packaging not listed in the source page’s sizes section."
-    ]
+    "tds": "/documents/tds/trubuild-water-repellent-wrp-777.pdf",
+    "verified": "2026-10-09",
+    "sourceNotes": [],
+    "documentId": "trubuild-water-repellent-wrp-777",
+    "tdsVersion": "N.1",
+    "tdsFile": "44_TRUBUILD WRP 777_RC.pdf",
+    "tdsSha256": "142af10a8d98f5d20d2e5e224c0eea4d47cc2eaf29b7c1ecb8b989f18c0f348e",
+    "coverage": "Porous substrate: 5\u20136 m\u00b2/L/coat. Low-porosity substrate: 7\u20138 m\u00b2/L/coat.",
+    "shelfLife": "24 months from manufacture under the TDS storage conditions.",
+    "specPages": [
+      2
+    ],
+    "storage": "2\u201340\u00b0C; original properly closed packaging in a dry place. Follow the complete TDS storage instructions.",
+    "tdsStatus": "final-approved",
+    "imageKind": "packaging"
   },
   {
     "id": "trubuild-crack-filler-cfp-525",
-    "name": "CFP 525",
+    "name": "Crackfill Powder",
     "category": "Exterior Acrylic Coatings",
-    "applications": ["Exterior Waterproofing"],
+    "applications": [
+      "Exterior Waterproofing",
+      "Concrete and Mortar"
+    ],
     "source": "https://www.trubuild.in/products/trubuild-crack-filler-cfp-525/",
     "imageSource": "https://www.trubuild.in/wp-content/uploads/2023/08/Trubuild-Crackfill-Powder-copy.png",
-    "image": "/images/trubuild-crack-filler-cfp-525.webp",
-    "subtitle": "Crack Filling Powder",
-    "description": "TRUBUILD CFP 525 (Crack Filling Powder) is a cement-based, polymer-modified powder material for filling cracks in plastered surfaces. It is composed of cement, select aggregates, polymer, and additives, which requires on-site addition of water only. Cracks filled with Trubuild CFP 525 enhance the subsequent painting's quality and life.",
+    "image": "/images/packaging/32.webp",
+    "subtitle": "Cement-based, polymer-modified crack-filling powder, formerly CFP-525.",
+    "description": "Cement-based, polymer-modified crack-filling powder, formerly CFP-525. Mix with water on site for static plaster cracks and surface levelling.",
     "benefits": [
-      "Adhesion Strong adhesion to common building substrates",
-      "Easy to use - It is a do-it-yourself product & requires only onsite addition of water",
-      "Requires only addition of water on - site at the time of usage",
-      "As a surface leveller before painting it reduces paint consumption and increases the life of the paint making it economical"
+      "On-site addition of water",
+      "Adhesion to building substrates",
+      "Surface levelling before painting"
     ],
-    "packaging": "1 Kg",
+    "packaging": "1 kg",
     "fields": [
-      "To fill static cracks of 3 to 5 mm",
-      "To level undulation on unplastered or plastered ceilings and walls prior to painting",
-      "To provide smooth finish to brick, stone, and concrete"
+      "Static plaster cracks of 3\u20135 mm, subject to the TDS width limitation",
+      "Levelling plastered or unplastered walls and ceilings before painting",
+      "Finishing brick, stone and concrete surfaces"
     ],
-    "applicationNotes": [],
+    "applicationNotes": [
+      "For static cracks only; not suitable for moving cracks, structural members, expansion joints, POP or painter\u2019s putty.",
+      "Do not apply on wet surfaces. Exterior applications must be overcoated with exterior paint."
+    ],
     "specs": [
-      ["Appearance", "Visual", "Off White Powder"],
-      ["Colour", "Visual", "Off White"],
-      ["Setting Time(hrs/min)", "", "3:10"],
-      ["Bulk Density (g/cc)", "ASTM D 7481-18", "1.44"],
-      ["Pot Life (minutes)", "ISO 13007-3-2010", "20"],
-      ["Tack Free Time (minutes)", "ASTM C 679-2015", "40"],
-      ["Dry Shrinkage (%)", "ASTM C 157-2017", "0.002"],
-      ["Pull off Adhesion (N/mm2)", "ASTM D 7234-2021", "0.44"],
-      ["Water Absorption @ 15 min - ml", "Karsten Tube", "1.2"],
-      ["Water Absorption @ 30 min - ml", "Karsten Tube", "3.6"],
-      ["Water Absorption @ 60 min - ml", "Karsten Tube", "5.5"],
-      ["Water Absorption @ 4 Hrs - ml", "Karsten Tube", "9.6"],
-      ["Mix Density (g/cc)", "", "1.52"]
+      [
+        "Appearance",
+        "",
+        "Off white powder"
+      ],
+      [
+        "Colour",
+        "",
+        "Off white"
+      ],
+      [
+        "Setting time (Hrs: min)",
+        "",
+        "3:10"
+      ],
+      [
+        "Bulk density (g/cc)",
+        "ASTM D 7481-18",
+        "1.44"
+      ],
+      [
+        "Pot life (Minutes)",
+        "ISO 13007-3-2010",
+        "20"
+      ],
+      [
+        "Tack free time (Minutes)",
+        "ASTM C 679-2015",
+        "40"
+      ],
+      [
+        "Dry shrinkage (%)",
+        "ASTM C 157-2017",
+        "0.002"
+      ],
+      [
+        "Pull off adhesion (N/mm\u00b2)",
+        "ASTM D 7234-2021",
+        "0.44"
+      ],
+      [
+        "Water absorption @ 15 min (ml)",
+        "Karsten tube",
+        "1.2"
+      ],
+      [
+        "Water absorption @ 30 min (ml)",
+        "Karsten tube",
+        "3.6"
+      ],
+      [
+        "Water absorption @ 60 min (ml)",
+        "Karsten tube",
+        "5.5"
+      ],
+      [
+        "Water absorption @ 4 hrs. (ml)",
+        "Karsten tube",
+        "9.6"
+      ],
+      [
+        "Mix density (g/cc)",
+        "",
+        "1.52"
+      ]
     ],
-    "tds": "https://www.trubuild.in/wp-content/uploads/2023/08/TRUBUILD-CFP-525-1.pdf",
-    "verified": "2026-10-05",
-    "sourceNotes": []
+    "tds": "/documents/tds/trubuild-crack-filler-cfp-525.pdf",
+    "verified": "2026-10-09",
+    "sourceNotes": [],
+    "documentId": "trubuild-crack-filler-cfp-525",
+    "tdsVersion": "N.1",
+    "tdsFile": "07_TRUBUILD CRACKFILL POWDER_RC.pdf",
+    "tdsSha256": "850a9195914b873fc674d2e1aa15542800d68d972453ba03b9550c557802914b",
+    "coverage": "37.5 running metres/kg at 5 mm width \u00d7 5 mm depth.",
+    "shelfLife": "12 months from manufacture under the TDS storage conditions.",
+    "aliases": [
+      "CFP 525",
+      "CFP-525"
+    ],
+    "specPages": [
+      2
+    ],
+    "storage": "Cool, dry storage away from direct sunlight; unopened containers.",
+    "tdsStatus": "final-approved",
+    "imageKind": "packaging"
   },
   {
     "id": "trubuild-crack-filler-cfp-425",
-    "name": "CFP 425",
+    "name": "Crackfill Paste",
     "category": "Exterior Acrylic Coatings",
-    "applications": ["Exterior Waterproofing"],
+    "applications": [
+      "Exterior Waterproofing",
+      "Concrete and Mortar"
+    ],
     "source": "https://www.trubuild.in/products/trubuild-crack-filler-cfp-425/",
     "imageSource": "https://www.trubuild.in/wp-content/uploads/2023/08/Trubuild-Crackfill-Paste-copy.png",
-    "image": "/images/trubuild-crack-filler-cfp-425.webp",
-    "subtitle": "Crack Filler Paste",
-    "description": "Trubuild CFP 425 is composed of high-quality, weather-durable acrylic emulsion polymer with properly selected graded fillers, light-fast pigment, and additives. It is a single-pack, ready-to-use flexible putty for filling the cracks in plastered surfaces because it has excellent bonding, ease of application, water resistance, aesthetic appearance, and durability.",
+    "image": "/images/packaging/31.webp",
+    "subtitle": "Ready-to-use acrylic-polymer crack-filling paste, formerly CFP-425, for cracks in internal and external plastered masonry surfaces.",
+    "description": "Ready-to-use acrylic-polymer crack-filling paste, formerly CFP-425, for cracks in internal and external plastered masonry surfaces.",
     "benefits": [
-      "Consistency - Paste form, without sagging",
-      "Ease of application - easy-to-apply by putty knife similar to conventional putties",
-      "Flexibility - Flexible, therefore does not crack & accommodates minor movements in cracks",
-      "VOC - Water based with very low voc hence eco-friendly",
-      "Application advantage - Can be applied on damp surfaces but not on cracks with running water",
-      "Paintability - Overcoatable by any type of polymer-based paints, after 24 hours",
-      "Bonding - Excellent adhesion with cementitious surface",
-      "Durability – Excellent resistance to UV & atmospheric conditions"
+      "Ready to use",
+      "Flexible paste",
+      "Paintable after drying"
     ],
-    "packaging": "500 gm 1 Kg",
+    "packaging": "500 g, 1 kg, 5 kg",
     "fields": [
-      "Internal & external plastered brick masonry, wall cracks of up to 5 mm width"
+      "Non-structural plastered brick masonry cracks up to 5 mm wide"
     ],
-    "applicationNotes": [],
+    "applicationNotes": [
+      "Widen hairline cracks to at least 1 mm and remove existing POP or painter\u2019s putty down to plaster.",
+      "Allow 24 hours before a subsequent application.",
+      "Do not use in structural cracks, expansion joints, separation gaps or cracks with running water."
+    ],
     "specs": [
-      ["Appearance", "Visual", "Smooth & Thick Paste"],
-      ["Consistency", "Visual", "Viscous Paste"],
-      ["Colour", "Visual", "White"],
-      ["Service Temperature", "", "5 to 50 degree celcius"],
-      ["Pot Life(min)", "ISO 13007-3-2010", "15"],
-      ["Density(gm/cm3)", "ASTM D 1475-2013", "1.67"],
-      ["Tack Free Time(min)", "ASTM C 679-2015", "45"],
-      ["Dry Shrinkage(%)", "ASTM C 157-2017", "0.003"],
-      ["Pull off Adhesion(N/mm2)", "ASTM D 7234-2021", "0.72"],
-      ["Water Absorption @ 15 min", "Karsten Tube", "Nil"],
-      ["Water Absorption @ 30 min", "Karsten Tube", "Nil"],
-      ["Water Absorption @ 60 min", "Karsten Tube", "Nil"],
-      ["Water Absorption @ 4 hrs", "Karsten Tube", "Nil"],
-      ["UV Exposure – 500 hrs", "ASTM G 154-2016", "No Colour Change"]
+      [
+        "Appearance",
+        "",
+        "Smooth & thick paste"
+      ],
+      [
+        "Consistency",
+        "",
+        "Viscous paste"
+      ],
+      [
+        "Colour",
+        "",
+        "White"
+      ],
+      [
+        "Service temperature (\u00b0C)",
+        "",
+        "5-50"
+      ],
+      [
+        "Pot life (Minutes)",
+        "ISO 13007-3-2010",
+        "15"
+      ],
+      [
+        "Density (g/cc)",
+        "ASTM D 1475-2013",
+        "1.67"
+      ],
+      [
+        "Tack free time (Minutes)",
+        "ASTM C 679-2015",
+        "45"
+      ],
+      [
+        "Dry shrinkage (%)",
+        "ASTM C 157-2017",
+        "0.003"
+      ],
+      [
+        "Pull off adhesion (N/mm\u00b2)",
+        "ASTM D 7234-2021",
+        "0.72"
+      ],
+      [
+        "Water absorption @ 15 min (ml)",
+        "Karsten tube",
+        "Nil"
+      ],
+      [
+        "Water absorption @ 30 min (ml)",
+        "Karsten tube",
+        "Nil"
+      ],
+      [
+        "Water absorption @ 60 min (ml)",
+        "Karsten tube",
+        "Nil"
+      ],
+      [
+        "Water absorption @ 4 hrs. (ml)",
+        "Karsten tube",
+        "Nil"
+      ],
+      [
+        "UV exposure \u2013 500 hrs",
+        "ASTM G 154-2016",
+        "No colour change"
+      ]
     ],
-    "tds": "https://www.trubuild.in/wp-content/uploads/2023/08/TRUBUILD-CFP-425-1.pdf",
-    "verified": "2026-10-05",
-    "sourceNotes": []
+    "tds": "/documents/tds/trubuild-crack-filler-cfp-425.pdf",
+    "verified": "2026-10-09",
+    "sourceNotes": [],
+    "documentId": "trubuild-crack-filler-cfp-425",
+    "tdsVersion": "N.1",
+    "tdsFile": "06_TRUBUILD CRACKFILL PASTE_RC.pdf",
+    "tdsSha256": "6ccf6f4b9fba9a3eaacbf8b88ec9c9d29bc8efeebb524846d932fdd030458988",
+    "coverage": "25\u201330 running metres/kg at 5 mm width \u00d7 5 mm depth.",
+    "shelfLife": "12 months from manufacture under the TDS storage conditions.",
+    "aliases": [
+      "CFP 425",
+      "CFP-425"
+    ],
+    "specPages": [
+      2
+    ],
+    "storage": "Cool, dry storage away from direct sunlight; unopened containers.",
+    "tdsStatus": "final-approved",
+    "imageKind": "packaging"
   },
   {
     "id": "trubuild-primesure-premium",
     "name": "Primesure Premium",
     "category": "Exterior Acrylic Coatings",
-    "applications": ["Exterior Waterproofing"],
+    "applications": [
+      "Exterior Waterproofing"
+    ],
     "source": "https://www.trubuild.in/products/trubuild-primesure-premium/",
     "imageSource": "https://www.trubuild.in/wp-content/uploads/2023/08/Primesure-Premium_1-L-BLUE-CAP.png",
-    "image": "/images/trubuild-primesure-premium.webp",
+    "image": "/images/packaging/43.webp",
     "subtitle": "",
     "description": "TRUBUILD PRIMESURE PREMIUM is an excellent water-based primer with good penetration and outstanding bond strength, which can be used on multiple surfaces like concrete, screed, cement sheet, glossed surfaces like china mosaic, tiles, etc. before application of protective water based top coats",
     "benefits": [
@@ -382,30 +885,69 @@
     ],
     "applicationNotes": [],
     "specs": [
-      ["Physical State", "In House", "Low Viscous liquid"],
-      ["Appearance", "Visual", "Opaque"],
-      ["Colour", "Visual", "Yellow/white"],
-      ["pH", "ASTM E70", "7 to 8"],
-      ["Specific Gravity", "ASTM D 1475-2013", "1.01-1.03"],
-      ["Bond strength, on concrete mPa", "ASTM D 7234-2021", "≥1.5"],
-      ["Bond strength, on vitrified tiles mPa", "ASTM D 7234-2021", "≥2"],
-      ["Bond strength, on ceramic mat surface, mPa", "ASTM D 7234-2021", "≥2"],
-      ["Bond strength, on ceramic glaze surface, mPa", "ASTM D 7234-2021", "≥2"]
+      [
+        "Physical State",
+        "In House",
+        "Low Viscous liquid"
+      ],
+      [
+        "Appearance",
+        "Visual",
+        "Opaque"
+      ],
+      [
+        "Colour",
+        "Visual",
+        "Yellow/white"
+      ],
+      [
+        "pH",
+        "ASTM E70",
+        "7 to 8"
+      ],
+      [
+        "Specific Gravity",
+        "ASTM D 1475-2013",
+        "1.01-1.03"
+      ],
+      [
+        "Bond strength, on concrete mPa",
+        "ASTM D 7234-2021",
+        "\u22651.5"
+      ],
+      [
+        "Bond strength, on vitrified tiles mPa",
+        "ASTM D 7234-2021",
+        "\u22652"
+      ],
+      [
+        "Bond strength, on ceramic mat surface, mPa",
+        "ASTM D 7234-2021",
+        "\u22652"
+      ],
+      [
+        "Bond strength, on ceramic glaze surface, mPa",
+        "ASTM D 7234-2021",
+        "\u22652"
+      ]
     ],
     "tds": "https://www.trubuild.in/wp-content/uploads/2023/08/41_TRUBUILD-PRIMESURE-PREMIUM_RC.pdf",
     "verified": "2026-10-05",
     "sourceNotes": [
-      "Current packaging not listed in the source page’s sizes section."
-    ]
+      "Current packaging not listed in the source page\u2019s sizes section."
+    ],
+    "imageKind": "packaging"
   },
   {
     "id": "trubuild-walltect-top-coat",
-    "name": "Walltect Topcoat",
+    "name": "Walltect Pro Topcoat",
     "category": "Exterior Acrylic Coatings",
-    "applications": ["Exterior Waterproofing"],
+    "applications": [
+      "Exterior Waterproofing"
+    ],
     "source": "https://www.trubuild.in/products/trubuild-walltect-top-coat/",
     "imageSource": "https://www.trubuild.in/wp-content/uploads/2023/08/Trubuild-Walltect-Topcoat.png",
-    "image": "/images/trubuild-walltect-top-coat.webp",
+    "image": "/images/packaging/90.webp",
     "subtitle": "",
     "description": "TRUBUILD WALLTECT TOPCOAT is a high-grade, arylic-based, single-component elastomeric durable waterproof exterior coating, which is made with selected and graded fine fillers, with biocides additive for exterior wall. It has excellent flexibility, breathability, water resistance, crack bridging, weathering durability and an excellent resistance to the growth of microorganisms.",
     "benefits": [
@@ -431,39 +973,97 @@
     ],
     "applicationNotes": [],
     "specs": [
-      ["Appearance", "In House", "Opaque, white"],
-      ["Solid (%)", "ASTM D1644-01", "55±2"],
-      ["Elongation@120 µ (%)", "ASTM D 412-2016", "upto 160"],
-      ["DFT (micron)", "", "approx 120"],
-      ["Tensile Strength (N/mm²)", "ASTM D 412-2016", "≥2"],
-      ["Density (gm/cc)", "", "approx 1.29±0.01"],
-      ["Pull of Adhesion, (mPa)", "ASTM D 4541:2017", "≥2"],
-      ["Water Absorption (%)", "ASTM D471:16a", "<10%"],
+      [
+        "Appearance",
+        "In House",
+        "Opaque, white"
+      ],
+      [
+        "Solid (%)",
+        "ASTM D1644-01",
+        "55\u00b12"
+      ],
+      [
+        "Elongation@120 \u00b5 (%)",
+        "ASTM D 412-2016",
+        "upto 160"
+      ],
+      [
+        "DFT (micron)",
+        "",
+        "approx 120"
+      ],
+      [
+        "Tensile Strength (N/mm\u00b2)",
+        "ASTM D 412-2016",
+        "\u22652"
+      ],
+      [
+        "Density (gm/cc)",
+        "",
+        "approx 1.29\u00b10.01"
+      ],
+      [
+        "Pull of Adhesion, (mPa)",
+        "ASTM D 4541:2017",
+        "\u22652"
+      ],
+      [
+        "Water Absorption (%)",
+        "ASTM D471:16a",
+        "<10%"
+      ],
       [
         "Carbon dioxide diffusion, air layer thickness (m)",
         "DIN EN 1062-6:202",
         ">80"
       ],
-      ["RCPT (Coulombs)", "ASTM C1202:2019", "<2000"],
-      ["Water Penetration at 5 bar Pressure", "EN 12390-8:2019", "Nil"],
-      ["Water Vapour Transmission (gm/sqmt./day)", "ASTM D 1653:13", ">100"],
-      ["Fungi Resistance", "ASTM G 21-2015", "Excellent"],
-      ["UV Resistance", "ASTM D 4587-2011", "Excellent"]
+      [
+        "RCPT (Coulombs)",
+        "ASTM C1202:2019",
+        "<2000"
+      ],
+      [
+        "Water Penetration at 5 bar Pressure",
+        "EN 12390-8:2019",
+        "Nil"
+      ],
+      [
+        "Water Vapour Transmission (gm/sqmt./day)",
+        "ASTM D 1653:13",
+        ">100"
+      ],
+      [
+        "Fungi Resistance",
+        "ASTM G 21-2015",
+        "Excellent"
+      ],
+      [
+        "UV Resistance",
+        "ASTM D 4587-2011",
+        "Excellent"
+      ]
     ],
     "tds": "https://www.trubuild.in/wp-content/uploads/2023/08/08_TDS-Walltect-Pro-Topcoat.pdf",
     "verified": "2026-10-05",
     "sourceNotes": [
-      "Current packaging not listed in the source page’s sizes section."
-    ]
+      "Current packaging not listed in the source page\u2019s sizes section."
+    ],
+    "aliases": [
+      "Walltect Topcoat"
+    ],
+    "imageKind": "packaging"
   },
   {
     "id": "trubuild-walltect-basecoat",
-    "name": "Walltect Basecoat",
+    "name": "Walltect Pro Basecoat",
     "category": "Exterior Acrylic Coatings",
-    "applications": ["Exterior Waterproofing"],
+    "applications": [
+      "Exterior Waterproofing"
+    ],
     "source": "https://www.trubuild.in/products/trubuild-walltect-basecoat/",
     "imageSource": "https://www.trubuild.in/wp-content/uploads/2023/08/Trubuild-Walltect-Basecoat.png",
-    "image": "/images/trubuild-walltect-basecoat.webp",
+    "image": "/images/packaging/89.webp",
     "subtitle": "",
     "description": "TRUBUILD WALLTECT BASECOAT is a single-component, high-performance, acrylic-based, waterproof coating composed of high-quality emulsion polymer with properly selected graded fine fillers and additives. It is used as a waterproofing & protective coating for exterior walls of the buildings.",
     "benefits": [
@@ -478,230 +1078,498 @@
       "Weather proof"
     ],
     "packaging": "",
-    "fields": ["Masonry walls", "Exterior RCC", "Plastered surface"],
+    "fields": [
+      "Masonry walls",
+      "Exterior RCC",
+      "Plastered surface"
+    ],
     "applicationNotes": [],
     "specs": [
-      ["Appearance", "In House", "Opaque, white"],
-      ["Solid (%)", "ASTM D1644-01", "58±2"],
-      ["Elongation (%)", "ASTM D 412-2016", "≥ 150"],
-      ["DFT (micron)", "", "≥ 120"],
-      ["Tensile Strength (N/mm²)", "ASTM D 412-2016", "≥2.1"],
-      ["Specify Gravity", "", "1.32±0.02"],
-      ["Pull of Adhesion, (mPa)", "ASTM D 4541:2017", "≥2"],
-      ["Water Absorption (%)", "ASTM D471:16a", "<15%"],
+      [
+        "Appearance",
+        "In House",
+        "Opaque, white"
+      ],
+      [
+        "Solid (%)",
+        "ASTM D1644-01",
+        "58\u00b12"
+      ],
+      [
+        "Elongation (%)",
+        "ASTM D 412-2016",
+        "\u2265 150"
+      ],
+      [
+        "DFT (micron)",
+        "",
+        "\u2265 120"
+      ],
+      [
+        "Tensile Strength (N/mm\u00b2)",
+        "ASTM D 412-2016",
+        "\u22652.1"
+      ],
+      [
+        "Specify Gravity",
+        "",
+        "1.32\u00b10.02"
+      ],
+      [
+        "Pull of Adhesion, (mPa)",
+        "ASTM D 4541:2017",
+        "\u22652"
+      ],
+      [
+        "Water Absorption (%)",
+        "ASTM D471:16a",
+        "<15%"
+      ],
       [
         "Carbon dioxide diffusion, air layer thickness meter at 120 microns",
         "DIN EN 1062- 6:2002",
         ">90"
       ],
-      ["RCPT (Coulombs)", "ASTM C1202:2019", "<2000"],
-      ["Water Penetration at 5 bar Pressure", "EN 12390-8:2019", "Nil"],
-      ["Water Vapour Transmission (gm/sqmt./day)", "ASTM D 1653:13", ">160"],
-      ["Fungi Resistance", "ASTM G 21-2015", "Excellent"],
-      ["UV Resistance", "ASTM D 4587-2011", "Excellent"]
+      [
+        "RCPT (Coulombs)",
+        "ASTM C1202:2019",
+        "<2000"
+      ],
+      [
+        "Water Penetration at 5 bar Pressure",
+        "EN 12390-8:2019",
+        "Nil"
+      ],
+      [
+        "Water Vapour Transmission (gm/sqmt./day)",
+        "ASTM D 1653:13",
+        ">160"
+      ],
+      [
+        "Fungi Resistance",
+        "ASTM G 21-2015",
+        "Excellent"
+      ],
+      [
+        "UV Resistance",
+        "ASTM D 4587-2011",
+        "Excellent"
+      ]
     ],
     "tds": "https://www.trubuild.in/wp-content/uploads/2023/08/07_TDS-Walltect-Pro-Basecoat.pdf",
     "verified": "2026-10-05",
     "sourceNotes": [
-      "Current packaging not listed in the source page’s sizes section."
-    ]
+      "Current packaging not listed in the source page\u2019s sizes section."
+    ],
+    "aliases": [
+      "Walltect Basecoat"
+    ],
+    "imageKind": "packaging"
   },
   {
     "id": "trubuild-sealmaster-flexi",
     "name": "Sealmaster Flexi",
     "category": "Professional Sealants",
-    "applications": ["Professional Sealants"],
+    "applications": [
+      "Professional Sealants"
+    ],
     "source": "https://www.trubuild.in/products/trubuild-sealmaster-flexi/",
     "imageSource": "https://www.trubuild.in/wp-content/uploads/2023/10/Sealmaster-Flexi-1.png",
-    "image": "/images/trubuild-sealmaster-flexi.webp",
-    "subtitle": "",
-    "description": "Trubuild Sealmaster Flexi is a high-quality, single-component elastic joint sealant based on MS-Polymer. Once applied, the compound reacts with atmospheric moisture to form a tough and durable elastic seal.",
+    "image": "/images/packaging/49.webp",
+    "subtitle": "Single-component MS-polymer elastomeric joint sealant that cures with atmospheric moisture to form an elastic seal.",
+    "description": "Single-component MS-polymer elastomeric joint sealant that cures with atmospheric moisture to form an elastic seal.",
     "benefits": [
-      "High adhesive strength on most substrates",
-      "Superior mechanical properties",
-      "Permanently elastic after cure",
-      "UV resistant",
-      "Excellent weather resistance",
-      "Can be painted",
-      "Does not contain isocyanates, hence safe"
+      "Paintable",
+      "UV and weather resistant",
+      "Permanently elastic after cure"
     ],
     "packaging": "600 ml",
     "fields": [
-      "For gap filling",
-      "Sealing control and expansion joint",
-      "Bonding of metals, glass, ceramics"
+      "Gap filling",
+      "Sealing control and expansion joints",
+      "Bonding metals, glass and ceramics"
     ],
-    "applicationNotes": [],
+    "applicationNotes": [
+      "Apply to clean, dry, grease-free surfaces using a sausage gun.",
+      "Tool immediately before skin formation and remove masking tape before the sealant skins. Test suitability for the substrate and joint design."
+    ],
     "specs": [
-      ["Physical State", "", "Viscous paste"],
-      ["Appearance", "", "Opaque"],
-      ["Colour", "", "White, black, grey"],
-      ["Density (gm/cc)", "", "1.35-1.50"],
-      ["Tensile Strength (mPa)", "ASTM D 412: 2016", "Approx. 2"],
-      ["Elongation (%)", "ASTM D 412: 2016", "> 500"],
-      ["Shore A", "ASTM D 2240: 2015", "34"],
-      ["MAF", "ASTM C 719: 2014", "±50 %"],
-      ["Depth Cure", "", "Approx.1-2mm/ day"],
       [
-        "Effects of Heat Ageing",
+        "Physical state",
+        "-",
+        "Viscous paste"
+      ],
+      [
+        "Appearance",
+        "-",
+        "Opaque"
+      ],
+      [
+        "Colour",
+        "-",
+        "White, black, grey"
+      ],
+      [
+        "Density (gm/cc)",
+        "-",
+        "1.35-1.50"
+      ],
+      [
+        "Tensile strength (MPA)",
+        "ASTM D 412: 2016",
+        "2.14"
+      ],
+      [
+        "Elongation (%)",
+        "ASTM D 412: 2016",
+        "> 500"
+      ],
+      [
+        "Shore A",
+        "ASTM D 2240: 2015",
+        "34"
+      ],
+      [
+        "MAF",
+        "ASTM C 719: 2014",
+        "\u00b150%"
+      ],
+      [
+        "Depth cure",
+        "",
+        "Approx. 1-2 mm/Day"
+      ],
+      [
+        "Effects of heat ageing",
         "ASTM C 1246:2017",
         "No cracking and chalking"
       ],
       [
-        "Stain and Colour Change",
+        "Stain and colour change",
         "ASTM C 510:2016",
         "No staining and no colour change"
       ],
       [
-        "Tack Free",
+        "Tack free",
         "ASTM C 679:2015",
-        "No transfer of test specimen to the polythene film @ 72 hrs"
+        "No transfer of test specimen to the polythene film @ 72 hrs."
       ],
       [
-        "Adhesion-In-Peel Strength (N)",
+        "Adhesion-in-peel strength (N)",
         "ASTM C 794:2018",
-        "74.2 N (cohesive failure within the sealant and no adhesive bond loss b/w adhesive and substrate)"
+        "74.2 N (cohesive failure with in the sealant and no adhesive bond loss b/w adhesive and substrate)"
       ]
     ],
-    "tds": "https://www.trubuild.in/wp-content/uploads/2023/10/TDS-TRUBUILD-SEALMASTER-FLEXI-1.pdf",
-    "verified": "2026-10-05",
-    "sourceNotes": []
+    "tds": "/documents/tds/trubuild-sealmaster-flexi.pdf",
+    "verified": "2026-10-09",
+    "sourceNotes": [],
+    "documentId": "trubuild-sealmaster-flexi",
+    "tdsVersion": "N.1",
+    "tdsFile": "35_TRUBUILD SEALMASTER FLEXI_RC.pdf",
+    "tdsSha256": "7821981ffbe11dc1dae201975e82c582f4b974cc21d7b2a2773bf08855f15b2a",
+    "coverage": "Approximately 26 running metres/kg at 5 mm width \u00d7 5 mm depth; as stated in the TDS.",
+    "shelfLife": "12 months from manufacture under the TDS storage conditions.",
+    "specPages": [
+      2
+    ],
+    "storage": "2\u201340\u00b0C; original properly closed packaging in a dry place. Follow the complete TDS storage instructions.",
+    "tdsStatus": "final-approved",
+    "imageKind": "packaging"
   },
   {
     "id": "tru-pu-pura-1k",
     "name": "Tru PU Pura 1K",
     "category": "PU Coatings",
-    "applications": ["Roof Waterproofing"],
+    "applications": [
+      "Roof Waterproofing"
+    ],
     "source": "https://www.trubuild.in/products/tru-pu-pura-1k/",
     "imageSource": "https://www.trubuild.in/wp-content/uploads/2023/10/Tru-PU-Pura-1K-1.png",
-    "image": "/images/tru-pu-pura-1k.webp",
-    "subtitle": "",
-    "description": "Tru PU Pura 1K is a single-component, ready-to-use, pure polyurethane-based, liquid applied waterproofing membrane. It has excellent waterproofing properties and can be applied by brush and roller. It is ideal for waterproofing of terraces, roofs, balconies, bridges, podiums, canals, etc.",
+    "image": "/images/packaging/79.webp",
+    "subtitle": "Single-component, ready-to-use pure polyurethane liquid waterproofing membrane for prepared concrete and metal substrates.",
+    "description": "Single-component, ready-to-use pure polyurethane liquid waterproofing membrane for prepared concrete and metal substrates.",
     "benefits": [
-      "Single-component, hence ready-to-apply",
-      "Liquid-applied membrane, hence easy-to-use",
-      "Excellent waterproofing properties",
-      "Excellent bond strength, hence good durability",
-      "Root resistant",
-      "Good crack-bridging ability",
-      "Excellent adhesion to metal and concrete",
-      "Seamless coating, hence no joint."
+      "Seamless membrane",
+      "Root resistance",
+      "Adhesion to concrete and metal"
     ],
-    "packaging": "25 Kg",
+    "packaging": "25 kg",
     "fields": [
-      "Waterproofing of wet areas,foundations,basements,terraces,retaining walls,inverted roofs, etc",
-      "For waterproofing terrace, garden and podium",
-      "Other roof structures when protected from exposure to direct sunlight, for a longer life"
+      "Balconies, terraces, sloping roofs and bridges",
+      "Podiums, tunnels, deck areas and canals"
     ],
-    "applicationNotes": [],
+    "applicationNotes": [
+      "Concrete moisture content must be below 5%. Prime concrete with Primesure EPMI at 80\u2013100 sq ft/L.",
+      "Limit each layer to 0.5\u20130.6 mm WFT. Recoat after 24 hours and no later than 48 hours. Air cure for at least seven days.",
+      "Follow the TDS geotextile separation layer, protective screed, slope and control-joint requirements."
+    ],
     "specs": [
-      ["Appearance", "", "Opaque"],
-      ["Colour", "", "Red, grey, white(subject to availability)"],
-      ["Shore A", "", "60"],
-      ["Solid(%)", "ASTM C 836 : 2018", ">85"],
       [
-        "Low Temp, Crack-Bridging @ 3.2 mm",
-        "ASTM C 1305 : 2016",
-        "No Cracking"
+        "Appearance",
+        "-",
+        "Opaque"
       ],
-      ["Adhesion in Peel after Water", "ASTM C 794 : 2018", "26"],
-      ["Immersion (N)", "", ""],
-      ["Tensile Strength(N/mm2)", "ASTM D 412:2016", ">2"],
-      ["Elongation(%)", "ASTM D 412:2016", ">500"],
-      ["Density at @25°C(gm/ cc)", "", "1.45"],
-      ["Cure Time", "", "7 days"],
-      ["Water Vapour Transmission(g/m2/day)", "ASTM E 96 : 2022", "19.4"],
-      ["Resistant to Water @ 5 Bar Pressure", "EN 12390-8 : 2019", "Pass"],
-      ["Root Penetration", "CEN/TS - 14416 : 2014", "No Root Penetration"]
+      [
+        "Colour",
+        "-",
+        "Red, Grey, White (subject to availability)"
+      ],
+      [
+        "Shore A",
+        "In house",
+        "60"
+      ],
+      [
+        "Solid (%)",
+        "ASTM C 836:2018",
+        ">85"
+      ],
+      [
+        "Low temp, crack bridging @ 3.2 mm extension",
+        "ASTM C 1305:2016",
+        "No cracking"
+      ],
+      [
+        "Adhesion in peel after water immersion (N)",
+        "ASTM C 794:2018",
+        "26"
+      ],
+      [
+        "Tensile strength (N/mm\u00b2)",
+        "ASTM D 412:2016",
+        ">2"
+      ],
+      [
+        "Elongation (%)",
+        "ASTM D 412:2016",
+        ">500"
+      ],
+      [
+        "Density at @25\u00b0C (gm/cc)",
+        "In house",
+        "1.45"
+      ],
+      [
+        "Cure time",
+        "In house",
+        "7 days"
+      ],
+      [
+        "Water vapour transmission (g/m\u00b2 day)",
+        "ASTM E 96:2022",
+        "19.4"
+      ],
+      [
+        "Resistant to water @ 5 bar pressure (mm)",
+        "EN 1239-8:2019",
+        "Pass"
+      ],
+      [
+        "Root penetration",
+        "CEN/TS 14416:2014",
+        "No root penetration"
+      ]
     ],
-    "tds": "https://www.trubuild.in/wp-content/uploads/2023/10/TDS-TRUBUILD-TRU-PU-PURA-1K-1.pdf",
-    "verified": "2026-10-05",
-    "sourceNotes": []
+    "tds": "/documents/tds/tru-pu-pura-1k.pdf",
+    "verified": "2026-10-09",
+    "sourceNotes": [],
+    "documentId": "tru-pu-pura-1k",
+    "tdsVersion": "N.1",
+    "tdsFile": "37_TRUBUILD TRU PU PURA 1K_RC.pdf",
+    "tdsSha256": "f4ea409a301adbf4b9904d94b755092d658333fd4eb6e1afb2345de2632fb9f2",
+    "coverage": "Approximately 1.5\u20131.6 kg/m\u00b2 to achieve 1 mm DFT.",
+    "shelfLife": "12 months from manufacture under the TDS storage conditions.",
+    "specPages": [
+      2
+    ],
+    "storage": "20\u201330\u00b0C; original unopened containers, protected from moisture and sunlight.",
+    "tdsStatus": "final-approved",
+    "imageKind": "packaging"
   },
   {
     "id": "trubuild-primesure-epmi",
     "name": "Primesure EPMI",
     "category": "PU Coatings",
-    "applications": ["Roof Waterproofing"],
+    "applications": [
+      "Roof Waterproofing"
+    ],
     "source": "https://www.trubuild.in/products/trubuild-primesure-epmi/",
     "imageSource": "https://www.trubuild.in/wp-content/uploads/2023/10/Primesure-EPMI_3L_Jar-Mockup-copy.png",
-    "image": "/images/trubuild-primesure-epmi.webp",
-    "subtitle": "",
-    "description": "Trubuild Primesure EPMI is a two-component, epoxy-based, solvent-free, moisture-insensitive primer. This can be used as a primer for PU, polyurea, and PU hybrid waterproofing coating.",
+    "image": "/images/packaging/41.webp",
+    "subtitle": "Two-component, solvent-free, moisture-insensitive epoxy primer for PU, polyurea and PU-hybrid waterproofing coatings on concrete.",
+    "description": "Two-component, solvent-free, moisture-insensitive epoxy primer for PU, polyurea and PU-hybrid waterproofing coatings on concrete.",
     "benefits": [
-      "Low viscous, hence good penetration",
-      "Excellent bonding with the substrate",
-      "Moisture resistant up to 5%",
-      "Good brushability, hence ease of application"
+      "Low viscosity",
+      "Good substrate penetration",
+      "Moisture resistance up to 5%"
     ],
-    "packaging": "8 L",
-    "fields": ["Primer for concrete surfaces"],
-    "applicationNotes": [],
+    "packaging": "5 L and 3 L (as illustrated in the TDS)",
+    "fields": [
+      "Priming prepared concrete before PU, polyurea and PU-hybrid waterproofing coatings"
+    ],
+    "applicationNotes": [
+      "Mix resin Part A:hardener Part B 1:0.6 by weight; do not dilute.",
+      "Concrete should have at least 20 MPa strength at 28 days. Apply between 5\u00b0C and 35\u00b0C.",
+      "Not recommended for underwater repairs or multiple coats to build thickness."
+    ],
     "specs": [
-      ["Appearance", "Visual", "Translucent"],
-      ["Density at @ 25°C, gm/cc", "In House", "Approx. 0.95 ± 0.02"],
       [
-        "Mixing Ratio (Resin Part A: Hardener Part B, by Weight ).",
-        "",
+        "Appearance",
+        "Visual",
+        "Translucent"
+      ],
+      [
+        "Density at @ 25\u00b0C, gm/cc",
+        "In House",
+        "Approx. 0.95 \u00b1 0.02"
+      ],
+      [
+        "Mixing ratio (resin Part A: hardener Part B, by wt).",
+        "-",
         "1:0.6"
       ],
-      ["Pot Life at 30°C", "Visual", "60 min."],
-      ["Tack Free Time at 30°C", "Visual", "Approx. 180 min"],
-      ["Hard Dry Pullout Strength after mixing (N/mm2)", "In House", ">1"],
-      ["Mix Viscosity, cps @25°C after 2 min", "In House", "Approx. 165"]
+      [
+        "Pot life at 30\u00b0C",
+        "Visual",
+        "60 min."
+      ],
+      [
+        "Tack free time at 30\u00b0C",
+        "Visual",
+        "Approx. 180 min."
+      ],
+      [
+        "Hard dry pullout strength after mixing (N/mm\u00b2)",
+        "In House",
+        ">1"
+      ],
+      [
+        "Mix viscosity, CPS @25\u00b0C after 2 min.",
+        "In House",
+        "Approx. 165"
+      ]
     ],
-    "tds": "https://www.trubuild.in/wp-content/uploads/2023/10/TDS-TRUBUILD-PRIMESURE-EPMI-1.pdf",
-    "verified": "2026-10-05",
-    "sourceNotes": []
+    "tds": "/documents/tds/trubuild-primesure-epmi.pdf",
+    "verified": "2026-10-09",
+    "sourceNotes": [],
+    "documentId": "trubuild-primesure-epmi",
+    "tdsVersion": "N.1",
+    "tdsFile": "11_TDS_PRIMESURE EPMI.pdf",
+    "tdsSha256": "eeaa38d55db5ab82b3a7166fa8d63eac1368c14a2c426f7b9f175d2de8e5371f",
+    "coverage": "Approximately 80\u2013100 sq ft/L.",
+    "shelfLife": "12 months from manufacture under the TDS storage conditions.",
+    "specPages": [
+      2
+    ],
+    "storage": "20\u201330\u00b0C; original unopened containers, protected from moisture and sunlight.",
+    "tdsStatus": "final-approved",
+    "imageKind": "packaging"
   },
   {
     "id": "trubuild-waterproofing-membrane-tru-pu",
     "name": "TRU PU",
     "category": "PU Coatings",
     "applications": [
-      "Roof Waterproofing",
+      "Wet Areas",
       "Substructure Waterproofing",
-      "Wet Areas"
+      "Roof Waterproofing"
     ],
     "source": "https://www.trubuild.in/products/trubuild-waterproofing-membrane-tru-pu/",
     "imageSource": "https://www.trubuild.in/wp-content/uploads/2023/08/Tru-PU-20L.png",
-    "image": "/images/trubuild-waterproofing-membrane-tru-pu.webp",
-    "subtitle": "Waterproofing Membrane",
-    "description": "TRU PU is a single-component, elastomeric, bitumen-modified, PU-based,liquid applied waterproofing system. It acts as an excellent barrier against seepages.",
+    "image": "/images/packaging/78.webp",
+    "subtitle": "Water-based, single-component, bitumen-modified polyurethane liquid waterproofing membrane for protected applications.",
+    "description": "Water-based, single-component, bitumen-modified polyurethane liquid waterproofing membrane for protected applications.",
     "benefits": [
-      "Single-component liquid system and very easy to apply",
-      "High elasticity ensures a permanently flexible barrier over a wide range of temperatures",
-      "Outstanding resistance to oxidation and brittlement",
-      "Gives better adhesion. Can be applied to a range of substrates",
-      "Good crack bridging capacity upto 2 mm",
-      "Good retention capacity"
+      "High elasticity",
+      "Crack bridging",
+      "Single-component application"
     ],
-    "packaging": "1 Kg 20 Kg",
+    "packaging": "1 kg, 5 kg, 10 kg, 20 kg",
     "fields": [
-      "Waterproofing of wet areas, foundations, basements, terraces, retaining walls, inverted roofs, etc.",
-      "For waterproofing terrace, garden and podium",
-      "Other roof structures when protected from exposure to direct sunlight, for a longer life"
+      "Wet areas, foundations, basements, terraces, retaining walls and podiums"
     ],
-    "applicationNotes": [],
+    "applicationNotes": [
+      "For self-priming only, dilute with no more than 20% water by weight. Apply subsequent coats undiluted.",
+      "Not suitable for permanent immersion, water tanks, swimming pools or water features.",
+      "Allow at least ten days before ponding tests. Use a separation layer and protective screed; protect against mechanical damage."
+    ],
     "specs": [
-      ["Appearance", "In House", "Viscous Liquid"],
-      ["Colour", "In House", "Black after Drying"],
-      ["Density @25°C", "ASTM D 1475-2013", "1.07 ± 0.02 g/cm3"],
+      [
+        "Appearance",
+        "In house",
+        "Viscous Liquid"
+      ],
+      [
+        "Colour",
+        "In House",
+        "Black after Drying"
+      ],
+      [
+        "Density@25oC",
+        "ASTM D 1475-2013",
+        "1.07 \u00b1 0.02 g/cm\u00b3"
+      ],
       [
         "Cure Time",
-        "",
-        "24 Hours approx. (complete curing 7 to 10 days) to 24 hours approx (complete curing 7 to 10 days)."
+        "In House",
+        "24 hour approx."
       ],
-      ["Tensile Strength at Break", "ASTM D 412", ">1.5 N/mm2"],
-      ["Elongation at Break", "ASTM D 412", "≥ 600 %"],
-      ["Crack Bridging (mm)", "EN 1062-7 : 2004", "Approx. 2mm"],
-      ["Shore A Hardness", "ASTM D 2240 : 2015", "Approx. 45"],
-      ["WFT", "In House", "1000 – 1200 micron"],
-      ["DFT", "In House", "500 – 600 micron"]
+      [
+        "Tensile strength at Break",
+        "ASTM D 412",
+        ">1.5 N/mm\u00b2"
+      ],
+      [
+        "Elongation at break",
+        "ASTM D 412",
+        "\u2265600%"
+      ],
+      [
+        "Water Permeability @ 5 Bar",
+        "EN 12390-8:2019",
+        "Nil"
+      ],
+      [
+        "Pull off Adhesion Strength",
+        "ASTM D 7234:2022",
+        "> 1 N/mm\u00b2"
+      ],
+      [
+        "Crack Bridging ability",
+        "EN 1062-7:2004",
+        "Approx. 2mm"
+      ],
+      [
+        "Shore A Hardness",
+        "ASTM D 2240:2015",
+        "Approx. 45"
+      ],
+      [
+        "WFT",
+        "In House",
+        "Approx. 1000-1200 micron"
+      ],
+      [
+        "DFT",
+        "In House",
+        "Approx. 500-600 micron"
+      ]
     ],
-    "tds": "https://www.trubuild.in/wp-content/uploads/2023/08/23_TRUBUILD-TRUBUILD-TRU-PU_RC-1.pdf",
-    "verified": "2026-10-05",
-    "sourceNotes": []
+    "tds": "/documents/tds/trubuild-waterproofing-membrane-tru-pu.pdf",
+    "verified": "2026-10-09",
+    "sourceNotes": [],
+    "documentId": "trubuild-waterproofing-membrane-tru-pu",
+    "tdsVersion": "N.1",
+    "tdsFile": "23_TRUBUILD TRUBUILD TRU PU_RC.pdf",
+    "tdsSha256": "b37940be33f0a3318ecba163e84defa5de6f807c0565fdef5260daac5f045660",
+    "coverage": "1.1\u20131.2 kg/m\u00b2 for two coats. Self-primer: approximately 80\u201390 sq ft/kg.",
+    "shelfLife": "24 months from manufacture under the TDS storage conditions.",
+    "specPages": [
+      2
+    ],
+    "storage": "2\u201340\u00b0C; original properly closed packaging in a dry place. Follow the complete TDS storage instructions.",
+    "tdsStatus": "final-approved",
+    "imageKind": "packaging"
   },
   {
     "id": "trubuild-aqualock-flexi",
@@ -709,47 +1577,114 @@
     "category": "Cementitious Coatings",
     "applications": [
       "Roof Waterproofing",
+      "Wet Areas",
       "Substructure Waterproofing",
-      "Water Tanks and Other Areas",
-      "Wet Areas"
+      "Water Tanks and Other Areas"
     ],
     "source": "https://www.trubuild.in/products/trubuild-aqualock-flexi/",
     "imageSource": "https://www.trubuild.in/wp-content/uploads/2023/08/Aqualock-flexi-12-kg_Box_Mockup-copy.png",
-    "image": "/images/trubuild-aqualock-flexi.webp",
-    "subtitle": "",
-    "description": "TRUBUILD AQUALOCK FLEXI is a two-component, acrylic-modified, high-performance, elastomeric, cementitious, waterproofing membrane coating particularly designed for concrete and masonry surface. The powder Part B is mixed with high build polymer liquid Part A. It forms a flexible and seamless waterproof membrane which acts as an excellent water barrier for concrete and masonry surface. This can be used for both positive and negative side waterproofing due to its high resistance to hydrostatic pressure. It also provides lasting protection against efflorescence.",
+    "image": "/images/packaging/13.webp",
+    "subtitle": "Two-component, acrylic-modified elastomeric cementitious waterproofing coating for concrete and masonry, including positive- and negative-side applications.",
+    "description": "Two-component, acrylic-modified elastomeric cementitious waterproofing coating for concrete and masonry, including positive- and negative-side applications.",
     "benefits": [
-      "Easily applied by brush",
-      "Flexible coating",
-      "Excellent adhesion to concrete and masonry substrates",
-      "CFTRI approved hence non-toxic",
-      "Environmentally friendly - free Volatile Organic Compound (VOC)",
-      "Can withstand 5 bar positive and 4 bar negative water pressure",
-      "Anti-efflorescent"
+      "Flexible seamless membrane",
+      "Adhesion to concrete and masonry",
+      "Anti-efflorescence capability"
     ],
-    "packaging": "12 Kg (5kg+7kg) 48 Kg (20kg + 28kg)",
+    "packaging": "12 kg, 48 kg",
     "fields": [
-      "Concrete roofs, parking decks, bathroom, toilet, kitchen, balconies and planter box, etc.",
-      "Swimming pools, water tanks and reservoirs, etc.",
-      "Concrete foundations, basement walls, lift pits, etc."
+      "Concrete roofs, parking decks, bathrooms, toilets, kitchens, balconies and planters",
+      "Swimming pools, water tanks and reservoirs",
+      "Retaining walls and lift pits"
     ],
-    "applicationNotes": [],
+    "applicationNotes": [
+      "Mix Part A liquid and Part B powder 1:1.4 by weight; do not add water.",
+      "Apply at least two coats on a saturated surface dry substrate, allowing 4\u20136 hours between coats.",
+      "New concrete must cure for at least 28 days. Allow at least seven days before ponding tests or filling water-retaining structures.",
+      "Not a trafficable finish; follow the TDS protective screed and curing requirements."
+    ],
     "specs": [
-      ["Mixing Ratio (By weight)", "", "1:1.4 (Part A liquid : Part B powder)"],
-      ["Set to Touch Time at 25- 27°C (min.)", "ASTM D1640:2018", "45"],
-      ["Adhesion to concrete after 7 Days(mPa)", "ASTM D 4541:2017", "≥1"],
-      ["Elongation at Break (%)", "ASTM D 412:2016", ">150"],
-      ["Crack Bridging Ability (mm)", "EN 1062-7:2004", "Upto 2"],
-      ["Food Grade Certification", "CFTRI certification", "Pass"],
-      ["Toxicity", "IS 6582:1972", "Non -Toxic"],
-      ["Water Penetration at 5 bar pressure", "EN12390-8:2019", "NIL"],
-      ["Negative Permeability", "ASTM D-7088:2017", "Upto 4 Bar"],
-      ["Anti-Efflorescence", "SS-500:2015", "Pass"],
-      ["Tensile strength(N/mm2)", "ASTM D 412:2016", "≥1"]
+      [
+        "Mixing ratio",
+        "-",
+        "1:1.4 (Part A liquid:Part Bpowder) by weight"
+      ],
+      [
+        "Set to touch time at 25-27\u00b0C (min.)",
+        "ASTM D1640:2018",
+        "45"
+      ],
+      [
+        "Adhesion to concrete after 7 days (Mpa)",
+        "ASTM D 4541:2017",
+        "\u22651"
+      ],
+      [
+        "Tensile strength \u2013 on casting (N/mm\u00b2)",
+        "ASTM D 412:2016",
+        "\u22651"
+      ],
+      [
+        "Elongation at break (%)",
+        "ASTM D 412:2016",
+        ">150"
+      ],
+      [
+        "Crack bridging ability (mm)",
+        "EN 1062-7:2004",
+        "Up to 2"
+      ],
+      [
+        "Rapid chloride penetration test (coulombs)",
+        "ASTM C 1202: 2019",
+        "<2500"
+      ],
+      [
+        "Food grade certification",
+        "CFTRI certification",
+        "Pass"
+      ],
+      [
+        "Toxicity",
+        "IS 6582:1972",
+        "Non -toxic"
+      ],
+      [
+        "Water penetration at 5 bar pressure",
+        "EN12390-8:2019",
+        "NIL"
+      ],
+      [
+        "Shore A hardness",
+        "ASTM D 2240:2015",
+        "70"
+      ],
+      [
+        "Negative permeability",
+        "ASTM D-7088:2017",
+        "up to 4 bar"
+      ],
+      [
+        "Anti-efflorescence",
+        "SS-500:2015",
+        "Pass"
+      ]
     ],
-    "tds": "https://www.trubuild.in/wp-content/uploads/2023/08/02_TRUBUILD-AQUALOCK-FLEXI_RC.pdf",
-    "verified": "2026-10-05",
-    "sourceNotes": []
+    "tds": "/documents/tds/trubuild-aqualock-flexi.pdf",
+    "verified": "2026-10-09",
+    "sourceNotes": [],
+    "documentId": "trubuild-aqualock-flexi",
+    "tdsVersion": "N.1",
+    "tdsFile": "02_TRUBUILD AQUALOCK FLEXI_RC.pdf",
+    "tdsSha256": "1c58bb8a6a5e556d9f47a31346fb403268e34787b81fc72f876eb8fee79b5cfa",
+    "coverage": "1.8\u20132 kg/m\u00b2 for two coats; 1.2\u20131.5 mm DFT.",
+    "shelfLife": "12 months from manufacture under the TDS storage conditions.",
+    "specPages": [
+      2
+    ],
+    "storage": "2\u201340\u00b0C; unopened, dry and away from direct sunlight.",
+    "tdsStatus": "final-approved",
+    "imageKind": "packaging"
   },
   {
     "id": "trubuild-aqualock",
@@ -757,59 +1692,119 @@
     "category": "Cementitious Coatings",
     "applications": [
       "Roof Waterproofing",
-      "Water Tanks and Other Areas",
-      "Wet Areas"
+      "Wet Areas",
+      "Substructure Waterproofing",
+      "Water Tanks and Other Areas"
     ],
     "source": "https://www.trubuild.in/products/trubuild-aqualock/",
     "imageSource": "https://www.trubuild.in/wp-content/uploads/2023/08/Aqualock_jar-Sticker-5KG_Jar.png",
-    "image": "/images/trubuild-aqualock.webp",
-    "subtitle": "",
-    "description": "TRUBUILD AQUALOCK is a two-component, acrylic-modified, flexible, cementitious waterproofing membrane coating particularly designed for concrete and masonry surface, which is supplied in a ready-to-mix kit (two parts). When the powder part is mixed with acrylic-modified emulsion and applied, it becomes a flexible and seamless waterproofing membrane and acts as an excellent water barrier to concrete and masonry surface",
+    "image": "/images/packaging/4.webp",
+    "subtitle": "Two-component, acrylic-modified cementitious waterproofing coating for concrete and masonry.",
+    "description": "Two-component, acrylic-modified cementitious waterproofing coating for concrete and masonry. The liquid and powder components form a flexible, seamless membrane.",
     "benefits": [
-      "Quick drying",
-      "Easily applied by brush or trowel",
-      "Flexible",
-      "Excellent adhesion to concrete and masonry substrates",
-      "Non-toxic substances",
-      "Environmentally friendly - free form Volatile Organic Compounds (VOC)",
-      "Can be applied on damp surface",
-      "Can withstand positive hydrostatic pressure upto 5 bar and negative hydrostatic pressure upto 3 bar"
+      "Flexible membrane",
+      "Brush or trowel application",
+      "Adhesion to concrete and masonry"
     ],
-    "packaging": "3 Kg 15 Kg 90 Kg",
+    "packaging": "3 kg, 15 kg, 90 kg",
     "fields": [
-      "Concealed roofs, parking decks, bathroom, toilet, kitchen, balconies and planters",
+      "Roofs, parking decks, bathrooms, kitchens, balconies and planters",
       "Swimming pools, water tanks and reservoirs",
-      "Concrete foundations, basements wall and lift pits",
-      "Any other concrete, cement or masonry surface subject to damage from moisture"
+      "Concrete foundations, basement walls and lift pits"
     ],
-    "applicationNotes": [],
+    "applicationNotes": [
+      "Mix Part A liquid and Part B powder 1:2 by weight; do not add water.",
+      "Prepare a saturated surface dry substrate without standing water. Apply at least two coats, 4\u20136 hours apart.",
+      "Allow at least seven days before ponding tests or filling tanks. A protective screed is required for trafficable finishes."
+    ],
     "specs": [
-      ["Mixing Ratio (By weight)", "", "1:2 (Part A liquid : Part B powder)"],
-      ["Bulk Density of Powder", "In House", "1.6 – 1.8"],
-      ["Mixed Density Of Wet Mix, gm/ml", "In House", "1.7 – 1.80"],
-      ["Set to Touch Time at 25°C", "In House", "45 min."],
-      ["Water Absorption", "In House", "< 6 %"],
-      ["Adhesion to concrete after 7 Days", "ASTM D 4541", "≥ 1 mPa"],
-      ["Positive Hydrostatic Pressure", "EN-12390 Part-8", "Pass"],
-      ["Tensile Strength – on casting", "ASTM D 412", "upto 1MPA"],
-      ["Elongation at Break (%)", "ASTM D 412", "Min. 60%"],
-      ["Crack Bridging", "EN1062-7", "Upto 1 mm"],
-      ["WFT* ( 2 Coats )", "", "1000 - 1200 micron"],
-      ["DFT* ( 2 Coats )", "", "800 - 1000 micron"],
-      ["Food Grade Certification", "CFTRI Certified", "Pass"]
+      [
+        "Mixing ratio by weight",
+        "",
+        "1:2 (Part A liquid:Part B powder)"
+      ],
+      [
+        "Bulk density of powder",
+        "In-house test",
+        "1.6\u20131.8"
+      ],
+      [
+        "Mixed density of wet mix (g/ml)",
+        "In-house test",
+        "1.7\u20131.80"
+      ],
+      [
+        "Set-to-touch time at 25\u00b0C",
+        "In-house test",
+        "45 min"
+      ],
+      [
+        "Water absorption",
+        "In-house test",
+        "<6%"
+      ],
+      [
+        "Adhesion to concrete after 7 days",
+        "ASTM D 4541",
+        "\u22651 MPa"
+      ],
+      [
+        "Positive hydrostatic pressure",
+        "EN-12390 Part-8",
+        "Pass"
+      ],
+      [
+        "Tensile strength on casting",
+        "ASTM D 412",
+        "Up to 1 MPa"
+      ],
+      [
+        "Elongation at break",
+        "ASTM D 412",
+        "Min. 60%"
+      ],
+      [
+        "Crack bridging",
+        "EN 1062-7",
+        "Up to 1 mm"
+      ],
+      [
+        "WFT (2 coats)",
+        "",
+        "1000\u20131200 microns"
+      ],
+      [
+        "DFT (2 coats)",
+        "",
+        "800\u20131000 microns"
+      ]
     ],
-    "tds": "https://www.trubuild.in/wp-content/uploads/2023/08/01_TRUBUILD-AQUALOCK_RC.pdf",
-    "verified": "2026-10-05",
-    "sourceNotes": []
+    "tds": "/documents/tds/trubuild-aqualock.pdf",
+    "verified": "2026-10-09",
+    "sourceNotes": [],
+    "documentId": "trubuild-aqualock",
+    "tdsVersion": "N.1",
+    "tdsFile": "01_TRUBUILD AQUALOCK_RC.pdf",
+    "tdsSha256": "002a1e0693bc2bc604494140f4854b7ec7c500dedec52499c3fa669eb67c3025",
+    "coverage": "1.65\u20131.75 kg/m\u00b2 for two coats; 0.8\u20131 mm DFT.",
+    "shelfLife": "12 months from manufacture under the TDS storage conditions.",
+    "specPages": [
+      2
+    ],
+    "storage": "2\u201340\u00b0C; unopened, dry and away from direct sunlight.",
+    "tdsStatus": "final-approved",
+    "imageKind": "packaging"
   },
   {
     "id": "trubuild-rooftect-prime",
     "name": "Rooftect Prime",
     "category": "Roof Acrylic Coatings",
-    "applications": ["Roof Waterproofing"],
+    "applications": [
+      "Roof Waterproofing"
+    ],
     "source": "https://www.trubuild.in/products/trubuild-rooftect-prime/",
     "imageSource": "https://www.trubuild.in/wp-content/uploads/2023/08/Trubuild-Rooftect-Pro.png",
-    "image": "/images/trubuild-rooftect-prime.webp",
+    "image": "/images/packaging/45.webp",
     "subtitle": "Acrylic Waterproof Coating With Heat Reflection",
     "description": "TRUBUILD ROOFTECT PRIME is a single-component, fiber-reinforced, acrylic-based, waterproofing liquid membrane coating. Selected synthetic fiber and polymer makes it the ultimate waterproofing system. After curing, it forms a seamless film having high strength, flexibility, durability, weather resistance & excellent waterproof coating system.",
     "benefits": [
@@ -817,7 +1812,7 @@
       "Durable coating",
       "Good bond strength",
       "Good weather resistance",
-      "Excellent resilience to thermal stress. Reduces surface temperature up to 10°C",
+      "Excellent resilience to thermal stress. Reduces surface temperature up to 10\u00b0C",
       "Anti-carbonation properties",
       "Good alkali resistance"
     ],
@@ -825,44 +1820,108 @@
     "fields": [
       "Brick bat coba",
       "Cement mortar screed",
-      "China mosaic & other roof tiles – flat roof / sloppy roofs",
+      "China mosaic & other roof tiles \u2013 flat roof / sloppy roofs",
       "For miscellaneous surfaces- contact trubuild technical services team"
     ],
     "applicationNotes": [
       "Note- For china mosaic and roof tile use Trubuild Primesure Premium"
     ],
     "specs": [
-      ["Appearance", "In House", "Opaque, white"],
-      ["Solid (%)", "ASTM D 1644:01", "57±2"],
-      ["Elongation (%)", "ASTM D 412:2016", ">350"],
-      ["Crack Bridging Ability(mm)", "EN 1062-7:2004", "up to 2"],
-      ["DFT (microns)", "", "600 - 650"],
-      ["Tensile Strength(N/mm2)", "ASTM D 412:2016", "≥2"],
-      ["Density (gm/cc)", "ASTM D 1475:2013", "1.26±0.01"],
-      ["Pull of Adhesion, (mPa)", "ASTM D 4541:2017", "≥2"],
-      ["Anti-Carbonation, R value @DFT 0.65mm", "DIN EN 1062- 6:2002", ">60"],
-      ["Water Vapor Transmission (gm /m2/24 hr)", "ASTM D 1653:13", ">300"],
-      ["Water Absorption (%)", "ASTM D 471:16a", "<10"],
-      ["SRI", "ASTM E 1980-19 EN 12898 : 2019 EN673: 2011", "107"],
-      ["UV Resistance", "ASTM D 4587:11", "Excellent"],
-      ["Alkali Resistance", "SS 5 Part G2-2003", "No yellowing/ blistering"],
-      ["Water Permeability @ 7 bar", "EN 12390-8-2019", "NIL"]
+      [
+        "Appearance",
+        "In House",
+        "Opaque, white"
+      ],
+      [
+        "Solid (%)",
+        "ASTM D 1644:01",
+        "57\u00b12"
+      ],
+      [
+        "Elongation (%)",
+        "ASTM D 412:2016",
+        ">350"
+      ],
+      [
+        "Crack Bridging Ability(mm)",
+        "EN 1062-7:2004",
+        "up to 2"
+      ],
+      [
+        "DFT (microns)",
+        "",
+        "600 - 650"
+      ],
+      [
+        "Tensile Strength(N/mm2)",
+        "ASTM D 412:2016",
+        "\u22652"
+      ],
+      [
+        "Density (gm/cc)",
+        "ASTM D 1475:2013",
+        "1.26\u00b10.01"
+      ],
+      [
+        "Pull of Adhesion, (mPa)",
+        "ASTM D 4541:2017",
+        "\u22652"
+      ],
+      [
+        "Anti-Carbonation, R value @DFT 0.65mm",
+        "DIN EN 1062- 6:2002",
+        ">60"
+      ],
+      [
+        "Water Vapor Transmission (gm /m2/24 hr)",
+        "ASTM D 1653:13",
+        ">300"
+      ],
+      [
+        "Water Absorption (%)",
+        "ASTM D 471:16a",
+        "<10"
+      ],
+      [
+        "SRI",
+        "ASTM E 1980-19 EN 12898 : 2019 EN673: 2011",
+        "107"
+      ],
+      [
+        "UV Resistance",
+        "ASTM D 4587:11",
+        "Excellent"
+      ],
+      [
+        "Alkali Resistance",
+        "SS 5 Part G2-2003",
+        "No yellowing/ blistering"
+      ],
+      [
+        "Water Permeability @ 7 bar",
+        "EN 12390-8-2019",
+        "NIL"
+      ]
     ],
-    "tds": "https://www.trubuild.in/wp-content/uploads/2023/08/03_TDS_TRUBUILD-ROOFTECT-PRIME.pdf",
+    "tds": null,
     "verified": "2026-10-05",
     "sourceNotes": [
       "Some official copy and documents use legacy product names; confirm the current code and document revision.",
-      "Current packaging not listed in the source page’s sizes section."
-    ]
+      "Current packaging not listed in the source page\u2019s sizes section."
+    ],
+    "tdsStatus": "replacement-pending",
+    "imageKind": "packaging"
   },
   {
     "id": "trubuild-rooftect-advanced",
     "name": "Rooftect Advanced",
     "category": "Roof Acrylic Coatings",
-    "applications": ["Roof Waterproofing"],
+    "applications": [
+      "Roof Waterproofing"
+    ],
     "source": "https://www.trubuild.in/products/trubuild-rooftect-advanced/",
     "imageSource": "https://www.trubuild.in/wp-content/uploads/2023/08/TRUBUILD_Rooftect-Advanced_20-L_UPDATED.png",
-    "image": "/images/trubuild-rooftect-advanced.webp",
+    "image": "/images/packaging/44.webp",
     "subtitle": "Pu Acrylate Waterproof Coating For Roofs",
     "description": "TRUBUILD ROOFTECT ADVANCED is a single-component, waterproofing system with a unique PU acrylate-based formulation, which provides excellent barrier against water and heat. It forms a seamless waterproofing membrane, which has excellent elongation with good crack bridging capacity, excellent reflectance properties. Hence, it forms exceptional waterproofing coating system with good durability.",
     "benefits": [
@@ -874,7 +1933,7 @@
       "Excellent adhesion to the substrate",
       "Water based hence eco friendly",
       "Excellent elongation & good crack bridging capacity",
-      "Reduces surface temperature by 10°C"
+      "Reduces surface temperature by 10\u00b0C"
     ],
     "packaging": "",
     "fields": [
@@ -884,40 +1943,83 @@
       "For miscellaneous surfaces, contact Trubuild technical team"
     ],
     "applicationNotes": [
-      "Note – For china mosaic and other roof tiles use Trubuild Primesure Premium"
+      "Note \u2013 For china mosaic and other roof tiles use Trubuild Primesure Premium"
     ],
     "specs": [
-      ["Solid Content (%)", "ASTM D 1644:01", "60±2"],
-      ["Density (gm/cc)", "ASTMD D 1475:13", "1.26±0.01"],
-      ["Elongation (%)", "ASTM D 412:2016", "≥220"],
-      ["Tensile Strength (mPa)", "ASTM D 412:2016", "≥2"],
-      ["Crack Bridging (mm)", "EN 1062-7:2004", "Upto 2"],
-      ["Pull of Adhesion (mPa)", "ASTM D 4541:2017", "≥2"],
-      ["Water Absorbtion (%)", "ASTM D 471:16a", "< 7"],
-      ["Water Vapour Transmition (gm/m²/24 hrs)", "ASTM D 1653:13", "110"],
-      ["DFT, microns", "", "450 – 500"],
+      [
+        "Solid Content (%)",
+        "ASTM D 1644:01",
+        "60\u00b12"
+      ],
+      [
+        "Density (gm/cc)",
+        "ASTMD D 1475:13",
+        "1.26\u00b10.01"
+      ],
+      [
+        "Elongation (%)",
+        "ASTM D 412:2016",
+        "\u2265220"
+      ],
+      [
+        "Tensile Strength (mPa)",
+        "ASTM D 412:2016",
+        "\u22652"
+      ],
+      [
+        "Crack Bridging (mm)",
+        "EN 1062-7:2004",
+        "Upto 2"
+      ],
+      [
+        "Pull of Adhesion (mPa)",
+        "ASTM D 4541:2017",
+        "\u22652"
+      ],
+      [
+        "Water Absorbtion (%)",
+        "ASTM D 471:16a",
+        "< 7"
+      ],
+      [
+        "Water Vapour Transmition (gm/m\u00b2/24 hrs)",
+        "ASTM D 1653:13",
+        "110"
+      ],
+      [
+        "DFT, microns",
+        "",
+        "450 \u2013 500"
+      ],
       [
         "SRI",
         "ASTM E 1980-19, EN 12898:2019, EN 673:2011 & EN 410:2011",
         "107"
       ],
-      ["UV Resistance", "ASTM D4587", "Excellent"]
+      [
+        "UV Resistance",
+        "ASTM D4587",
+        "Excellent"
+      ]
     ],
     "tds": "https://www.trubuild.in/wp-content/uploads/2023/08/02_TDS_-TRUBUILD-ROOFTECT-Advance.pdf",
     "verified": "2026-10-05",
     "sourceNotes": [
-      "Current packaging not listed in the source page’s sizes section.",
+      "Current packaging not listed in the source page\u2019s sizes section.",
       "FAQ formulation and coating-thickness claims conflict with the structured technical content; FAQ claims are excluded."
-    ]
+    ],
+    "imageKind": "packaging"
   },
   {
     "id": "trufix-110",
     "name": "TRUFIX 110",
     "category": "Cementitious Tile Adhesives",
-    "applications": ["Tiling and Grouting"],
+    "applications": [
+      "Tiling and Grouting"
+    ],
     "source": "https://www.trubuild.in/products/trufix-110/",
     "imageSource": "https://www.trubuild.in/wp-content/uploads/2023/10/110.png",
-    "image": "/images/trufix-110.webp",
+    "image": "/images/packaging/63.webp",
     "subtitle": "",
     "description": "Trubuild Tile Adhesive TA 110 is a single-component, ready-to-use, polymer modified, cement-based, grey tile adhesive for fixing tiles on floors in interiors.",
     "benefits": [
@@ -926,16 +2028,46 @@
       "It has excellent adhesion and slip-resistance properties"
     ],
     "packaging": "20 Kg",
-    "fields": ["It is used for fixing all types of tiles on interior floors"],
+    "fields": [
+      "It is used for fixing all types of tiles on interior floors"
+    ],
     "applicationNotes": [],
     "specs": [
-      ["Appearance", "", "Grey"],
-      ["Mixing Ratio", "", "25% to 27.5% water by weight of the powder"],
-      ["Open Time", "IS 15477:2004", "Approx. 10-15 minutes at 25°C"],
-      ["Pot Life", "IS 15477:2004", "Approx. 20 minutes at 25°C"],
-      ["Coverage", "", "30 - 35 sqft/20 kg bag at 5 mm thickness"],
-      ["Trafficable Time", "", "24 hrs (max.)"],
-      ["Curing Time", "", "14 days at 30°C-70% overall strength achieved"],
+      [
+        "Appearance",
+        "",
+        "Grey"
+      ],
+      [
+        "Mixing Ratio",
+        "",
+        "25% to 27.5% water by weight of the powder"
+      ],
+      [
+        "Open Time",
+        "IS 15477:2004",
+        "Approx. 10-15 minutes at 25\u00b0C"
+      ],
+      [
+        "Pot Life",
+        "IS 15477:2004",
+        "Approx. 20 minutes at 25\u00b0C"
+      ],
+      [
+        "Coverage",
+        "",
+        "30 - 35 sqft/20 kg bag at 5 mm thickness"
+      ],
+      [
+        "Trafficable Time",
+        "",
+        "24 hrs (max.)"
+      ],
+      [
+        "Curing Time",
+        "",
+        "14 days at 30\u00b0C-70% overall strength achieved"
+      ],
       [
         "Shear Strength (dry condition: 14 days under laboratory conditions)",
         "IS 15477:2004",
@@ -947,7 +2079,7 @@
         "2.83 KN"
       ],
       [
-        "Heat Ageing (for 7 days normal laboratory condition + 7 days storage in the oven at a temperature 100± 2°C)",
+        "Heat Ageing (for 7 days normal laboratory condition + 7 days storage in the oven at a temperature 100\u00b1 2\u00b0C)",
         "IS 15477:2004",
         "4.5 KN"
       ],
@@ -961,16 +2093,19 @@
     "verified": "2026-10-05",
     "sourceNotes": [
       "Some official copy and documents use legacy product names; confirm the current code and document revision."
-    ]
+    ],
+    "imageKind": "packaging"
   },
   {
     "id": "trufix-220-grey",
     "name": "TRUFIX 220 GREY",
     "category": "Cementitious Tile Adhesives",
-    "applications": ["Tiling and Grouting"],
+    "applications": [
+      "Tiling and Grouting"
+    ],
     "source": "https://www.trubuild.in/products/trufix-220-grey/",
     "imageSource": "https://www.trubuild.in/wp-content/uploads/2023/08/TA220-GREY_BAG_Mockup-copy.png",
-    "image": "/images/trufix-220-grey.webp",
+    "image": "/images/packaging/66.webp",
     "subtitle": "",
     "description": "TRUBUILD TILE ADHESIVE TA 220 is a single-component, ready-to-use, polymer modified, cement-based grey tile adhesive for fixing large format ceramic, clay, terracotta, brick, query tiles, small semi-vitrified tiles for interior flooring, and fixing small format tiles in interior wall dry area. It should be applied on a fully cured and sound cementitious substrate.",
     "benefits": [
@@ -984,7 +2119,11 @@
     ],
     "applicationNotes": [],
     "specs": [
-      ["Appearance", "", "Grey"],
+      [
+        "Appearance",
+        "",
+        "Grey"
+      ],
       [
         "Mixing Ratio (water/powder), by Weight",
         "",
@@ -995,29 +2134,64 @@
         "",
         "Approx. 50-65 sqft./20 Kg at 3mm thickness (will depend upon the surface)"
       ],
-      ["Initial Setting/Trafficable/Grouting Time", "", "Min. 24 Hr"],
-      ["Tensile Adhesion (N/mm2) at Dry Condition", "", "0.62"],
-      ["Shear Adhesion (N/mm2) at Dry Condition", "", "1.07"],
-      ["Open Time, minutes", "", "20"],
-      ["Adjustment Time, minutes", "", "25"],
-      ["Slip (mm2)", "", "<0.5 mm"],
-      ["Pot Life (minutes)", "", "90"],
-      ["Mixed Density (kg/m3))", "", "Approx. 1544"]
+      [
+        "Initial Setting/Trafficable/Grouting Time",
+        "",
+        "Min. 24 Hr"
+      ],
+      [
+        "Tensile Adhesion (N/mm2) at Dry Condition",
+        "",
+        "0.62"
+      ],
+      [
+        "Shear Adhesion (N/mm2) at Dry Condition",
+        "",
+        "1.07"
+      ],
+      [
+        "Open Time, minutes",
+        "",
+        "20"
+      ],
+      [
+        "Adjustment Time, minutes",
+        "",
+        "25"
+      ],
+      [
+        "Slip (mm2)",
+        "",
+        "<0.5 mm"
+      ],
+      [
+        "Pot Life (minutes)",
+        "",
+        "90"
+      ],
+      [
+        "Mixed Density (kg/m3))",
+        "",
+        "Approx. 1544"
+      ]
     ],
     "tds": "https://www.trubuild.in/wp-content/uploads/2023/08/TDS-TRUBUILD-TILE-ADHESIVE-TA-TA-220-25-AUG-23.pdf",
     "verified": "2026-10-05",
     "sourceNotes": [
       "Some official copy and documents use legacy product names; confirm the current code and document revision."
-    ]
+    ],
+    "imageKind": "packaging"
   },
   {
     "id": "trufix-220-plus-grey",
     "name": "TRUFIX 220+ GREY",
     "category": "Cementitious Tile Adhesives",
-    "applications": ["Tiling and Grouting"],
+    "applications": [
+      "Tiling and Grouting"
+    ],
     "source": "https://www.trubuild.in/products/trufix-220-plus-grey/",
     "imageSource": "https://www.trubuild.in/wp-content/uploads/2023/08/TA220-Plus-GREY_BAG_Mockup_2025-copy.png",
-    "image": "/images/trufix-220-plus-grey.webp",
+    "image": "/images/packaging/64.webp",
     "subtitle": "",
     "description": "TRUBUILD TILE ADHESIVE TA 220 Plus Grey is a single-component, ready-to-use, polymer modified, cement-based grey tile adhesive for fixing ceramic, clay, terracotta, brick, query tiles, vitrified/fully vitrified tiles, glass mosaic tiles, terrazzo, all stones on floors/walls in interiors, and exterior covered floor, in dry and wet areas. It should be applied on a fully cured and sound cementitious substrate.",
     "benefits": [
@@ -1030,7 +2204,11 @@
     ],
     "applicationNotes": [],
     "specs": [
-      ["Appearance", "", "Grey"],
+      [
+        "Appearance",
+        "",
+        "Grey"
+      ],
       [
         "Mixing Ratio (water/powder), by weight",
         "",
@@ -1041,34 +2219,89 @@
         "",
         "Approx. 50-65 sqft./20 kg at 3mm thickness (will depend upon the surface)"
       ],
-      ["Initial Setting/Trafficable/Grouting time", "", "Min. 24 Hr"],
-      ["Open Time, minutes", "", "30"],
-      ["Tensile Adhesion (N/mm2)", "", ""],
-      ["a) Dry Condition", "", "1.17"],
-      ["b) Wet Condition", "", "1.08"],
-      ["Shear Adhesion (N/mm2 )", "", ""],
-      ["a) Dry Condition", "", "1.39"],
-      ["b) Wet Condition", "", "1.11"],
-      ["c) Heat Ageing", "", "1.42"],
-      ["Adjustment Time, minutes", "", "35"],
-      ["Slip (mm)", "", "<0.5 mm"],
-      ["Pot Life (minutes)", "", "120"],
-      ["Mix Density (gm/cc)", "", "Approx. 1444"]
+      [
+        "Initial Setting/Trafficable/Grouting time",
+        "",
+        "Min. 24 Hr"
+      ],
+      [
+        "Open Time, minutes",
+        "",
+        "30"
+      ],
+      [
+        "Tensile Adhesion (N/mm2)",
+        "",
+        ""
+      ],
+      [
+        "a) Dry Condition",
+        "",
+        "1.17"
+      ],
+      [
+        "b) Wet Condition",
+        "",
+        "1.08"
+      ],
+      [
+        "Shear Adhesion (N/mm2 )",
+        "",
+        ""
+      ],
+      [
+        "a) Dry Condition",
+        "",
+        "1.39"
+      ],
+      [
+        "b) Wet Condition",
+        "",
+        "1.11"
+      ],
+      [
+        "c) Heat Ageing",
+        "",
+        "1.42"
+      ],
+      [
+        "Adjustment Time, minutes",
+        "",
+        "35"
+      ],
+      [
+        "Slip (mm)",
+        "",
+        "<0.5 mm"
+      ],
+      [
+        "Pot Life (minutes)",
+        "",
+        "120"
+      ],
+      [
+        "Mix Density (gm/cc)",
+        "",
+        "Approx. 1444"
+      ]
     ],
     "tds": "https://www.trubuild.in/wp-content/uploads/2023/08/04_TDS_TRUFFIX_220-PLUS_GREY_RC.pdf",
     "verified": "2026-10-05",
     "sourceNotes": [
       "Some official copy and documents use legacy product names; confirm the current code and document revision."
-    ]
+    ],
+    "imageKind": "packaging"
   },
   {
     "id": "trufix-220-plus-white",
     "name": "TRUFIX 220+ WHITE",
     "category": "Cementitious Tile Adhesives",
-    "applications": ["Tiling and Grouting"],
+    "applications": [
+      "Tiling and Grouting"
+    ],
     "source": "https://www.trubuild.in/products/trufix-220-plus-white/",
     "imageSource": "https://www.trubuild.in/wp-content/uploads/2023/08/TA220-Plus-White_BAG_Mockup_2025.png",
-    "image": "/images/trufix-220-plus-white.webp",
+    "image": "/images/packaging/65.webp",
     "subtitle": "",
     "description": "TRUBUILD TILE ADHESIVE TA 220 Plus White is a single-component, ready-to-use, polymer modified, cement-based grey tile adhesive for fixing ceramic, clay, terracotta, brick, query tiles, vitrified/fully vitrified tiles, glass mosaic tiles, terrazzo, all stones on floors/walls in interiors, and exterior covered floor, in dry and wet areas. It should be applied on a fully cured and sound cementitious substrate.",
     "benefits": [
@@ -1083,7 +2316,11 @@
     ],
     "applicationNotes": [],
     "specs": [
-      ["Appearance", "", "White"],
+      [
+        "Appearance",
+        "",
+        "White"
+      ],
       [
         "Mixing Ratio (water/powder), by Weight",
         "",
@@ -1094,35 +2331,90 @@
         "",
         "Approx. 50-65 sqft./20 kg at 3mm thickness (will depend upon the surface)"
       ],
-      ["Initial Setting/Trafficable/Grouting Time", "", "Min. 24 Hr"],
-      ["Open Time, minutes", "", "30"],
-      ["Tensile Adhesion (N/mm2 )", "", ""],
-      ["a) Dry Condition", "", "1.22"],
-      ["b) Wet Condition", "", "1.12"],
-      ["Shear Adhesion (N/mm2 )", "", ""],
-      ["a) Dry Condition", "", "1.42"],
-      ["b) Wet Condition", "", "1.18"],
-      ["c) Heat Ageing", "", "1.46"],
-      ["Adjustment Time, minutes", "", "35"],
-      ["Slip(mm)", "", "<0.5mm"],
-      ["Pot life(minutes)", "", "120"],
-      ["Mixed density(kg/m3)", "", "approx-1432"]
+      [
+        "Initial Setting/Trafficable/Grouting Time",
+        "",
+        "Min. 24 Hr"
+      ],
+      [
+        "Open Time, minutes",
+        "",
+        "30"
+      ],
+      [
+        "Tensile Adhesion (N/mm2 )",
+        "",
+        ""
+      ],
+      [
+        "a) Dry Condition",
+        "",
+        "1.22"
+      ],
+      [
+        "b) Wet Condition",
+        "",
+        "1.12"
+      ],
+      [
+        "Shear Adhesion (N/mm2 )",
+        "",
+        ""
+      ],
+      [
+        "a) Dry Condition",
+        "",
+        "1.42"
+      ],
+      [
+        "b) Wet Condition",
+        "",
+        "1.18"
+      ],
+      [
+        "c) Heat Ageing",
+        "",
+        "1.46"
+      ],
+      [
+        "Adjustment Time, minutes",
+        "",
+        "35"
+      ],
+      [
+        "Slip(mm)",
+        "",
+        "<0.5mm"
+      ],
+      [
+        "Pot life(minutes)",
+        "",
+        "120"
+      ],
+      [
+        "Mixed density(kg/m3)",
+        "",
+        "approx-1432"
+      ]
     ],
     "tds": "https://www.trubuild.in/wp-content/uploads/2023/08/05_TDS_TRUFIX_220-PLUS_-White_RC.pdf",
     "verified": "2026-10-05",
     "sourceNotes": [
       "Some official copy and documents use legacy product names; confirm the current code and document revision.",
       "Source description calls the white variant grey; colour must be confirmed from current documentation."
-    ]
+    ],
+    "imageKind": "packaging"
   },
   {
     "id": "trufix-330-grey",
     "name": "TRUFIX 330 GREY",
     "category": "Cementitious Tile Adhesives",
-    "applications": ["Tiling and Grouting"],
+    "applications": [
+      "Tiling and Grouting"
+    ],
     "source": "https://www.trubuild.in/products/trufix-330-grey/",
     "imageSource": "https://www.trubuild.in/wp-content/uploads/2023/08/TA330-Grey_BAG_Mockup_2025-copy.png",
-    "image": "/images/trufix-330-grey.webp",
+    "image": "/images/packaging/68.webp",
     "subtitle": "",
     "description": "TRUBUILD TILE ADHESIVE TA 330 Grey is a single-component, ready-to-use, polymer modified, cement-based grey tile adhesive for fixing ceramic, clay, terracotta, brick, query tiles, vitrified/fully vitrified tiles, glass mosaic tiles, terrazzo, basalt, porcelain tiles, other stones on floors/walls in interiors, and exterior walls upto 10 ft height in a dry and wet area. It should be applied on a fully cured and sound cementitious substrate.",
     "benefits": [
@@ -1137,7 +2429,11 @@
     ],
     "applicationNotes": [],
     "specs": [
-      ["Appearance", "", "Grey"],
+      [
+        "Appearance",
+        "",
+        "Grey"
+      ],
       [
         "Mixing Ratio (water/powder), by weight",
         "",
@@ -1148,34 +2444,89 @@
         "",
         "Approx. 50-65 sqft./20 kg at 3mm thickness (will depend upon the surface)"
       ],
-      ["Initial Setting/Trafficable/Grouting Time", "", "Min. 24 Hr"],
-      ["Tensile Adhesion (N/mm2)", "", ""],
-      ["a) Dry condition", "", "1.56"],
-      ["b) Wet condition", "", "1.21"],
-      ["Shear Adhesion (N/mm2)", "", ""],
-      ["a) Dry condition", "", "1.64"],
-      ["b) Wet condition", "", "1.19"],
-      ["c) Heat ageing", "", "1.61"],
-      ["Open Time, minutes", "", "30"],
-      ["Adjustment Time, minutes", "", "35"],
-      ["Slip (mm)", "", "<0.5 mm"],
-      ["Pot Life (minutes)", "", "150"],
-      ["Mixed Density (kg/m3)", "", "Approx. 1556"]
+      [
+        "Initial Setting/Trafficable/Grouting Time",
+        "",
+        "Min. 24 Hr"
+      ],
+      [
+        "Tensile Adhesion (N/mm2)",
+        "",
+        ""
+      ],
+      [
+        "a) Dry condition",
+        "",
+        "1.56"
+      ],
+      [
+        "b) Wet condition",
+        "",
+        "1.21"
+      ],
+      [
+        "Shear Adhesion (N/mm2)",
+        "",
+        ""
+      ],
+      [
+        "a) Dry condition",
+        "",
+        "1.64"
+      ],
+      [
+        "b) Wet condition",
+        "",
+        "1.19"
+      ],
+      [
+        "c) Heat ageing",
+        "",
+        "1.61"
+      ],
+      [
+        "Open Time, minutes",
+        "",
+        "30"
+      ],
+      [
+        "Adjustment Time, minutes",
+        "",
+        "35"
+      ],
+      [
+        "Slip (mm)",
+        "",
+        "<0.5 mm"
+      ],
+      [
+        "Pot Life (minutes)",
+        "",
+        "150"
+      ],
+      [
+        "Mixed Density (kg/m3)",
+        "",
+        "Approx. 1556"
+      ]
     ],
     "tds": "https://www.trubuild.in/wp-content/uploads/2023/08/06_TDS_TRUFIX_330_GREY_RC.pdf",
     "verified": "2026-10-05",
     "sourceNotes": [
       "Some official copy and documents use legacy product names; confirm the current code and document revision."
-    ]
+    ],
+    "imageKind": "packaging"
   },
   {
     "id": "trufix-330-white",
     "name": "TRUFIX 330 WHITE",
     "category": "Cementitious Tile Adhesives",
-    "applications": ["Tiling and Grouting"],
+    "applications": [
+      "Tiling and Grouting"
+    ],
     "source": "https://www.trubuild.in/products/trufix-330-white/",
     "imageSource": "https://www.trubuild.in/wp-content/uploads/2023/08/TA330-White_BAG_Mockup_2025.png",
-    "image": "/images/trufix-330-white.webp",
+    "image": "/images/packaging/67.webp",
     "subtitle": "",
     "description": "TRUBUILD TILE ADHESIVE TA 330 White is a single-component, ready-to-use, polymer modified, cement- based, white tile adhesive for fixing ceramic, clay, terracotta, brick, query tiles, vitrified/fully vitrified tiles, glass mosaic tiles, terrazzo, basalt, porcelain tiles & other stones on floors/walls in interiors, and exterior walls upto 10 ft height in dry and wet areas. It should be applied on a fully cured and sound cementitious substrate.",
     "benefits": [
@@ -1190,7 +2541,11 @@
     ],
     "applicationNotes": [],
     "specs": [
-      ["Appearance", "", "White"],
+      [
+        "Appearance",
+        "",
+        "White"
+      ],
       [
         "Mixing Ratio (water/powder), by Weight",
         "",
@@ -1201,34 +2556,89 @@
         "",
         "Approx. 50-65 sqft./20 kg at 3mm thickness (will depend upon the surface)"
       ],
-      ["Initial Setting/Trafficable/Grouting Time", "", "Min. 24 Hr"],
-      ["Open Time, minutes", "", "30"],
-      ["Tensile Adhesion (N/mm2)", "", ""],
-      ["a) Dry Condition", "", "1.74"],
-      ["b) Wet condition", "", "1.32"],
-      ["Shear Adhesion (N/mm2)", "", ""],
-      ["a) Dry Condition", "", "1.71"],
-      ["b) Wet Condition", "", "1.36"],
-      ["c) Heat Ageing", "", "1.75"],
-      ["Adjustment Time, minutes", "", "35"],
-      ["Slip (mm)", "", "<0.5 mm"],
-      ["Pot Life (minutes)", "", "150"],
-      ["Mixed Density (kg/m3)", "", "Approx. 1556"]
+      [
+        "Initial Setting/Trafficable/Grouting Time",
+        "",
+        "Min. 24 Hr"
+      ],
+      [
+        "Open Time, minutes",
+        "",
+        "30"
+      ],
+      [
+        "Tensile Adhesion (N/mm2)",
+        "",
+        ""
+      ],
+      [
+        "a) Dry Condition",
+        "",
+        "1.74"
+      ],
+      [
+        "b) Wet condition",
+        "",
+        "1.32"
+      ],
+      [
+        "Shear Adhesion (N/mm2)",
+        "",
+        ""
+      ],
+      [
+        "a) Dry Condition",
+        "",
+        "1.71"
+      ],
+      [
+        "b) Wet Condition",
+        "",
+        "1.36"
+      ],
+      [
+        "c) Heat Ageing",
+        "",
+        "1.75"
+      ],
+      [
+        "Adjustment Time, minutes",
+        "",
+        "35"
+      ],
+      [
+        "Slip (mm)",
+        "",
+        "<0.5 mm"
+      ],
+      [
+        "Pot Life (minutes)",
+        "",
+        "150"
+      ],
+      [
+        "Mixed Density (kg/m3)",
+        "",
+        "Approx. 1556"
+      ]
     ],
     "tds": "https://www.trubuild.in/wp-content/uploads/2023/08/07_TDS_TRUFIX-_330_White_RC.pdf",
     "verified": "2026-10-05",
     "sourceNotes": [
       "Some official copy and documents use legacy product names; confirm the current code and document revision."
-    ]
+    ],
+    "imageKind": "packaging"
   },
   {
     "id": "trufix-440-grey",
     "name": "TRUFIX 440 GREY",
     "category": "Cementitious Tile Adhesives",
-    "applications": ["Tiling and Grouting"],
+    "applications": [
+      "Tiling and Grouting"
+    ],
     "source": "https://www.trubuild.in/products/trufix-440-grey/",
     "imageSource": "https://www.trubuild.in/wp-content/uploads/2023/08/TA440-Grey_BAG_Mockup_2025-copy.png",
-    "image": "/images/trufix-440-grey.webp",
+    "image": "/images/packaging/70.webp",
     "subtitle": "",
     "description": "TRUBUILD TILE ADHESIVE TA 660 Grey is a single-component, ready-to-use, polymer modified, cement-based, flexible grey tile adhesive for fixing ceramic, clay, terracotta, brick, query tiles, vitrified/fully vitrified tiles, glass mosaic tiles, terrazzo, basalt, porcelain tiles & other stones on floors/walls in interiors, and exterior walls for more than 10 ft height in dry and wet areas. It should be applied on a fully cured and sound cementitious substrate.",
     "benefits": [
@@ -1245,7 +2655,11 @@
     ],
     "applicationNotes": [],
     "specs": [
-      ["Appearance", "", "Grey"],
+      [
+        "Appearance",
+        "",
+        "Grey"
+      ],
       [
         "Mixing Ratio(water/powder), by Weight",
         "",
@@ -1256,35 +2670,94 @@
         "",
         "Approx. 50-65 sqft./20 kg at 3mm thickness (will depend upon the surface)"
       ],
-      ["Initial Setting/Trafficable/Grouting Time", "", "Min. 24 Hr"],
-      ["Open Time, minutes", "", "35"],
-      ["Tensile Adhesion (N/mm2)", "", ""],
-      ["a) Dry Condition", "", "1.59"],
-      ["b) Wet Condition", "", "1.26"],
-      ["Shear Adhesion (N/mm2)", "", ""],
-      ["a) Dry Condition", "", "1.69"],
-      ["b) Wet Condition", "", "1.29"],
-      ["c) Heat Ageing", "", "1.59"],
-      ["Adjustment Time, minutes", "", "40"],
-      ["Slip (mm)", "", "<0.5 mm"],
-      ["Pot Life (minutes)", "", "150"],
-      ["Mixed Density (kg/m3)", "", "Approx. 1556"],
-      ["Deformability", "", "S1"]
+      [
+        "Initial Setting/Trafficable/Grouting Time",
+        "",
+        "Min. 24 Hr"
+      ],
+      [
+        "Open Time, minutes",
+        "",
+        "35"
+      ],
+      [
+        "Tensile Adhesion (N/mm2)",
+        "",
+        ""
+      ],
+      [
+        "a) Dry Condition",
+        "",
+        "1.59"
+      ],
+      [
+        "b) Wet Condition",
+        "",
+        "1.26"
+      ],
+      [
+        "Shear Adhesion (N/mm2)",
+        "",
+        ""
+      ],
+      [
+        "a) Dry Condition",
+        "",
+        "1.69"
+      ],
+      [
+        "b) Wet Condition",
+        "",
+        "1.29"
+      ],
+      [
+        "c) Heat Ageing",
+        "",
+        "1.59"
+      ],
+      [
+        "Adjustment Time, minutes",
+        "",
+        "40"
+      ],
+      [
+        "Slip (mm)",
+        "",
+        "<0.5 mm"
+      ],
+      [
+        "Pot Life (minutes)",
+        "",
+        "150"
+      ],
+      [
+        "Mixed Density (kg/m3)",
+        "",
+        "Approx. 1556"
+      ],
+      [
+        "Deformability",
+        "",
+        "S1"
+      ]
     ],
     "tds": "https://www.trubuild.in/wp-content/uploads/2023/08/09_TDS_TRUFIX_440_Grey.pdf",
     "verified": "2026-10-05",
     "sourceNotes": [
       "Some official copy and documents use legacy product names; confirm the current code and document revision."
-    ]
+    ],
+    "imageKind": "packaging"
   },
   {
     "id": "trufix-440-white",
     "name": "TRUFIX 440 WHITE",
     "category": "Cementitious Tile Adhesives",
-    "applications": ["Tiling and Grouting"],
+    "applications": [
+      "Tiling and Grouting"
+    ],
     "source": "https://www.trubuild.in/products/trufix-440-white/",
     "imageSource": "https://www.trubuild.in/wp-content/uploads/2023/07/TA440-White_BAG_Mockup_2025.png",
-    "image": "/images/trufix-440-white.webp",
+    "image": "/images/packaging/69.webp",
     "subtitle": "",
     "description": "TRUBUILD TILE ADHESIVE TA 660 White is a single-component, ready-to-use, polymer modified, cement-based, flexible white tile adhesive for fixing ceramic, clay, terracotta, brick, query tiles, vitrified/fully vitrified tiles, glass mosaic tiles, terrazzo, basalt, porcelain tiles and other stones on floors/walls in interiors and exterior walls for more than 10 ft height in dry and wet areas. It should be applied on a fully cured and sound cementitious substrate.",
     "benefits": [
@@ -1301,7 +2774,11 @@
     ],
     "applicationNotes": [],
     "specs": [
-      ["Appearance", "", "White"],
+      [
+        "Appearance",
+        "",
+        "White"
+      ],
       [
         "Mixing Ratio (water/powder), by Weight",
         "",
@@ -1312,35 +2789,94 @@
         "",
         "Approx. 50-65 sqft./20 Kg at 3mm thickness (will depend upon the surface)"
       ],
-      ["Initial Setting/Trafficable/Grouting Time", "", "Min. 24 Hr"],
-      ["Open Time, minutes", "", "35"],
-      ["Tensile Adhesion (N/mm2)", "", ""],
-      ["a) Dry condition", "", "1.79"],
-      ["b) Wet condition", "", "1.36"],
-      ["Shear Adhesion (N/mm2)", "", ""],
-      ["a) Dry condition", "", "1.74"],
-      ["b) Wet condition", "", "1.39"],
-      ["c) Heat ageing", "", "1.78"],
-      ["Adjustment Time, minutes", "", "40"],
-      ["Slip (mm)", "", "<0.5 mm"],
-      ["Pot Life (minutes)", "", "150"],
-      ["Mixed Density (kg/m3)", "", "Approx. 1520"],
-      ["Deformability", "", "(S1)"]
+      [
+        "Initial Setting/Trafficable/Grouting Time",
+        "",
+        "Min. 24 Hr"
+      ],
+      [
+        "Open Time, minutes",
+        "",
+        "35"
+      ],
+      [
+        "Tensile Adhesion (N/mm2)",
+        "",
+        ""
+      ],
+      [
+        "a) Dry condition",
+        "",
+        "1.79"
+      ],
+      [
+        "b) Wet condition",
+        "",
+        "1.36"
+      ],
+      [
+        "Shear Adhesion (N/mm2)",
+        "",
+        ""
+      ],
+      [
+        "a) Dry condition",
+        "",
+        "1.74"
+      ],
+      [
+        "b) Wet condition",
+        "",
+        "1.39"
+      ],
+      [
+        "c) Heat ageing",
+        "",
+        "1.78"
+      ],
+      [
+        "Adjustment Time, minutes",
+        "",
+        "40"
+      ],
+      [
+        "Slip (mm)",
+        "",
+        "<0.5 mm"
+      ],
+      [
+        "Pot Life (minutes)",
+        "",
+        "150"
+      ],
+      [
+        "Mixed Density (kg/m3)",
+        "",
+        "Approx. 1520"
+      ],
+      [
+        "Deformability",
+        "",
+        "(S1)"
+      ]
     ],
     "tds": "https://www.trubuild.in/wp-content/uploads/2023/07/08_TDS_TRUFIX_440_White_RC.pdf",
     "verified": "2026-10-05",
     "sourceNotes": [
       "Some official copy and documents use legacy product names; confirm the current code and document revision."
-    ]
+    ],
+    "imageKind": "packaging"
   },
   {
     "id": "trubuild-stylo-cem",
     "name": "STYLO CEM",
     "category": "Cementitious Grouts",
-    "applications": ["Tiling and Grouting"],
+    "applications": [
+      "Tiling and Grouting"
+    ],
     "source": "https://www.trubuild.in/products/trubuild-stylo-cem/",
     "imageSource": "https://www.trubuild.in/wp-content/uploads/2023/08/TRUBUILD-TILING-GROUTING-SOLUTIONS_01.png",
-    "image": "/images/trubuild-stylo-cem.webp",
+    "image": "/images/packaging/55.webp",
     "subtitle": "Tile Grout",
     "description": "TRUBUILD TILE GROUT is a polymeric cement-based tile grout which is specially designed to create non-shrink and waterproof tile joints. It can be used for grouting of ceramics, mosaic, natural stones, marbles, etc.",
     "benefits": [
@@ -1353,34 +2889,73 @@
     "packaging": "500 gm 1 Kg",
     "fields": [
       "Used for grouting all types of ceramic tiles, marbles & natural stones for internal & external areas",
-      "Due to water-repellence it can be used for submerged grouting application’s like bathroom, toilet, kitchen, fountain & swimming pool"
+      "Due to water-repellence it can be used for submerged grouting application\u2019s like bathroom, toilet, kitchen, fountain & swimming pool"
     ],
     "applicationNotes": [],
     "specs": [
-      ["Mixing Ratio", "", "By weight approx. 2.5: 1 (powder : water)"],
-      ["Mix Density", "", "1.75±0.02"],
-      ["Open Time", "", "Approx. 30 minutes at 25°C"],
-      ["Setting Time", "", "Approx. 8 hrs at 25°C"],
-      ["Trafficable Time", "", "24 hrs (max.)"],
-      ["Curing Time", "", "14 days at 30°C"],
-      ["Compressive Strength", "", "Approx. 16 N/mm2(after 28 days)"],
-      ["Shear Strength", "", "6-8 KN"],
-      ["Flexural Strength", "", "3.0 N/mm2 (after 28 days)"]
+      [
+        "Mixing Ratio",
+        "",
+        "By weight approx. 2.5: 1 (powder : water)"
+      ],
+      [
+        "Mix Density",
+        "",
+        "1.75\u00b10.02"
+      ],
+      [
+        "Open Time",
+        "",
+        "Approx. 30 minutes at 25\u00b0C"
+      ],
+      [
+        "Setting Time",
+        "",
+        "Approx. 8 hrs at 25\u00b0C"
+      ],
+      [
+        "Trafficable Time",
+        "",
+        "24 hrs (max.)"
+      ],
+      [
+        "Curing Time",
+        "",
+        "14 days at 30\u00b0C"
+      ],
+      [
+        "Compressive Strength",
+        "",
+        "Approx. 16 N/mm2(after 28 days)"
+      ],
+      [
+        "Shear Strength",
+        "",
+        "6-8 KN"
+      ],
+      [
+        "Flexural Strength",
+        "",
+        "3.0 N/mm2 (after 28 days)"
+      ]
     ],
     "tds": "https://www.trubuild.in/wp-content/uploads/2023/08/22_TRUBUILD-STYLO-CEM_RC.pdf",
     "verified": "2026-10-05",
     "sourceNotes": [
       "Some official copy and documents use legacy product names; confirm the current code and document revision."
-    ]
+    ],
+    "imageKind": "packaging"
   },
   {
     "id": "trubuild-stylo-3k",
     "name": "STYLO 3K",
     "category": "Epoxy Tile Grouts",
-    "applications": ["Tiling and Grouting"],
+    "applications": [
+      "Tiling and Grouting"
+    ],
     "source": "https://www.trubuild.in/products/trubuild-stylo-3k/",
     "imageSource": "https://www.trubuild.in/wp-content/uploads/2023/08/Stylo-3K-3.75-KG-scaled.png",
-    "image": "/images/trubuild-stylo-3k.webp",
+    "image": "/images/packaging/50.webp",
     "subtitle": "Epoxy Tile Grout",
     "description": "Trubuild Stain Free Epoxy Grout is a three-component pre-packed epoxy grout which is specially designed for grouting of ceramic tiles, vitrified tiles and stones where staining is expected. It provides a stain free, chemical resistant and hard wearing tile joint.",
     "benefits": [
@@ -1402,30 +2977,69 @@
     ],
     "applicationNotes": [],
     "specs": [
-      ["Compressive Strength - Dry(N/mm2)", "Clause 4.1", "65.2"],
-      ["Compressive Strength – Freeze Thaw(N/mm2)", "Clause 4.1", "62.6"],
-      ["Flexural Strength - Dry (N/mm2)", "Clause 4.1", "32.4"],
-      ["Flexural Strength – Freeze Thaw (N/mm2)", "Clause 4.1", "30.1"],
-      ["Water Absorption after 240 min(g)", "Clause 4.2", "0.01"],
-      ["Shrinkage, 24 Hrs(mm/m)", "Clause 4.3", "Nil"],
-      ["Abrasion Resistance mm3", "Clause 4.4", "194"],
-      ["Chemical Resistance 20% NaOH, 24 Hrs.", "Clause 4.6", "Resistant"],
-      ["Chemical Resistance 20% H2SO4, 24 Hrs", "Clause 4.6", "Resistant"]
+      [
+        "Compressive Strength - Dry(N/mm2)",
+        "Clause 4.1",
+        "65.2"
+      ],
+      [
+        "Compressive Strength \u2013 Freeze Thaw(N/mm2)",
+        "Clause 4.1",
+        "62.6"
+      ],
+      [
+        "Flexural Strength - Dry (N/mm2)",
+        "Clause 4.1",
+        "32.4"
+      ],
+      [
+        "Flexural Strength \u2013 Freeze Thaw (N/mm2)",
+        "Clause 4.1",
+        "30.1"
+      ],
+      [
+        "Water Absorption after 240 min(g)",
+        "Clause 4.2",
+        "0.01"
+      ],
+      [
+        "Shrinkage, 24 Hrs(mm/m)",
+        "Clause 4.3",
+        "Nil"
+      ],
+      [
+        "Abrasion Resistance mm3",
+        "Clause 4.4",
+        "194"
+      ],
+      [
+        "Chemical Resistance 20% NaOH, 24 Hrs.",
+        "Clause 4.6",
+        "Resistant"
+      ],
+      [
+        "Chemical Resistance 20% H2SO4, 24 Hrs",
+        "Clause 4.6",
+        "Resistant"
+      ]
     ],
     "tds": "https://www.trubuild.in/wp-content/uploads/2023/08/TRUBUILD-STAIN-FREE-EPOXY-GROUT-1.pdf",
     "verified": "2026-10-05",
     "sourceNotes": [
       "Some official copy and documents use legacy product names; confirm the current code and document revision."
-    ]
+    ],
+    "imageKind": "packaging"
   },
   {
     "id": "trubuild-trufix-550",
     "name": "TRUFIX 550",
     "category": "PU Modified Hybrid Epoxy Adhesive",
-    "applications": ["Tiling and Grouting"],
+    "applications": [
+      "Tiling and Grouting"
+    ],
     "source": "https://www.trubuild.in/products/trubuild-trufix-550/",
     "imageSource": "https://www.trubuild.in/wp-content/uploads/2023/08/TRUFIX-550.png",
-    "image": "/images/trubuild-trufix-550.webp",
+    "image": "/images/packaging/35.webp",
     "subtitle": "",
     "description": "TRUBUILD EFX 550 is a two-component, PU-modified, hybrid epoxy adhesive for high performance and high adhesion for fixing tiles with no vertical slip-on deformable substrates. It is suitable for metal, plywood, cement board, and dry wall construction. Designed for absorbent and non-absorbent substrates.",
     "benefits": [
@@ -1444,84 +3058,914 @@
     ],
     "applicationNotes": [],
     "specs": [
-      ["Mixing Ratio", "", "4:1: Part-A (Resin): Part-B (Hardener) pbw"],
-      ["Appearance", "", "Opaque-white paste"],
       [
-        "Mixed Density of Wet Mix, gm/ml @27 ± 2 °C Temperature and 65 ± 5% RH",
+        "Mixing Ratio",
         "",
-        "1.35±0.10"
+        "4:1: Part-A (Resin): Part-B (Hardener) pbw"
       ],
       [
-        "Pot Life (Hr) @27 ± 2 °C Temperature and 65 ± 5% RH",
-        "EN 12004-2017/IS 15477-2019",
-        "≥1 Hr"
+        "Appearance",
+        "",
+        "Opaque-white paste"
       ],
       [
-        "Open Time (Hr) @ 27 ± 2 °C Temperature and 65 ± 5% RH",
-        "EN 12004-2017/IS 15477-2019",
-        "≥1 Hr"
+        "Mixed Density of Wet Mix, gm/ml @27 \u00b1 2 \u00b0C Temperature and 65 \u00b1 5% RH",
+        "",
+        "1.35\u00b10.10"
       ],
-      ["Vertical Slip", "EN 12004-2017/IS 15477-2019", "≤0.5mm"],
-      ["Foot Traffic", "", "Min. after 24 Hrs"],
-      ["Grouting", "", "Min. 12 Hrs on Wall and 24 Hrs on Floor"],
-      ["Interval before Normal Use", "", "Min. 3 days"],
+      [
+        "Pot Life (Hr) @27 \u00b1 2 \u00b0C Temperature and 65 \u00b1 5% RH",
+        "EN 12004-2017/IS 15477-2019",
+        "\u22651 Hr"
+      ],
+      [
+        "Open Time (Hr) @ 27 \u00b1 2 \u00b0C Temperature and 65 \u00b1 5% RH",
+        "EN 12004-2017/IS 15477-2019",
+        "\u22651 Hr"
+      ],
+      [
+        "Vertical Slip",
+        "EN 12004-2017/IS 15477-2019",
+        "\u22640.5mm"
+      ],
+      [
+        "Foot Traffic",
+        "",
+        "Min. after 24 Hrs"
+      ],
+      [
+        "Grouting",
+        "",
+        "Min. 12 Hrs on Wall and 24 Hrs on Floor"
+      ],
+      [
+        "Interval before Normal Use",
+        "",
+        "Min. 3 days"
+      ],
       [
         "Shear Adhesion after 7 Days Dry Condition",
         "EN 12004-2017/IS 15477-2019",
-        "≥6 N/mm²"
+        "\u22656 N/mm\u00b2"
       ],
       [
         "Shear Adhesion after Water Immersion",
         "EN 12004-2017/IS 15477-2019",
-        "≥5 N/mm²"
+        "\u22655 N/mm\u00b2"
       ],
       [
         "Shear Adhesion after Thermal Shock",
         "EN 12004-2017/IS 15477-2019",
-        "≥6 N/mm²"
+        "\u22656 N/mm\u00b2"
       ],
       [
         "Tensile Adhesion to Concrete",
         "EN 12004-2017/IS 15477-2019",
-        "≥2.5 N/mm²"
+        "\u22652.5 N/mm\u00b2"
       ],
-      ["Deformability", "IS 15477-2019", "≥5 mm (S2)"]
+      [
+        "Deformability",
+        "IS 15477-2019",
+        "\u22655 mm (S2)"
+      ]
     ],
     "tds": "https://www.trubuild.in/wp-content/uploads/2023/08/02_TDS_EFX-_550_RC.pdf",
     "verified": "2026-10-05",
     "sourceNotes": [
       "Some official copy and documents use legacy product names; confirm the current code and document revision."
-    ]
+    ],
+    "imageKind": "packaging"
   },
   {
     "id": "trubuild-boretite",
     "name": "Boretite",
     "category": "Epoxy Coatings",
-    "applications": ["Wet Areas"],
+    "applications": [
+      "Wet Areas",
+      "Roof Waterproofing"
+    ],
     "source": "https://www.trubuild.in/products/trubuild-boretite/",
     "imageSource": "https://www.trubuild.in/wp-content/uploads/2023/10/Trubuild-Boretite.png",
-    "image": "/images/trubuild-boretite.webp",
-    "subtitle": "",
-    "description": "Trubuild BoreTite is an epoxy-based, one-pack system specially formulated to achieve leak-free bore packing. It consists of moisture-insensitive resin, hardener, selected filler, and backer rod, and provides foolproof bonding between PVC/ CPVC/ iron pipes and concrete. It can be used for grouting/ sealing gaps of pipe vents in bathrooms, toilets, balconies, roofs, fountains, artificial lakes, etc. which when applied properly, serves as an excellent waterproofing system for bore.",
+    "image": "/images/packaging/25.webp",
+    "subtitle": "An epoxy-based bore-packing system supplied with resin, hardener, filler and backer rod to seal gaps between PVC, CPVC or iron pipes and concrete.",
+    "description": "An epoxy-based bore-packing system supplied with resin, hardener, filler and backer rod to seal gaps between PVC, CPVC or iron pipes and concrete.",
     "benefits": [
-      "Excellent bonding with multiple surfaces",
-      "Resistance to vibration",
-      "Excellent compressive strength",
-      "Self-leveling",
-      "Easy-to-apply",
-      "Higher endurance"
+      "Bonding to pipes and concrete",
+      "Self-levelling",
+      "Vibration dampening"
     ],
-    "packaging": "200 gm 2 Kg",
-    "fields": ["For bore packing"],
-    "applicationNotes": [],
+    "packaging": "200 g, 2 kg",
+    "fields": [
+      "Bore packing around pipe penetrations in bathrooms, toilets, balconies and roofs"
+    ],
+    "applicationNotes": [
+      "Clean the bore and position the backer rod at least 35\u201340 mm below the top surface.",
+      "Mix resin and hardener before adding filler. Pour from one point around the bore and allow 24 hours to cure."
+    ],
     "specs": [
-      ["Physical State", "", "Liquid"],
-      ["Setting Time (hour)", "In House", "24 hours"],
-      ["Bond Strength (mPa)", "", "Up to 3 mPa"],
-      ["Vibration Dampening", "", "Good"]
+      [
+        "Physical state",
+        "-",
+        "Liquid"
+      ],
+      [
+        "Setting time (hour)",
+        "In-House",
+        "24 hours"
+      ],
+      [
+        "Bond strength (MPa)",
+        "-",
+        "Up to 3 MPa"
+      ],
+      [
+        "Vibration dampening",
+        "-",
+        "Good"
+      ]
     ],
-    "tds": "https://www.trubuild.in/wp-content/uploads/2023/10/04_TRUBUILD-BORETITE_RC.pdf",
-    "verified": "2026-10-05",
-    "sourceNotes": []
+    "tds": "/documents/tds/trubuild-boretite.pdf",
+    "verified": "2026-10-09",
+    "sourceNotes": [],
+    "documentId": "trubuild-boretite",
+    "tdsVersion": "N.1",
+    "tdsFile": "04_TRUBUILD-BORETITE_RC.pdf",
+    "tdsSha256": "92fa1c53cbafeb9a854aac22b6471fa15c52072f5d3b7019c14d830fac35d07e",
+    "coverage": "One 200 g pack for a single bore at 5 mm width \u00d7 50 mm depth, or 10 mm width \u00d7 25 mm depth; varies with bore dimensions.",
+    "shelfLife": "24 months from manufacture under the TDS storage conditions.",
+    "specPages": [
+      2
+    ],
+    "storage": "2\u201340\u00b0C; original properly closed packaging in a dry place. Follow the complete TDS storage instructions.",
+    "tdsStatus": "final-approved",
+    "imageKind": "packaging"
+  },
+  {
+    "id": "trubuild-aquapoxy",
+    "category": "Epoxy Coatings",
+    "image": "/images/packaging/21.webp",
+    "imageSource": null,
+    "name": "Aquapoxy",
+    "tds": "/documents/tds/trubuild-aquapoxy.pdf",
+    "documentId": "trubuild-aquapoxy",
+    "verified": "2026-10-09",
+    "tdsVersion": "N.1",
+    "tdsFile": "03_TDS_AQUAPOXY_RC.pdf",
+    "tdsSha256": "96db34f8127e3c48d313bd2a08e3754512b91ce9130138567782195203f05e16",
+    "coverage": "70\u201380 sq ft/kg/coat for waterproofing; 20\u201325 sq ft/coat per 3 kg mix for wall putty.",
+    "shelfLife": "18 months from manufacture under the TDS storage conditions.",
+    "packaging": "1 kg",
+    "sourceNotes": [],
+    "source": "/documents/tds/trubuild-aquapoxy.pdf",
+    "applications": [
+      "Wet Areas",
+      "Water Tanks and Other Areas",
+      "Exterior Waterproofing"
+    ],
+    "description": "Two-component, water-based epoxy coating for dampness prevention, waterproofing and efflorescence treatment. It can be applied to prepared damp surfaces.",
+    "subtitle": "Two-component, water-based epoxy coating for dampness prevention, waterproofing and efflorescence treatment.",
+    "fields": [
+      "Water tanks, hatcheries and food-processing areas",
+      "Toilet and kitchen walls; anti-efflorescence treatment",
+      "Priming before roof and floor coatings",
+      "Crack filling and grouting in RCC structures"
+    ],
+    "benefits": [
+      "Water dilutable",
+      "Can be applied on damp surfaces",
+      "Porosity sealing"
+    ],
+    "applicationNotes": [
+      "Mix base:hardener:water 1:1:1 by weight for concrete; 1:1:0.5 for tiles and metal sheets.",
+      "Remove gloss from high-gloss tiles before application.",
+      "Follow the complete tank waterproofing, curing and washing system in the TDS; confirm intended water use with the technical team."
+    ],
+    "specs": [
+      [
+        "Appearance",
+        "In house",
+        "Opaque"
+      ],
+      [
+        "Colour",
+        "In house",
+        "Off white"
+      ],
+      [
+        "Consistency after mixing",
+        "In house",
+        "Free flow"
+      ],
+      [
+        "Fungal-microbial resistance",
+        "In house",
+        "Excellent"
+      ],
+      [
+        "Pot Life at 30\u00b0C (Minutes)",
+        "In house",
+        "Approx. 120"
+      ],
+      [
+        "Efflorescence resistance",
+        "SS 500-2015",
+        "No yellowing / blisters"
+      ],
+      [
+        "Water absorption, 24 hr (%)",
+        "Rilem Tube",
+        "Nil"
+      ],
+      [
+        "Surface Dry Time at 30\u00b0C (Minutes)",
+        "ASTM D 1640-2014",
+        "Approx. 45"
+      ],
+      [
+        "Hard Dry time at 30\u00b0C (Hrs)",
+        "ASTM D 1640-2014",
+        "24"
+      ],
+      [
+        "Interval between two coats (30\u00b0C) (Hrs)",
+        "ASTM D 1640-2014",
+        "6\u20138"
+      ],
+      [
+        "Pull off Adhesion to Concrete (B:H:W = 1:1:1) (N/mm\u00b2)",
+        "ASTM D 7234-2022",
+        "Min. 1.5, Excellent"
+      ],
+      [
+        "Pull off Adhesion to Tiles (B:H:W = 1:1:0.5) (N/mm\u00b2)",
+        "ASTM D 7234-2022",
+        "Min. 1.5, Excellent"
+      ],
+      [
+        "Pull off Adhesion to Metal (B:H:W = 1:1:0.5) (N/mm\u00b2)",
+        "ASTM D 4541-2022",
+        "Min. 1.5, Excellent"
+      ],
+      [
+        "Depth of Water Permeability @10 Bar & Negative Hydrostatic pressure up to 3.5 Bar (mm)",
+        "EN 12390-8-2019 & ASTM D 7088-2017",
+        "Nil, Nil, Pass"
+      ],
+      [
+        "Water Vapour Transmission (g/m\u00b2/day)",
+        "ASTM E 96-2024",
+        "114, Excellent"
+      ],
+      [
+        "Food Grade - CFTRI certified (mg/in\u00b2)",
+        "USFDA - 175:300, Aug-2024",
+        "0.054, Pass"
+      ],
+      [
+        "Alkali Solution (5% NaOH)",
+        "ASTM D 1308-2020",
+        "No colour change & no blister observed"
+      ],
+      [
+        "Acid Solution (5% HCl)",
+        "ASTM D 1308-2020",
+        "No colour change & no blister observed"
+      ],
+      [
+        "Soap Solution",
+        "ASTM D 1308-2020",
+        "No colour change & no blister observed"
+      ],
+      [
+        "Detergent Solution",
+        "ASTM D 1308-2020",
+        "No colour change & no blister observed"
+      ],
+      [
+        "Lubricant Oil",
+        "ASTM D 1308-2020",
+        "No colour change & no blister observed"
+      ]
+    ],
+    "specPages": [
+      2,
+      3
+    ],
+    "imageKind": "packaging",
+    "storage": "10\u201330\u00b0C; original unopened containers in a cool, dry area.",
+    "tdsStatus": "final-approved"
+  },
+  {
+    "id": "trubuild-trushield",
+    "category": "Sheet Membranes",
+    "image": "/images/packaging/86.webp",
+    "imageSource": null,
+    "name": "Trushield",
+    "tds": "/documents/tds/trubuild-trushield.pdf",
+    "documentId": "trubuild-trushield",
+    "verified": "2026-10-09",
+    "tdsVersion": "N.1",
+    "tdsFile": "06_TRUBUILD TRUSHIELD.pdf",
+    "tdsSha256": "e88374073e4346d6115b4f5824d3869c602f4e36d0c6f9805edd5ead2bbac563",
+    "coverage": "Allow for minimum side overlaps of 50 mm and end overlaps of 100 mm.",
+    "shelfLife": "18 months from manufacture under the TDS storage conditions.",
+    "packaging": "1 m \u00d7 10 m roll",
+    "sourceNotes": [],
+    "source": "/documents/tds/trubuild-trushield.pdf",
+    "applications": [
+      "Substructure Waterproofing"
+    ],
+    "description": "SBS-modified, self-adhesive, cold-applied waterproofing sheet membrane with a cross-laminated HDPE film for below-ground structures.",
+    "subtitle": "SBS-modified, self-adhesive, cold-applied waterproofing sheet membrane with a cross-laminated HDPE film for below-ground structures.",
+    "fields": [
+      "Below-ground concrete structures",
+      "Subways and retaining walls"
+    ],
+    "benefits": [
+      "Cold applied",
+      "Water and vapour protection",
+      "Tear and puncture resistance"
+    ],
+    "applicationNotes": [
+      "Prime with Trushield Primer at 4\u20136 m\u00b2/L and lay the membrane when touch dry.",
+      "Provide at least 50 mm side overlaps and 100 mm end overlaps.",
+      "Not UV- or weather-resistant; protect immediately with a suitable protection board or, on horizontal areas, 50 mm cement-sand screed."
+    ],
+    "specs": [
+      [
+        "Thickness, mm (ASTM D 5147)",
+        "",
+        "1.5 \u00b1 5%"
+      ],
+      [
+        "Elongation % (ASTM D 412)",
+        "",
+        "Min. 300 / Min. 300"
+      ],
+      [
+        "Peel Strength on Primed Surface, MPa",
+        "",
+        "Min. 1.5 (ASTM D 1000)"
+      ],
+      [
+        "Puncture Resistance, N (ASTM E 154)",
+        "",
+        "Min. 280"
+      ],
+      [
+        "Tear Strength (L/T), N",
+        "",
+        "Min. 25.5/Min. 34.2"
+      ],
+      [
+        "Hydrostatic Pressure, Bar",
+        "",
+        "Min 5"
+      ],
+      [
+        "Crack Bridging Ability, mm",
+        "",
+        "Min 1.5"
+      ],
+      [
+        "Weight per Roll, kg",
+        "",
+        "Approx. 16.5"
+      ]
+    ],
+    "specPages": [
+      2
+    ],
+    "imageKind": "packaging",
+    "storage": "Shaded storage on wooden pallets, covered and protected from sunlight, UV, heat and cold.",
+    "tdsStatus": "final-approved"
+  },
+  {
+    "id": "trubuild-plasterbond",
+    "category": "Bonding Agents",
+    "image": "/images/packaging/40.webp",
+    "imageSource": null,
+    "name": "Plasterbond",
+    "tds": "/documents/tds/trubuild-plasterbond.pdf",
+    "documentId": "trubuild-plasterbond",
+    "verified": "2026-10-09",
+    "tdsVersion": "N.1",
+    "tdsFile": "09_TDS_PLASTERBOND.pdf",
+    "tdsSha256": "abceefc6ca58ec668e065fe9f942166164199a1eeae567ec05433086d3bd9244",
+    "coverage": "40\u201350 sq ft/kg for one coat.",
+    "shelfLife": "6 months from manufacture under the TDS storage conditions.",
+    "packaging": "20 kg",
+    "sourceNotes": [],
+    "source": "/documents/tds/trubuild-plasterbond.pdf",
+    "applications": [
+      "Concrete and Mortar"
+    ],
+    "description": "Polymeric bonding coating with selected fillers and additives for bonding gypsum or cement-sand plaster to RCC and concrete without hacking.",
+    "subtitle": "Polymeric bonding coating with selected fillers and additives for bonding gypsum or cement-sand plaster to RCC and concrete without hacking.",
+    "fields": [
+      "RCC and concrete before gypsum or cement-sand plaster"
+    ],
+    "benefits": [
+      "Single-coat application",
+      "Green identification colour",
+      "Mechanical and chemical adhesion"
+    ],
+    "applicationNotes": [
+      "Use one brush coat. Do not dilute with water.",
+      "Prepare a saturated surface dry substrate without free surface water. Allow 24 hours before plastering."
+    ],
+    "specs": [
+      [
+        "Physical State",
+        "-",
+        "Liquid"
+      ],
+      [
+        "Appearance",
+        "-",
+        "Opaque"
+      ],
+      [
+        "Colour",
+        "-",
+        "Green"
+      ],
+      [
+        "Setting time (HR)",
+        "In house",
+        "24 hours"
+      ],
+      [
+        "Bond strength (MPA)",
+        "In house",
+        "Up to 1 MPA"
+      ]
+    ],
+    "specPages": [
+      2
+    ],
+    "imageKind": "packaging",
+    "storage": "2\u201340\u00b0C; original properly closed packaging in a dry place. Follow the complete TDS storage instructions.",
+    "tdsStatus": "final-approved"
+  },
+  {
+    "id": "trubuild-plasterbond-eco",
+    "category": "Bonding Agents",
+    "image": "/images/packaging/39.webp",
+    "imageSource": null,
+    "name": "Plasterbond Eco",
+    "tds": "/documents/tds/trubuild-plasterbond-eco.pdf",
+    "documentId": "trubuild-plasterbond-eco",
+    "verified": "2026-10-09",
+    "tdsVersion": "N.1",
+    "tdsFile": "10_TDS_PLASTERBOND ECO.pdf",
+    "tdsSha256": "eb22a3182f3019c4cd07f2041f0d5cb993c2670d6f723e525d841b7836770343",
+    "coverage": "130 sq ft/kg for one coat.",
+    "shelfLife": "6 months from manufacture under the TDS storage conditions.",
+    "packaging": "20 kg",
+    "sourceNotes": [],
+    "source": "/documents/tds/trubuild-plasterbond-eco.pdf",
+    "applications": [
+      "Concrete and Mortar"
+    ],
+    "description": "Hybrid polymer emulsion bonding agent for RCC with gypsum plaster or cement-sand plaster.",
+    "subtitle": "Hybrid polymer emulsion bonding agent for RCC with gypsum plaster or cement-sand plaster.",
+    "fields": [
+      "RCC and concrete before gypsum or cement-sand plaster"
+    ],
+    "benefits": [
+      "Single-coat application",
+      "Blue identification colour",
+      "Hybrid polymer bonding"
+    ],
+    "applicationNotes": [
+      "Clean the substrate and stir before use. Apply one brush coat and allow 6\u20138 hours before plastering.",
+      "Do not dilute with water. Consume once opened."
+    ],
+    "specs": [
+      [
+        "Physical State",
+        "-",
+        "Liquid"
+      ],
+      [
+        "Appearance",
+        "-",
+        "Opaque"
+      ],
+      [
+        "Colour",
+        "-",
+        "Blue"
+      ],
+      [
+        "Setting time (HRs)",
+        "-",
+        "6-8 hours"
+      ],
+      [
+        "Bond strength (MPa)",
+        "ASTM-D 7234",
+        "\u22650.7 MPa"
+      ]
+    ],
+    "specPages": [
+      2
+    ],
+    "imageKind": "packaging",
+    "storage": "20\u201340\u00b0C; original closed container; consume once opened.",
+    "tdsStatus": "final-approved"
+  },
+  {
+    "id": "trubuild-iw-plus-111",
+    "category": "Integral and Latex Polymers",
+    "image": "/images/packaging/37.webp",
+    "imageSource": null,
+    "name": "CPS 111",
+    "tds": "/documents/tds/trubuild-iw-plus-111.pdf",
+    "documentId": "trubuild-iw-plus-111",
+    "verified": "2026-10-09",
+    "tdsVersion": "N.1",
+    "tdsFile": "29_TRUBUILD IW+ 111_RC.pdf",
+    "tdsSha256": "94faa505a3dd40784a22e3fb98e22f2f874900960f3ae71c68600b1243d5e6b9",
+    "coverage": "200 ml per 50 kg bag of cement.",
+    "shelfLife": "24 months from manufacture under the TDS storage conditions.",
+    "packaging": "200 ml, 500 ml, 1 L, 5 L, 10 L, 20 L, 50 L, 200 L",
+    "sourceNotes": [],
+    "source": "/documents/tds/trubuild-iw-plus-111.pdf",
+    "applications": [
+      "Concrete and Mortar"
+    ],
+    "description": "Silicate-based integral waterproofing compound for reducing porosity and permeability in cement concrete, mortar and plaster.",
+    "subtitle": "Silicate-based integral waterproofing compound for reducing porosity and permeability in cement concrete, mortar and plaster.",
+    "fields": [
+      "Integral waterproofing of cement concrete, mortar and plaster",
+      "Cement-sand mortar used in roof slabs"
+    ],
+    "benefits": [
+      "Improved workability",
+      "Reduced permeability",
+      "Improved cohesion"
+    ],
+    "applicationNotes": [
+      "Dose 200 ml per 50 kg bag of cement into the remaining gauging water after initial mixing.",
+      "Keep the water-cement ratio as low as possible and cure concrete or mortar using good construction practice."
+    ],
+    "specs": [
+      [
+        "Physical state",
+        "-",
+        "Low viscous Liquid"
+      ],
+      [
+        "Appearance",
+        "-",
+        "Transparent"
+      ],
+      [
+        "pH",
+        "-",
+        ">9"
+      ],
+      [
+        "Specific gravity",
+        "-",
+        "1.03-1.05"
+      ],
+      [
+        "Setting time",
+        "IS: 2645: 2003",
+        "30-600 min"
+      ],
+      [
+        "Water permeability",
+        "IS: 2645: 2003",
+        "Pass"
+      ],
+      [
+        "Compressive strength",
+        "IS: 2645: 2003",
+        "As per the standard"
+      ]
+    ],
+    "specPages": [
+      2
+    ],
+    "imageKind": "packaging",
+    "storage": "2\u201340\u00b0C; original properly closed packaging in a dry place. Follow the complete TDS storage instructions.",
+    "tdsStatus": "final-approved",
+    "aliases": [
+      "IW+ 111",
+      "IW Plus 111"
+    ]
+  },
+  {
+    "id": "trubuild-non-shrink-grout-hs",
+    "category": "Repair Grouts",
+    "image": "/images/packaging/71.webp",
+    "imageSource": null,
+    "name": "Non-Shrink Grout HS",
+    "tds": "/documents/tds/trubuild-non-shrink-grout-hs.pdf",
+    "documentId": "trubuild-non-shrink-grout-hs",
+    "verified": "2026-10-09",
+    "tdsVersion": "N.1",
+    "tdsFile": "31_TRUBUILD NON SHRINK GROUT HS_RC.pdf",
+    "tdsSha256": "324201e88955b93d1a065e33530636a849a8e6dbf094628a5f2c37ff32174806",
+    "coverage": "Approximate yield per 20 kg bag: 10.35 L flowable, 13.65 L pourable, 17.01 L stiff, using the corresponding water additions in the TDS.",
+    "shelfLife": "6 months from manufacture under the TDS storage conditions.",
+    "packaging": "20 kg",
+    "sourceNotes": [],
+    "source": "/documents/tds/trubuild-non-shrink-grout-hs.pdf",
+    "applications": [
+      "Concrete and Mortar"
+    ],
+    "description": "Single-component cementitious non-shrink grout for static and dynamic loads, with a stated gap thickness range of 10\u2013100 mm.",
+    "subtitle": "Single-component cementitious non-shrink grout for static and dynamic loads, with a stated gap thickness range of 10\u2013100 mm.",
+    "fields": [
+      "Grouting base plates of turbines, compressors and pumps",
+      "Anchoring bolts and fence posts"
+    ],
+    "benefits": [
+      "Controlled expansion",
+      "Chloride free",
+      "Indoor and outdoor use"
+    ],
+    "applicationNotes": [
+      "Per 20 kg bag: 3.8 L water for flowable, 3.2 L for pourable or 2.8 L for stiff consistency.",
+      "Technical strength values are at water:powder = 0.16.",
+      "Provide uninterrupted flow for baseplate grouting and 28 days curing for full strength."
+    ],
+    "specs": [
+      [
+        "Appearance",
+        "",
+        "Opaque"
+      ],
+      [
+        "Colour",
+        "",
+        "Grey"
+      ],
+      [
+        "Flow (mm)",
+        "IS 2250-1981",
+        "110"
+      ],
+      [
+        "Compressive strength at 1 day (N/mm\u00b2)",
+        "ASTM C 109-2021",
+        "Approx. 38"
+      ],
+      [
+        "Compressive strength at 7 days (N/mm\u00b2)",
+        "ASTM C 109-2021",
+        "Approx. 45"
+      ],
+      [
+        "Compressive strength at 28 days (N/mm\u00b2)",
+        "ASTM C 109-2021",
+        "Approx. 72"
+      ],
+      [
+        "Flexural strength at 7 days (N/mm\u00b2)",
+        "ASTM C 348-2021",
+        "Approx. 8"
+      ],
+      [
+        "Flexural strength at 28 days (N/mm\u00b2)",
+        "ASTM C 348-2021",
+        "Approx. 10"
+      ]
+    ],
+    "specPages": [
+      2
+    ],
+    "imageKind": "packaging",
+    "storage": "Original unopened packs in a cool, dry place away from moisture and direct sunlight.",
+    "tdsStatus": "final-approved"
+  },
+  {
+    "id": "trubuild-crystaseal-1k",
+    "category": "Crystalline Waterproofing",
+    "image": "/images/packaging/33.webp",
+    "imageSource": null,
+    "name": "Crystaseal 1K",
+    "tds": "/documents/tds/trubuild-crystaseal-1k.pdf",
+    "documentId": "trubuild-crystaseal-1k",
+    "verified": "2026-10-09",
+    "tdsVersion": "N.1",
+    "tdsFile": "33_TRUBUILD CRYSTASEAL 1K_RC.pdf",
+    "tdsSha256": "2b145fbb34d686860ea926d3bba9205e4a662ec0f4fc859e1dcda9fe00c3d26e",
+    "coverage": "1.4\u20131.6 kg/m\u00b2 for two coats; other methods have separate consumption rates in the TDS.",
+    "shelfLife": "12 months from manufacture under the TDS storage conditions.",
+    "packaging": "20 kg",
+    "sourceNotes": [],
+    "source": "/documents/tds/trubuild-crystaseal-1k.pdf",
+    "applications": [
+      "Substructure Waterproofing",
+      "Water Tanks and Other Areas",
+      "Wet Areas"
+    ],
+    "description": "Single-component cementitious crystalline waterproofing treatment that penetrates concrete capillaries to reduce water permeability.",
+    "subtitle": "Single-component cementitious crystalline waterproofing treatment that penetrates concrete capillaries to reduce water permeability.",
+    "fields": [
+      "RCC water tanks, pools, fountains and other retaining structures",
+      "Foundations, retaining walls, slabs, tunnels and lift shafts",
+      "Construction joints and parking structures"
+    ],
+    "benefits": [
+      "Positive- and negative-side application",
+      "Seals static hairline cracks up to 0.5 mm",
+      "Integral crystalline action"
+    ],
+    "applicationNotes": [
+      "Apply to prepared saturated surface dry concrete; do not apply to dry substrates or moving joints.",
+      "Mix powder:water by volume 3:1 for horizontal brushing or 5:2 for vertical brushing.",
+      "Keep the treated area damp for five days; allow 28 days for full cure and before painting. Negative-side applications require three coats."
+    ],
+    "specs": [
+      [
+        "pH",
+        "",
+        "Approx. 10-11"
+      ],
+      [
+        "Appearance",
+        "",
+        "Grey powder"
+      ],
+      [
+        "Bulk Density, g/cc",
+        "",
+        "1.3 to 1.55"
+      ],
+      [
+        "Water Permeability Reduction",
+        "EN 12390 PART 8:2019",
+        ">90"
+      ],
+      [
+        "Acute Toxicity",
+        "IS 6585:1971",
+        "100% survival"
+      ]
+    ],
+    "specPages": [
+      3
+    ],
+    "imageKind": "packaging",
+    "storage": "2\u201340\u00b0C; original properly closed packaging in a dry place. Follow the complete TDS storage instructions.",
+    "tdsStatus": "final-approved"
+  },
+  {
+    "id": "trubuild-crystaseal-admix",
+    "category": "Crystalline Waterproofing",
+    "image": "/images/packaging/34.webp",
+    "imageSource": null,
+    "name": "Crystaseal Admix",
+    "tds": "/documents/tds/trubuild-crystaseal-admix.pdf",
+    "documentId": "trubuild-crystaseal-admix",
+    "verified": "2026-10-09",
+    "tdsVersion": "N.1",
+    "tdsFile": "34_TRUBUILD CRYSTASEAL ADMIX_RC.pdf",
+    "tdsSha256": "4b4d8f05b09a5124c918599b96098bcd901ad3d3a471a1f979638136a7a2ac7b",
+    "coverage": "0.8\u20131% by weight of cement, subject to approved mix-design trials.",
+    "shelfLife": "12 months from manufacture under the TDS storage conditions.",
+    "packaging": "20 kg",
+    "sourceNotes": [],
+    "source": "/documents/tds/trubuild-crystaseal-admix.pdf",
+    "applications": [
+      "Concrete and Mortar",
+      "Substructure Waterproofing",
+      "Water Tanks and Other Areas"
+    ],
+    "description": "Integral crystalline waterproofing admixture for concrete. Active chemicals form crystals in pores and static microcracks in the presence of moisture.",
+    "subtitle": "Integral crystalline waterproofing admixture for concrete.",
+    "fields": [
+      "Water-retaining concrete structures",
+      "Foundations, slabs, retaining walls, lift pits and tunnels",
+      "Sewage and water-treatment plants"
+    ],
+    "benefits": [
+      "Reduces water permeability",
+      "Self-sealing static cracks up to 0.5 mm in moisture",
+      "Improved resistance to chloride penetration"
+    ],
+    "applicationNotes": [
+      "Dose 0.8\u20131% by weight of cement, validated by mix-design and compatibility trials.",
+      "For slurry, mix admixture:water 1:1.5 by volume; deduct this water from the concrete batching water.",
+      "For rigid structures and static cracks only. Moving joints require an engineered flexible system."
+    ],
+    "specs": [
+      [
+        "Appearance",
+        "-",
+        "Grey powder"
+      ],
+      [
+        "Bulk density",
+        "-",
+        "Approx.1.4 g/cm\u00b3"
+      ],
+      [
+        "Reduction in coefficient of water permeability at 0.8 % dosage",
+        "EN; 12390 (Part 8) :2019",
+        "Reduction by more than 90 % compared to reference concrete"
+      ],
+      [
+        "Resists 16 bar hydrostatic pressure",
+        "EN 12390 (Part 8) :2019",
+        "Pass"
+      ],
+      [
+        "Self-sealing cracks in presence of moisture",
+        "Customize test method",
+        "Heals cracks up to 0.5mm in width"
+      ],
+      [
+        "Reduction in chloride diffusion co-efficient",
+        "ASTM C \u2013 1556 \u2013 2011",
+        "Reduction by more than 45 % compared to reference concrete"
+      ],
+      [
+        "Reduction in shrinkage & cracks",
+        "IS 516 Part 6: 2020",
+        "Reduction by more than 20 %"
+      ],
+      [
+        "Alkali content",
+        "IS 4032: 1985",
+        "<4%"
+      ],
+      [
+        "Chloride content",
+        "IS 4032: 1985",
+        "NIL"
+      ]
+    ],
+    "specPages": [
+      2
+    ],
+    "imageKind": "packaging",
+    "storage": "2\u201340\u00b0C; original properly closed packaging in a dry place. Follow the complete TDS storage instructions.",
+    "tdsStatus": "final-approved"
+  },
+  {
+    "id": "trubuild-trubond-ds-tape",
+    "category": "Membrane Accessories",
+    "image": "/images/tds-trubuild-trubond-ds-tape.webp",
+    "imageSource": null,
+    "name": "Trubond DS Tape",
+    "tds": "/documents/tds/trubuild-trubond-ds-tape.pdf",
+    "documentId": "trubuild-trubond-ds-tape",
+    "verified": "2026-10-09",
+    "tdsVersion": "N.1",
+    "tdsFile": "36_TRUBUILD TRUBOND DS TAPE_RC.pdf",
+    "tdsSha256": "7ce462e423764c1d36343161856134c9596e6eb1bca5838b42bd58c48cc0a8c5",
+    "coverage": "Roll length: 30 m.",
+    "shelfLife": "12 months from manufacture under the TDS storage conditions.",
+    "packaging": "10 cm wide \u00d7 30 m roll",
+    "sourceNotes": [],
+    "source": "/documents/tds/trubuild-trubond-ds-tape.pdf",
+    "applications": [
+      "Substructure Waterproofing"
+    ],
+    "description": "Cold-applied double-sided pressure-sensitive adhesive tape for joining pre-applied HDPE waterproofing membranes.",
+    "subtitle": "Cold-applied double-sided pressure-sensitive adhesive tape for joining pre-applied HDPE waterproofing membranes.",
+    "fields": [
+      "Joining end laps of HDPE waterproofing membranes",
+      "Overlapping membranes cut on site"
+    ],
+    "benefits": [
+      "Adhesion to HDPE and concrete",
+      "Low-temperature flexibility"
+    ],
+    "applicationNotes": [
+      "Prepare clean, dry end laps. Remove sand and adhesive over a 100 mm width as described in the TDS.",
+      "Remove release liners, align the membranes and roll firmly to ensure adhesion."
+    ],
+    "specs": [
+      [
+        "Flexibility at low temperature, -25 \u030aC",
+        "ASTM D1970",
+        "No Cracking"
+      ],
+      [
+        "Peel Adhesion Strength with HDPE Membrane",
+        "ASTM D1876",
+        "1.25 N/mm"
+      ],
+      [
+        "Peel Adhesion Strength with Concrete",
+        "ASTM D 903",
+        "0.5 N/mm"
+      ]
+    ],
+    "specPages": [
+      1
+    ],
+    "imageKind": "document",
+    "storage": "8\u201335\u00b0C; protect from moisture, sunlight, acids, alkalis, oils and organic solvents.",
+    "tdsStatus": "final-approved"
   }
 ]

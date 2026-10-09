@@ -1,7 +1,7 @@
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 import { Link } from "react-router-dom";
-import { ArrowDown, ArrowUpRight, Plus } from "lucide-react";
-import { solutions, featured } from "./data";
+import { ArrowDown, ArrowUpRight, ChevronLeft, ChevronRight } from "lucide-react";
+import { solutions, featured, products } from "./data";
 
 const featuredSummaries = {
   "trubuild-rooftect-advanced":
@@ -12,79 +12,69 @@ const featuredSummaries = {
 };
 
 const scenes = [
-  {
-    title: "Above it all.",
-    label: "Roof & terrace",
-    image: "/images/roof.webp",
-    id: "roof",
-    detail: "Protection for your most exposed spaces.",
-  },
-  {
-    title: "Every detail.",
-    label: "Tiling & grouting",
-    image: "/images/tiles.webp",
-    id: "tiling",
-    detail: "Beautiful surfaces begin with the right foundation.",
-  },
-  {
-    title: "Beyond the surface.",
-    label: "Exterior walls",
-    image: "/images/architecture.webp",
-    id: "exterior",
-    detail: "Prepare and protect the face of your building.",
-  },
-];
+  { id: "roof", label: "Roof & terrace", image: "/images/hero-roof-coating.webp",
+    lead: "Your roof.", accent: "Protected.", productId: "trubuild-rooftect-advanced",
+    detail: "A seamless waterproof coating for exposed roofs and terraces." },
+  { id: "tiling", label: "Interior flooring", image: "/images/hero-interior-floor.webp",
+    lead: "A lasting finish", accent: "starts beneath.", productId: "trufix-110",
+    detail: "Grey cement-based tile adhesive for interior floors." },
+  { id: "exterior", label: "Exterior walls", image: "/images/hero-exterior-coating.webp",
+    lead: "Exterior walls.", accent: "Covered.", productId: "trubuild-walltect-top-coat",
+    detail: "Waterproof protection for exterior walls." },
+].map(scene => ({ ...scene, product: products.find(p => p.id === scene.productId) }));
 export default function Home() {
   const [scene, setScene] = useState(0);
   const active = scenes[scene];
+  const touchStart = useRef(null);
+  const changeScene = (direction) => setScene(current => (current + direction + scenes.length) % scenes.length);
   return (
     <div className="new-home">
-      <section
-        className="space-hero"
-        aria-label="TruBuild construction solutions"
-      >
-        <div className="space-images" aria-hidden="true">
-          {scenes.map((s, i) => (
-            <img
-              key={s.id}
-              data-scene={s.id}
-              src={s.image}
-              alt=""
-              className={scene === i ? "is-active" : ""}
-              fetchPriority={i === 0 ? "high" : "auto"}
-            />
-          ))}
+      <section className="product-hero" aria-label="TruBuild products and applications"
+        onTouchStart={event => { touchStart.current = { x: event.touches[0].clientX, y: event.touches[0].clientY }; }}
+        onTouchEnd={event => {
+          if (!touchStart.current) return;
+          const dx = event.changedTouches[0].clientX - touchStart.current.x;
+          const dy = event.changedTouches[0].clientY - touchStart.current.y;
+          if (Math.abs(dx) > 60 && Math.abs(dx) > Math.abs(dy) * 1.5) changeScene(dx < 0 ? 1 : -1);
+          touchStart.current = null;
+        }}>
+        <div className="product-hero-background" aria-hidden="true">
+          {scenes.map((item, index) => <img key={item.id} src={item.image} alt=""
+            className={scene === index ? "is-active" : ""} fetchPriority={index === 0 ? "high" : "auto"} />)}
         </div>
-        <div className="space-shade" />
-        <div className="space-topline">
-          <span>TRUBUILD / CONSTRUCTION SOLUTIONS</span>
-        </div>
-        <div className="space-headline">
-          <h1>
-            Built to <span className="hero-word-accent">protect.</span>
-            <br />
-            Made to <span className="hero-word-accent">last.</span>
-          </h1>
-        </div>
-        <div className="space-bottom">
-          <div className="scene-note" aria-live="polite">
-            <span>IN YOUR ELEMENT</span>
-            <h2>{active.title}</h2>
-            <Link to={"/solutions/" + active.id}>
-              {active.detail} <ArrowUpRight size={18} />
+        <div className="product-hero-stage">
+          <div className="product-hero-copy" key={active.id} aria-live="polite" aria-atomic="true">
+            <p className="product-hero-eyebrow">TRUBUILD / {active.label}</p>
+            <h1>{active.lead}{" "}<br /><span>{active.accent}</span></h1>
+            <p className="product-hero-description">{active.detail}</p>
+            <div className="product-hero-actions">
+            <Link className="product-hero-cta" to={"/products/" + active.product.id}>
+              Explore {active.product.name} <ArrowUpRight size={20} />
             </Link>
+            <Link className="product-hero-solution" to={"/solutions/" + active.id}>Explore the application <ArrowUpRight size={20} /></Link>
+            </div>
           </div>
-          <div className="scene-switch" aria-label="Explore application scenes">
-            {scenes.map((s, i) => (
-              <button
-                key={s.id}
-                onClick={() => setScene(i)}
-                aria-pressed={scene === i}
-              >
-                <span>{s.label}</span>
-                <Plus size={16} />
-              </button>
-            ))}
+          <div className="product-hero-display">
+            <div className="product-hero-halo" aria-hidden="true" />
+            {scenes.map((item, index) => <img key={item.id} src={item.product.image}
+              className={scene === index ? "is-active" : ""} width="500" height="500"
+              alt={scene === index ? item.product.name + " official packaging" : ""}
+              aria-hidden={scene !== index} />)}
+            <span className="product-hero-caption">{active.product.name}</span>
+          </div>
+        </div>
+        <div className="product-hero-navigation">
+          <div className="product-hero-selectors" role="group" aria-label="Choose a featured product">
+            {scenes.map((item, index) => <button key={item.id} type="button" aria-pressed={scene === index}
+              onClick={() => setScene(index)}>
+              <img src={item.product.image} alt="" width="48" height="48" />
+              <span><small>{item.label}</small><strong>{item.product.name}</strong></span>
+              <ArrowUpRight size={18} aria-hidden="true" />
+            </button>)}
+          </div>
+          <div className="product-hero-arrows">
+            <button type="button" aria-label="Previous featured product" onClick={() => changeScene(-1)}><ChevronLeft size={20} /></button>
+            <button type="button" aria-label="Next featured product" onClick={() => changeScene(1)}><ChevronRight size={20} /></button>
           </div>
         </div>
       </section>
@@ -113,12 +103,8 @@ export default function Home() {
               className={"application-tile tile-" + s.id}
             >
               <img
-                src={
-                  ["roof", "tiling", "exterior"].includes(s.id)
-                    ? s.image
-                    : `/images/application-${s.id}.webp`
-                }
-                alt=""
+                src={s.image}
+                alt={s.imageAlt}
                 loading="lazy"
               />
               <span className="application-tile-arrow">

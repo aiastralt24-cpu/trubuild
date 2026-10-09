@@ -1,0 +1,321 @@
+[
+  {
+    "file": "01_TRUBUILD AQUALOCK_RC.pdf",
+    "productId": "trubuild-aqualock",
+    "name": "Aqualock",
+    "action": "updated",
+    "previousName": "Aqualock",
+    "previousPackaging": "3 Kg 15 Kg 90 Kg",
+    "packaging": "3 kg, 15 kg, 90 kg",
+    "samePdfBytes": false,
+    "sha256": "002a1e0693bc2bc604494140f4854b7ec7c500dedec52499c3fa669eb67c3025",
+    "issues": [],
+    "status": "final-approved"
+  },
+  {
+    "file": "02_TRUBUILD AQUALOCK FLEXI_RC.pdf",
+    "productId": "trubuild-aqualock-flexi",
+    "name": "Aqualock Flexi",
+    "action": "updated",
+    "previousName": "Aqualock Flexi",
+    "previousPackaging": "12 Kg (5kg+7kg) 48 Kg (20kg + 28kg)",
+    "packaging": "12 kg, 48 kg",
+    "samePdfBytes": false,
+    "sha256": "1c58bb8a6a5e556d9f47a31346fb403268e34787b81fc72f876eb8fee79b5cfa",
+    "issues": [],
+    "status": "final-approved"
+  },
+  {
+    "file": "03_TDS_AQUAPOXY_RC.pdf",
+    "productId": "trubuild-aquapoxy",
+    "name": "Aquapoxy",
+    "action": "added",
+    "previousName": null,
+    "previousPackaging": null,
+    "packaging": "1 kg",
+    "samePdfBytes": false,
+    "sha256": "96db34f8127e3c48d313bd2a08e3754512b91ce9130138567782195203f05e16",
+    "issues": [
+      "The supplied TDS states negative water pressure of 0.5–1 bar in its benefits and up to 3.5 bar in its table. It also gives 8–10 hours between tank coats versus 6–8 hours in the table. Confirm project pressure limits and recoating intervals with technical support."
+    ],
+    "status": "final-approved"
+  },
+  {
+    "file": "04_TRUBUILD-BORETITE_RC.pdf",
+    "productId": "trubuild-boretite",
+    "name": "Boretite",
+    "action": "updated",
+    "previousName": "Boretite",
+    "previousPackaging": "200 gm 2 Kg",
+    "packaging": "200 g, 2 kg",
+    "samePdfBytes": false,
+    "sha256": "92fa1c53cbafeb9a854aac22b6471fa15c52072f5d3b7019c14d830fac35d07e",
+    "issues": [],
+    "status": "final-approved"
+  },
+  {
+    "file": "05_TRUBUILD BUILDCRETE_RC.pdf",
+    "productId": "trubuild-buildcrete",
+    "name": "Buildcrete",
+    "action": "updated",
+    "previousName": "Buildcrete",
+    "previousPackaging": "1 Kg 5 Kg 20 Kg",
+    "packaging": "1 kg, 5 kg",
+    "samePdfBytes": false,
+    "sha256": "a45ed5167d3f55f4d125ccbd0f2669fadcea87b933e26ee18f6ee3b454f8ed74",
+    "issues": [],
+    "status": "final-approved"
+  },
+  {
+    "file": "06_TRUBUILD CRACKFILL PASTE_RC.pdf",
+    "productId": "trubuild-crack-filler-cfp-425",
+    "name": "Crackfill Paste",
+    "action": "updated",
+    "previousName": "CFP 425",
+    "previousPackaging": "500 gm 1 Kg",
+    "packaging": "500 g, 1 kg, 5 kg",
+    "samePdfBytes": false,
+    "sha256": "6ccf6f4b9fba9a3eaacbf8b88ec9c9d29bc8efeebb524846d932fdd030458988",
+    "issues": [],
+    "status": "final-approved"
+  },
+  {
+    "file": "06_TRUBUILD TRUSHIELD.pdf",
+    "productId": "trubuild-trushield",
+    "name": "Trushield",
+    "action": "added",
+    "previousName": null,
+    "previousPackaging": null,
+    "packaging": "1 m × 10 m roll",
+    "samePdfBytes": false,
+    "sha256": "e88374073e4346d6115b4f5824d3869c602f4e36d0c6f9805edd5ead2bbac563",
+    "issues": [
+      "The supplied TDS leaves the roll-dimension unit unfinished and the tensile-strength unit ambiguous. Those entries are not treated as validated specifications; confirm them with technical support. The packaging section states a 1 m × 10 m roll."
+    ],
+    "status": "final-approved"
+  },
+  {
+    "file": "07_TRUBUILD CRACKFILL POWDER_RC.pdf",
+    "productId": "trubuild-crack-filler-cfp-525",
+    "name": "Crackfill Powder",
+    "action": "updated",
+    "previousName": "CFP 525",
+    "previousPackaging": "1 Kg",
+    "packaging": "1 kg",
+    "samePdfBytes": false,
+    "sha256": "850a9195914b873fc674d2e1aa15542800d68d972453ba03b9550c557802914b",
+    "issues": [
+      "The supplied TDS has an unrelated waterproof-coating subtitle. Its application section states 3–5 mm cracks, while its restriction says less than 5 mm. Confirm suitability at exactly 5 mm."
+    ],
+    "status": "final-approved"
+  },
+  {
+    "file": "09_TDS_PLASTERBOND.pdf",
+    "productId": "trubuild-plasterbond",
+    "name": "Plasterbond",
+    "action": "added",
+    "previousName": null,
+    "previousPackaging": null,
+    "packaging": "20 kg",
+    "samePdfBytes": false,
+    "sha256": "abceefc6ca58ec668e065fe9f942166164199a1eeae567ec05433086d3bd9244",
+    "issues": [],
+    "status": "final-approved"
+  },
+  {
+    "file": "10_TDS_PLASTERBOND ECO.pdf",
+    "productId": "trubuild-plasterbond-eco",
+    "name": "Plasterbond Eco",
+    "action": "added",
+    "previousName": null,
+    "previousPackaging": null,
+    "packaging": "20 kg",
+    "samePdfBytes": false,
+    "sha256": "eb22a3182f3019c4cd07f2041f0d5cb993c2670d6f723e525d841b7836770343",
+    "issues": [],
+    "status": "final-approved"
+  },
+  {
+    "file": "11_TDS_PRIMESURE EPMI.pdf",
+    "productId": "trubuild-primesure-epmi",
+    "name": "Primesure EPMI",
+    "action": "updated",
+    "previousName": "Primesure EPMI",
+    "previousPackaging": "8 L",
+    "packaging": "5 L and 3 L (as illustrated in the TDS)",
+    "samePdfBytes": false,
+    "sha256": "eeaa38d55db5ab82b3a7166fa8d63eac1368c14a2c426f7b9f175d2de8e5371f",
+    "issues": [],
+    "status": "final-approved"
+  },
+  {
+    "file": "13_TDS_SBR 333 (WPL 333)_RC.pdf",
+    "productId": "trubuild-sbr-333",
+    "name": "SBR 333",
+    "action": "updated",
+    "previousName": "SBR-333",
+    "previousPackaging": "200 gm 500 gm 1 Kg 5 Kg 10 Kg 20 Kg 50 Kg",
+    "packaging": "200 g, 500 g, 1 kg, 5 kg, 10 kg, 20 kg, 50 kg",
+    "samePdfBytes": false,
+    "sha256": "f454e4dbeb3376d1b028531e1eadff97501da97d9633f6c68d7b8f69c0bb381f",
+    "issues": [
+      "The supplied TDS bonding-primer composition table contains a missing quantity, and some test-standard identifiers appear incomplete. Use the stated 1:1 volume ratio in the application instructions and obtain clarification for specifications."
+    ],
+    "status": "final-approved"
+  },
+  {
+    "file": "23_TRUBUILD TRUBUILD TRU PU_RC.pdf",
+    "productId": "trubuild-waterproofing-membrane-tru-pu",
+    "name": "TRU PU",
+    "action": "updated",
+    "previousName": "TRU PU",
+    "previousPackaging": "1 Kg 20 Kg",
+    "packaging": "1 kg, 5 kg, 10 kg, 20 kg",
+    "samePdfBytes": false,
+    "sha256": "b37940be33f0a3318ecba163e84defa5de6f807c0565fdef5260daac5f045660",
+    "issues": [
+      "The supplied TDS gives 6–8 hours between coats in the method and 24 hours in the limitations. Confirm the recoating interval before application. The approximately 24-hour cure value is not permission for immersion; ponding tests require ten days."
+    ],
+    "status": "final-approved"
+  },
+  {
+    "file": "29_TRUBUILD IW+ 111_RC.pdf",
+    "productId": "trubuild-iw-plus-111",
+    "name": "IW+ 111",
+    "action": "added",
+    "previousName": null,
+    "previousPackaging": null,
+    "packaging": "200 ml, 500 ml, 1 L, 5 L, 10 L, 20 L, 50 L, 200 L",
+    "samePdfBytes": false,
+    "sha256": "94faa505a3dd40784a22e3fb98e22f2f874900960f3ae71c68600b1243d5e6b9",
+    "issues": [],
+    "status": "final-approved"
+  },
+  {
+    "file": "31_TRUBUILD NON SHRINK GROUT HS_RC.pdf",
+    "productId": "trubuild-non-shrink-grout-hs",
+    "name": "Non-Shrink Grout HS",
+    "action": "added",
+    "previousName": null,
+    "previousPackaging": null,
+    "packaging": "20 kg",
+    "samePdfBytes": false,
+    "sha256": "324201e88955b93d1a065e33530636a849a8e6dbf094628a5f2c37ff32174806",
+    "issues": [],
+    "status": "final-approved"
+  },
+  {
+    "file": "33_TRUBUILD CRYSTASEAL 1K_RC.pdf",
+    "productId": "trubuild-crystaseal-1k",
+    "name": "Crystaseal 1K",
+    "action": "added",
+    "previousName": null,
+    "previousPackaging": null,
+    "packaging": "20 kg",
+    "samePdfBytes": false,
+    "sha256": "2b145fbb34d686860ea926d3bba9205e4a662ec0f4fc859e1dcda9fe00c3d26e",
+    "issues": [
+      "The supplied TDS gives conflicting tank-filling rates (feet per hour versus metres per 24 hours). Obtain a confirmed filling schedule from technical support."
+    ],
+    "status": "final-approved"
+  },
+  {
+    "file": "34_TRUBUILD CRYSTASEAL ADMIX_RC.pdf",
+    "productId": "trubuild-crystaseal-admix",
+    "name": "Crystaseal Admix",
+    "action": "added",
+    "previousName": null,
+    "previousPackaging": null,
+    "packaging": "20 kg",
+    "samePdfBytes": false,
+    "sha256": "4b4d8f05b09a5124c918599b96098bcd901ad3d3a471a1f979638136a7a2ac7b",
+    "issues": [
+      "The supplied TDS contains unfilled fresh/hardened concrete table rows and differs on alkali content (<9% in benefits versus <4% in the table). Placeholder rows are omitted; confirm the specification with technical support."
+    ],
+    "status": "final-approved"
+  },
+  {
+    "file": "35_TRUBUILD SEALMASTER FLEXI_RC.pdf",
+    "productId": "trubuild-sealmaster-flexi",
+    "name": "Sealmaster Flexi",
+    "action": "updated",
+    "previousName": "Sealmaster Flexi",
+    "previousPackaging": "600 ml",
+    "packaging": "600 ml",
+    "samePdfBytes": false,
+    "sha256": "7821981ffbe11dc1dae201975e82c582f4b974cc21d7b2a2773bf08855f15b2a",
+    "issues": [],
+    "status": "final-approved"
+  },
+  {
+    "file": "36_TRUBUILD TRUBOND DS TAPE_RC.pdf",
+    "productId": "trubuild-trubond-ds-tape",
+    "name": "Trubond DS Tape",
+    "action": "added",
+    "previousName": null,
+    "previousPackaging": null,
+    "packaging": "10 cm wide × 30 m roll",
+    "samePdfBytes": false,
+    "sha256": "7ce462e423764c1d36343161856134c9596e6eb1bca5838b42bd58c48cc0a8c5",
+    "issues": [],
+    "status": "final-approved"
+  },
+  {
+    "file": "37_TRUBUILD TRU PU PURA 1K_RC.pdf",
+    "productId": "tru-pu-pura-1k",
+    "name": "Tru PU Pura 1K",
+    "action": "updated",
+    "previousName": "Tru PU Pura 1K",
+    "previousPackaging": "25 Kg",
+    "packaging": "25 kg",
+    "samePdfBytes": false,
+    "sha256": "f4ea409a301adbf4b9904d94b755092d658333fd4eb6e1afb2345de2632fb9f2",
+    "issues": [
+      "The water-pressure test standard is printed as EN 1239-8:2019 in the supplied TDS. Confirm the standard identifier before specification."
+    ],
+    "status": "final-approved"
+  },
+  {
+    "file": "40_TRUBUILD WTS 888_RC.pdf",
+    "productId": "trubuild-water-thinnable-sealer-wts-888",
+    "name": "WTS 888",
+    "action": "updated",
+    "previousName": "WTS 888",
+    "previousPackaging": "5 Kg",
+    "packaging": "1 L, 5 L",
+    "samePdfBytes": false,
+    "sha256": "50a2b5ae826a76e4aba79577e1ccec6cd4609306fa2720a88c9cc33d4511ec00",
+    "issues": [],
+    "status": "final-approved"
+  },
+  {
+    "file": "43_TRUBUILD TCSR-555_RC.pdf",
+    "productId": "trubuild-tcsr-555",
+    "name": "TCSR-555",
+    "action": "updated",
+    "previousName": "TCSR 555",
+    "previousPackaging": "300 gm set 1.5 Kg set 7.5 Kg set",
+    "packaging": "300 g set, 1.5 kg set, 7.5 kg set",
+    "samePdfBytes": false,
+    "sha256": "e3b9f865ccb9b5a90ebae55294c4d2b3e8592d475b3e98cd2fad12c70a6dac88",
+    "issues": [
+      "The supplied method states 1 kg/m² at 1 mm thickness, while its coverage section states 15–20 sq ft/kg for two coats at 300 microns. Confirm the required thickness and consumption for the proposed application."
+    ],
+    "status": "final-approved"
+  },
+  {
+    "file": "44_TRUBUILD WRP 777_RC.pdf",
+    "productId": "trubuild-water-repellent-wrp-777",
+    "name": "WRP 777",
+    "action": "updated",
+    "previousName": "WRP 777",
+    "previousPackaging": "",
+    "packaging": "1 L, 5 L, 20 L",
+    "samePdfBytes": false,
+    "sha256": "142af10a8d98f5d20d2e5e224c0eea4d47cc2eaf29b7c1ecb8b989f18c0f348e",
+    "issues": [
+      "The supplied TDS says to dry the first coat for 24 hours and also apply the second coat wet-on-wet. Confirm the intended recoating method before use."
+    ],
+    "status": "final-approved"
+  }
+]

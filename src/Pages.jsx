@@ -11,7 +11,7 @@ import {
   Copy,
   Download,
 } from "lucide-react";
-import { solutions, products, resources, enquiryUrl } from "./data";
+import { solutions, products, resources, enquiryUrl, documentFor } from "./data";
 import {
   PageIntro,
   Button,
@@ -19,6 +19,7 @@ import {
   ProductGrid,
   Breadcrumb,
 } from "./components";
+import { solutionContent } from "./solutionContent.mjs";
 import { NotFound } from "./Catalogue";
 export function Solutions() {
   return (
@@ -32,7 +33,7 @@ export function Solutions() {
           <a className="solutions-jump" href="#applications">Explore applications <ArrowUpRight size={20} /></a>
         </div>
         <div className="solutions-intro-image">
-          <img src="/images/architecture.webp" alt="Illustrative contemporary concrete architecture" fetchPriority="high" />
+          <img src="/images/hero-exterior-coating.webp" alt="Illustrative waterproof-coated exterior plaster wall" fetchPriority="high" />
           <span>Protection from the ground up.</span>
         </div>
       </section>
@@ -45,7 +46,7 @@ export function Solutions() {
           {solutions.map((s) => (
             <Link key={s.id} to={"/solutions/" + s.id} className={"application-gallery-card gallery-" + s.id}>
               <div className="application-gallery-photo">
-                <img src={s.image} alt="" loading="lazy" />
+                <img src={s.image} alt={s.imageAlt} loading="lazy" />
                 <span className="application-gallery-arrow" aria-hidden="true"><ArrowUpRight size={22} /></span>
               </div>
               <div className="application-gallery-copy"><h3>{s.name}</h3><p>{s.summary}</p><span className="application-gallery-link">Explore solutions <ArrowUpRight size={16} /></span></div>
@@ -64,47 +65,58 @@ export function Solutions() {
 export function SolutionDetail({ compare, toggle }) {
   const { id } = useParams();
   const s = solutions.find((x) => x.id === id);
-  if (!s) return <NotFound />;
+  const content = solutionContent[id];
+  if (!s || !content) return <NotFound />;
   const items = products.filter((p) => p.applications.includes(s.sourceName));
+  const featured = [...new Set(content.choices.map(choice => choice[2]))]
+    .map(productId => items.find(p => p.id === productId)).filter(Boolean);
   return (
-    <>
+    <article className="solution-guide">
       <section className="solution-detail-hero">
         <div className="wrap">
-          <Breadcrumb
-            items={[
-              { label: "Solutions", to: "/solutions" },
-              { label: s.name },
-            ]}
-          />
-          <span className="eyebrow">{s.sourceName}</span>
-          <h1>
-            {s.name}
-            <span>.</span>
-          </h1>
+          <Breadcrumb items={[{ label: "Solutions", to: "/solutions" }, { label: s.name }]} />
+          <span className="eyebrow">TRUBUILD APPLICATION GUIDE</span>
+          <h1>{content.heading}{" "}<br /><span>{content.accent}</span></h1>
           <p>{s.description}</p>
-          <Button to="/advisor">Find a product for my project</Button>
+          <Button to={enquiryUrl("", s.name)}>Discuss your project</Button>
         </div>
-        <img
-          src={s.image || "/images/architecture.webp"}
-          alt="Illustrative architectural application"
-        />
+        <img src={s.image} alt={s.imageAlt} fetchPriority="high" />
       </section>
-      <section className="section wrap">
-        <div className="section-heading">
-          <div>
-            <span className="eyebrow">EXPLORE YOUR OPTIONS</span>
-            <h2>Products for your project.</h2>
-          </div>
-          <p>
-            Review the application guidance and technical
-            <br />
-            data sheet for each product before selection.
-          </p>
+      <nav className="solution-guide-nav" aria-label="On this page">
+        <div className="solution-guide-nav-inner wrap">
+        <a href="#selection">Choose a system</a><a href="#preparation">Plan the application</a><a href="#products">Explore products</a><a href="#questions">Common questions</a><a href="#documents">Technical data</a>
         </div>
-        <ProductGrid items={items} compare={compare} toggle={toggle} />
+      </nav>
+      <section className="solution-answer wrap" aria-labelledby="answer-heading">
+        <div><span className="eyebrow">START WITH THE RIGHT QUESTION</span><h2 id="answer-heading">{content.question}</h2></div>
+        <div><p className="solution-direct-answer">{content.answer}</p><p>{content.intro}</p></div>
       </section>
+      <section className="solution-guide-section wrap" id="selection">
+        <span className="eyebrow">SYSTEM SELECTION</span><h2>{content.selectionTitle}</h2>
+        <div className="solution-choice-grid">{content.choices.map(([title, text, productId]) => {
+          const product = products.find(p => p.id === productId);
+          return <article key={title}><h3>{title}</h3><p>{text}</p><Link to={"/products/" + product.id}>Explore {product.name} <ArrowUpRight size={16} /></Link></article>;
+        })}</div>
+      </section>
+      <section className="solution-preparation" id="preparation"><div className="wrap solution-preparation-inner">
+        <div><span className="eyebrow">BEFORE YOU BEGIN</span><h2>A sound surface.<br /><em>A complete system.</em></h2><p>Use this planning guide alongside the selected product’s technical data sheet for mixing, application and curing instructions.</p></div>
+        <div>{content.steps.map(([title, text]) => <section key={title}><h3>{title}</h3><p>{text}</p></section>)}</div>
+      </div></section>
+      <section className="solution-guide-section wrap" id="products">
+        <div className="section-heading"><div><span className="eyebrow">EXPLORE YOUR OPTIONS</span><h2>Explore {s.name.toLowerCase()} products.</h2></div><Link className="text-link" to={"/products?application=" + encodeURIComponent(s.sourceName)}>View all {items.length} products <ArrowUpRight size={18} /></Link></div>
+        <ProductGrid items={featured} compare={compare} toggle={toggle} />
+      </section>
+      <section className="solution-faq wrap" id="questions" aria-labelledby="faq-heading">
+        <div><span className="eyebrow">PRACTICAL ANSWERS</span><h2 id="faq-heading">Your questions,<br /><em>answered.</em></h2><p>{s.name} selection and application guidance.</p></div>
+        <div>{content.faqs.map(([question, answer], index) => <details key={question} open={index === 0}><summary>{question}<span aria-hidden="true">+</span></summary><p>{answer}</p></details>)}</div>
+      </section>
+      <section className="solution-documents wrap" id="documents">
+        <div><span className="eyebrow">PRODUCT DOCUMENTATION</span><h2>Check the technical detail.</h2><p>Product-specific quantities and limits above are drawn from the linked technical data sheets. Read the full document for the chosen application.</p></div>
+        <div>{content.documents.map(productId => {const p = products.find(p => p.id === productId); const doc = documentFor(p); return <a key={p.id} href={doc.local || doc.url} target="_blank" rel="noreferrer"><span>{p.name}<small>Technical data sheet · PDF</small></span><FileDown size={20} /></a>;})}</div>
+      </section>
+      <section className="solution-related wrap"><h2>Explore related applications.</h2><div>{content.related.map(key => {const related = solutions.find(item => item.id === key);return <Link key={key} to={"/solutions/" + key}>{related.name}<ArrowUpRight size={18} /></Link>;})}</div></section>
       <AdvisorBanner />
-    </>
+    </article>
   );
 }
 export function About() {
@@ -195,9 +207,9 @@ export function Resources() {
   const q = params.get("search") || "";
   const [kind, setKind] = useState("all");
   const filtered = resources.filter(
-    (r, i) =>
-      (kind === "all" || (kind === "brochure" ? i < 3 : i >= 3)) &&
-      r.title.toLowerCase().includes(q.toLowerCase()),
+    (r) =>
+      (kind === "all" || r.kind === kind) &&
+      [r.title, r.sourceTitle || "", ...(products.find((p) => p.id === r.productId)?.aliases || [])].join(" ").toLowerCase().includes(q.toLowerCase()),
   );
   return (
     <>
@@ -229,7 +241,7 @@ export function Resources() {
             Document type
             <select value={kind} onChange={(e) => setKind(e.target.value)}>
               <option value="all">All documents</option>
-              <option value="brochure">Brochures & guides</option>
+              {resources.some(r => r.kind === "brochure") && <option value="brochure">Brochures & guides</option>}
               <option value="tds">Technical data sheets</option>
             </select>
           </label>
@@ -239,7 +251,7 @@ export function Resources() {
           use legacy product names
         </p>
         <div className="resource-list">
-          {filtered.map((r, i) => (
+          {filtered.map((r) => (
             <a
               key={r.url}
               href={r.local || r.url}
@@ -263,7 +275,7 @@ export function Resources() {
                     .replace(/\.$/, "")}
                 </h2>
                 <span>
-                  OFFICIAL DOCUMENT · PDF ·{" "}
+                  {r.version ? `TDS ${r.version} · Checked 9 Oct 2026` : "Published document"} · PDF ·{" "}
                   {r.bytes ? (r.bytes / 1048576).toFixed(1) + " MB" : ""}
                 </span>
               </div>
@@ -602,10 +614,8 @@ export function Sources() {
         <h2>Information that needs confirmation</h2>
         <p>
           Pack sizes, product naming, document revisions and availability should
-          be confirmed with the technical team. The official CPS 111 product URL
-          resolves to different product content; its technical document is
-          available in Resources. No unsupported specifications have been
-          assigned to it.
+          be confirmed with the technical team. CPS 111 was formerly named IW+ 111.
+          Its approved technical data sheet retains the IW+ 111 name.
         </p>
         <h2>How the Product Advisor works</h2>
         <p>

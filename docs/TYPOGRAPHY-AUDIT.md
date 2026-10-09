@@ -1,50 +1,49 @@
-# Typography and text-colour audit
+# TruBuild typography research and small audit
 
-Completed 5 October 2026. Scope: home, catalogue, product detail, solution index/detail, About, Advisor, resources, contact, comparison and source credits, plus shared navigation/footer. This audits all eleven page templates, not every individual product record.
+9 October 2026. Scope: CSS plus rendered desktop homepage, catalogue, roof guide and Rooftect Advanced detail at 1280px. This is a representative audit, not an exhaustive accessibility certification. No website typography changed in this audit.
 
-## Findings and fixes
+## Recommendation
 
-| Finding | Impact | Resolution |
-| --- | --- | --- |
-| Heading fragments used black, muted grey and yellow together | Weak hierarchy; words appeared to have different importance without a reason | Main heading words now share the ink colour; one accent treatment per heading. “performance” now matches “Small details”. |
-| Bright brand yellow on pale paper had 1.33:1 contrast | Large accent words were hard to read | Bright yellow retained on dark surfaces; deeper yellow-gold `#957000` used for large text on light surfaces. No highlight backgrounds. |
-| Display sizes varied without clear roles | Application heading overwhelmed adjacent product section | Shared page, section and card heading scales; consistent weight, line height and tracking. Hero remains deliberately larger. |
-| Labels and metadata often 8–10px | Reading effort increased on mobile | Content labels now 11px; metadata/breadcrumbs 12px; controls 13px; summaries 14px; body copy 15–16px. |
-| Search/form fields were as small as 12–14px | Difficult reading and potential mobile browser input zoom | Inputs and selects now 16px. |
-| Product descriptions/actions crowded two-column phone cards | Unnecessary wrapping and density | Single-column catalogue at phone widths, larger descriptions, categories and actions. |
-| Faint product-brand labels, image notes and search hints | Several solid-background contrast failures | Shared secondary ink token `#596151`. |
-| Oversized/cropped decorative document art conflicted with larger mobile copy | Reduced room for useful text | Decorative document illustration removed at phone widths. Resource link and text retained. |
-| Text overlays rely on scene brightness | Variable contrast | Application-image lower gradients strengthened; image headings remain white and captions fully opaque. |
+Use IBM Plex Sans as the single website family: regular 400 for reading, medium 500 for display headings, semibold 600 for product names and controls. Keep the logo and authentic packaging untouched. Self-host WOFF2, retain its OFL licence, use font-display: swap and preload only the critical face. Avoid introducing Plex Mono/Serif simply because they exist.
 
-## Text system
+This is a design recommendation for TruBuild's mix of architectural marketing and technical product selection, not evidence that most premium brands share one font.
 
-- Main ink: `#19211f`; secondary ink: `#596151`.
-- Dark surfaces: warm white `#f8f7ee`; secondary `#c4ccbc`.
-- Brand yellow on dark: `#ffca05`.
-- Large accent text on pale surfaces: `#957000` (yellow-gold).
-- Page headings: 40–68px; major section headings: 34–56px; card headings: 22–28px. Smaller functional headings retain their own appropriate roles.
-- Display tracking: −0.045em; card tracking: −0.025em; body line height: 1.65.
-- Implementation lives in `src/typography.css`, loaded after layout CSS so typography decisions can be maintained together.
+## Primary research
 
-## Evidence
+- IBM identifies IBM Plex as its corporate typeface, with multiple real weights, UI support and an open licence: https://www.ibm.com/design/language/typography/typeface/ and https://github.com/IBM/plex
+- Siemens Element uses Siemens Sans and a controlled hierarchy. Its branded font is explicitly restricted to Siemens applications: https://element.siemens.io/v49/fundamentals/typography/
+- SAP Fiori uses 72 with specific attention to legibility, character distinction and hierarchy: https://experience.sap.com/fiori-design-web/typography-horizon/
 
-- Inspected computed heading/label styles for all eleven templates before edits (`typography-before.json`).
-- Reflow checks at 1440px, 390px and 320px across all eleven templates: no page-level horizontal overflow. `typography-after.json` records these 33 checks. Comparison content retains its intentional horizontal scroll region.
-- Final solid-background contrast sample: **626 rendered text leaves, zero failures** against 4.5:1 normal / 3:1 large-text thresholds (`contrast-audit.json`). Captured computed styles in `text-colors.json`; reproducible calculation in `research/audit-contrast.mjs`.
-- Large accent contrast on paper `#efefe8`: improved from **1.33:1** to **3.96:1**. This token is for large headings, not small body copy.
-- Visually inspected home headings/cards, Advisor questions, mobile comparison, resources, contact and fullscreen navigation; reviewed application image tiles during the preceding image pass.
-- Advisor roof → exposed → screed shortlist completed; comparison selection/removal and resources search checked. Form field computed size confirmed at 16px. Menu opens and Escape closes it.
-- Production build passes. Existing nine tests pass after the typography implementation; final label-colour adjustment also builds successfully.
+These examples support a disciplined sans-serif family with defined roles. They do not establish a single universal B2B font. Branded fonts are references, not permission to reuse them.
 
-Screenshots: `typography-home-desktop.jpg`, `typography-resources-mobile.jpg`.
+## Current findings
 
-## Limits
+1. The site mostly already uses one Arial-based family. Computed CSS on the four pages returned Arial, Helvetica Neue, sans-serif; the hero uses Arial, Helvetica, sans-serif. These are fallback stacks, not three simultaneous fonts. No self-hosted @font-face was found in source stylesheets.
+2. Weight rules conflict: typography.css intentionally limits Arial headings to 400, but later styles reintroduce 500/600. At 1280px the homepage hero computes to 500, Solutions for every space to 500, and Find the right product section to 400. Arial's installed faces need not provide distinct real intermediate weights; computed weight is not proof of a separate rendered face.
+3. Tracking is too tight for broad use: hero -0.065em (~-4.83px at 74.24px); many section headings -0.045em. Product names also inherit compressed heading treatment. This is a significant contributor to the inconsistent visual feel.
+4. Labels are undersized: catalogue category labels compute to 10px, hero eyebrow 11px. Important controls are frequently 12–13px. Use 12–13px labels, 14–16px controls and 16–18px main reading text.
+5. Hierarchy needs semantic role tokens, not identical h2 sizing everywhere. Current catalogue sidebar heading is 13px, section headings range from 32px to 47.36px, and guide direct-answer text is 20px. Different roles are legitimate; ad hoc selectors obscure the intended system.
+6. Yellow #ffca05 on paper #f8f8f4 has approximately 1.44:1 contrast. It looks weak even with a different font. Preserve the requested true yellow by placing yellow text on dark supporting surfaces where appropriate; do not silently replace it with mustard.
+7. CSS is layered across styles.css, typography.css, solutions.css and product-hero.css, including later overrides and a hard-coded hero font. Consolidate typography into shared variables and role classes instead of adding another global override block.
 
-The computed contrast check excludes gradients, images, opacity and hidden content; those require visual assessment and are not covered by its zero-failure result. Decorative document mockup text is artwork, not required reading. This is a typography/colour audit and targeted interaction check, not a complete WCAG certification, screen-reader audit or real-device lab test. The existing publication/content dependencies are unchanged.
+## Proposed role scale (starting values, subject to fit checks)
 
-### Subsequent brand-colour correction
+| Role | Desktop | Mobile | Weight | Line height |
+|---|---|---|---|---|
+| Hero | 64–80px | 40–48px | 500 | 1.05–1.1 |
+| Page heading | 48–56px | 34–40px | 500 | 1.1 |
+| Section heading | 36–44px | 28–32px | 500 | 1.15 |
+| Product/card title | 22–26px | 20–24px | 600 | 1.25 |
+| Reading text | 16–18px | 16px | 400 | 1.55–1.7 |
+| Controls | 14–16px | 14–16px | 600 | 1.35 |
+| Labels | 12–13px | 12px | 600 | 1.4 |
 
-The user rejected the deeper yellow-gold shown in the audit screenshots. Headline accents on light surfaces now use the requested original brand yellow `#ffca05`. The earlier zero-failure contrast result is historical and no longer applies to these accents; the light-background yellow contrast limitation remains. Dark focus outlines are retained for keyboard visibility. Other typography corrections remain in place.
+Use approximately -0.02em tracking for large headings, normal tracking for reading and controls, and modest positive tracking only for short uppercase labels. Aim for 55–70 characters in reading columns; use tabular numerals for specification comparisons where available. Keep wrapping responsive rather than forcing all descriptions onto one line.
 
-### Font-family consistency correction
-Removed all explicit monospace styles from homepage labels, image captions, document artwork, search hints and catalogue counts. The site now uses the shared Arial sans-serif stack, including form controls and enquiry previews. Display and card headings use regular weight consistently; labels and primary controls use bold. Brand artwork remains an image.
+## Implementation sequence
+
+Load the chosen family and real weights; consolidate font roles; remove conflicting old rules; check hero, catalogue, product specs and solution guide at desktop and mobile sizes. Verify long product names, PDF labels, symbol coverage (±, ≥, °C), 200% zoom, focus states, colour contrast and font-loading layout stability. Change font and hierarchy together; a family swap alone will not resolve the audit findings.
+
+## Implementation
+
+Applied locally after approval: self-hosted IBM Plex Sans 400/500/600 plus regular italic from @fontsource/ibm-plex-sans 5.3.0. OFL retained in public/fonts. typography.css now loads after layout styles and defines shared roles. Removed the previous Arial-only final override section, replaced hard-coded hero family, normalized tight tracking and semibold rules, raised body and control sizes, and checked representative desktop/mobile templates. Brand yellow was preserved; the previously documented yellow-on-light contrast limitation remains. No deployment or Git push performed.

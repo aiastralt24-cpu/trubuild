@@ -1,6 +1,10 @@
-import React, { useState } from "react";
+import packaging from "./packaging.json";
+import { ProductGallery, ProductColour, PackSizeSelector, StickyProductEnquiry } from "./ProductGallery";
+import React, { useState, useEffect, useRef } from "react";
 import { Link, useParams, useSearchParams } from "react-router-dom";
 import {
+  LayoutGrid,
+  List,
   Search,
   X,
   SlidersHorizontal,
@@ -26,6 +30,27 @@ import {
 export function Catalogue({ compare, toggle }) {
   const [params, setParams] = useSearchParams();
   const [filtersOpen, setFiltersOpen] = useState(false);
+  const filterRef = useRef(null);
+  const filterTrigger = useRef(null);
+  const view = params.get("view") === "list" ? "list" : "grid";
+  useEffect(() => {
+    if (!filtersOpen) return;
+    const previousOverflow = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+    const panel = filterRef.current;
+    panel.querySelector("button")?.focus();
+    const onKey = (event) => {
+      if (event.key === "Escape") setFiltersOpen(false);
+      if (event.key === "Tab") {
+        const controls = [...panel.querySelectorAll("button, a, select")].filter(el => el.getClientRects().length && !el.disabled);
+        const first = controls[0], last = controls.at(-1);
+        if (event.shiftKey && document.activeElement === first) { event.preventDefault(); last?.focus(); }
+        else if (!event.shiftKey && document.activeElement === last) { event.preventDefault(); first?.focus(); }
+      }
+    };
+    document.addEventListener("keydown", onKey);
+    return () => { document.body.style.overflow = previousOverflow; document.removeEventListener("keydown", onKey); filterTrigger.current?.focus(); };
+  }, [filtersOpen]);
   const q = params.get("search") || "",
     cat = params.get("category") || "",
     application = params.get("application") || "";
@@ -34,10 +59,9 @@ export function Catalogue({ compare, toggle }) {
       (!cat || p.category === cat) &&
       (!application || p.applications.includes(application)) &&
       (!q ||
-        [p.name, p.description, p.category, ...p.fields, ...p.applications]
-          .join(" ")
-          .toLowerCase()
-          .includes(q.trim().toLowerCase())),
+        q.trim().toLowerCase().split(/\s+/).every(term =>
+          [p.name, ...(p.aliases || []), p.description, p.category, ...p.fields, ...p.applications]
+            .join(" ").toLowerCase().includes(term))),
   );
   function update(key, val) {
     setParams(
@@ -51,26 +75,20 @@ export function Catalogue({ compare, toggle }) {
   }
   const activeCount = Number(!!cat) + Number(!!application);
   return (
-    <div className="catalogue-v2">
+    <div className="catalogue-v2 catalogue-v3">
       <section className="catalogue-masthead">
         <Breadcrumb items={[{ label: "Products" }]} />
         <div className="catalogue-title-row">
           <div>
-            <span className="mono-label">THE TRUBUILD COLLECTION</span>
+            <span className="mono-label">THE PRODUCT CATALOGUE</span>
             <h1>
-              Find the
-              <br />
-              <span>right product.</span>
+              Find the right <span>product.</span>
             </h1>
           </div>
           <div className="catalogue-intro">
-            <p>
-              Waterproofing, tiling, grouting and repair.
-              <br />
-              Find the right material for your next build.
-            </p>
+            <p>From waterproofing to the final finish.<br />Materials for every stage of your build.</p>
             <Link to="/advisor">
-              Help me choose <ArrowUpRight size={18} />
+              Not sure which product? <ArrowUpRight size={18} />
             </Link>
           </div>
         </div>
@@ -83,7 +101,7 @@ export function Catalogue({ compare, toggle }) {
             id="product-search"
             value={q}
             onChange={(e) => update("search", e.target.value)}
-            placeholder="Search by product, code or application"
+            placeholder="Search products, codes or uses — e.g. roof coating"
           />
           {q ? (
             <button
@@ -99,6 +117,7 @@ export function Catalogue({ compare, toggle }) {
       </section>
       <div className="catalogue-workspace">
         <button
+          ref={filterTrigger}
           className="catalogue-mobile-filters"
           aria-expanded={filtersOpen}
           aria-controls="catalogue-filters"
@@ -108,10 +127,16 @@ export function Catalogue({ compare, toggle }) {
           {activeCount > 0 && <span>{activeCount}</span>}
           <span>{filtersOpen ? "Close" : "Show"}</span>
         </button>
+        {filtersOpen && <button className="catalogue-filter-backdrop" aria-label="Close filters" onClick={() => setFiltersOpen(false)} />}
         <aside
+          ref={filterRef}
+          role={filtersOpen ? "dialog" : undefined}
+          aria-modal={filtersOpen ? true : undefined}
+          aria-label="Product filters"
           id="catalogue-filters"
           className={"catalogue-sidebar " + (filtersOpen ? "is-open" : "")}
         >
+          <button className="catalogue-filter-close" onClick={() => setFiltersOpen(false)}>Close filters <X size={20} /></button>
           <div className="sidebar-heading">
             <h2>Browse by category</h2>
             {(cat || application || q) && (
@@ -149,16 +174,10 @@ export function Catalogue({ compare, toggle }) {
               ))}
             </select>
           </div>
+          <button className="catalogue-filter-apply" onClick={() => setFiltersOpen(false)}>Show {filtered.length} products <ArrowUpRight size={18} /></button>
           <Link className="catalogue-guidance" to="/advisor">
-            <span className="mono-label">A PROJECT IN MIND?</span>
-            <strong>
-              Let’s narrow
-              <br />
-              it down.
-            </strong>
-            <span>
-              Try the Product Advisor <ArrowUpRight size={18} />
-            </span>
+            <strong>Need a little guidance?</strong>
+            <span>Find your product <ArrowUpRight size={18} /></span>
           </Link>
         </aside>
         <section className="catalogue-results" aria-label="Product results">
@@ -169,10 +188,10 @@ export function Catalogue({ compare, toggle }) {
                 {filtered.length} result{filtered.length === 1 ? "" : "s"}
               </span>
             </h2>
-            <Link to="/compare">
-              Compare{compare.length ? ` (${compare.length})` : ""}{" "}
-              <ArrowUpRight size={15} />
-            </Link>
+            <div className="catalogue-view-switch" role="group" aria-label="Product display">
+              <button aria-pressed={view === "grid"} onClick={() => update("view", "")}><LayoutGrid size={16} /> Grid</button>
+              <button aria-pressed={view === "list"} onClick={() => update("view", "list")}><List size={17} /> List</button>
+            </div>
           </div>
           {(cat || application || q) && (
             <div className="catalogue-active-filters">
@@ -198,7 +217,7 @@ export function Catalogue({ compare, toggle }) {
             </div>
           )}
           {filtered.length ? (
-            <div className="catalogue-product-grid">
+            <div className={"catalogue-product-grid " + (view === "list" ? "is-list" : "")}>
               {filtered.map((p) => (
                 <article className="catalogue-item" key={p.id}>
                   <Link
@@ -208,9 +227,10 @@ export function Catalogue({ compare, toggle }) {
                   >
                     <img
                       src={p.image}
-                      alt={p.name + " official packaging"}
+                      alt={p.name + (p.imageKind === "document" ? " technical data sheet preview" : " official packaging")}
                       loading="lazy"
                     />
+                    {p.imageKind === "document" && <span className="catalogue-document-label">TDS preview</span>}
                     <span className="catalogue-item-arrow">
                       <ArrowUpRight size={20} />
                     </span>
@@ -222,16 +242,9 @@ export function Catalogue({ compare, toggle }) {
                     <Link to={"/products/" + p.id}>
                       <h3>{p.name}</h3>
                     </Link>
-                    <p>
-                      {p.applications
-                        .map(
-                          (a) =>
-                            solutions.find((s) => s.sourceName === a)?.name ||
-                            a,
-                        )
-                        .slice(0, 2)
-                        .join(" · ") || "View product application guidance"}
-                    </p>
+                    <p className="catalogue-purpose">{p.subtitle || p.description}</p>
+                    <p className="catalogue-packs"><span>PACK SIZES</span>{p.packaging || "See product for availability"}</p>
+                    <Link className="catalogue-view-product" to={"/products/" + p.id}>View product <ArrowUpRight size={16} /></Link>
                   </div>
                   <div className="catalogue-item-actions">
                     <button
@@ -249,9 +262,7 @@ export function Catalogue({ compare, toggle }) {
                       </span>
                       {compare.includes(p.id) ? "Selected" : "Compare"}
                     </button>
-                    <Link to={"/products/" + p.id}>
-                      Details <ArrowUpRight size={14} />
-                    </Link>
+                    <a href={documentFor(p).local || documentFor(p).url} target="_blank" rel="noreferrer" aria-label={(documentFor(p).pending ? "Request " : "Download ") + p.name + " technical data sheet"}><FileDown size={15} /> {documentFor(p).pending ? "Request TDS" : "TDS"}</a>
                   </div>
                 </article>
               ))}
@@ -284,15 +295,25 @@ export function Catalogue({ compare, toggle }) {
   );
 }
 
-export function ProductDetail({ compare, toggle }) {
+export function ProductDetail(props) {
+  const { id } = useParams();
+  return <ProductDetailContent key={id} {...props} />;
+}
+
+function ProductDetailContent({ compare, toggle }) {
+  const [variant, setVariant] = useState(0);
+  const actionRef = useRef(null);
   const { id } = useParams();
   const p = products.find((p) => p.id === id);
   if (!p) return <NotFound />;
+  const selectedPack = packaging[p.id]?.variants?.[variant]?.label || "";
   const d = documentFor(p),
     related = products
       .filter((x) => x.category === p.category && x.id !== p.id)
       .slice(0, 3);
   const needsReview = p.sourceNotes?.length > 0;
+  const enquiry = enquiryUrl(p.name + (selectedPack ? " — " + selectedPack : ""));
+  const highlights = [...p.benefits].filter(Boolean).sort((a,b) => a.length-b.length).slice(0,3);
   return (
     <>
       <div className="wrap">
@@ -300,13 +321,7 @@ export function ProductDetail({ compare, toggle }) {
           items={[{ label: "Products", to: "/products" }, { label: p.name }]}
         />
         <section className="product-detail">
-          <div className="detail-image">
-            <span>ASTRAL TRUBUILD</span>
-            <img
-              src={p.image}
-              alt={"TruBuild " + p.name + " official packaging"}
-            />
-          </div>
+          <ProductGallery key={p.id + variant} product={p} variant={variant} />
           <div className="detail-copy">
             <Link
               className="eyebrow"
@@ -315,7 +330,9 @@ export function ProductDetail({ compare, toggle }) {
               {p.category}
             </Link>
             <h1>{p.name}</h1>
-            <p>{p.description}</p>
+            {p.aliases?.length > 0 && <p className="fineprint">Also known as {p.aliases.join(" / ")}</p>}
+            <p>{p.subtitle || p.description}</p>
+            {highlights.length > 0 && <ul className="product-highlights" aria-label="Key benefits">{highlights.map(text => <li key={text}><Check size={16}/><span>{text}</span></li>)}</ul>}
             <div className="detail-tags">
               {p.applications.map((a) => (
                 <Link
@@ -327,8 +344,11 @@ export function ProductDetail({ compare, toggle }) {
                 </Link>
               ))}
             </div>
-            <div className="detail-actions">
-              <Button to={enquiryUrl(p.name)}>
+            <div className="product-selection">
+            <PackSizeSelector product={p} variant={variant} onChange={setVariant} />
+            <ProductColour product={p} products={products} />
+            <div className="detail-actions" ref={actionRef}>
+              <Button to={enquiry}>
                 Enquire about this product
               </Button>
               <button className="button outline" onClick={() => toggle(p.id)}>
@@ -344,10 +364,12 @@ export function ProductDetail({ compare, toggle }) {
               target="_blank"
               rel="noreferrer"
             >
-              <FileDown size={18} /> Technical data sheet · PDF
+              <FileDown size={18} /> {d.pending ? "Request current technical data sheet" : "Technical data sheet · PDF"}
             </a>
+            </div>
           </div>
         </section>
+        <StickyProductEnquiry product={p} selectedPack={selectedPack} actionRef={actionRef} href={enquiry} />
         <section className="detail-information">
           <div>
             <h2>Technical information</h2>
@@ -361,7 +383,7 @@ export function ProductDetail({ compare, toggle }) {
               target="_blank"
               rel="noreferrer"
             >
-              Official product source <ArrowUpRight size={15} />
+              {p.source.startsWith("/documents/") ? "Source technical data sheet" : "Official product source"} <ArrowUpRight size={15} />
             </a>
             {needsReview && <p className="notice">{p.sourceNotes.join(" ")}</p>}
           </div>
@@ -396,8 +418,9 @@ export function ProductDetail({ compare, toggle }) {
                 Specifications <span>+</span>
               </summary>
               <p className="fineprint">
-                Published product-page values. Document revisions may differ;
-                the technical team should confirm project specifications.
+                {p.tdsVersion
+                  ? `Source: final approved TDS ${p.tdsVersion}, page${p.specPages.length > 1 ? "s" : ""} ${p.specPages.join(", ")}. Checked 9 October 2026.`
+                  : "Published product-page values; not checked against a replacement TDS in the October 2026 review. Confirm current specifications with the technical team."}
               </p>
               <div className="table-scroll">
                 <table>
@@ -432,6 +455,10 @@ export function ProductDetail({ compare, toggle }) {
                 {p.packaging ||
                   "Confirm current pack sizes with the TruBuild team."}
               </p>
+              {p.coverage && <p><strong>Coverage / dosage</strong><br />{p.coverage}</p>}
+              {p.shelfLife && <p><strong>Shelf life</strong><br />{p.shelfLife}</p>}
+              {p.storage && <p><strong>Storage</strong><br />{p.storage}</p>}
+              {p.tdsVersion && <p className="fineprint">TDS {p.tdsVersion} · Checked 9 October 2026</p>}
               <a
                 className="document-link"
                 href={d.local || d.url}
@@ -439,7 +466,7 @@ export function ProductDetail({ compare, toggle }) {
                 rel="noreferrer"
               >
                 <FileDown />
-                Technical data sheet
+                {d.pending ? "Request current technical data sheet" : "Technical data sheet"}
                 <ArrowUpRight />
               </a>
               <p className="fineprint">
@@ -514,7 +541,7 @@ export function Compare({ compare, toggle }) {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    Open data sheet <FileDown size={16} />
+                    {documentFor(p).pending ? "Request current data sheet" : "Open data sheet"} <FileDown size={16} />
                   </a>
                 </article>
               ))}

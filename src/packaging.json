@@ -1,0 +1,554 @@
+{
+  "trubuild-buildcrete": {
+    "images": [
+      {
+        "src": "/images/packaging/30.webp",
+        "thumbnail": "/images/packaging/30-thumb.webp",
+        "label": "Packaging"
+      }
+    ]
+  },
+  "trubuild-tcsr-555": {
+    "images": [
+      {
+        "src": "/images/packaging/59.webp",
+        "thumbnail": "/images/packaging/59-thumb.webp",
+        "label": "Packaging"
+      }
+    ]
+  },
+  "trubuild-sbr-pro-334": {
+    "images": [
+      {
+        "src": "/images/packaging/48.webp",
+        "thumbnail": "/images/packaging/48-thumb.webp",
+        "label": "Packaging"
+      }
+    ]
+  },
+  "trubuild-sbr-333": {
+    "images": [
+      {
+        "src": "/images/packaging/47.webp",
+        "thumbnail": "/images/packaging/47-thumb.webp",
+        "label": "Packaging"
+      },
+      {
+        "src": "/images/packaging/46.webp",
+        "thumbnail": "/images/packaging/46-thumb.webp",
+        "label": "Small-pack packaging"
+      }
+    ]
+  },
+  "trubuild-water-thinnable-sealer-wts-888": {
+    "images": [
+      {
+        "src": "/images/packaging/92.webp",
+        "thumbnail": "/images/packaging/92-thumb.webp",
+        "label": "Packaging"
+      }
+    ]
+  },
+  "trubuild-water-repellent-wrp-777": {
+    "images": [
+      {
+        "src": "/images/packaging/91.webp",
+        "thumbnail": "/images/packaging/91-thumb.webp",
+        "label": "Packaging"
+      }
+    ]
+  },
+  "trubuild-crack-filler-cfp-525": {
+    "images": [
+      {
+        "src": "/images/packaging/32.webp",
+        "thumbnail": "/images/packaging/32-thumb.webp",
+        "label": "Packaging"
+      }
+    ]
+  },
+  "trubuild-crack-filler-cfp-425": {
+    "images": [
+      {
+        "src": "/images/packaging/31.webp",
+        "thumbnail": "/images/packaging/31-thumb.webp",
+        "label": "Packaging"
+      }
+    ]
+  },
+  "trubuild-primesure-premium": {
+    "images": [
+      {
+        "src": "/images/packaging/43.webp",
+        "thumbnail": "/images/packaging/43-thumb.webp",
+        "label": "Packaging"
+      }
+    ]
+  },
+  "trubuild-walltect-top-coat": {
+    "images": [
+      {
+        "src": "/images/packaging/90.webp",
+        "thumbnail": "/images/packaging/90-thumb.webp",
+        "label": "Packaging"
+      }
+    ]
+  },
+  "trubuild-walltect-basecoat": {
+    "images": [
+      {
+        "src": "/images/packaging/89.webp",
+        "thumbnail": "/images/packaging/89-thumb.webp",
+        "label": "Packaging"
+      }
+    ]
+  },
+  "trubuild-sealmaster-flexi": {
+    "images": [
+      {
+        "src": "/images/packaging/49.webp",
+        "thumbnail": "/images/packaging/49-thumb.webp",
+        "label": "Packaging"
+      }
+    ]
+  },
+  "tru-pu-pura-1k": {
+    "images": [
+      {
+        "src": "/images/packaging/79.webp",
+        "thumbnail": "/images/packaging/79-thumb.webp",
+        "label": "Packaging"
+      }
+    ]
+  },
+  "trubuild-primesure-epmi": {
+    "images": [
+      {
+        "src": "/images/packaging/41.webp",
+        "thumbnail": "/images/packaging/41-thumb.webp",
+        "label": "Packaging"
+      }
+    ]
+  },
+  "trubuild-waterproofing-membrane-tru-pu": {
+    "images": [
+      {
+        "src": "/images/packaging/78.webp",
+        "thumbnail": "/images/packaging/78-thumb.webp",
+        "label": "Packaging"
+      }
+    ]
+  },
+  "trubuild-rooftect-prime": {
+    "images": [
+      {
+        "src": "/images/packaging/45.webp",
+        "thumbnail": "/images/packaging/45-thumb.webp",
+        "label": "Packaging"
+      }
+    ]
+  },
+  "trubuild-rooftect-advanced": {
+    "images": [
+      {
+        "src": "/images/packaging/44.webp",
+        "thumbnail": "/images/packaging/44-thumb.webp",
+        "label": "Packaging"
+      }
+    ]
+  },
+  "trufix-110": {
+    "images": [
+      {
+        "src": "/images/packaging/63.webp",
+        "thumbnail": "/images/packaging/63-thumb.webp",
+        "label": "Packaging"
+      }
+    ]
+  },
+  "trufix-220-grey": {
+    "images": [
+      {
+        "src": "/images/packaging/66.webp",
+        "thumbnail": "/images/packaging/66-thumb.webp",
+        "label": "Packaging"
+      }
+    ]
+  },
+  "trufix-220-plus-grey": {
+    "images": [
+      {
+        "src": "/images/packaging/64.webp",
+        "thumbnail": "/images/packaging/64-thumb.webp",
+        "label": "Packaging"
+      }
+    ]
+  },
+  "trufix-220-plus-white": {
+    "images": [
+      {
+        "src": "/images/packaging/65.webp",
+        "thumbnail": "/images/packaging/65-thumb.webp",
+        "label": "Packaging"
+      }
+    ]
+  },
+  "trufix-330-grey": {
+    "images": [
+      {
+        "src": "/images/packaging/68.webp",
+        "thumbnail": "/images/packaging/68-thumb.webp",
+        "label": "Packaging"
+      }
+    ]
+  },
+  "trufix-330-white": {
+    "images": [
+      {
+        "src": "/images/packaging/67.webp",
+        "thumbnail": "/images/packaging/67-thumb.webp",
+        "label": "Packaging"
+      }
+    ]
+  },
+  "trufix-440-grey": {
+    "images": [
+      {
+        "src": "/images/packaging/70.webp",
+        "thumbnail": "/images/packaging/70-thumb.webp",
+        "label": "Packaging"
+      }
+    ]
+  },
+  "trufix-440-white": {
+    "images": [
+      {
+        "src": "/images/packaging/69.webp",
+        "thumbnail": "/images/packaging/69-thumb.webp",
+        "label": "Packaging"
+      }
+    ]
+  },
+  "trubuild-stylo-cem": {
+    "images": [
+      {
+        "src": "/images/packaging/55.webp",
+        "thumbnail": "/images/packaging/55-thumb.webp",
+        "label": "Packaging"
+      },
+      {
+        "src": "/images/packaging/77.webp",
+        "thumbnail": "/images/packaging/77-thumb.webp",
+        "label": "Carton \u2014 front"
+      }
+    ]
+  },
+  "trubuild-trufix-550": {
+    "images": [
+      {
+        "src": "/images/packaging/35.webp",
+        "thumbnail": "/images/packaging/35-thumb.webp",
+        "label": "Packaging"
+      }
+    ]
+  },
+  "trubuild-trushield": {
+    "images": [
+      {
+        "src": "/images/packaging/86.webp",
+        "thumbnail": "/images/packaging/86-thumb.webp",
+        "label": "Packaging"
+      }
+    ]
+  },
+  "trubuild-plasterbond": {
+    "images": [
+      {
+        "src": "/images/packaging/40.webp",
+        "thumbnail": "/images/packaging/40-thumb.webp",
+        "label": "Packaging"
+      }
+    ]
+  },
+  "trubuild-plasterbond-eco": {
+    "images": [
+      {
+        "src": "/images/packaging/39.webp",
+        "thumbnail": "/images/packaging/39-thumb.webp",
+        "label": "Packaging"
+      }
+    ]
+  },
+  "trubuild-non-shrink-grout-hs": {
+    "images": [
+      {
+        "src": "/images/packaging/71.webp",
+        "thumbnail": "/images/packaging/71-thumb.webp",
+        "label": "Packaging"
+      }
+    ]
+  },
+  "trubuild-crystaseal-1k": {
+    "images": [
+      {
+        "src": "/images/packaging/33.webp",
+        "thumbnail": "/images/packaging/33-thumb.webp",
+        "label": "Packaging"
+      }
+    ]
+  },
+  "trubuild-crystaseal-admix": {
+    "images": [
+      {
+        "src": "/images/packaging/34.webp",
+        "thumbnail": "/images/packaging/34-thumb.webp",
+        "label": "Packaging"
+      }
+    ]
+  },
+  "trubuild-aqualock": {
+    "variants": [
+      {
+        "label": "3 kg",
+        "images": [
+          {
+            "src": "/images/packaging/4.webp",
+            "thumbnail": "/images/packaging/4-thumb.webp",
+            "label": "Kit contents"
+          },
+          {
+            "src": "/images/packaging/1.webp",
+            "thumbnail": "/images/packaging/1-thumb.webp",
+            "label": "Outer carton"
+          },
+          {
+            "src": "/images/packaging/2.webp",
+            "thumbnail": "/images/packaging/2-thumb.webp",
+            "label": "Part B"
+          },
+          {
+            "src": "/images/packaging/3.webp",
+            "thumbnail": "/images/packaging/3-thumb.webp",
+            "label": "Part A"
+          }
+        ]
+      },
+      {
+        "label": "15 kg",
+        "images": [
+          {
+            "src": "/images/packaging/5.webp",
+            "thumbnail": "/images/packaging/5-thumb.webp",
+            "label": "Outer carton"
+          },
+          {
+            "src": "/images/packaging/6.webp",
+            "thumbnail": "/images/packaging/6-thumb.webp",
+            "label": "Powder carton \u2014 angled view"
+          },
+          {
+            "src": "/images/packaging/7.webp",
+            "thumbnail": "/images/packaging/7-thumb.webp",
+            "label": "Powder carton \u2014 front"
+          },
+          {
+            "src": "/images/packaging/8.webp",
+            "thumbnail": "/images/packaging/8-thumb.webp",
+            "label": "Liquid component"
+          }
+        ]
+      },
+      {
+        "label": "90 kg",
+        "images": [
+          {
+            "src": "/images/packaging/10.webp",
+            "thumbnail": "/images/packaging/10-thumb.webp",
+            "label": "Kit contents"
+          },
+          {
+            "src": "/images/packaging/9.webp",
+            "thumbnail": "/images/packaging/9-thumb.webp",
+            "label": "Liquid component"
+          },
+          {
+            "src": "/images/packaging/11.webp",
+            "thumbnail": "/images/packaging/11-thumb.webp",
+            "label": "Powder component"
+          }
+        ]
+      }
+    ]
+  },
+  "trubuild-aqualock-flexi": {
+    "variants": [
+      {
+        "label": "12 kg",
+        "images": [
+          {
+            "src": "/images/packaging/13.webp",
+            "thumbnail": "/images/packaging/13-thumb.webp",
+            "label": "Kit contents"
+          },
+          {
+            "src": "/images/packaging/12.webp",
+            "thumbnail": "/images/packaging/12-thumb.webp",
+            "label": "Outer carton"
+          },
+          {
+            "src": "/images/packaging/14.webp",
+            "thumbnail": "/images/packaging/14-thumb.webp",
+            "label": "Powder carton \u2014 angled view"
+          },
+          {
+            "src": "/images/packaging/15.webp",
+            "thumbnail": "/images/packaging/15-thumb.webp",
+            "label": "Powder carton \u2014 front"
+          },
+          {
+            "src": "/images/packaging/16.webp",
+            "thumbnail": "/images/packaging/16-thumb.webp",
+            "label": "Liquid component"
+          }
+        ]
+      },
+      {
+        "label": "48 kg",
+        "images": [
+          {
+            "src": "/images/packaging/17.webp",
+            "thumbnail": "/images/packaging/17-thumb.webp",
+            "label": "Kit contents"
+          },
+          {
+            "src": "/images/packaging/18.webp",
+            "thumbnail": "/images/packaging/18-thumb.webp",
+            "label": "Outer carton"
+          },
+          {
+            "src": "/images/packaging/19.webp",
+            "thumbnail": "/images/packaging/19-thumb.webp",
+            "label": "Powder component"
+          },
+          {
+            "src": "/images/packaging/20.webp",
+            "thumbnail": "/images/packaging/20-thumb.webp",
+            "label": "Liquid component"
+          }
+        ]
+      }
+    ]
+  },
+  "trubuild-stylo-3k": {
+    "variants": [
+      {
+        "label": "5 kg",
+        "images": [
+          {
+            "src": "/images/packaging/50.webp",
+            "thumbnail": "/images/packaging/50-thumb.webp",
+            "label": "Kit packaging"
+          },
+          {
+            "src": "/images/packaging/51.webp",
+            "thumbnail": "/images/packaging/51-thumb.webp",
+            "label": "Part C \u2014 filler, 3.75 kg"
+          },
+          {
+            "src": "/images/packaging/52.webp",
+            "thumbnail": "/images/packaging/52-thumb.webp",
+            "label": "Part B \u2014 hardener, 350 g"
+          },
+          {
+            "src": "/images/packaging/53.webp",
+            "thumbnail": "/images/packaging/53-thumb.webp",
+            "label": "Part A \u2014 resin, 900 g"
+          }
+        ]
+      }
+    ],
+    "note": "The resin, hardener and filler are components of the 5 kg kit."
+  },
+  "trubuild-boretite": {
+    "variants": [
+      {
+        "label": "2 kg",
+        "images": [
+          {
+            "src": "/images/packaging/25.webp",
+            "thumbnail": "/images/packaging/25-thumb.webp",
+            "label": "Kit contents"
+          },
+          {
+            "src": "/images/packaging/28.webp",
+            "thumbnail": "/images/packaging/28-thumb.webp",
+            "label": "Outer carton \u2014 angled view"
+          },
+          {
+            "src": "/images/packaging/29.webp",
+            "thumbnail": "/images/packaging/29-thumb.webp",
+            "label": "Outer carton \u2014 front"
+          },
+          {
+            "src": "/images/packaging/24.webp",
+            "thumbnail": "/images/packaging/24-thumb.webp",
+            "label": "Part A"
+          },
+          {
+            "src": "/images/packaging/23.webp",
+            "thumbnail": "/images/packaging/23-thumb.webp",
+            "label": "Part B"
+          },
+          {
+            "src": "/images/packaging/27.webp",
+            "thumbnail": "/images/packaging/27-thumb.webp",
+            "label": "Part C \u2014 silica"
+          },
+          {
+            "src": "/images/packaging/26.webp",
+            "thumbnail": "/images/packaging/26-thumb.webp",
+            "label": "Backer rod"
+          }
+        ]
+      }
+    ]
+  },
+  "trubuild-aquapoxy": {
+    "images": [
+      {
+        "src": "/images/packaging/21.webp",
+        "thumbnail": "/images/packaging/21-thumb.webp",
+        "label": "Carton \u2014 angled view"
+      },
+      {
+        "src": "/images/packaging/22.webp",
+        "thumbnail": "/images/packaging/22-thumb.webp",
+        "label": "Carton \u2014 front"
+      }
+    ]
+  },
+  "trubuild-iw-plus-111": {
+    "variants": [
+      {
+        "label": "20 L",
+        "images": [
+          {
+            "src": "/images/packaging/37.webp",
+            "thumbnail": "/images/packaging/37-thumb.webp",
+            "label": "20 L packaging"
+          }
+        ]
+      },
+      {
+        "label": "1 L",
+        "images": [
+          {
+            "src": "/images/packaging/38.webp",
+            "thumbnail": "/images/packaging/38-thumb.webp",
+            "label": "1 L packaging"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -11,7 +11,8 @@ export const solutions = [
     summary: "Protect the spaces that shelter everything below.",
     description:
       "Explore coatings for exposed roofs, new roof construction and roof rehabilitation.",
-    image: "/images/roof.webp",
+    image: "/images/hero-roof-coating.webp",
+    imageAlt: "Illustrative exposed terrace with a continuous waterproof coating",
     icon: "roof",
   },
   {
@@ -21,7 +22,8 @@ export const solutions = [
     summary: "A beautiful finish starts beneath the surface.",
     description:
       "Cementitious and hybrid tile adhesives, cementitious grouts and epoxy grouts for different installation requirements.",
-    image: "/images/tiles.webp",
+    image: "/images/hero-interior-floor.webp",
+    imageAlt: "Illustrative ceramic tiled floor in a dry living room",
     icon: "tile",
   },
   {
@@ -31,7 +33,8 @@ export const solutions = [
     summary: "Protection where water is part of everyday life.",
     description:
       "Discover waterproofing and repair solutions for bathrooms, kitchens and other wet areas.",
-    image: "/images/application-wet.webp",
+    image: "/images/application-wet-v2.webp",
+    imageAlt: "Illustrative unfinished bathroom with waterproofing beneath the future tile finish",
     icon: "water",
   },
   {
@@ -41,7 +44,8 @@ export const solutions = [
     summary: "Prepare. Protect. Finish with confidence.",
     description:
       "Walltect coatings, surface primers, crack fillers and protective sealers for exterior applications.",
-    image: "/images/architecture.webp",
+    image: "/images/hero-exterior-coating.webp",
+    imageAlt: "Illustrative coated exterior plaster walls",
     icon: "wall",
   },
   {
@@ -51,7 +55,8 @@ export const solutions = [
     summary: "Build strength into every stage.",
     description:
       "Polymer modifiers and epoxy systems for concrete, mortar and repair applications.",
-    image: "/images/application-repair.webp",
+    image: "/images/application-repair-v2.webp",
+    imageAlt: "Illustrative localized mortar repair to a concrete column base",
     icon: "repair",
   },
   {
@@ -61,7 +66,8 @@ export const solutions = [
     summary: "Protection starts below ground.",
     description:
       "Waterproofing options for below-ground structures. Confirm pressure, substrate and system requirements with technical support.",
-    image: "/images/application-basement.webp",
+    image: "/images/application-basement-v2.webp",
+    imageAlt: "Illustrative waterproof membrane on the external face of a below-ground concrete wall",
     icon: "foundation",
   },
   {
@@ -71,7 +77,8 @@ export const solutions = [
     summary: "Find the system for your water-retaining structure.",
     description:
       "Explore published products for water tanks and related areas. Confirm suitability for the intended water use with the technical team.",
-    image: "/images/application-tanks.webp",
+    image: "/images/application-tanks-v2.webp",
+    imageAlt: "Illustrative empty concrete water tank with cementitious waterproof coating",
     icon: "water",
   },
   {
@@ -81,7 +88,8 @@ export const solutions = [
     summary: "The detail that brings everything together.",
     description:
       "Elastic joint sealing and gap-filling solutions, with product-specific substrate guidance.",
-    image: "/images/application-sealants.webp",
+    image: "/images/application-sealants-v2.webp",
+    imageAlt: "Illustrative tooled sealant filling a movement joint between concrete panels",
     icon: "sealant",
   },
 ];
@@ -93,6 +101,12 @@ export const featured = [
 export const shortDescription = (p) =>
   p.subtitle || p.description.split(". ")[0].replace(/^TRUBUILD /i, "");
 export const documentFor = (p) => {
+  if (p.tdsStatus === "replacement-pending") return { title: p.name, pending: true, url: enquiryUrl(p.name, "Please send the current technical data sheet.") };
+  const linked = resources.find(d => d.productId === p.id);
+  if (linked) return linked;
+  if (p.documentId) {
+    return resources.find((d) => d.productId === p.documentId) || { title: p.name, local: p.tds };
+  }
   const normal = (s) => s.toLowerCase().replace(/[^a-z0-9]/g, "");
   const alias = {
     "trubuild-rooftect-prime": "TRUBUILD ROOFTECT PRO",
