@@ -1,3 +1,4 @@
+import "./navigation.css";
 import React, { useEffect, useRef, useState } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import {
@@ -6,7 +7,6 @@ import {
   Search,
   Menu,
   X,
-  Plus,
   Check,
   Columns2,
   FileDown,
@@ -28,17 +28,34 @@ export function Button({ to, children, variant = "", ...props }) {
 }
 export function Header() {
   const [compact, setCompact] = useState(false);
+  const [context, setContext] = useState("Construction solutions");
+  const headerRef = useRef(null);
   const [menuOpen, setMenuOpen] = useState(false);
   const dialog = useRef();
   const location = useLocation(),
     navigate = useNavigate();
   const [q, setQ] = useState("");
   useEffect(() => {
-    const scroll = () => setCompact(window.scrollY > 45);
-    scroll();
-    window.addEventListener("scroll", scroll, { passive: true });
-    return () => window.removeEventListener("scroll", scroll);
-  }, []);
+    let frame;
+    const update = () => {
+      setCompact(window.scrollY > 45);
+      const distance = document.documentElement.scrollHeight - window.innerHeight;
+      headerRef.current?.style.setProperty('--header-progress', `${distance > 0 ? Math.min(100, window.scrollY / distance * 100) : 0}%`);
+      let label = location.pathname.startsWith('/products') ? 'Our products' : location.pathname.startsWith('/solutions') ? 'Our solutions' : location.pathname.startsWith('/resources') ? 'Technical resources' : location.pathname.startsWith('/about') ? 'About TruBuild' : location.pathname.startsWith('/contact') ? 'Let’s talk' : 'Construction solutions';
+      if (location.pathname === '/') {
+        for (const [selector, title] of [['.build-index', 'Our solutions'], ['.product-edit', 'Our products'], ['.advisor-studio', 'Find your product']]) {
+          const section = document.querySelector(selector);
+          if (section && section.getBoundingClientRect().top <= 180) label = title;
+        }
+      }
+      setContext(label);
+    };
+    const scroll = () => { cancelAnimationFrame(frame); frame = requestAnimationFrame(update); };
+    update();
+    window.addEventListener('scroll', scroll, { passive: true });
+    window.addEventListener('resize', scroll);
+    return () => { cancelAnimationFrame(frame); window.removeEventListener('scroll', scroll); window.removeEventListener('resize', scroll); };
+  }, [location.pathname]);
   useEffect(() => {
     dialog.current?.close();
     document.body.style.overflow = "";
@@ -59,11 +76,11 @@ export function Header() {
         Skip to content
       </a>
       {location.pathname !== "/" && <div className="header-spacer" aria-hidden="true" />}
-      <header className={`header${compact ? " compact" : ""}${location.pathname === "/" ? " header-home" : ""}`}>
+      <header ref={headerRef} className={`header${compact ? " compact" : ""}${location.pathname === "/" ? " header-home" : ""}`}>
         <Link to="/" className="logo" aria-label="TruBuild home">
           <img src="/images/wordmark-clean.webp" alt="TruBuild" />
         </Link>
-        <span className="header-brandline">Construction solutions</span>
+        <span className="header-brandline">{context}</span>
         <div className="header-actions">
           <Link to="/advisor" className="header-cta">
             Find a product
@@ -81,7 +98,7 @@ export function Header() {
       </header>
       <dialog
         ref={dialog}
-        className="full-menu"
+        className="full-menu menu-refined"
         aria-label="Site navigation"
         onClose={() => {
           setMenuOpen(false);
@@ -102,60 +119,30 @@ export function Header() {
           </button>
         </div>
         <div className="menu-body">
-          <div>
-            <p className="eyebrow">EXPLORE TRUBUILD</p>
+          <nav className="menu-primary" aria-label="Main navigation">
+            <p className="eyebrow">Explore TruBuild</p>
             {[
-              ["/", "Home"],
-              ["/solutions", "Solutions"],
-              ["/products", "Products"],
-              ["/advisor", "Product Advisor"],
-              ["/about", "About us"],
-              ["/resources", "Resources"],
-            ].map(([to, label]) => (
-              <Link className="menu-nav-item" to={to} key={to} onClick={close}>
-                {label}
-                <ArrowUpRight />
-              </Link>
-            ))}
-          </div>
-          <aside>
-            <form
-              className="menu-search"
-              onSubmit={(e) => {
-                e.preventDefault();
-                navigate("/products?search=" + encodeURIComponent(q));
-                close();
-              }}
-            >
-              <label htmlFor="menu-search">Find a product or solution</label>
-              <div className="search-box">
-                <Search />
-                <input
-                  id="menu-search"
-                  value={q}
-                  onChange={(e) => setQ(e.target.value)}
-                  placeholder="Try roof, tile or Aqualock"
-                />
-                <button type="submit" aria-label="Search">
-                  <ArrowRight />
-                </button>
-              </div>
-            </form>
-            <div className="menu-image">
-              <img
-                src="/images/architecture.webp"
-                alt="Illustrative contemporary concrete architecture"
-              />
-              <span>Built for life.</span>
+              ["/products", "Products", "Find the right material."],
+              ["/solutions", "Solutions", "Start with your application."],
+              ["/resources", "Resources", "Technical data and guidance."],
+            ].map(([to,label,description]) => <Link className="menu-nav-item" to={to} key={to} onClick={close} aria-current={location.pathname.startsWith(to) ? "page" : undefined}>
+              <span>{label}<small>{description}</small></span><ArrowUpRight/>
+            </Link>)}
+            <div className="menu-secondary">
+              {[["/", "Home"],["/about", "About us"],["/contact", "Contact"]].map(([to,label])=><Link to={to} key={to} onClick={close} aria-current={location.pathname===to ? "page" : undefined}>{label}</Link>)}
             </div>
-            <Button to="/contact" onClick={close}>
-              Start a business enquiry
-            </Button>
-            <a href="tel:18003099393" className="menu-phone">
-              1800 309 9393
-            </a>
+          </nav>
+          <aside className="menu-tools">
+            <form className="menu-search" onSubmit={e=>{e.preventDefault();navigate("/products?search="+encodeURIComponent(q.trim()));close();}}>
+              <label htmlFor="menu-search">Looking for something specific?</label>
+              <div className="search-box"><Search size={19}/><input id="menu-search" value={q} onChange={e=>setQ(e.target.value)} placeholder="Search products or applications"/><button type="submit" aria-label="Search"><ArrowRight size={19}/></button></div>
+            </form>
+            <div className="menu-shortcuts"><span>Popular applications</span><div>{solutions.slice(0,3).map(item=><Link key={item.id} to={"/solutions/"+item.id} onClick={close}>{item.name}<ArrowUpRight size={13}/></Link>)}</div></div>
+            <Link to="/advisor" onClick={close} className="menu-advisor"><span><strong>Find your product</strong><small>A little guidance. The right choice.</small></span><ArrowUpRight size={24}/></Link>
+            <div className="menu-help"><span>Let’s talk about your project.</span><Link to="/contact" onClick={close}>Start an enquiry <ArrowUpRight size={16}/></Link></div>
           </aside>
         </div>
+        <div className="menu-bottom"><span>Construction solutions. Built to last.</span><a href="tel:18003099393">1800 309 9393 <ArrowUpRight size={14}/></a></div>
       </dialog>
     </>
   );

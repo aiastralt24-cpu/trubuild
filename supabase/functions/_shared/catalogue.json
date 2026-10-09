@@ -1,0 +1,218 @@
+{
+  "documents": {
+    "/documents/document-3.pdf": {
+      "title": "TRUBUILD STYLO CEM",
+      "object": "document-3.pdf"
+    },
+    "/documents/tds/trubuild-aqualock.pdf": {
+      "title": "TRUBUILD AQUALOCK",
+      "object": "tds/trubuild-aqualock.pdf"
+    },
+    "/documents/tds/trubuild-aqualock-flexi.pdf": {
+      "title": "TRUBUILD AQUALOCK FLEXI",
+      "object": "tds/trubuild-aqualock-flexi.pdf"
+    },
+    "/documents/document-6.pdf": {
+      "title": "TRUBUILD TRUFIX 220 GREY",
+      "object": "document-6.pdf"
+    },
+    "/documents/document-7.pdf": {
+      "title": "TRUBUILD TRUFIX 220+ GREY",
+      "object": "document-7.pdf"
+    },
+    "/documents/document-8.pdf": {
+      "title": "TRUBUILD TRUFIX 220+ WHITE",
+      "object": "document-8.pdf"
+    },
+    "/documents/document-9.pdf": {
+      "title": "TRUBUILD TRUFIX 330 GREY",
+      "object": "document-9.pdf"
+    },
+    "/documents/document-10.pdf": {
+      "title": "TRUBUILD TRUFIX 330 WHITE",
+      "object": "document-10.pdf"
+    },
+    "/documents/document-11.pdf": {
+      "title": "TRUBUILD TRUFIX 440 GREY",
+      "object": "document-11.pdf"
+    },
+    "/documents/document-12.pdf": {
+      "title": "TRUBUILD TRUFIX 440 WHITE",
+      "object": "document-12.pdf"
+    },
+    "/documents/document-13.pdf": {
+      "title": "TRUBUILD STYLO 3K",
+      "object": "document-13.pdf"
+    },
+    "/documents/document-15.pdf": {
+      "title": "TRUBUILD Walltect Pro Basecoat",
+      "object": "document-15.pdf"
+    },
+    "/documents/document-16.pdf": {
+      "title": "TRUBUILD Walltect Pro Topcoat",
+      "object": "document-16.pdf"
+    },
+    "/documents/tds/trubuild-sbr-333.pdf": {
+      "title": "TRUBUILD SBR 333",
+      "object": "tds/trubuild-sbr-333.pdf"
+    },
+    "/documents/document-18.pdf": {
+      "title": "TRUBUILD SBR PRO-334",
+      "object": "document-18.pdf"
+    },
+    "/documents/document-20.pdf": {
+      "title": "TRUBUILD CPS 111 \u2014 earlier website document",
+      "object": "document-20.pdf"
+    },
+    "/documents/tds/trubuild-waterproofing-membrane-tru-pu.pdf": {
+      "title": "TRUBUILD TRU PU",
+      "object": "tds/trubuild-waterproofing-membrane-tru-pu.pdf"
+    },
+    "/documents/document-22.pdf": {
+      "title": "TRUBUILD TRUFIX 550",
+      "object": "document-22.pdf"
+    },
+    "/documents/document-23.pdf": {
+      "title": "TRUBUILD Rooftect Advanced",
+      "object": "document-23.pdf"
+    },
+    "/documents/tds/trubuild-aquapoxy.pdf": {
+      "title": "TRUBUILD AQUAPOXY",
+      "object": "tds/trubuild-aquapoxy.pdf"
+    },
+    "/documents/document-26.pdf": {
+      "title": "TRUBUILD TRUFIX 110",
+      "object": "document-26.pdf"
+    },
+    "/documents/tds/trubuild-boretite.pdf": {
+      "title": "TRUBUILD BORETITE",
+      "object": "tds/trubuild-boretite.pdf"
+    },
+    "/documents/tds/trubuild-buildcrete.pdf": {
+      "title": "TRUBUILD BUILDCRETE",
+      "object": "tds/trubuild-buildcrete.pdf"
+    },
+    "/documents/tds/trubuild-crystaseal-1k.pdf": {
+      "title": "TRUBUILD CRYSTASEAL 1K",
+      "object": "tds/trubuild-crystaseal-1k.pdf"
+    },
+    "/documents/tds/trubuild-crystaseal-admix.pdf": {
+      "title": "TRUBUILD CRYSTASEAL ADMIX",
+      "object": "tds/trubuild-crystaseal-admix.pdf"
+    },
+    "/documents/tds/trubuild-primesure-epmi.pdf": {
+      "title": "TRUBUILD PRIMESURE EPMI",
+      "object": "tds/trubuild-primesure-epmi.pdf"
+    },
+    "/documents/tds/trubuild-sealmaster-flexi.pdf": {
+      "title": "TRUBUILD SEALMASTER FLEXI",
+      "object": "tds/trubuild-sealmaster-flexi.pdf"
+    },
+    "/documents/tds/tru-pu-pura-1k.pdf": {
+      "title": "TRUBUILD TRU PU PURA 1K",
+      "object": "tds/tru-pu-pura-1k.pdf"
+    },
+    "/documents/tds/trubuild-trubond-ds-tape.pdf": {
+      "title": "TRUBUILD TRUBOND DS TAPE",
+      "object": "tds/trubuild-trubond-ds-tape.pdf"
+    },
+    "/documents/document-35.pdf": {
+      "title": "TRUBUILD TRUBOND PRO 1.5MM",
+      "object": "document-35.pdf"
+    },
+    "/documents/document-36.pdf": {
+      "title": "TRUBUILD TRUBOND PRO W 1.5MM",
+      "object": "document-36.pdf"
+    },
+    "/documents/document-37.pdf": {
+      "title": "TRUBUILD TRUBOND",
+      "object": "document-37.pdf"
+    },
+    "/documents/tds/trubuild-crack-filler-cfp-425.pdf": {
+      "title": "TRUBUILD CRACKFILL PASTE",
+      "object": "tds/trubuild-crack-filler-cfp-425.pdf"
+    },
+    "/documents/tds/trubuild-crack-filler-cfp-525.pdf": {
+      "title": "TRUBUILD CRACKFILL POWDER",
+      "object": "tds/trubuild-crack-filler-cfp-525.pdf"
+    },
+    "/documents/document-40.pdf": {
+      "title": "TRUBUILD PRIMESURE PREMIUM",
+      "object": "document-40.pdf"
+    },
+    "/documents/tds/trubuild-tcsr-555.pdf": {
+      "title": "TRUBUILD TCSR-555",
+      "object": "tds/trubuild-tcsr-555.pdf"
+    },
+    "/documents/tds/trubuild-water-repellent-wrp-777.pdf": {
+      "title": "TRUBUILD WRP 777",
+      "object": "tds/trubuild-water-repellent-wrp-777.pdf"
+    },
+    "/documents/tds/trubuild-water-thinnable-sealer-wts-888.pdf": {
+      "title": "TRUBUILD WTS 888",
+      "object": "tds/trubuild-water-thinnable-sealer-wts-888.pdf"
+    },
+    "/documents/tds/trubuild-non-shrink-grout-hs.pdf": {
+      "title": "TRUBUILD NON-SHRINK GROUT HS",
+      "object": "tds/trubuild-non-shrink-grout-hs.pdf"
+    },
+    "/documents/tds/trubuild-trushield.pdf": {
+      "title": "TRUBUILD TRUSHIELD",
+      "object": "tds/trubuild-trushield.pdf"
+    },
+    "/documents/tds/trubuild-plasterbond.pdf": {
+      "title": "TRUBUILD PLASTERBOND",
+      "object": "tds/trubuild-plasterbond.pdf"
+    },
+    "/documents/tds/trubuild-plasterbond-eco.pdf": {
+      "title": "TRUBUILD PLASTERBOND ECO",
+      "object": "tds/trubuild-plasterbond-eco.pdf"
+    },
+    "/documents/tds/trubuild-iw-plus-111.pdf": {
+      "title": "TRUBUILD CPS 111 (TDS labelled IW+ 111)",
+      "object": "tds/trubuild-iw-plus-111.pdf"
+    }
+  },
+  "productIds": [
+    "trubuild-buildcrete",
+    "trubuild-tcsr-555",
+    "trubuild-sbr-pro-334",
+    "trubuild-sbr-333",
+    "trubuild-water-thinnable-sealer-wts-888",
+    "trubuild-water-repellent-wrp-777",
+    "trubuild-crack-filler-cfp-525",
+    "trubuild-crack-filler-cfp-425",
+    "trubuild-primesure-premium",
+    "trubuild-walltect-top-coat",
+    "trubuild-walltect-basecoat",
+    "trubuild-sealmaster-flexi",
+    "tru-pu-pura-1k",
+    "trubuild-primesure-epmi",
+    "trubuild-waterproofing-membrane-tru-pu",
+    "trubuild-aqualock-flexi",
+    "trubuild-aqualock",
+    "trubuild-rooftect-prime",
+    "trubuild-rooftect-advanced",
+    "trufix-110",
+    "trufix-220-grey",
+    "trufix-220-plus-grey",
+    "trufix-220-plus-white",
+    "trufix-330-grey",
+    "trufix-330-white",
+    "trufix-440-grey",
+    "trufix-440-white",
+    "trubuild-stylo-cem",
+    "trubuild-stylo-3k",
+    "trubuild-trufix-550",
+    "trubuild-boretite",
+    "trubuild-aquapoxy",
+    "trubuild-trushield",
+    "trubuild-plasterbond",
+    "trubuild-plasterbond-eco",
+    "trubuild-iw-plus-111",
+    "trubuild-non-shrink-grout-hs",
+    "trubuild-crystaseal-1k",
+    "trubuild-crystaseal-admix",
+    "trubuild-trubond-ds-tape"
+  ]
+}

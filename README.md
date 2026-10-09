@@ -1,6 +1,6 @@
 # TruBuild — Built for life
 
-A responsive React + Vite website for Astral TruBuild, using the supplied yellow/white logo direction. Includes an official-source catalogue, eight solution landing pages, product detail pages, deterministic Product Advisor, comparison, resources and contextual enquiry drafts.
+A responsive React + Vite website for Astral TruBuild, using the supplied yellow/white logo direction. Includes an official-source catalogue, eight solution landing pages, product detail pages, deterministic Product Advisor, comparison, resources and contextual enquiries and TDS lead capture.
 
 ## Run
 
@@ -31,7 +31,7 @@ npm test
 
 ## Enquiries
 
-The form prepares an email draft and a downloadable text file. It does **not** send email or claim submission success. Production requires an approved CRM/mail integration and appropriate privacy/retention configuration. Contact details are from the official TruBuild website.
+Product, general and TDS enquiries use a shared Supabase Edge Function. TDS downloads require name, mobile and email before a private signed PDF URL is returned. Database connection/deployment is pending project details; forms show an honest error until configured. See [Supabase setup](docs/SUPABASE-SETUP.md) for migrations, private storage upload, environment values, verification and the static-PDF release caveat.
 
 ## Deployment
 

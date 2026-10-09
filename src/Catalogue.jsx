@@ -1,3 +1,4 @@
+import { TdsDownload, TdsLink } from "./TdsDownload";
 import packaging from "./packaging.json";
 import { ProductGallery, ProductColour, PackSizeSelector, StickyProductEnquiry } from "./ProductGallery";
 import React, { useState, useEffect, useRef } from "react";
@@ -244,9 +245,9 @@ export function Catalogue({ compare, toggle }) {
                     </Link>
                     <p className="catalogue-purpose">{p.subtitle || p.description}</p>
                     <p className="catalogue-packs"><span>PACK SIZES</span>{p.packaging || "See product for availability"}</p>
-                    <Link className="catalogue-view-product" to={"/products/" + p.id}>View product <ArrowUpRight size={16} /></Link>
                   </div>
                   <div className="catalogue-item-actions">
+                    <Link className="catalogue-view-product" to={"/products/" + p.id} aria-label={"View " + p.name}>View<span className="action-word"> product</span> <ArrowUpRight size={14} /></Link>
                     <button
                       aria-label={"Compare " + p.name}
                       aria-pressed={compare.includes(p.id)}
@@ -260,9 +261,8 @@ export function Catalogue({ compare, toggle }) {
                       >
                         {compare.includes(p.id) && <Check size={12} />}
                       </span>
-                      {compare.includes(p.id) ? "Selected" : "Compare"}
+                      <span className="compare-action-label">{compare.includes(p.id) ? "Selected" : "Compare"}</span>
                     </button>
-                    <a href={documentFor(p).local || documentFor(p).url} target="_blank" rel="noreferrer" aria-label={(documentFor(p).pending ? "Request " : "Download ") + p.name + " technical data sheet"}><FileDown size={15} /> {documentFor(p).pending ? "Request TDS" : "TDS"}</a>
                   </div>
                 </article>
               ))}
@@ -302,6 +302,7 @@ export function ProductDetail(props) {
 
 function ProductDetailContent({ compare, toggle }) {
   const [variant, setVariant] = useState(0);
+  const [tdsOpen, setTdsOpen] = useState(false);
   const actionRef = useRef(null);
   const { id } = useParams();
   const p = products.find((p) => p.id === id);
@@ -348,24 +349,13 @@ function ProductDetailContent({ compare, toggle }) {
             <PackSizeSelector product={p} variant={variant} onChange={setVariant} />
             <ProductColour product={p} products={products} />
             <div className="detail-actions" ref={actionRef}>
-              <Button to={enquiry}>
-                Enquire about this product
-              </Button>
-              <button className="button outline" onClick={() => toggle(p.id)}>
-                {compare.includes(p.id) ? <Check size={17} /> : <span>+</span>}
-                {compare.includes(p.id)
-                  ? "Added to comparison"
-                  : "Compare product"}
-              </button>
+              <Button to={enquiry}>Enquire about this product</Button>
+              {d.pending ? <Link className="tds-action" to={d.url}>Request TDS <FileDown size={18}/></Link> : <button className="tds-action" onClick={()=>setTdsOpen(true)}>Download TDS <FileDown size={18}/></button>}
             </div>
-            <a
-              className="text-link"
-              href={d.local || d.url}
-              target="_blank"
-              rel="noreferrer"
-            >
-              <FileDown size={18} /> {d.pending ? "Request current technical data sheet" : "Technical data sheet · PDF"}
-            </a>
+            <button className="compare-product-minor" onClick={()=>toggle(p.id)} aria-pressed={compare.includes(p.id)}>
+              {compare.includes(p.id) ? <Check size={16}/> : <span>+</span>}{compare.includes(p.id) ? 'Added to comparison' : 'Compare product'}
+            </button>
+            {tdsOpen && <TdsDownload product={p} document={d} onClose={()=>setTdsOpen(false)}/>}
             </div>
           </div>
         </section>
@@ -380,6 +370,7 @@ function ProductDetailContent({ compare, toggle }) {
             <a
               className="text-link"
               href={p.source}
+              onClick={p.source.startsWith("/documents/") ? (event)=>{event.preventDefault();setTdsOpen(true);} : undefined}
               target="_blank"
               rel="noreferrer"
             >
@@ -459,16 +450,8 @@ function ProductDetailContent({ compare, toggle }) {
               {p.shelfLife && <p><strong>Shelf life</strong><br />{p.shelfLife}</p>}
               {p.storage && <p><strong>Storage</strong><br />{p.storage}</p>}
               {p.tdsVersion && <p className="fineprint">TDS {p.tdsVersion} · Checked 9 October 2026</p>}
-              <a
-                className="document-link"
-                href={d.local || d.url}
-                target="_blank"
-                rel="noreferrer"
-              >
-                <FileDown />
-                {d.pending ? "Request current technical data sheet" : "Technical data sheet"}
-                <ArrowUpRight />
-              </a>
+              {d.pending ? <Link className="document-link" to={d.url}>Request current technical data sheet <ArrowUpRight/></Link> : <button className="document-link" onClick={()=>setTdsOpen(true)}><FileDown/>Download technical data sheet<ArrowUpRight/></button>}
+
               <p className="fineprint">
                 Need an SDS or a project-specific certificate? Request it with
                 your product enquiry.
@@ -535,14 +518,13 @@ export function Compare({ compare, toggle }) {
                   <h3>Packaging</h3>
                   <p>{p.packaging || "Confirm with technical team"}</p>
                   <h3>Technical data</h3>
-                  <a
+                  <TdsLink
                     className="text-link"
-                    href={documentFor(p).local || documentFor(p).url}
-                    target="_blank"
-                    rel="noreferrer"
+                    product={p}
+                    sheet={documentFor(p)}
                   >
                     {documentFor(p).pending ? "Request current data sheet" : "Open data sheet"} <FileDown size={16} />
-                  </a>
+                  </TdsLink>
                 </article>
               ))}
             </div>

@@ -170,7 +170,6 @@ export default function Home() {
             loading="lazy"
           />
           <span>EVERY LAYER COUNTS.</span>
-          <small>AI architectural concept</small>
         </div>
         <div className="studio-copy">
           <span className="mono-label">YOUR NEXT MOVE</span>

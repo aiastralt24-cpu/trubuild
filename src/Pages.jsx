@@ -1,3 +1,5 @@
+import { submitEnquiry } from "./enquiries.mjs";
+import { TdsLink } from "./TdsDownload";
 import React, { useState } from "react";
 import { Link, useParams, useSearchParams } from "react-router-dom";
 import {
@@ -8,8 +10,6 @@ import {
   Phone,
   MapPin,
   Check,
-  Copy,
-  Download,
 } from "lucide-react";
 import { solutions, products, resources, enquiryUrl, documentFor } from "./data";
 import {
@@ -112,7 +112,7 @@ export function SolutionDetail({ compare, toggle }) {
       </section>
       <section className="solution-documents wrap" id="documents">
         <div><span className="eyebrow">PRODUCT DOCUMENTATION</span><h2>Check the technical detail.</h2><p>Product-specific quantities and limits above are drawn from the linked technical data sheets. Read the full document for the chosen application.</p></div>
-        <div>{content.documents.map(productId => {const p = products.find(p => p.id === productId); const doc = documentFor(p); return <a key={p.id} href={doc.local || doc.url} target="_blank" rel="noreferrer"><span>{p.name}<small>Technical data sheet · PDF</small></span><FileDown size={20} /></a>;})}</div>
+        <div>{content.documents.map(productId => {const p = products.find(p => p.id === productId); const doc = documentFor(p); return <TdsLink key={p.id} product={p} sheet={doc}><span>{p.name}<small>Technical data sheet · PDF</small></span><FileDown size={20} /></TdsLink>;})}</div>
       </section>
       <section className="solution-related wrap"><h2>Explore related applications.</h2><div>{content.related.map(key => {const related = solutions.find(item => item.id === key);return <Link key={key} to={"/solutions/" + key}>{related.name}<ArrowUpRight size={18} /></Link>;})}</div></section>
       <AdvisorBanner />
@@ -135,7 +135,6 @@ export function About() {
         />
         <span>
           Built to perform. Designed to protect.{" "}
-          <small>AI architectural concept</small>
         </span>
       </div>
       <section className="section wrap company-story">
@@ -252,11 +251,10 @@ export function Resources() {
         </p>
         <div className="resource-list">
           {filtered.map((r) => (
-            <a
+            <TdsLink
               key={r.url}
-              href={r.local || r.url}
-              target="_blank"
-              rel="noreferrer"
+              product={{id:r.productId || "",name:r.title}}
+              sheet={r}
             >
               <span className="file-symbol">
                 <FileDown size={23} />
@@ -280,7 +278,7 @@ export function Resources() {
                 </span>
               </div>
               <ArrowUpRight size={23} />
-            </a>
+            </TdsLink>
           ))}
         </div>
         {!filtered.length && (
@@ -314,14 +312,6 @@ export function Resources() {
     </>
   );
 }
-function saveText(text) {
-  const url = URL.createObjectURL(new Blob([text], { type: "text/plain" }));
-  const a = document.createElement("a");
-  a.href = url;
-  a.download = "trubuild-enquiry.txt";
-  a.click();
-  URL.revokeObjectURL(url);
-}
 export function Contact() {
   const [params] = useSearchParams();
   const [type, setType] = useState(params.get("type") || "General enquiry");
@@ -329,24 +319,21 @@ export function Contact() {
   const [requirements, setRequirements] = useState(
     params.get("requirements") || "",
   );
-  const [draft, setDraft] = useState("");
-  const [copied, setCopied] = useState(false);
-  const [copyError, setCopyError] = useState("");
-  function prepare(e) {
+  const [submissionId, setSubmissionId] = useState("");
+  const [sending, setSending] = useState(false);
+  const [formError, setFormError] = useState('');
+  const [requestId,setRequestId]=useState('');
+  async function prepare(e) {
     e.preventDefault();
-    for (const field of e.currentTarget.querySelectorAll("[required]")) {
-      if (!field.value.trim()) {
-        field.setCustomValidity("Please enter a value, not just spaces.");
-        field.reportValidity();
-        return;
-      }
-    }
-    const f = new FormData(e.currentTarget);
-    const text = `TruBuild ${type}\n\nName: ${f.get("name")}\nEmail: ${f.get("email")}\nCompany: ${f.get("company") || "Not provided"}\nCity: ${f.get("city")}\nPhone: ${f.get("phone") || "Not provided"}\n${type !== "General enquiry" ? `Products: ${product || "Please advise"}\n` : ""}Requirements:\n${requirements}\n\nMessage:\n${f.get("message")}`;
-    setDraft(text);
-    setCopied(false);
-    setCopyError("");
-    setTimeout(() => document.getElementById("draft-result")?.focus(), 0);
+    const form=e.currentTarget;
+    const f=new FormData(form);
+    const id=requestId || crypto.randomUUID();setRequestId(id);
+    setSending(true);setFormError('');setSubmissionId('');
+    try {
+      const result=await submitEnquiry({requestId:id,kind:product || type==='Product enquiry' ? 'product_enquiry' : 'general_enquiry',topic:type,name:f.get('name'),email:f.get('email'),mobile:f.get('phone'),company:f.get('company'),city:f.get('city'),productName:product,requirements,message:f.get('message')},AbortSignal.timeout(20000));
+      setSubmissionId(result.id);
+    } catch(error) {setFormError(error.name==='TimeoutError'?'The request timed out. Please try again.':error.message);}
+    finally {setSending(false);}
   }
   return (
     <>
@@ -395,14 +382,14 @@ export function Contact() {
             onSubmit={prepare}
             onChange={(e) => {
               e.target.setCustomValidity?.("");
-              if (draft) setDraft("");
+              if (submissionId) setSubmissionId("");
+              setRequestId("");
             }}
             className="enquiry-form"
           >
             <h2>Tell us about your project.</h2>
             <p className="muted">
-              Prepare an email for the TruBuild team. Required fields are marked
-              *.
+              Send your enquiry to the TruBuild team. Required fields are marked *.
             </p>
             <label>
               How can we help?
@@ -410,7 +397,7 @@ export function Contact() {
                 value={type}
                 onChange={(e) => {
                   setType(e.target.value);
-                  setDraft("");
+                  setSubmissionId("");
                 }}
               >
                 <option>General enquiry</option>
@@ -474,7 +461,7 @@ export function Contact() {
                   value={product}
                   onChange={(e) => {
                     setProduct(e.target.value);
-                    setDraft("");
+                    setSubmissionId("");
                   }}
                   placeholder="Product name or code, if known"
                   maxLength={300}
@@ -488,7 +475,7 @@ export function Contact() {
                   value={requirements}
                   onChange={(e) => {
                     setRequirements(e.target.value);
-                    setDraft("");
+                    setSubmissionId("");
                   }}
                   rows={5}
                   maxLength={2500}
@@ -506,63 +493,12 @@ export function Contact() {
               />
             </label>
             <p className="fineprint">
-              This site does not send or store your enquiry. You can review an
-              email draft below, then send it through your own email app.
+              We’ll use your details to respond to your enquiry.
             </p>
-            <Button type="submit">Prepare enquiry</Button>
+            {formError && <p role="alert" className="tds-error">{formError}</p>}
+            <Button type="submit" disabled={sending || !!submissionId}>{sending ? "Sending…" : submissionId ? "Enquiry sent" : "Send enquiry"}</Button>
           </form>
-          {draft && (
-            <section
-              className="draft-result"
-              id="draft-result"
-              tabIndex={-1}
-              aria-live="polite"
-            >
-              <span className="eyebrow">READY FOR YOUR REVIEW · NOT SENT</span>
-              <h2>Your enquiry draft.</h2>
-              <p>
-                Review the details, then open your email app to send. If no
-                email app opens, download or copy the draft and email it to the
-                address shown.
-              </p>
-              <pre>{draft}</pre>
-              <div className="draft-actions">
-                <a
-                  className="button"
-                  href={
-                    "mailto:customercare@astraladhesives.com?subject=" +
-                    encodeURIComponent("TruBuild " + type) +
-                    "&body=" +
-                    encodeURIComponent(draft)
-                  }
-                >
-                  Open email draft <Mail size={17} />
-                </a>
-                <button className="text-link" onClick={() => saveText(draft)}>
-                  <Download size={16} /> Download draft
-                </button>
-                <button
-                  className="text-link"
-                  onClick={async () => {
-                    try {
-                      await navigator.clipboard.writeText(draft);
-                      setCopied(true);
-                      setCopyError("");
-                    } catch {
-                      setCopied(false);
-                      setCopyError(
-                        "Copy is unavailable in this browser. Download the draft instead.",
-                      );
-                    }
-                  }}
-                >
-                  {copied ? <Check size={16} /> : <Copy size={16} />}{" "}
-                  {copied ? "Copied" : "Copy draft"}
-                </button>
-              </div>
-              {copyError && <p role="status">{copyError}</p>}
-            </section>
-          )}
+          {submissionId && <section className="draft-result" role="status"><h2>Thank you. Your enquiry is received.</h2><p>Our team can now review your request.</p><p className="fineprint">Reference: {submissionId}</p></section>}
         </div>
       </section>
     </>

@@ -1,0 +1,21 @@
+.tds-modal { margin:auto; width:min(440px,calc(100% - 32px)); max-height:calc(100dvh - 32px); overflow:auto; border:1px solid #d7dbd1; border-radius:14px; background:#f8f9f4; color:#19221e; padding:30px; box-shadow:0 25px 90px #0004; }
+.tds-modal::backdrop { background:#111b17bb; backdrop-filter:blur(5px); }
+.tds-close { position:absolute; top:16px; right:16px; width:36px; height:36px; display:grid; place-items:center; border:1px solid #d7dbd1; border-radius:50%; background:transparent; cursor:pointer; }
+.tds-symbol { width:44px; height:44px; display:grid; place-items:center; background:#ffca05; border-radius:9px; margin-bottom:20px; }
+.tds-modal .tds-product { font-size:12px; color:#596052; margin:0 0 9px; }
+.tds-modal h2 { font-size:28px; line-height:1.1; letter-spacing:-.02em; margin:0 0 12px; }
+.tds-intro { font-size:14px; color:#596052; margin:0 0 22px; }
+.tds-modal form { display:grid; gap:16px; }
+.tds-modal label { display:grid; gap:7px; font-size:13px; font-weight:500; }
+.tds-modal input { width:100%; background:#fff; color:#19221e; border:1px solid #bdc5b8; border-radius:5px; padding:12px; min-height:46px; font:inherit; font-size:16px; }
+.tds-modal input:focus { outline:2px solid #19221e; outline-offset:2px; }
+.tds-submit { width:100%; display:flex; align-items:center; justify-content:space-between; border:0; border-radius:5px; padding:15px; background:#ffca05; color:#19221e; font:inherit; font-size:14px; font-weight:600; cursor:pointer; }
+.tds-submit:disabled { opacity:.6; cursor:wait; }
+.tds-error { color:#a32416; font-size:13px; margin:0; }
+.tds-preview { font-size:11px; color:#596052; margin:0; }
+.product-selection .detail-actions { display:grid; grid-template-columns:1fr 1fr; gap:10px; margin-bottom:12px; }
+.product-selection .detail-actions .button { min-height:52px; padding:13px 16px; justify-content:space-between; border-radius:5px; }
+.product-selection .tds-action { display:flex; gap:10px; align-items:center; justify-content:space-between; padding:13px 16px; min-height:52px; background:transparent; color:#19221e; border:1px solid #aeb7a5; border-radius:5px; font:inherit; font-size:14px; font-weight:600; cursor:pointer; }
+.product-selection .tds-action:hover { background:#eeeee7; }
+.product-selection .compare-product-minor { display:flex; align-items:center; gap:8px; min-height:44px; background:transparent; border:0; padding:4px 0; font:inherit; font-size:13px; color:#596052; cursor:pointer; }
+@media(max-width:480px) { .tds-modal {padding:24px;} .product-selection .detail-actions { grid-template-columns:1fr; } }
