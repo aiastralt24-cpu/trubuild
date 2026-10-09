@@ -3232,6 +3232,7 @@ td {
 .specimen-image {
   position: relative;
   height: 330px;
+  overflow: hidden;
   display: grid;
   place-items: center;
   isolation: isolate;
@@ -3246,8 +3247,13 @@ td {
   left: 0;
 }
 .specimen-image img {
+  position: absolute;
+  inset: 0;
+  margin: auto;
   height: 75%;
   width: 85%;
+  max-height: 75%;
+  min-height: 0;
   object-fit: contain;
   mix-blend-mode: multiply;
   transition: transform 0.4s;
@@ -3984,7 +3990,7 @@ td {
 .application-tile p { font-size:12px; line-height:1.5; margin:12px 0 0; max-width:280px; opacity:.85; }
 .application-glyph { position:absolute; width:68px; height:68px; top:25px; left:26px; opacity:.6; }
 .tile-wet .application-glyph,.tile-sealants .application-glyph { color:var(--yellow); }
-.tile-wet p,.tile-repair p { display:none; }
+.tile-wet p,.tile-repair p { display:block; }
 @media(max-width:1100px) {
  .application-mosaic { grid-template-columns:repeat(2,minmax(0,1fr)); grid-template-rows:auto; grid-auto-rows:250px; }
  .application-tile { grid-column:auto; grid-row:auto; }
@@ -4165,3 +4171,19 @@ td {
  .catalogue-v3 .is-list .catalogue-item { grid-template-columns:85px minmax(0,1fr); }
  .catalogue-v3 .is-list .catalogue-item-actions .compare-action-label,.catalogue-v3 .is-list .catalogue-item-actions .action-word { display:inline; }
 }
+
+/* Feedback: consistent card summaries and an accessible national office directory. */
+.footer-grid .footer-social { display:flex; gap:10px; margin-top:20px; }
+.footer-grid .footer-social a { display:grid; place-items:center; width:44px; height:44px; border:1px solid #ffffff40; border-radius:50%; margin:0; }
+.footer-social a:hover { color:var(--yellow); border-color:var(--yellow); }
+.office-directory { padding-bottom:80px; }
+.office-directory-heading { max-width:700px; margin-bottom:32px; }
+.office-directory-heading h2 { font-size:clamp(32px,4vw,56px); line-height:1.12; margin:16px 0; }
+.office-directory-heading em { font-style:normal; }
+.office-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:16px; }
+.office-grid article { border:1px solid var(--line, #d5d9cf); padding:28px; display:flex; flex-direction:column; align-items:flex-start; }
+.office-grid h3 { font-size:26px; margin:12px 0; }
+.office-grid address { font-style:normal; line-height:1.6; margin-bottom:24px; }
+.office-grid a { display:flex; gap:12px; align-items:center; margin-top:auto; font-weight:600; }
+@media(max-width:1000px){.office-grid{grid-template-columns:repeat(2,minmax(0,1fr));}}
+@media(max-width:600px){.office-grid{grid-template-columns:1fr;}.office-grid article{padding:22px;}}

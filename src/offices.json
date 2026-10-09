@@ -1,0 +1,62 @@
+[
+  {
+    "city": "Ahmedabad",
+    "type": "Head office",
+    "address": "‘Astral House’, 207/1, Behind Rajpath Club, Off S.G. Highway, Ahmedabad – 380 059. India"
+  },
+  {
+    "city": "Bengaluru",
+    "type": "Branch office",
+    "address": "No: 14, BLN Arcade, 3rd Floor 7th B Main Road, 4th Block Jayanagar, Bengaluru - 560011, India"
+  },
+  {
+    "city": "Chennai",
+    "type": "Branch office",
+    "address": "Bascon Futura SV IT Park, 2nd Floor(East), 10/1, old no. 56-L, Venkatanarayana Road, Parthasarathi Puram, T. Nagar, Chennai – 600017, India."
+  },
+  {
+    "city": "Delhi",
+    "type": "Branch office",
+    "address": "231, 233, & 235, Ansal Chambers–II, 6, Bikaji Cama Place, New Delhi - 110066, India."
+  },
+  {
+    "city": "Hyderabad",
+    "type": "Branch office",
+    "address": "1-8-303 / 9, III Floor, Tirumala Chambers, PG Road, Behind Chutneys Restaurant, Begumpet, Hyderabad - 500016, India."
+  },
+  {
+    "city": "Indore",
+    "type": "Branch office",
+    "address": "206, Milindas Manor, In Front Of Central Mall, 2 R.N.T. Marg Indore - 452001, India."
+  },
+  {
+    "city": "Jaipur",
+    "type": "Branch office",
+    "address": "Office no. 716 & 717, 7th Floor, Mall of Jaipur, Plot no. 01, Kuber Complex, Khasra No-193&194/298, Main Gandhi Path, Vaishali Nagar, Jaipur - 302021, India."
+  },
+  {
+    "city": "Kochi",
+    "type": "Branch office",
+    "address": "48/84-A2, A3, A4 K.K.Chandran & Makkal Narayani Amma Building, St.Ritha's Road, Ponnurunni East, Vyttila P O, Vyttila, Ernakulam - 682019, India."
+  },
+  {
+    "city": "Kolkata",
+    "type": "Branch office",
+    "address": "6th Floor, KCT Centre,  163, Shyama Prasad Mukherjee Road,  Kolkata, West Bengal-700026"
+  },
+  {
+    "city": "Lucknow",
+    "type": "Branch office",
+    "address": "6th Floor, Cyber Heights Building, Vibhuti Khand, Gomti Nagar, Lucknow (U.P) - 226010. India."
+  },
+  {
+    "city": "Mumbai",
+    "type": "Branch office",
+    "address": "Unit 201 to 205, 215 Atrium, 2nd Floor, A Wing, Near Hotel Courtyard by Marriott, Andheri - Kurla Road, Hanuman Nagar, Andheri East, Mumbai- 400059"
+  },
+  {
+    "city": "Pune",
+    "type": "Branch office",
+    "address": "2nd floor, S-Plaza, Plot No.2', C.T.S.No.6663, Mitra Mandal Co-Op. Housing. Soc. Ltd., Opp. Marathon Bhavan, Pune – 411009."
+  }
+]

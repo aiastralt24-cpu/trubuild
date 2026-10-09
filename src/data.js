@@ -1,12 +1,12 @@
 import data from "./products.json";
 import documents from "./resources.json";
-export const products = data;
+export const products = [...data].sort((a, b) => a.name.localeCompare(b.name, "en", { numeric: true, sensitivity: "base" }));
 export const resources = documents;
-export const categories = [...new Set(products.map((p) => p.category))];
+export const categories = [...new Set(products.map((p) => p.category))].sort((a, b) => a.localeCompare(b, "en"));
 export const solutions = [
   {
     id: "roof",
-    name: "Roof & terrace",
+    name: "Roof Waterproofing",
     sourceName: "Roof Waterproofing",
     summary: "Protect the spaces that shelter everything below.",
     description:
@@ -17,7 +17,7 @@ export const solutions = [
   },
   {
     id: "tiling",
-    name: "Tiling & grouting",
+    name: "Tiling & Grouting",
     sourceName: "Tiling and Grouting",
     summary: "A beautiful finish starts beneath the surface.",
     description:
@@ -28,7 +28,7 @@ export const solutions = [
   },
   {
     id: "wet",
-    name: "Bathrooms & wet areas",
+    name: "Wet Areas",
     sourceName: "Wet Areas",
     summary: "Protection where water is part of everyday life.",
     description:
@@ -39,18 +39,18 @@ export const solutions = [
   },
   {
     id: "exterior",
-    name: "Exterior walls",
+    name: "Exterior Waterproofing",
     sourceName: "Exterior Waterproofing",
     summary: "Prepare. Protect. Finish with confidence.",
     description:
       "Walltect coatings, surface primers, crack fillers and protective sealers for exterior applications.",
-    image: "/images/hero-exterior-coating.webp",
-    imageAlt: "Illustrative coated exterior plaster walls",
+    image: "/images/hero-exterior-home-v3.webp",
+    imageAlt: "Illustrative contemporary home with finished ivory plastered exterior walls",
     icon: "wall",
   },
   {
     id: "repair",
-    name: "Concrete & repair",
+    name: "Concrete and Mortar",
     sourceName: "Concrete and Mortar",
     summary: "Build strength into every stage.",
     description:
@@ -61,7 +61,7 @@ export const solutions = [
   },
   {
     id: "basement",
-    name: "Basements & foundations",
+    name: "Substructure Waterproofing",
     sourceName: "Substructure Waterproofing",
     summary: "Protection starts below ground.",
     description:
@@ -72,7 +72,7 @@ export const solutions = [
   },
   {
     id: "tanks",
-    name: "Water tanks & pools",
+    name: "Water Tanks & Other Areas",
     sourceName: "Water Tanks and Other Areas",
     summary: "Find the system for your water-retaining structure.",
     description:
@@ -83,7 +83,7 @@ export const solutions = [
   },
   {
     id: "sealants",
-    name: "Joints & sealants",
+    name: "Professional Sealants",
     sourceName: "Professional Sealants",
     summary: "The detail that brings everything together.",
     description:

@@ -20,7 +20,7 @@ export function metadata(pathname, origin = SITE_URL) {
   const known = !!(solution || p || defaults[path]);
   const [title, description] = solution ? [solution.title, solution.description] : p ? [p.name + ' | TruBuild Product & Technical Data', p.description.slice(0, 157).replace(/\s+\S*$/, '') + '…'] : defaults[path] || ['Page Not Found | TruBuild', 'The requested page could not be found. Explore TruBuild products and solutions.'];
   const url = origin + path;
-  const image = origin + (p?.image || ({roof:'/images/hero-roof-coating.webp',tiling:'/images/hero-interior-floor.webp',wet:'/images/application-wet-v2.webp',exterior:'/images/hero-exterior-coating.webp',repair:'/images/application-repair-v2.webp',basement:'/images/application-basement-v2.webp',tanks:'/images/application-tanks-v2.webp',sealants:'/images/application-sealants-v2.webp'}[path.split('/')[2]]) || '/images/architecture.webp');
+  const image = origin + (p?.image || ({roof:'/images/hero-roof-coating.webp',tiling:'/images/hero-interior-floor.webp',wet:'/images/application-wet-v2.webp',exterior:'/images/hero-exterior-home-v3.webp',repair:'/images/application-repair-v2.webp',basement:'/images/application-basement-v2.webp',tanks:'/images/application-tanks-v2.webp',sealants:'/images/application-sealants-v2.webp'}[path.split('/')[2]]) || '/images/architecture.webp');
   const graph = [];
   if (solution) {
     const pageId = url + '#webpage';

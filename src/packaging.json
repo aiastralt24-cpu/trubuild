@@ -239,7 +239,7 @@
       {
         "src": "/images/packaging/77.webp",
         "thumbnail": "/images/packaging/77-thumb.webp",
-        "label": "Carton \u2014 front"
+        "label": "Carton — front"
       }
     ]
   },
@@ -255,9 +255,9 @@
   "trubuild-trushield": {
     "images": [
       {
-        "src": "/images/packaging/86.webp",
-        "thumbnail": "/images/packaging/86-thumb.webp",
-        "label": "Packaging"
+        "src": "/images/packaging/trushield-black-reference.webp",
+        "thumbnail": "/images/packaging/trushield-black-reference-thumb.webp",
+        "label": "Black membrane — supplied product reference"
       }
     ]
   },
@@ -344,12 +344,12 @@
           {
             "src": "/images/packaging/6.webp",
             "thumbnail": "/images/packaging/6-thumb.webp",
-            "label": "Powder carton \u2014 angled view"
+            "label": "Powder carton — angled view"
           },
           {
             "src": "/images/packaging/7.webp",
             "thumbnail": "/images/packaging/7-thumb.webp",
-            "label": "Powder carton \u2014 front"
+            "label": "Powder carton — front"
           },
           {
             "src": "/images/packaging/8.webp",
@@ -398,12 +398,12 @@
           {
             "src": "/images/packaging/14.webp",
             "thumbnail": "/images/packaging/14-thumb.webp",
-            "label": "Powder carton \u2014 angled view"
+            "label": "Powder carton — angled view"
           },
           {
             "src": "/images/packaging/15.webp",
             "thumbnail": "/images/packaging/15-thumb.webp",
-            "label": "Powder carton \u2014 front"
+            "label": "Powder carton — front"
           },
           {
             "src": "/images/packaging/16.webp",
@@ -452,17 +452,17 @@
           {
             "src": "/images/packaging/51.webp",
             "thumbnail": "/images/packaging/51-thumb.webp",
-            "label": "Part C \u2014 filler, 3.75 kg"
+            "label": "Part C — filler, 3.75 kg"
           },
           {
             "src": "/images/packaging/52.webp",
             "thumbnail": "/images/packaging/52-thumb.webp",
-            "label": "Part B \u2014 hardener, 350 g"
+            "label": "Part B — hardener, 350 g"
           },
           {
             "src": "/images/packaging/53.webp",
             "thumbnail": "/images/packaging/53-thumb.webp",
-            "label": "Part A \u2014 resin, 900 g"
+            "label": "Part A — resin, 900 g"
           }
         ]
       }
@@ -482,12 +482,12 @@
           {
             "src": "/images/packaging/28.webp",
             "thumbnail": "/images/packaging/28-thumb.webp",
-            "label": "Outer carton \u2014 angled view"
+            "label": "Outer carton — angled view"
           },
           {
             "src": "/images/packaging/29.webp",
             "thumbnail": "/images/packaging/29-thumb.webp",
-            "label": "Outer carton \u2014 front"
+            "label": "Outer carton — front"
           },
           {
             "src": "/images/packaging/24.webp",
@@ -502,7 +502,7 @@
           {
             "src": "/images/packaging/27.webp",
             "thumbnail": "/images/packaging/27-thumb.webp",
-            "label": "Part C \u2014 silica"
+            "label": "Part C — silica"
           },
           {
             "src": "/images/packaging/26.webp",
@@ -518,12 +518,12 @@
       {
         "src": "/images/packaging/21.webp",
         "thumbnail": "/images/packaging/21-thumb.webp",
-        "label": "Carton \u2014 angled view"
+        "label": "Carton — angled view"
       },
       {
         "src": "/images/packaging/22.webp",
         "thumbnail": "/images/packaging/22-thumb.webp",
-        "label": "Carton \u2014 front"
+        "label": "Carton — front"
       }
     ]
   },
@@ -548,6 +548,69 @@
             "label": "1 L packaging"
           }
         ]
+      }
+    ]
+  },
+  "trubuild-trubond-hdpe-membrane": {
+    "images": [
+      {
+        "src": "/images/packaging/80.webp",
+        "thumbnail": "/images/packaging/80-thumb.webp",
+        "label": "Packaging"
+      }
+    ]
+  },
+  "trubuild-walltect-advanced": {
+    "images": [
+      {
+        "src": "/images/packaging/87.webp",
+        "thumbnail": "/images/packaging/87-thumb.webp",
+        "label": "Packaging"
+      }
+    ]
+  },
+  "trubuild-walltect-prime": {
+    "images": [
+      {
+        "src": "/images/packaging/88.webp",
+        "thumbnail": "/images/packaging/88-thumb.webp",
+        "label": "Packaging"
+      }
+    ]
+  },
+  "trubuild-primesure-plus": {
+    "images": [
+      {
+        "src": "/images/packaging/42.webp",
+        "thumbnail": "/images/packaging/42-thumb.webp",
+        "label": "Packaging"
+      }
+    ]
+  },
+  "trufix-330-plus-grey": {
+    "images": [
+      {
+        "src": "/images/packaging/74.webp",
+        "thumbnail": "/images/packaging/74-thumb.webp",
+        "label": "Packaging"
+      }
+    ]
+  },
+  "trufix-330-plus-white": {
+    "images": [
+      {
+        "src": "/images/packaging/75.webp",
+        "thumbnail": "/images/packaging/75-thumb.webp",
+        "label": "Packaging"
+      }
+    ]
+  },
+  "trubuild-stylo-duo": {
+    "images": [
+      {
+        "src": "/images/packaging/57.webp",
+        "thumbnail": "/images/packaging/57-thumb.webp",
+        "label": "Packaging"
       }
     ]
   }

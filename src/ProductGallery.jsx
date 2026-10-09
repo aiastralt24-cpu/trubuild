@@ -54,8 +54,9 @@ export function ProductColour({product, products}) {
 
 export function PackSizeSelector({ product, variant, onChange }) {
   const data = packaging[product.id];
-  if (!data?.variants) return null;
-  return <fieldset className="pack-sizes"><legend>Pack size</legend><div>{data.variants.map((v,i)=><button key={v.label} aria-pressed={variant===i} onClick={()=>onChange(i)}>{v.label}</button>)}</div></fieldset>;
+  const options = product.packSizes || data?.variants?.map(v => v.label);
+  if (!options?.length) return null;
+  return <fieldset className="pack-sizes"><legend>Pack size</legend><div>{options.map((label,i)=><button key={label} aria-pressed={variant===i} onClick={()=>onChange(i)}>{label}</button>)}</div>{product.packSizes && <p className="pack-note">Packaging image is representative; the selected pack size may not be pictured.</p>}</fieldset>;
 }
 
 export function StickyProductEnquiry({ product, selectedPack, actionRef, href }) {

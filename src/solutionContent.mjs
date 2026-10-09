@@ -4,7 +4,7 @@ export const solutionContent = {
   roof: {
     title: 'Roof & Terrace Waterproofing Solutions | TruBuild',
     description: 'Explore TruBuild roof and terrace waterproofing. Compare exposed and protected roof systems, surface preparation, coverage and product technical data sheets.',
-    heading: 'Roof & terrace', accent: 'waterproofing.',
+    heading: 'Roof', accent: 'Waterproofing.',
     keywords: ['roof waterproofing', 'terrace waterproofing', 'roof leakage solution', 'waterproofing coating for terrace', 'terrace waterproofing cost'],
     question: 'How do you choose a roof waterproofing system?',
     answer: 'Choose roof waterproofing by the existing surface, sunlight exposure, foot traffic and drainage. An exposed terrace needs a weather-resistant system suited to that substrate; a membrane beneath tiles or screed needs compatible protection. Repair defects and detail outlets, pipe entries and parapet junctions before applying the specified coating.',
@@ -33,7 +33,7 @@ export const solutionContent = {
   tiling: {
     title: 'Tile Adhesives & Grouting Solutions | TruBuild',
     description: 'Choose tile adhesives and grouts for your tile type, size, substrate and exposure. Explore TruBuild TRUFIX and STYLO products, guidance and technical data.',
-    heading: 'Tile adhesives', accent: '& grouting.',
+    heading: 'Tiling', accent: '& Grouting.',
     keywords: ['tile adhesive', 'tile grout', 'epoxy grout', 'tile adhesive for vitrified tiles', 'tile adhesive vs cement'],
     question: 'How do you choose tile adhesive and grout?',
     answer: 'Choose tile adhesive by tile material and size, the substrate, wall or floor location, and dry, wet or exterior exposure. Choose grout separately for joint width, finish and service conditions. The waterproofing layer, adhesive, grout and movement joints each perform a different job in a complete tile installation.',
@@ -60,7 +60,7 @@ export const solutionContent = {
   wet: {
     title: 'Bathroom & Wet Area Waterproofing | TruBuild',
     description: 'Plan bathroom waterproofing beneath tiles. Explore TruBuild coatings, pipe-entry sealing, surface preparation, curing and wet-area product data sheets.',
-    heading: 'Bathroom & wet area', accent: 'waterproofing.',
+    heading: 'Wet', accent: 'Areas.',
     keywords: ['bathroom waterproofing', 'bathroom leakage solution', 'waterproofing under tiles', 'wet area waterproofing', 'bathroom floor waterproofing'],
     question: 'What does bathroom waterproofing need to cover?',
     answer: 'Bathroom waterproofing should form a continuous system beneath the finish across the specified floor and wall areas, with details at wall-floor junctions, drains and pipe entries. First distinguish a plumbing leak from water entering through the building fabric. Complete the coating, curing and water test before tiling.',
@@ -87,7 +87,7 @@ export const solutionContent = {
   exterior: {
     title: 'Exterior Wall Waterproofing & Crack Repair | TruBuild',
     description: 'Explore exterior wall waterproofing, plaster crack fillers and water repellents from TruBuild. Choose by wall finish, crack condition and moisture source.',
-    heading: 'Exterior wall', accent: 'waterproofing.',
+    heading: 'Exterior', accent: 'Waterproofing.',
     keywords: ['exterior wall waterproofing', 'wall seepage solution', 'wall crack filler', 'external wall waterproof coating', 'water repellent for walls'],
     question: 'How do you treat water seepage through an exterior wall?',
     answer: 'Identify the entry point before coating an exterior wall. Check plaster cracks, wall joints, window surrounds, parapets and adjacent roof details. Repair defects, prepare the substrate and choose either the specified protective coating system or a compatible water repellent for a porous finish. Paint alone is not a diagnosis.',
@@ -114,7 +114,7 @@ export const solutionContent = {
   repair: {
     title: 'Concrete Repair, Bonding Agents & Grouts | TruBuild',
     description: 'Explore TruBuild concrete repair materials, SBR latex, bonding agents and non-shrink grout. Match the product to the defect, substrate and repair method.',
-    heading: 'Concrete repair', accent: '& bonding.',
+    heading: 'Concrete', accent: 'and Mortar.',
     keywords: ['concrete repair materials', 'concrete bonding agent', 'SBR latex for concrete repair', 'non shrink grout', 'plaster bonding agent'],
     question: 'Which material should you use for concrete repair?',
     answer: 'Choose concrete repair materials by the defect and the job: modifying a repair mortar, bonding new material to old concrete, filling a baseplate gap or bonding plaster to RCC. These are different applications. Assess the cause and extent of damage before treating the visible surface, especially where concrete is loose or reinforcement is exposed.',
@@ -141,7 +141,7 @@ export const solutionContent = {
   basement: {
     title: 'Basement & Foundation Waterproofing | TruBuild',
     description: 'Explore basement and foundation waterproofing with TruBuild. Understand positive and negative sides, sheet membranes, crystalline treatments and detailing.',
-    heading: 'Basement & foundation', accent: 'waterproofing.',
+    heading: 'Substructure', accent: 'Waterproofing.',
     keywords: ['basement waterproofing', 'foundation waterproofing', 'negative side waterproofing', 'retaining wall waterproofing', 'basement waterproofing membrane'],
     question: 'What is positive-side versus negative-side waterproofing?',
     answer: 'Positive-side waterproofing is applied on the side facing the incoming water, such as the outside of a retaining wall. Negative-side waterproofing is applied on the opposite face, such as an accessible basement interior. Select a product expressly suited to that pressure direction, substrate and water exposure; the two positions are not interchangeable.',
@@ -168,7 +168,7 @@ export const solutionContent = {
   tanks: {
     title: 'Water Tank & Swimming Pool Waterproofing | TruBuild',
     description: 'Explore TruBuild waterproofing for concrete water tanks and pools. Review immersion suitability, curing, coating coverage and product technical documents.',
-    heading: 'Water tank & pool', accent: 'waterproofing.',
+    heading: 'Water Tanks', accent: '& Other Areas.',
     keywords: ['water tank waterproofing', 'swimming pool waterproofing', 'concrete water tank leakage', 'waterproof coating for water tank', 'tank waterproofing curing time'],
     question: 'How do you choose waterproofing for a water tank or pool?',
     answer: 'Choose a system documented for the water-retaining structure, its substrate and intended water use. Check continuous immersion, relevant water-contact requirements, joints and pipe entries, curing before filling, and compatibility with any tile finish. A general roof waterproofing coating should not automatically be used inside a tank or swimming pool.',
@@ -195,7 +195,7 @@ export const solutionContent = {
   sealants: {
     title: 'Joint Sealants & Expansion Joint Sealing | TruBuild',
     description: 'Explore TruBuild joint sealing with Sealmaster Flexi. Understand movement joints, substrate preparation, sealant selection and technical data.',
-    heading: 'Joint sealing', accent: '& sealants.',
+    heading: 'Professional', accent: 'Sealants.',
     keywords: ['joint sealant', 'expansion joint sealant', 'MS polymer sealant', 'construction joint sealing', 'sealant vs crack filler'],
     question: 'When should you use an elastic joint sealant?',
     answer: 'Use an elastic joint sealant where a specified joint needs to accommodate movement while maintaining a seal. Select it for the substrates, expected movement, joint geometry and exposure. A non-structural plaster crack filler or rigid tile grout is not an automatic substitute for a movement-joint sealant.',

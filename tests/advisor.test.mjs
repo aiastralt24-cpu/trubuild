@@ -90,9 +90,9 @@ test("all possible recommendations point to real products and retain requirement
   }
 });
 test("catalogue records have original source, image, category and specifications", () => {
-  assert.equal(products.length, 40);
+  assert.equal(products.length, 47);
   for (const p of products) {
-    assert.ok(p.source.startsWith("https://www.trubuild.in/products/") || (p.tdsVersion && p.source === p.tds));
+    assert.ok(p.source.startsWith("https://www.trubuild.in/products/") || (p.tdsVersion && p.source === p.tds) || (p.source === "research/feedback/website-feedback-2.xlsx" && fs.existsSync(new URL("../" + p.source, import.meta.url)) && p.tdsStatus === "replacement-pending"));
     assert.ok(p.category);
     assert.ok(p.fields.length);
     assert.ok(fs.existsSync(new URL("../public" + p.image, import.meta.url)));

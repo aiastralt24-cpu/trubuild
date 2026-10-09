@@ -24,4 +24,4 @@ assert.equal(sitemap('loc').length,publicRoutes.length);
 assert.ok(!sitemap.text().includes('127.0.0.1'));
 const error=load(fs.readFileSync('dist/404.html','utf8'));
 assert.match(error('meta[name="robots"]').attr('content'),/noindex/);
-console.log('SEO checks passed: eight complete HTML guides, matching FAQ schema, canonical tags, linked PDFs/products, 55 sitemap URLs and noindex error page.');
+console.log(`SEO checks passed: eight complete HTML guides, matching FAQ schema, canonical tags, linked PDFs/products, ${publicRoutes.length} sitemap URLs and noindex error page.`);

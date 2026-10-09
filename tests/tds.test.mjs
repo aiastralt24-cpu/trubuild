@@ -42,7 +42,7 @@ test('new names retain legacy search aliases and revised pack sizes', () => {
   assert.ok(product('Crackfill Paste').aliases.includes('CFP 425'));
   assert.ok(product('Crackfill Powder').aliases.includes('CFP 525'));
   assert.ok(product('SBR 333').aliases.includes('WPL 333'));
-  assert.equal(product('Buildcrete').packaging, '1 kg, 5 kg');
+  assert.equal(product('Buildcrete').packaging, '1 kg, 5 kg, 20 kg, 50 kg');
   assert.equal(product('TCSR-555').packaging, '300 g set, 1.5 kg set, 7.5 kg set');
   assert.deepEqual(products.filter(p => p.imageKind === 'document').map(p => p.id).sort(), ['trubuild-trubond-ds-tape']);
 });

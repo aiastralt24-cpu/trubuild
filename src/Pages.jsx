@@ -1,3 +1,4 @@
+import offices from "./offices.json";
 import { submitEnquiry } from "./enquiries.mjs";
 import { TdsLink } from "./TdsDownload";
 import React, { useState } from "react";
@@ -33,7 +34,7 @@ export function Solutions() {
           <a className="solutions-jump" href="#applications">Explore applications <ArrowUpRight size={20} /></a>
         </div>
         <div className="solutions-intro-image">
-          <img src="/images/hero-exterior-coating.webp" alt="Illustrative waterproof-coated exterior plaster wall" fetchPriority="high" />
+          <img src="/images/hero-exterior-home-v3.webp" alt="Illustrative contemporary home with coated plastered exterior walls" fetchPriority="high" />
           <span>Protection from the ground up.</span>
         </div>
       </section>
@@ -159,14 +160,7 @@ export function About() {
             homeowners, contractors, specifiers and business partners can make a
             better-informed shortlist and connect with the technical team.
           </p>
-          <a
-            className="text-link"
-            href="https://www.trubuild.in/about-us/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Read the official company overview <ArrowUpRight size={17} />
-          </a>
+
         </div>
       </section>
       <section className="company-pillars wrap">
@@ -246,8 +240,7 @@ export function Resources() {
           </label>
         </div>
         <p className="fineprint" role="status">
-          {filtered.length} documents · Published by TruBuild · Some documents
-          use legacy product names
+          {filtered.length} documents · Published by TruBuild
         </p>
         <div className="resource-list">
           {filtered.map((r) => (
@@ -501,6 +494,10 @@ export function Contact() {
           {submissionId && <section className="draft-result" role="status"><h2>Thank you. Your enquiry is received.</h2><p>Our team can now review your request.</p><p className="fineprint">Reference: {submissionId}</p></section>}
         </div>
       </section>
+      <section className="office-directory wrap" aria-labelledby="office-heading">
+        <div className="office-directory-heading"><span className="eyebrow">OUR PRESENCE</span><h2 id="office-heading">Connected across <em>India.</em></h2><p>Find our head office and branch offices across 12 cities.</p></div>
+        <div className="office-grid">{offices.map(office => <article key={office.city}><span className="eyebrow">{office.type}</span><h3>{office.city}</h3><address>{office.address}</address><a href={"https://www.google.com/maps/search/?api=1&query=" + encodeURIComponent(office.address)} target="_blank" rel="noopener noreferrer">View on map <ArrowUpRight size={16} /></a></article>)}</div>
+      </section>
     </>
   );
 }
@@ -562,6 +559,7 @@ export function Sources() {
         </p>
         <Button to="/contact">Contact the team</Button>
       </section>
+
     </>
   );
 }

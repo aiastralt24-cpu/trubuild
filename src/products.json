@@ -20,7 +20,7 @@
       "UV stable",
       "Waterproofing and repair applications"
     ],
-    "packaging": "1 kg, 5 kg",
+    "packaging": "1 kg, 5 kg, 20 kg, 50 kg",
     "fields": [
       "Waterproofing toilets, kitchens, bathrooms, terraces, swimming pools and basements",
       "Repair mortar and bonding coats"
@@ -28,7 +28,7 @@
     "applicationNotes": [
       "For waterproofing slurry mix Buildcrete:cement 1:2 by weight. For a bond coat use 1:1.5 by weight.",
       "Apply on a saturated surface dry substrate. Apply repair mortar while the bond coat remains tacky.",
-      "Use at least two coats, 5\u20136 hours apart; moist cure for 24 hours, then air cure for 3\u20135 days before a protective screed."
+      "Use at least two coats, 5–6 hours apart; moist cure for 24 hours, then air cure for 3–5 days before a protective screed."
     ],
     "specs": [
       [
@@ -49,12 +49,12 @@
       [
         "Density(gm/cc)",
         "ASTM D 1475-2013",
-        "Approx. 1.02 \u00b1 0.02"
+        "Approx. 1.02 ± 0.02"
       ],
       [
         "% Solid",
         "ASTM D 1644-2001",
-        "30 \u00b1 3"
+        "30 ± 3"
       ],
       [
         "pH",
@@ -89,14 +89,21 @@
     "tdsVersion": "N.1",
     "tdsFile": "05_TRUBUILD BUILDCRETE_RC.pdf",
     "tdsSha256": "a45ed5167d3f55f4d125ccbd0f2669fadcea87b933e26ee18f6ee3b454f8ed74",
-    "coverage": "25\u201330 sq ft/kg for two coats.",
+    "coverage": "25–30 sq ft/kg for two coats.",
     "shelfLife": "24 months from manufacture under the TDS storage conditions.",
     "specPages": [
       2
     ],
-    "storage": "5\u201330\u00b0C; sealed, protected from freezing and direct sunlight.",
+    "storage": "5–30°C; sealed, protected from freezing and direct sunlight.",
     "tdsStatus": "final-approved",
-    "imageKind": "packaging"
+    "imageKind": "packaging",
+    "packSizes": [
+      "1 kg",
+      "5 kg",
+      "20 kg",
+      "50 kg"
+    ],
+    "packagingSource": "Website feedback-2.xlsx · Product SKU check · 9 October 2026"
   },
   {
     "id": "trubuild-tcsr-555",
@@ -128,72 +135,72 @@
     ],
     "specs": [
       [
-        "PART-A \u00b7 Chemical base",
+        "PART-A · Chemical base",
         "",
         "Epoxy resin"
       ],
       [
-        "PART-A \u00b7 Physical state",
+        "PART-A · Physical state",
         "",
         "Viscous liquid"
       ],
       [
-        "PART-A \u00b7 Appearance",
+        "PART-A · Appearance",
         "",
         "Transparent"
       ],
       [
-        "PART-A \u00b7 Color",
+        "PART-A · Color",
         "",
         "Colorless"
       ],
       [
-        "PART-A \u00b7 EEW",
+        "PART-A · EEW",
         "ASTM D-1652-11",
         "170-190"
       ],
       [
-        "PART-A \u00b7 Viscosity @25\u00b0C",
+        "PART-A · Viscosity @25°C",
         "ASTM D-4402",
         "500-1000 cps"
       ],
       [
-        "PART-A \u00b7 Sp. gravity",
+        "PART-A · Sp. gravity",
         "",
         "1.15"
       ],
       [
-        "PART-B \u00b7 Chemical base",
+        "PART-B · Chemical base",
         "",
         "Polyamide hardener"
       ],
       [
-        "PART-B \u00b7 Physical state",
+        "PART-B · Physical state",
         "",
         "Viscous liquid"
       ],
       [
-        "PART-B \u00b7 Appearance",
+        "PART-B · Appearance",
         "",
         "Transparent"
       ],
       [
-        "PART-B \u00b7 Color",
+        "PART-B · Color",
         "",
         "Yellow"
       ],
       [
-        "PART-B \u00b7 Amine value",
+        "PART-B · Amine value",
         "IS 9162-1979",
         "350-400"
       ],
       [
-        "PART-B \u00b7 Viscosity @25\u00b0C",
+        "PART-B · Viscosity @25°C",
         "ASTM D-4402",
         "8000-12000 cps"
       ],
       [
-        "PART-B \u00b7 Sp. gravity",
+        "PART-B · Sp. gravity",
         "",
         "0.98"
       ],
@@ -203,12 +210,12 @@
         "100:50"
       ],
       [
-        "Mix viscosity @35\u00b0C",
+        "Mix viscosity @35°C",
         "ASTM D 4402",
         "500-1500 cps"
       ],
       [
-        "Mix viscosity @40\u00b0C",
+        "Mix viscosity @40°C",
         "ASTM D 4402",
         "2000-3000 cps"
       ],
@@ -218,12 +225,12 @@
         "1.12 gm/cc"
       ],
       [
-        "Pot life @ 30\u00b0C",
+        "Pot life @ 30°C",
         "Visual",
         "150-180 min in 100 gm mix"
       ],
       [
-        "Pot life @ 35\u00b0C",
+        "Pot life @ 35°C",
         "Visual",
         "100-130 min in 100 gm mix"
       ],
@@ -240,7 +247,7 @@
       [
         "Application temperature",
         "",
-        "10-35\u00b0C"
+        "10-35°C"
       ],
       [
         "Shore-D-hardness",
@@ -250,17 +257,17 @@
       [
         "Compressive strength (after 24hrs)",
         "ASTM C 579",
-        "45 N/mm\u00b2"
+        "45 N/mm²"
       ],
       [
         "Compressive strength with silica in 2:1:8 ratio (after 7 days)",
         "ASTM C 579",
-        "55 N/mm\u00b2"
+        "55 N/mm²"
       ],
       [
         "Lap shear strength (after 24hr)",
-        "\u2014",
-        "70-100 kg/cm\u00b2"
+        "—",
+        "70-100 kg/cm²"
       ]
     ],
     "tds": "/documents/tds/trubuild-tcsr-555.pdf",
@@ -270,12 +277,12 @@
     "tdsVersion": "N.1",
     "tdsFile": "43_TRUBUILD TCSR-555_RC.pdf",
     "tdsSha256": "e3b9f865ccb9b5a90ebae55294c4d2b3e8592d475b3e98cd2fad12c70a6dac88",
-    "coverage": "15\u201320 sq ft/kg for two coats at 300 microns, as stated in the coverage section.",
+    "coverage": "15–20 sq ft/kg for two coats at 300 microns, as stated in the coverage section.",
     "shelfLife": "24 months from manufacture under the TDS storage conditions.",
     "specPages": [
       2
     ],
-    "storage": "2\u201340\u00b0C; original properly closed packaging in a dry place. Follow the complete TDS storage instructions.",
+    "storage": "2–40°C; original properly closed packaging in a dry place. Follow the complete TDS storage instructions.",
     "tdsStatus": "final-approved",
     "imageKind": "packaging"
   },
@@ -300,7 +307,7 @@
       "It prevents cracking, improves hardness & flexural strength",
       "It has excellent bonding on various substrates like concrete, masonry, stone work, plasters, etc."
     ],
-    "packaging": "200 gm 500 gm 1 Kg 5 Kg 10 Kg 20 Kg",
+    "packaging": "200 g, 500 g, 1 kg, 5 kg, 10 kg, 20 kg, 50 kg",
     "fields": [
       "It is used for different concrete repair applications like spalled concrete, stone work, plaster, etc.",
       "It is also used for waterproofing of toilets, kitchen, bathroom and terraces to prevent leakage and dampness",
@@ -351,7 +358,17 @@
     "sourceNotes": [
       "Some official copy and documents use legacy product names; confirm the current code and document revision."
     ],
-    "imageKind": "packaging"
+    "imageKind": "packaging",
+    "packSizes": [
+      "200 g",
+      "500 g",
+      "1 kg",
+      "5 kg",
+      "10 kg",
+      "20 kg",
+      "50 kg"
+    ],
+    "packagingSource": "Website feedback-2.xlsx · Product SKU check · 9 October 2026"
   },
   {
     "id": "trubuild-sbr-333",
@@ -382,7 +399,7 @@
     ],
     "applicationNotes": [
       "Waterproofing slurry: SBR 333:cement 1:1.5 by volume. Bonding primer: 1:1 by volume.",
-      "Apply two waterproofing coats 4\u20136 hours apart; moist cure for 24 hours, then air cure for 3\u20135 days before a protective screed.",
+      "Apply two waterproofing coats 4–6 hours apart; moist cure for 24 hours, then air cure for 3–5 days before a protective screed.",
       "Use the full TDS for repair-mortar and screed mix proportions."
     ],
     "specs": [
@@ -414,12 +431,12 @@
       [
         "%Solid",
         "ASTM D 1664-2001",
-        "38 \u00b1 2"
+        "38 ± 2"
       ],
       [
         "Compressive strength",
         "ASTM C 109-2021",
-        "Approx. 30-40 N/mm\u00b2"
+        "Approx. 30-40 N/mm²"
       ]
     ],
     "tds": "/documents/tds/trubuild-sbr-333.pdf",
@@ -429,7 +446,7 @@
     "tdsVersion": "N.1",
     "tdsFile": "13_TDS_SBR 333 (WPL 333)_RC.pdf",
     "tdsSha256": "f454e4dbeb3376d1b028531e1eadff97501da97d9633f6c68d7b8f69c0bb381f",
-    "coverage": "20\u201322 sq ft/kg for two waterproofing coats.",
+    "coverage": "20–22 sq ft/kg for two waterproofing coats.",
     "shelfLife": "24 months from manufacture under the TDS storage conditions.",
     "aliases": [
       "WPL 333",
@@ -438,7 +455,7 @@
     "specPages": [
       2
     ],
-    "storage": "2\u201340\u00b0C; original properly closed packaging in a dry place. Follow the complete TDS storage instructions.",
+    "storage": "2–40°C; original properly closed packaging in a dry place. Follow the complete TDS storage instructions.",
     "tdsStatus": "final-approved",
     "imageKind": "packaging"
   },
@@ -500,7 +517,7 @@
         "No colour change"
       ],
       [
-        "Natural stone \u2013 control sample (%)",
+        "Natural stone – control sample (%)",
         "-",
         "0.06"
       ],
@@ -510,7 +527,7 @@
         "Nil"
       ],
       [
-        "Brick \u2013 control sample (%)",
+        "Brick – control sample (%)",
         "-",
         "16.33"
       ],
@@ -520,7 +537,7 @@
         "10.28"
       ],
       [
-        "Concrete \u2013 control sample (%)",
+        "Concrete – control sample (%)",
         "-",
         "2.01"
       ],
@@ -537,12 +554,12 @@
     "tdsVersion": "N.1",
     "tdsFile": "40_TRUBUILD WTS 888_RC.pdf",
     "tdsSha256": "50a2b5ae826a76e4aba79577e1ccec6cd4609306fa2720a88c9cc33d4511ec00",
-    "coverage": "8\u201310 m\u00b2/kg/coat, depending on substrate porosity.",
+    "coverage": "8–10 m²/kg/coat, depending on substrate porosity.",
     "shelfLife": "24 months from manufacture under the TDS storage conditions.",
     "specPages": [
       1
     ],
-    "storage": "2\u201340\u00b0C; original properly closed packaging in a dry place. Follow the complete TDS storage instructions.",
+    "storage": "2–40°C; original properly closed packaging in a dry place. Follow the complete TDS storage instructions.",
     "tdsStatus": "final-approved",
     "imageKind": "packaging"
   },
@@ -586,7 +603,7 @@
       [
         "Density (gm/cc)",
         "ASTM D 1475-2013",
-        "1.01 \u00b1 0.01"
+        "1.01 ± 0.01"
       ],
       [
         "% active ingredient",
@@ -616,12 +633,12 @@
     "tdsVersion": "N.1",
     "tdsFile": "44_TRUBUILD WRP 777_RC.pdf",
     "tdsSha256": "142af10a8d98f5d20d2e5e224c0eea4d47cc2eaf29b7c1ecb8b989f18c0f348e",
-    "coverage": "Porous substrate: 5\u20136 m\u00b2/L/coat. Low-porosity substrate: 7\u20138 m\u00b2/L/coat.",
+    "coverage": "Porous substrate: 5–6 m²/L/coat. Low-porosity substrate: 7–8 m²/L/coat.",
     "shelfLife": "24 months from manufacture under the TDS storage conditions.",
     "specPages": [
       2
     ],
-    "storage": "2\u201340\u00b0C; original properly closed packaging in a dry place. Follow the complete TDS storage instructions.",
+    "storage": "2–40°C; original properly closed packaging in a dry place. Follow the complete TDS storage instructions.",
     "tdsStatus": "final-approved",
     "imageKind": "packaging"
   },
@@ -645,12 +662,12 @@
     ],
     "packaging": "1 kg",
     "fields": [
-      "Static plaster cracks of 3\u20135 mm, subject to the TDS width limitation",
+      "Static plaster cracks of 3–5 mm, subject to the TDS width limitation",
       "Levelling plastered or unplastered walls and ceilings before painting",
       "Finishing brick, stone and concrete surfaces"
     ],
     "applicationNotes": [
-      "For static cracks only; not suitable for moving cracks, structural members, expansion joints, POP or painter\u2019s putty.",
+      "For static cracks only; not suitable for moving cracks, structural members, expansion joints, POP or painter’s putty.",
       "Do not apply on wet surfaces. Exterior applications must be overcoated with exterior paint."
     ],
     "specs": [
@@ -690,7 +707,7 @@
         "0.002"
       ],
       [
-        "Pull off adhesion (N/mm\u00b2)",
+        "Pull off adhesion (N/mm²)",
         "ASTM D 7234-2021",
         "0.44"
       ],
@@ -727,7 +744,7 @@
     "tdsVersion": "N.1",
     "tdsFile": "07_TRUBUILD CRACKFILL POWDER_RC.pdf",
     "tdsSha256": "850a9195914b873fc674d2e1aa15542800d68d972453ba03b9550c557802914b",
-    "coverage": "37.5 running metres/kg at 5 mm width \u00d7 5 mm depth.",
+    "coverage": "37.5 running metres/kg at 5 mm width × 5 mm depth.",
     "shelfLife": "12 months from manufacture under the TDS storage conditions.",
     "aliases": [
       "CFP 525",
@@ -763,7 +780,7 @@
       "Non-structural plastered brick masonry cracks up to 5 mm wide"
     ],
     "applicationNotes": [
-      "Widen hairline cracks to at least 1 mm and remove existing POP or painter\u2019s putty down to plaster.",
+      "Widen hairline cracks to at least 1 mm and remove existing POP or painter’s putty down to plaster.",
       "Allow 24 hours before a subsequent application.",
       "Do not use in structural cracks, expansion joints, separation gaps or cracks with running water."
     ],
@@ -784,7 +801,7 @@
         "White"
       ],
       [
-        "Service temperature (\u00b0C)",
+        "Service temperature (°C)",
         "",
         "5-50"
       ],
@@ -809,7 +826,7 @@
         "0.003"
       ],
       [
-        "Pull off adhesion (N/mm\u00b2)",
+        "Pull off adhesion (N/mm²)",
         "ASTM D 7234-2021",
         "0.72"
       ],
@@ -834,7 +851,7 @@
         "Nil"
       ],
       [
-        "UV exposure \u2013 500 hrs",
+        "UV exposure – 500 hrs",
         "ASTM G 154-2016",
         "No colour change"
       ]
@@ -846,7 +863,7 @@
     "tdsVersion": "N.1",
     "tdsFile": "06_TRUBUILD CRACKFILL PASTE_RC.pdf",
     "tdsSha256": "6ccf6f4b9fba9a3eaacbf8b88ec9c9d29bc8efeebb524846d932fdd030458988",
-    "coverage": "25\u201330 running metres/kg at 5 mm width \u00d7 5 mm depth.",
+    "coverage": "25–30 running metres/kg at 5 mm width × 5 mm depth.",
     "shelfLife": "12 months from manufacture under the TDS storage conditions.",
     "aliases": [
       "CFP 425",
@@ -879,7 +896,7 @@
       "Reduces the chance of blister formation",
       "Enhance the bonding and overall durability of the system"
     ],
-    "packaging": "",
+    "packaging": "1 L",
     "fields": [
       "Trubuild Primesure Premium can be used as a primer for different substrates like concrete, screed, cement sheet, glossed surfaces like china mosaic, ceramic tiles and vitrified tiles etc."
     ],
@@ -913,30 +930,34 @@
       [
         "Bond strength, on concrete mPa",
         "ASTM D 7234-2021",
-        "\u22651.5"
+        "≥1.5"
       ],
       [
         "Bond strength, on vitrified tiles mPa",
         "ASTM D 7234-2021",
-        "\u22652"
+        "≥2"
       ],
       [
         "Bond strength, on ceramic mat surface, mPa",
         "ASTM D 7234-2021",
-        "\u22652"
+        "≥2"
       ],
       [
         "Bond strength, on ceramic glaze surface, mPa",
         "ASTM D 7234-2021",
-        "\u22652"
+        "≥2"
       ]
     ],
     "tds": "https://www.trubuild.in/wp-content/uploads/2023/08/41_TRUBUILD-PRIMESURE-PREMIUM_RC.pdf",
     "verified": "2026-10-05",
     "sourceNotes": [
-      "Current packaging not listed in the source page\u2019s sizes section."
+      "Current packaging not listed in the source page’s sizes section."
     ],
-    "imageKind": "packaging"
+    "imageKind": "packaging",
+    "packSizes": [
+      "1 L"
+    ],
+    "packagingSource": "Website feedback-2.xlsx · Product SKU check · 9 October 2026"
   },
   {
     "id": "trubuild-walltect-top-coat",
@@ -963,7 +984,7 @@
       "Good SRI value",
       "Good anti-carbonation & chloride resistance"
     ],
-    "packaging": "",
+    "packaging": "1 L, 4 L, 20 L",
     "fields": [
       "Facades",
       "External walls",
@@ -981,10 +1002,10 @@
       [
         "Solid (%)",
         "ASTM D1644-01",
-        "55\u00b12"
+        "55±2"
       ],
       [
-        "Elongation@120 \u00b5 (%)",
+        "Elongation@120 µ (%)",
         "ASTM D 412-2016",
         "upto 160"
       ],
@@ -994,19 +1015,19 @@
         "approx 120"
       ],
       [
-        "Tensile Strength (N/mm\u00b2)",
+        "Tensile Strength (N/mm²)",
         "ASTM D 412-2016",
-        "\u22652"
+        "≥2"
       ],
       [
         "Density (gm/cc)",
         "",
-        "approx 1.29\u00b10.01"
+        "approx 1.29±0.01"
       ],
       [
         "Pull of Adhesion, (mPa)",
         "ASTM D 4541:2017",
-        "\u22652"
+        "≥2"
       ],
       [
         "Water Absorption (%)",
@@ -1047,12 +1068,18 @@
     "tds": "https://www.trubuild.in/wp-content/uploads/2023/08/08_TDS-Walltect-Pro-Topcoat.pdf",
     "verified": "2026-10-05",
     "sourceNotes": [
-      "Current packaging not listed in the source page\u2019s sizes section."
+      "Current packaging not listed in the source page’s sizes section."
     ],
     "aliases": [
       "Walltect Topcoat"
     ],
-    "imageKind": "packaging"
+    "imageKind": "packaging",
+    "packSizes": [
+      "1 L",
+      "4 L",
+      "20 L"
+    ],
+    "packagingSource": "Website feedback-2.xlsx · Product SKU check · 9 October 2026"
   },
   {
     "id": "trubuild-walltect-basecoat",
@@ -1077,7 +1104,7 @@
       "Algae & Fungal resistance",
       "Weather proof"
     ],
-    "packaging": "",
+    "packaging": "1 L, 4 L, 20 L",
     "fields": [
       "Masonry walls",
       "Exterior RCC",
@@ -1093,32 +1120,32 @@
       [
         "Solid (%)",
         "ASTM D1644-01",
-        "58\u00b12"
+        "58±2"
       ],
       [
         "Elongation (%)",
         "ASTM D 412-2016",
-        "\u2265 150"
+        "≥ 150"
       ],
       [
         "DFT (micron)",
         "",
-        "\u2265 120"
+        "≥ 120"
       ],
       [
-        "Tensile Strength (N/mm\u00b2)",
+        "Tensile Strength (N/mm²)",
         "ASTM D 412-2016",
-        "\u22652.1"
+        "≥2.1"
       ],
       [
         "Specify Gravity",
         "",
-        "1.32\u00b10.02"
+        "1.32±0.02"
       ],
       [
         "Pull of Adhesion, (mPa)",
         "ASTM D 4541:2017",
-        "\u22652"
+        "≥2"
       ],
       [
         "Water Absorption (%)",
@@ -1159,12 +1186,18 @@
     "tds": "https://www.trubuild.in/wp-content/uploads/2023/08/07_TDS-Walltect-Pro-Basecoat.pdf",
     "verified": "2026-10-05",
     "sourceNotes": [
-      "Current packaging not listed in the source page\u2019s sizes section."
+      "Current packaging not listed in the source page’s sizes section."
     ],
     "aliases": [
       "Walltect Basecoat"
     ],
-    "imageKind": "packaging"
+    "imageKind": "packaging",
+    "packSizes": [
+      "1 L",
+      "4 L",
+      "20 L"
+    ],
+    "packagingSource": "Website feedback-2.xlsx · Product SKU check · 9 October 2026"
   },
   {
     "id": "trubuild-sealmaster-flexi",
@@ -1232,7 +1265,7 @@
       [
         "MAF",
         "ASTM C 719: 2014",
-        "\u00b150%"
+        "±50%"
       ],
       [
         "Depth cure",
@@ -1267,12 +1300,12 @@
     "tdsVersion": "N.1",
     "tdsFile": "35_TRUBUILD SEALMASTER FLEXI_RC.pdf",
     "tdsSha256": "7821981ffbe11dc1dae201975e82c582f4b974cc21d7b2a2773bf08855f15b2a",
-    "coverage": "Approximately 26 running metres/kg at 5 mm width \u00d7 5 mm depth; as stated in the TDS.",
+    "coverage": "Approximately 26 running metres/kg at 5 mm width × 5 mm depth; as stated in the TDS.",
     "shelfLife": "12 months from manufacture under the TDS storage conditions.",
     "specPages": [
       2
     ],
-    "storage": "2\u201340\u00b0C; original properly closed packaging in a dry place. Follow the complete TDS storage instructions.",
+    "storage": "2–40°C; original properly closed packaging in a dry place. Follow the complete TDS storage instructions.",
     "tdsStatus": "final-approved",
     "imageKind": "packaging"
   },
@@ -1299,8 +1332,8 @@
       "Podiums, tunnels, deck areas and canals"
     ],
     "applicationNotes": [
-      "Concrete moisture content must be below 5%. Prime concrete with Primesure EPMI at 80\u2013100 sq ft/L.",
-      "Limit each layer to 0.5\u20130.6 mm WFT. Recoat after 24 hours and no later than 48 hours. Air cure for at least seven days.",
+      "Concrete moisture content must be below 5%. Prime concrete with Primesure EPMI at 80–100 sq ft/L.",
+      "Limit each layer to 0.5–0.6 mm WFT. Recoat after 24 hours and no later than 48 hours. Air cure for at least seven days.",
       "Follow the TDS geotextile separation layer, protective screed, slope and control-joint requirements."
     ],
     "specs": [
@@ -1335,7 +1368,7 @@
         "26"
       ],
       [
-        "Tensile strength (N/mm\u00b2)",
+        "Tensile strength (N/mm²)",
         "ASTM D 412:2016",
         ">2"
       ],
@@ -1345,7 +1378,7 @@
         ">500"
       ],
       [
-        "Density at @25\u00b0C (gm/cc)",
+        "Density at @25°C (gm/cc)",
         "In house",
         "1.45"
       ],
@@ -1355,7 +1388,7 @@
         "7 days"
       ],
       [
-        "Water vapour transmission (g/m\u00b2 day)",
+        "Water vapour transmission (g/m² day)",
         "ASTM E 96:2022",
         "19.4"
       ],
@@ -1377,12 +1410,12 @@
     "tdsVersion": "N.1",
     "tdsFile": "37_TRUBUILD TRU PU PURA 1K_RC.pdf",
     "tdsSha256": "f4ea409a301adbf4b9904d94b755092d658333fd4eb6e1afb2345de2632fb9f2",
-    "coverage": "Approximately 1.5\u20131.6 kg/m\u00b2 to achieve 1 mm DFT.",
+    "coverage": "Approximately 1.5–1.6 kg/m² to achieve 1 mm DFT.",
     "shelfLife": "12 months from manufacture under the TDS storage conditions.",
     "specPages": [
       2
     ],
-    "storage": "20\u201330\u00b0C; original unopened containers, protected from moisture and sunlight.",
+    "storage": "20–30°C; original unopened containers, protected from moisture and sunlight.",
     "tdsStatus": "final-approved",
     "imageKind": "packaging"
   },
@@ -1409,7 +1442,7 @@
     ],
     "applicationNotes": [
       "Mix resin Part A:hardener Part B 1:0.6 by weight; do not dilute.",
-      "Concrete should have at least 20 MPa strength at 28 days. Apply between 5\u00b0C and 35\u00b0C.",
+      "Concrete should have at least 20 MPa strength at 28 days. Apply between 5°C and 35°C.",
       "Not recommended for underwater repairs or multiple coats to build thickness."
     ],
     "specs": [
@@ -1419,9 +1452,9 @@
         "Translucent"
       ],
       [
-        "Density at @ 25\u00b0C, gm/cc",
+        "Density at @ 25°C, gm/cc",
         "In House",
-        "Approx. 0.95 \u00b1 0.02"
+        "Approx. 0.95 ± 0.02"
       ],
       [
         "Mixing ratio (resin Part A: hardener Part B, by wt).",
@@ -1429,22 +1462,22 @@
         "1:0.6"
       ],
       [
-        "Pot life at 30\u00b0C",
+        "Pot life at 30°C",
         "Visual",
         "60 min."
       ],
       [
-        "Tack free time at 30\u00b0C",
+        "Tack free time at 30°C",
         "Visual",
         "Approx. 180 min."
       ],
       [
-        "Hard dry pullout strength after mixing (N/mm\u00b2)",
+        "Hard dry pullout strength after mixing (N/mm²)",
         "In House",
         ">1"
       ],
       [
-        "Mix viscosity, CPS @25\u00b0C after 2 min.",
+        "Mix viscosity, CPS @25°C after 2 min.",
         "In House",
         "Approx. 165"
       ]
@@ -1456,12 +1489,12 @@
     "tdsVersion": "N.1",
     "tdsFile": "11_TDS_PRIMESURE EPMI.pdf",
     "tdsSha256": "eeaa38d55db5ab82b3a7166fa8d63eac1368c14a2c426f7b9f175d2de8e5371f",
-    "coverage": "Approximately 80\u2013100 sq ft/L.",
+    "coverage": "Approximately 80–100 sq ft/L.",
     "shelfLife": "12 months from manufacture under the TDS storage conditions.",
     "specPages": [
       2
     ],
-    "storage": "20\u201330\u00b0C; original unopened containers, protected from moisture and sunlight.",
+    "storage": "20–30°C; original unopened containers, protected from moisture and sunlight.",
     "tdsStatus": "final-approved",
     "imageKind": "packaging"
   },
@@ -1507,7 +1540,7 @@
       [
         "Density@25oC",
         "ASTM D 1475-2013",
-        "1.07 \u00b1 0.02 g/cm\u00b3"
+        "1.07 ± 0.02 g/cm³"
       ],
       [
         "Cure Time",
@@ -1517,12 +1550,12 @@
       [
         "Tensile strength at Break",
         "ASTM D 412",
-        ">1.5 N/mm\u00b2"
+        ">1.5 N/mm²"
       ],
       [
         "Elongation at break",
         "ASTM D 412",
-        "\u2265600%"
+        "≥600%"
       ],
       [
         "Water Permeability @ 5 Bar",
@@ -1532,7 +1565,7 @@
       [
         "Pull off Adhesion Strength",
         "ASTM D 7234:2022",
-        "> 1 N/mm\u00b2"
+        "> 1 N/mm²"
       ],
       [
         "Crack Bridging ability",
@@ -1562,12 +1595,12 @@
     "tdsVersion": "N.1",
     "tdsFile": "23_TRUBUILD TRUBUILD TRU PU_RC.pdf",
     "tdsSha256": "b37940be33f0a3318ecba163e84defa5de6f807c0565fdef5260daac5f045660",
-    "coverage": "1.1\u20131.2 kg/m\u00b2 for two coats. Self-primer: approximately 80\u201390 sq ft/kg.",
+    "coverage": "1.1–1.2 kg/m² for two coats. Self-primer: approximately 80–90 sq ft/kg.",
     "shelfLife": "24 months from manufacture under the TDS storage conditions.",
     "specPages": [
       2
     ],
-    "storage": "2\u201340\u00b0C; original properly closed packaging in a dry place. Follow the complete TDS storage instructions.",
+    "storage": "2–40°C; original properly closed packaging in a dry place. Follow the complete TDS storage instructions.",
     "tdsStatus": "final-approved",
     "imageKind": "packaging"
   },
@@ -1599,7 +1632,7 @@
     ],
     "applicationNotes": [
       "Mix Part A liquid and Part B powder 1:1.4 by weight; do not add water.",
-      "Apply at least two coats on a saturated surface dry substrate, allowing 4\u20136 hours between coats.",
+      "Apply at least two coats on a saturated surface dry substrate, allowing 4–6 hours between coats.",
       "New concrete must cure for at least 28 days. Allow at least seven days before ponding tests or filling water-retaining structures.",
       "Not a trafficable finish; follow the TDS protective screed and curing requirements."
     ],
@@ -1610,19 +1643,19 @@
         "1:1.4 (Part A liquid:Part Bpowder) by weight"
       ],
       [
-        "Set to touch time at 25-27\u00b0C (min.)",
+        "Set to touch time at 25-27°C (min.)",
         "ASTM D1640:2018",
         "45"
       ],
       [
         "Adhesion to concrete after 7 days (Mpa)",
         "ASTM D 4541:2017",
-        "\u22651"
+        "≥1"
       ],
       [
-        "Tensile strength \u2013 on casting (N/mm\u00b2)",
+        "Tensile strength – on casting (N/mm²)",
         "ASTM D 412:2016",
-        "\u22651"
+        "≥1"
       ],
       [
         "Elongation at break (%)",
@@ -1677,12 +1710,12 @@
     "tdsVersion": "N.1",
     "tdsFile": "02_TRUBUILD AQUALOCK FLEXI_RC.pdf",
     "tdsSha256": "1c58bb8a6a5e556d9f47a31346fb403268e34787b81fc72f876eb8fee79b5cfa",
-    "coverage": "1.8\u20132 kg/m\u00b2 for two coats; 1.2\u20131.5 mm DFT.",
+    "coverage": "1.8–2 kg/m² for two coats; 1.2–1.5 mm DFT.",
     "shelfLife": "12 months from manufacture under the TDS storage conditions.",
     "specPages": [
       2
     ],
-    "storage": "2\u201340\u00b0C; unopened, dry and away from direct sunlight.",
+    "storage": "2–40°C; unopened, dry and away from direct sunlight.",
     "tdsStatus": "final-approved",
     "imageKind": "packaging"
   },
@@ -1714,7 +1747,7 @@
     ],
     "applicationNotes": [
       "Mix Part A liquid and Part B powder 1:2 by weight; do not add water.",
-      "Prepare a saturated surface dry substrate without standing water. Apply at least two coats, 4\u20136 hours apart.",
+      "Prepare a saturated surface dry substrate without standing water. Apply at least two coats, 4–6 hours apart.",
       "Allow at least seven days before ponding tests or filling tanks. A protective screed is required for trafficable finishes."
     ],
     "specs": [
@@ -1726,15 +1759,15 @@
       [
         "Bulk density of powder",
         "In-house test",
-        "1.6\u20131.8"
+        "1.6–1.8"
       ],
       [
         "Mixed density of wet mix (g/ml)",
         "In-house test",
-        "1.7\u20131.80"
+        "1.7–1.80"
       ],
       [
-        "Set-to-touch time at 25\u00b0C",
+        "Set-to-touch time at 25°C",
         "In-house test",
         "45 min"
       ],
@@ -1746,7 +1779,7 @@
       [
         "Adhesion to concrete after 7 days",
         "ASTM D 4541",
-        "\u22651 MPa"
+        "≥1 MPa"
       ],
       [
         "Positive hydrostatic pressure",
@@ -1771,12 +1804,12 @@
       [
         "WFT (2 coats)",
         "",
-        "1000\u20131200 microns"
+        "1000–1200 microns"
       ],
       [
         "DFT (2 coats)",
         "",
-        "800\u20131000 microns"
+        "800–1000 microns"
       ]
     ],
     "tds": "/documents/tds/trubuild-aqualock.pdf",
@@ -1786,12 +1819,12 @@
     "tdsVersion": "N.1",
     "tdsFile": "01_TRUBUILD AQUALOCK_RC.pdf",
     "tdsSha256": "002a1e0693bc2bc604494140f4854b7ec7c500dedec52499c3fa669eb67c3025",
-    "coverage": "1.65\u20131.75 kg/m\u00b2 for two coats; 0.8\u20131 mm DFT.",
+    "coverage": "1.65–1.75 kg/m² for two coats; 0.8–1 mm DFT.",
     "shelfLife": "12 months from manufacture under the TDS storage conditions.",
     "specPages": [
       2
     ],
-    "storage": "2\u201340\u00b0C; unopened, dry and away from direct sunlight.",
+    "storage": "2–40°C; unopened, dry and away from direct sunlight.",
     "tdsStatus": "final-approved",
     "imageKind": "packaging"
   },
@@ -1812,15 +1845,15 @@
       "Durable coating",
       "Good bond strength",
       "Good weather resistance",
-      "Excellent resilience to thermal stress. Reduces surface temperature up to 10\u00b0C",
+      "Excellent resilience to thermal stress. Reduces surface temperature up to 10°C",
       "Anti-carbonation properties",
       "Good alkali resistance"
     ],
-    "packaging": "",
+    "packaging": "1 L, 4 L, 10 L, 20 L",
     "fields": [
       "Brick bat coba",
       "Cement mortar screed",
-      "China mosaic & other roof tiles \u2013 flat roof / sloppy roofs",
+      "China mosaic & other roof tiles – flat roof / sloppy roofs",
       "For miscellaneous surfaces- contact trubuild technical services team"
     ],
     "applicationNotes": [
@@ -1835,7 +1868,7 @@
       [
         "Solid (%)",
         "ASTM D 1644:01",
-        "57\u00b12"
+        "57±2"
       ],
       [
         "Elongation (%)",
@@ -1855,17 +1888,17 @@
       [
         "Tensile Strength(N/mm2)",
         "ASTM D 412:2016",
-        "\u22652"
+        "≥2"
       ],
       [
         "Density (gm/cc)",
         "ASTM D 1475:2013",
-        "1.26\u00b10.01"
+        "1.26±0.01"
       ],
       [
         "Pull of Adhesion, (mPa)",
         "ASTM D 4541:2017",
-        "\u22652"
+        "≥2"
       ],
       [
         "Anti-Carbonation, R value @DFT 0.65mm",
@@ -1907,10 +1940,17 @@
     "verified": "2026-10-05",
     "sourceNotes": [
       "Some official copy and documents use legacy product names; confirm the current code and document revision.",
-      "Current packaging not listed in the source page\u2019s sizes section."
+      "Current packaging not listed in the source page’s sizes section."
     ],
     "tdsStatus": "replacement-pending",
-    "imageKind": "packaging"
+    "imageKind": "packaging",
+    "packSizes": [
+      "1 L",
+      "4 L",
+      "10 L",
+      "20 L"
+    ],
+    "packagingSource": "Website feedback-2.xlsx · Product SKU check · 9 October 2026"
   },
   {
     "id": "trubuild-rooftect-advanced",
@@ -1933,9 +1973,9 @@
       "Excellent adhesion to the substrate",
       "Water based hence eco friendly",
       "Excellent elongation & good crack bridging capacity",
-      "Reduces surface temperature by 10\u00b0C"
+      "Reduces surface temperature by 10°C"
     ],
-    "packaging": "",
+    "packaging": "1 L, 4 L, 10 L, 20 L",
     "fields": [
       "Brick bat coba",
       "Sloppy roof/ flat roof",
@@ -1943,28 +1983,28 @@
       "For miscellaneous surfaces, contact Trubuild technical team"
     ],
     "applicationNotes": [
-      "Note \u2013 For china mosaic and other roof tiles use Trubuild Primesure Premium"
+      "Note – For china mosaic and other roof tiles use Trubuild Primesure Premium"
     ],
     "specs": [
       [
         "Solid Content (%)",
         "ASTM D 1644:01",
-        "60\u00b12"
+        "60±2"
       ],
       [
         "Density (gm/cc)",
         "ASTMD D 1475:13",
-        "1.26\u00b10.01"
+        "1.26±0.01"
       ],
       [
         "Elongation (%)",
         "ASTM D 412:2016",
-        "\u2265220"
+        "≥220"
       ],
       [
         "Tensile Strength (mPa)",
         "ASTM D 412:2016",
-        "\u22652"
+        "≥2"
       ],
       [
         "Crack Bridging (mm)",
@@ -1974,7 +2014,7 @@
       [
         "Pull of Adhesion (mPa)",
         "ASTM D 4541:2017",
-        "\u22652"
+        "≥2"
       ],
       [
         "Water Absorbtion (%)",
@@ -1982,14 +2022,14 @@
         "< 7"
       ],
       [
-        "Water Vapour Transmition (gm/m\u00b2/24 hrs)",
+        "Water Vapour Transmition (gm/m²/24 hrs)",
         "ASTM D 1653:13",
         "110"
       ],
       [
         "DFT, microns",
         "",
-        "450 \u2013 500"
+        "450 – 500"
       ],
       [
         "SRI",
@@ -2005,10 +2045,17 @@
     "tds": "https://www.trubuild.in/wp-content/uploads/2023/08/02_TDS_-TRUBUILD-ROOFTECT-Advance.pdf",
     "verified": "2026-10-05",
     "sourceNotes": [
-      "Current packaging not listed in the source page\u2019s sizes section.",
+      "Current packaging not listed in the source page’s sizes section.",
       "FAQ formulation and coating-thickness claims conflict with the structured technical content; FAQ claims are excluded."
     ],
-    "imageKind": "packaging"
+    "imageKind": "packaging",
+    "packSizes": [
+      "1 L",
+      "4 L",
+      "10 L",
+      "20 L"
+    ],
+    "packagingSource": "Website feedback-2.xlsx · Product SKU check · 9 October 2026"
   },
   {
     "id": "trufix-110",
@@ -2027,7 +2074,7 @@
       "It is suitable for tiling applications in interiors",
       "It has excellent adhesion and slip-resistance properties"
     ],
-    "packaging": "20 Kg",
+    "packaging": "20 kg, 40 kg",
     "fields": [
       "It is used for fixing all types of tiles on interior floors"
     ],
@@ -2046,12 +2093,12 @@
       [
         "Open Time",
         "IS 15477:2004",
-        "Approx. 10-15 minutes at 25\u00b0C"
+        "Approx. 10-15 minutes at 25°C"
       ],
       [
         "Pot Life",
         "IS 15477:2004",
-        "Approx. 20 minutes at 25\u00b0C"
+        "Approx. 20 minutes at 25°C"
       ],
       [
         "Coverage",
@@ -2066,7 +2113,7 @@
       [
         "Curing Time",
         "",
-        "14 days at 30\u00b0C-70% overall strength achieved"
+        "14 days at 30°C-70% overall strength achieved"
       ],
       [
         "Shear Strength (dry condition: 14 days under laboratory conditions)",
@@ -2079,7 +2126,7 @@
         "2.83 KN"
       ],
       [
-        "Heat Ageing (for 7 days normal laboratory condition + 7 days storage in the oven at a temperature 100\u00b1 2\u00b0C)",
+        "Heat Ageing (for 7 days normal laboratory condition + 7 days storage in the oven at a temperature 100± 2°C)",
         "IS 15477:2004",
         "4.5 KN"
       ],
@@ -2094,7 +2141,12 @@
     "sourceNotes": [
       "Some official copy and documents use legacy product names; confirm the current code and document revision."
     ],
-    "imageKind": "packaging"
+    "imageKind": "packaging",
+    "packSizes": [
+      "20 kg",
+      "40 kg"
+    ],
+    "packagingSource": "Website feedback-2.xlsx · Product SKU check · 9 October 2026"
   },
   {
     "id": "trufix-220-grey",
@@ -2112,7 +2164,7 @@
       "Ready-to-use and only on-site mixing with water is required.",
       "Has self-curing and slip-resistant properties. It has a quality of excellent adhesion."
     ],
-    "packaging": "20 Kg",
+    "packaging": "20 kg, 40 kg",
     "fields": [
       "Adhesive for fixing large format tiles greater than 300mm x 300mm and less than 600mm x 600mm for interior flooring in a dry area.",
       "Adhesive for fixing tiles upto 300mm x 300mm on an interior wall in a dry area."
@@ -2180,7 +2232,12 @@
     "sourceNotes": [
       "Some official copy and documents use legacy product names; confirm the current code and document revision."
     ],
-    "imageKind": "packaging"
+    "imageKind": "packaging",
+    "packSizes": [
+      "20 kg",
+      "40 kg"
+    ],
+    "packagingSource": "Website feedback-2.xlsx · Product SKU check · 9 October 2026"
   },
   {
     "id": "trufix-220-plus-grey",
@@ -2889,7 +2946,7 @@
     "packaging": "500 gm 1 Kg",
     "fields": [
       "Used for grouting all types of ceramic tiles, marbles & natural stones for internal & external areas",
-      "Due to water-repellence it can be used for submerged grouting application\u2019s like bathroom, toilet, kitchen, fountain & swimming pool"
+      "Due to water-repellence it can be used for submerged grouting application’s like bathroom, toilet, kitchen, fountain & swimming pool"
     ],
     "applicationNotes": [],
     "specs": [
@@ -2901,17 +2958,17 @@
       [
         "Mix Density",
         "",
-        "1.75\u00b10.02"
+        "1.75±0.02"
       ],
       [
         "Open Time",
         "",
-        "Approx. 30 minutes at 25\u00b0C"
+        "Approx. 30 minutes at 25°C"
       ],
       [
         "Setting Time",
         "",
-        "Approx. 8 hrs at 25\u00b0C"
+        "Approx. 8 hrs at 25°C"
       ],
       [
         "Trafficable Time",
@@ -2921,7 +2978,7 @@
       [
         "Curing Time",
         "",
-        "14 days at 30\u00b0C"
+        "14 days at 30°C"
       ],
       [
         "Compressive Strength",
@@ -2983,7 +3040,7 @@
         "65.2"
       ],
       [
-        "Compressive Strength \u2013 Freeze Thaw(N/mm2)",
+        "Compressive Strength – Freeze Thaw(N/mm2)",
         "Clause 4.1",
         "62.6"
       ],
@@ -2993,7 +3050,7 @@
         "32.4"
       ],
       [
-        "Flexural Strength \u2013 Freeze Thaw (N/mm2)",
+        "Flexural Strength – Freeze Thaw (N/mm2)",
         "Clause 4.1",
         "30.1"
       ],
@@ -3069,24 +3126,24 @@
         "Opaque-white paste"
       ],
       [
-        "Mixed Density of Wet Mix, gm/ml @27 \u00b1 2 \u00b0C Temperature and 65 \u00b1 5% RH",
+        "Mixed Density of Wet Mix, gm/ml @27 ± 2 °C Temperature and 65 ± 5% RH",
         "",
-        "1.35\u00b10.10"
+        "1.35±0.10"
       ],
       [
-        "Pot Life (Hr) @27 \u00b1 2 \u00b0C Temperature and 65 \u00b1 5% RH",
+        "Pot Life (Hr) @27 ± 2 °C Temperature and 65 ± 5% RH",
         "EN 12004-2017/IS 15477-2019",
-        "\u22651 Hr"
+        "≥1 Hr"
       ],
       [
-        "Open Time (Hr) @ 27 \u00b1 2 \u00b0C Temperature and 65 \u00b1 5% RH",
+        "Open Time (Hr) @ 27 ± 2 °C Temperature and 65 ± 5% RH",
         "EN 12004-2017/IS 15477-2019",
-        "\u22651 Hr"
+        "≥1 Hr"
       ],
       [
         "Vertical Slip",
         "EN 12004-2017/IS 15477-2019",
-        "\u22640.5mm"
+        "≤0.5mm"
       ],
       [
         "Foot Traffic",
@@ -3106,27 +3163,27 @@
       [
         "Shear Adhesion after 7 Days Dry Condition",
         "EN 12004-2017/IS 15477-2019",
-        "\u22656 N/mm\u00b2"
+        "≥6 N/mm²"
       ],
       [
         "Shear Adhesion after Water Immersion",
         "EN 12004-2017/IS 15477-2019",
-        "\u22655 N/mm\u00b2"
+        "≥5 N/mm²"
       ],
       [
         "Shear Adhesion after Thermal Shock",
         "EN 12004-2017/IS 15477-2019",
-        "\u22656 N/mm\u00b2"
+        "≥6 N/mm²"
       ],
       [
         "Tensile Adhesion to Concrete",
         "EN 12004-2017/IS 15477-2019",
-        "\u22652.5 N/mm\u00b2"
+        "≥2.5 N/mm²"
       ],
       [
         "Deformability",
         "IS 15477-2019",
-        "\u22655 mm (S2)"
+        "≥5 mm (S2)"
       ]
     ],
     "tds": "https://www.trubuild.in/wp-content/uploads/2023/08/02_TDS_EFX-_550_RC.pdf",
@@ -3159,7 +3216,7 @@
       "Bore packing around pipe penetrations in bathrooms, toilets, balconies and roofs"
     ],
     "applicationNotes": [
-      "Clean the bore and position the backer rod at least 35\u201340 mm below the top surface.",
+      "Clean the bore and position the backer rod at least 35–40 mm below the top surface.",
       "Mix resin and hardener before adding filler. Pour from one point around the bore and allow 24 hours to cure."
     ],
     "specs": [
@@ -3191,12 +3248,12 @@
     "tdsVersion": "N.1",
     "tdsFile": "04_TRUBUILD-BORETITE_RC.pdf",
     "tdsSha256": "92fa1c53cbafeb9a854aac22b6471fa15c52072f5d3b7019c14d830fac35d07e",
-    "coverage": "One 200 g pack for a single bore at 5 mm width \u00d7 50 mm depth, or 10 mm width \u00d7 25 mm depth; varies with bore dimensions.",
+    "coverage": "One 200 g pack for a single bore at 5 mm width × 50 mm depth, or 10 mm width × 25 mm depth; varies with bore dimensions.",
     "shelfLife": "24 months from manufacture under the TDS storage conditions.",
     "specPages": [
       2
     ],
-    "storage": "2\u201340\u00b0C; original properly closed packaging in a dry place. Follow the complete TDS storage instructions.",
+    "storage": "2–40°C; original properly closed packaging in a dry place. Follow the complete TDS storage instructions.",
     "tdsStatus": "final-approved",
     "imageKind": "packaging"
   },
@@ -3212,9 +3269,9 @@
     "tdsVersion": "N.1",
     "tdsFile": "03_TDS_AQUAPOXY_RC.pdf",
     "tdsSha256": "96db34f8127e3c48d313bd2a08e3754512b91ce9130138567782195203f05e16",
-    "coverage": "70\u201380 sq ft/kg/coat for waterproofing; 20\u201325 sq ft/coat per 3 kg mix for wall putty.",
+    "coverage": "70–80 sq ft/kg/coat for waterproofing; 20–25 sq ft/coat per 3 kg mix for wall putty.",
     "shelfLife": "18 months from manufacture under the TDS storage conditions.",
-    "packaging": "1 kg",
+    "packaging": "1 kg, 10 kg",
     "sourceNotes": [],
     "source": "/documents/tds/trubuild-aquapoxy.pdf",
     "applications": [
@@ -3262,7 +3319,7 @@
         "Excellent"
       ],
       [
-        "Pot Life at 30\u00b0C (Minutes)",
+        "Pot Life at 30°C (Minutes)",
         "In house",
         "Approx. 120"
       ],
@@ -3277,32 +3334,32 @@
         "Nil"
       ],
       [
-        "Surface Dry Time at 30\u00b0C (Minutes)",
+        "Surface Dry Time at 30°C (Minutes)",
         "ASTM D 1640-2014",
         "Approx. 45"
       ],
       [
-        "Hard Dry time at 30\u00b0C (Hrs)",
+        "Hard Dry time at 30°C (Hrs)",
         "ASTM D 1640-2014",
         "24"
       ],
       [
-        "Interval between two coats (30\u00b0C) (Hrs)",
+        "Interval between two coats (30°C) (Hrs)",
         "ASTM D 1640-2014",
-        "6\u20138"
+        "6–8"
       ],
       [
-        "Pull off Adhesion to Concrete (B:H:W = 1:1:1) (N/mm\u00b2)",
+        "Pull off Adhesion to Concrete (B:H:W = 1:1:1) (N/mm²)",
         "ASTM D 7234-2022",
         "Min. 1.5, Excellent"
       ],
       [
-        "Pull off Adhesion to Tiles (B:H:W = 1:1:0.5) (N/mm\u00b2)",
+        "Pull off Adhesion to Tiles (B:H:W = 1:1:0.5) (N/mm²)",
         "ASTM D 7234-2022",
         "Min. 1.5, Excellent"
       ],
       [
-        "Pull off Adhesion to Metal (B:H:W = 1:1:0.5) (N/mm\u00b2)",
+        "Pull off Adhesion to Metal (B:H:W = 1:1:0.5) (N/mm²)",
         "ASTM D 4541-2022",
         "Min. 1.5, Excellent"
       ],
@@ -3312,12 +3369,12 @@
         "Nil, Nil, Pass"
       ],
       [
-        "Water Vapour Transmission (g/m\u00b2/day)",
+        "Water Vapour Transmission (g/m²/day)",
         "ASTM E 96-2024",
         "114, Excellent"
       ],
       [
-        "Food Grade - CFTRI certified (mg/in\u00b2)",
+        "Food Grade - CFTRI certified (mg/in²)",
         "USFDA - 175:300, Aug-2024",
         "0.054, Pass"
       ],
@@ -3352,13 +3409,18 @@
       3
     ],
     "imageKind": "packaging",
-    "storage": "10\u201330\u00b0C; original unopened containers in a cool, dry area.",
-    "tdsStatus": "final-approved"
+    "storage": "10–30°C; original unopened containers in a cool, dry area.",
+    "tdsStatus": "final-approved",
+    "packSizes": [
+      "1 kg",
+      "10 kg"
+    ],
+    "packagingSource": "Website feedback-2.xlsx · Product SKU check · 9 October 2026"
   },
   {
     "id": "trubuild-trushield",
     "category": "Sheet Membranes",
-    "image": "/images/packaging/86.webp",
+    "image": "/images/packaging/trushield-black-reference.webp",
     "imageSource": null,
     "name": "Trushield",
     "tds": "/documents/tds/trubuild-trushield.pdf",
@@ -3369,7 +3431,7 @@
     "tdsSha256": "e88374073e4346d6115b4f5824d3869c602f4e36d0c6f9805edd5ead2bbac563",
     "coverage": "Allow for minimum side overlaps of 50 mm and end overlaps of 100 mm.",
     "shelfLife": "18 months from manufacture under the TDS storage conditions.",
-    "packaging": "1 m \u00d7 10 m roll",
+    "packaging": "1 m × 10 m roll",
     "sourceNotes": [],
     "source": "/documents/tds/trubuild-trushield.pdf",
     "applications": [
@@ -3387,7 +3449,7 @@
       "Tear and puncture resistance"
     ],
     "applicationNotes": [
-      "Prime with Trushield Primer at 4\u20136 m\u00b2/L and lay the membrane when touch dry.",
+      "Prime with Trushield Primer at 4–6 m²/L and lay the membrane when touch dry.",
       "Provide at least 50 mm side overlaps and 100 mm end overlaps.",
       "Not UV- or weather-resistant; protect immediately with a suitable protection board or, on horizontal areas, 50 mm cement-sand screed."
     ],
@@ -3395,7 +3457,7 @@
       [
         "Thickness, mm (ASTM D 5147)",
         "",
-        "1.5 \u00b1 5%"
+        "1.5 ± 5%"
       ],
       [
         "Elongation % (ASTM D 412)",
@@ -3436,7 +3498,7 @@
     "specPages": [
       2
     ],
-    "imageKind": "packaging",
+    "imageKind": "reference",
     "storage": "Shaded storage on wooden pallets, covered and protected from sunlight, UV, heat and cold.",
     "tdsStatus": "final-approved"
   },
@@ -3452,7 +3514,7 @@
     "tdsVersion": "N.1",
     "tdsFile": "09_TDS_PLASTERBOND.pdf",
     "tdsSha256": "abceefc6ca58ec668e065fe9f942166164199a1eeae567ec05433086d3bd9244",
-    "coverage": "40\u201350 sq ft/kg for one coat.",
+    "coverage": "40–50 sq ft/kg for one coat.",
     "shelfLife": "6 months from manufacture under the TDS storage conditions.",
     "packaging": "20 kg",
     "sourceNotes": [],
@@ -3505,7 +3567,7 @@
       2
     ],
     "imageKind": "packaging",
-    "storage": "2\u201340\u00b0C; original properly closed packaging in a dry place. Follow the complete TDS storage instructions.",
+    "storage": "2–40°C; original properly closed packaging in a dry place. Follow the complete TDS storage instructions.",
     "tdsStatus": "final-approved"
   },
   {
@@ -3539,7 +3601,7 @@
       "Hybrid polymer bonding"
     ],
     "applicationNotes": [
-      "Clean the substrate and stir before use. Apply one brush coat and allow 6\u20138 hours before plastering.",
+      "Clean the substrate and stir before use. Apply one brush coat and allow 6–8 hours before plastering.",
       "Do not dilute with water. Consume once opened."
     ],
     "specs": [
@@ -3566,14 +3628,14 @@
       [
         "Bond strength (MPa)",
         "ASTM-D 7234",
-        "\u22650.7 MPa"
+        "≥0.7 MPa"
       ]
     ],
     "specPages": [
       2
     ],
     "imageKind": "packaging",
-    "storage": "20\u201340\u00b0C; original closed container; consume once opened.",
+    "storage": "20–40°C; original closed container; consume once opened.",
     "tdsStatus": "final-approved"
   },
   {
@@ -3652,7 +3714,7 @@
       2
     ],
     "imageKind": "packaging",
-    "storage": "2\u201340\u00b0C; original properly closed packaging in a dry place. Follow the complete TDS storage instructions.",
+    "storage": "2–40°C; original properly closed packaging in a dry place. Follow the complete TDS storage instructions.",
     "tdsStatus": "final-approved",
     "aliases": [
       "IW+ 111",
@@ -3679,8 +3741,8 @@
     "applications": [
       "Concrete and Mortar"
     ],
-    "description": "Single-component cementitious non-shrink grout for static and dynamic loads, with a stated gap thickness range of 10\u2013100 mm.",
-    "subtitle": "Single-component cementitious non-shrink grout for static and dynamic loads, with a stated gap thickness range of 10\u2013100 mm.",
+    "description": "Single-component cementitious non-shrink grout for static and dynamic loads, with a stated gap thickness range of 10–100 mm.",
+    "subtitle": "Single-component cementitious non-shrink grout for static and dynamic loads, with a stated gap thickness range of 10–100 mm.",
     "fields": [
       "Grouting base plates of turbines, compressors and pumps",
       "Anchoring bolts and fence posts"
@@ -3712,27 +3774,27 @@
         "110"
       ],
       [
-        "Compressive strength at 1 day (N/mm\u00b2)",
+        "Compressive strength at 1 day (N/mm²)",
         "ASTM C 109-2021",
         "Approx. 38"
       ],
       [
-        "Compressive strength at 7 days (N/mm\u00b2)",
+        "Compressive strength at 7 days (N/mm²)",
         "ASTM C 109-2021",
         "Approx. 45"
       ],
       [
-        "Compressive strength at 28 days (N/mm\u00b2)",
+        "Compressive strength at 28 days (N/mm²)",
         "ASTM C 109-2021",
         "Approx. 72"
       ],
       [
-        "Flexural strength at 7 days (N/mm\u00b2)",
+        "Flexural strength at 7 days (N/mm²)",
         "ASTM C 348-2021",
         "Approx. 8"
       ],
       [
-        "Flexural strength at 28 days (N/mm\u00b2)",
+        "Flexural strength at 28 days (N/mm²)",
         "ASTM C 348-2021",
         "Approx. 10"
       ]
@@ -3756,7 +3818,7 @@
     "tdsVersion": "N.1",
     "tdsFile": "33_TRUBUILD CRYSTASEAL 1K_RC.pdf",
     "tdsSha256": "2b145fbb34d686860ea926d3bba9205e4a662ec0f4fc859e1dcda9fe00c3d26e",
-    "coverage": "1.4\u20131.6 kg/m\u00b2 for two coats; other methods have separate consumption rates in the TDS.",
+    "coverage": "1.4–1.6 kg/m² for two coats; other methods have separate consumption rates in the TDS.",
     "shelfLife": "12 months from manufacture under the TDS storage conditions.",
     "packaging": "20 kg",
     "sourceNotes": [],
@@ -3814,7 +3876,7 @@
       3
     ],
     "imageKind": "packaging",
-    "storage": "2\u201340\u00b0C; original properly closed packaging in a dry place. Follow the complete TDS storage instructions.",
+    "storage": "2–40°C; original properly closed packaging in a dry place. Follow the complete TDS storage instructions.",
     "tdsStatus": "final-approved"
   },
   {
@@ -3829,7 +3891,7 @@
     "tdsVersion": "N.1",
     "tdsFile": "34_TRUBUILD CRYSTASEAL ADMIX_RC.pdf",
     "tdsSha256": "4b4d8f05b09a5124c918599b96098bcd901ad3d3a471a1f979638136a7a2ac7b",
-    "coverage": "0.8\u20131% by weight of cement, subject to approved mix-design trials.",
+    "coverage": "0.8–1% by weight of cement, subject to approved mix-design trials.",
     "shelfLife": "12 months from manufacture under the TDS storage conditions.",
     "packaging": "20 kg",
     "sourceNotes": [],
@@ -3852,7 +3914,7 @@
       "Improved resistance to chloride penetration"
     ],
     "applicationNotes": [
-      "Dose 0.8\u20131% by weight of cement, validated by mix-design and compatibility trials.",
+      "Dose 0.8–1% by weight of cement, validated by mix-design and compatibility trials.",
       "For slurry, mix admixture:water 1:1.5 by volume; deduct this water from the concrete batching water.",
       "For rigid structures and static cracks only. Moving joints require an engineered flexible system."
     ],
@@ -3865,7 +3927,7 @@
       [
         "Bulk density",
         "-",
-        "Approx.1.4 g/cm\u00b3"
+        "Approx.1.4 g/cm³"
       ],
       [
         "Reduction in coefficient of water permeability at 0.8 % dosage",
@@ -3884,7 +3946,7 @@
       ],
       [
         "Reduction in chloride diffusion co-efficient",
-        "ASTM C \u2013 1556 \u2013 2011",
+        "ASTM C – 1556 – 2011",
         "Reduction by more than 45 % compared to reference concrete"
       ],
       [
@@ -3907,7 +3969,7 @@
       2
     ],
     "imageKind": "packaging",
-    "storage": "2\u201340\u00b0C; original properly closed packaging in a dry place. Follow the complete TDS storage instructions.",
+    "storage": "2–40°C; original properly closed packaging in a dry place. Follow the complete TDS storage instructions.",
     "tdsStatus": "final-approved"
   },
   {
@@ -3924,7 +3986,7 @@
     "tdsSha256": "7ce462e423764c1d36343161856134c9596e6eb1bca5838b42bd58c48cc0a8c5",
     "coverage": "Roll length: 30 m.",
     "shelfLife": "12 months from manufacture under the TDS storage conditions.",
-    "packaging": "10 cm wide \u00d7 30 m roll",
+    "packaging": "10 cm wide × 30 m roll",
     "sourceNotes": [],
     "source": "/documents/tds/trubuild-trubond-ds-tape.pdf",
     "applications": [
@@ -3946,7 +4008,7 @@
     ],
     "specs": [
       [
-        "Flexibility at low temperature, -25 \u030aC",
+        "Flexibility at low temperature, -25 ̊C",
         "ASTM D1970",
         "No Cracking"
       ],
@@ -3965,7 +4027,197 @@
       1
     ],
     "imageKind": "document",
-    "storage": "8\u201335\u00b0C; protect from moisture, sunlight, acids, alkalis, oils and organic solvents.",
+    "storage": "8–35°C; protect from moisture, sunlight, acids, alkalis, oils and organic solvents.",
     "tdsStatus": "final-approved"
+  },
+  {
+    "id": "trubuild-trubond-hdpe-membrane",
+    "name": "Trubond HDPE Membrane",
+    "category": "Sheet Membranes",
+    "applications": [
+      "Substructure Waterproofing"
+    ],
+    "description": "Preformed HDPE membrane for waterproofing, designed to bond with freshly cast concrete.",
+    "subtitle": "Preformed HDPE membrane for waterproofing, designed to bond with freshly cast concrete.",
+    "fields": [
+      "Below-ground concrete waterproofing"
+    ],
+    "benefits": [
+      "Fully bonded membrane system",
+      "Helps prevent lateral water migration"
+    ],
+    "image": "/images/packaging/80.webp",
+    "imageKind": "packaging",
+    "source": "research/feedback/website-feedback-2.xlsx",
+    "sourceNotes": [],
+    "contentSource": "Supplied feedback and original packaging",
+    "tdsStatus": "replacement-pending",
+    "tds": null,
+    "packaging": "",
+    "specs": [],
+    "applicationNotes": []
+  },
+  {
+    "id": "trubuild-walltect-advanced",
+    "name": "Walltect Advanced",
+    "category": "Exterior Acrylic Coatings",
+    "applications": [
+      "Exterior Waterproofing"
+    ],
+    "description": "Acrylic waterproof and decorative coating for exterior walls, helping protect the structure against water ingress.",
+    "subtitle": "Acrylic waterproof and decorative coating for exterior walls, helping protect the structure against water ingress.",
+    "fields": [
+      "Exterior plastered masonry walls"
+    ],
+    "benefits": [
+      "Waterproof exterior coating",
+      "Decorative finish"
+    ],
+    "image": "/images/packaging/87.webp",
+    "imageKind": "packaging",
+    "source": "research/feedback/website-feedback-2.xlsx",
+    "sourceNotes": [],
+    "contentSource": "Supplied feedback and original packaging",
+    "tdsStatus": "replacement-pending",
+    "tds": null,
+    "packaging": "",
+    "specs": [],
+    "applicationNotes": []
+  },
+  {
+    "id": "trubuild-walltect-prime",
+    "name": "Walltect Prime",
+    "category": "Exterior Acrylic Coatings",
+    "applications": [
+      "Exterior Waterproofing"
+    ],
+    "description": "Single-component acrylic elastomeric coating for exterior walls, providing a smooth, tintable finish.",
+    "subtitle": "Single-component acrylic elastomeric coating for exterior walls, providing a smooth, tintable finish.",
+    "fields": [
+      "Exterior walls"
+    ],
+    "benefits": [
+      "Weather-resistant barrier",
+      "Smooth, tintable finish"
+    ],
+    "image": "/images/packaging/88.webp",
+    "imageKind": "packaging",
+    "source": "research/feedback/website-feedback-2.xlsx",
+    "sourceNotes": [],
+    "contentSource": "Supplied feedback and original packaging",
+    "tdsStatus": "replacement-pending",
+    "tds": null,
+    "packaging": "",
+    "specs": [],
+    "applicationNotes": []
+  },
+  {
+    "id": "trubuild-primesure-plus",
+    "name": "Primesure Plus",
+    "category": "Exterior Acrylic Coatings",
+    "applications": [
+      "Exterior Waterproofing"
+    ],
+    "description": "Ready-to-use, water-based acrylic primer for exterior concrete and masonry before water-based acrylic topcoats.",
+    "subtitle": "Ready-to-use, water-based acrylic primer for exterior concrete and masonry before water-based acrylic topcoats.",
+    "fields": [
+      "Exterior concrete surfaces",
+      "Exterior masonry surfaces"
+    ],
+    "benefits": [
+      "Single-component acrylic primer",
+      "Ready to use"
+    ],
+    "image": "/images/packaging/42.webp",
+    "imageKind": "packaging",
+    "source": "research/feedback/website-feedback-2.xlsx",
+    "sourceNotes": [],
+    "contentSource": "Supplied feedback and original packaging",
+    "tdsStatus": "replacement-pending",
+    "tds": null,
+    "packaging": "",
+    "specs": [],
+    "applicationNotes": []
+  },
+  {
+    "id": "trufix-330-plus-grey",
+    "name": "TRUFIX 330+ GREY",
+    "category": "Cementitious Tile Adhesives",
+    "applications": [
+      "Tiling and Grouting"
+    ],
+    "description": "Grey deformable tile adhesive for large-format tiles and stone.",
+    "subtitle": "Grey deformable tile adhesive for large-format tiles and stone.",
+    "fields": [
+      "Tile and stone installation in internal and external areas"
+    ],
+    "benefits": [
+      "Deformable and flexible",
+      "For large-format tile and stone"
+    ],
+    "image": "/images/packaging/74.webp",
+    "imageKind": "packaging",
+    "source": "research/feedback/website-feedback-2.xlsx",
+    "sourceNotes": [],
+    "contentSource": "Supplied feedback and original packaging",
+    "tdsStatus": "replacement-pending",
+    "tds": null,
+    "packaging": "",
+    "specs": [],
+    "applicationNotes": []
+  },
+  {
+    "id": "trufix-330-plus-white",
+    "name": "TRUFIX 330+ WHITE",
+    "category": "Cementitious Tile Adhesives",
+    "applications": [
+      "Tiling and Grouting"
+    ],
+    "description": "White deformable tile adhesive for large-format tiles and stone.",
+    "subtitle": "White deformable tile adhesive for large-format tiles and stone.",
+    "fields": [
+      "Tile and stone installation in internal and external areas"
+    ],
+    "benefits": [
+      "Deformable and flexible",
+      "For large-format tile and stone"
+    ],
+    "image": "/images/packaging/75.webp",
+    "imageKind": "packaging",
+    "source": "research/feedback/website-feedback-2.xlsx",
+    "sourceNotes": [],
+    "contentSource": "Supplied feedback and original packaging",
+    "tdsStatus": "replacement-pending",
+    "tds": null,
+    "packaging": "",
+    "specs": [],
+    "applicationNotes": []
+  },
+  {
+    "id": "trubuild-stylo-duo",
+    "name": "STYLO DUO",
+    "category": "Epoxy Tile Grouts",
+    "applications": [
+      "Tiling and Grouting"
+    ],
+    "description": "Two-component epoxy grout for filling tile joints.",
+    "subtitle": "Two-component epoxy grout for filling tile joints.",
+    "fields": [
+      "Tile joint grouting"
+    ],
+    "benefits": [
+      "Waterproof grout",
+      "Stain-resistant, easy-clean finish"
+    ],
+    "image": "/images/packaging/57.webp",
+    "imageKind": "packaging",
+    "source": "research/feedback/website-feedback-2.xlsx",
+    "sourceNotes": [],
+    "contentSource": "Supplied feedback and original packaging",
+    "tdsStatus": "replacement-pending",
+    "tds": null,
+    "packaging": "",
+    "specs": [],
+    "applicationNotes": []
   }
 ]

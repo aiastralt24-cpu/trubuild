@@ -307,12 +307,11 @@ function ProductDetailContent({ compare, toggle }) {
   const { id } = useParams();
   const p = products.find((p) => p.id === id);
   if (!p) return <NotFound />;
-  const selectedPack = packaging[p.id]?.variants?.[variant]?.label || "";
+  const selectedPack = p.packSizes?.[variant] || packaging[p.id]?.variants?.[variant]?.label || "";
   const d = documentFor(p),
     related = products
       .filter((x) => x.category === p.category && x.id !== p.id)
       .slice(0, 3);
-  const needsReview = p.sourceNotes?.length > 0;
   const enquiry = enquiryUrl(p.name + (selectedPack ? " — " + selectedPack : ""));
   const highlights = [...p.benefits].filter(Boolean).sort((a,b) => a.length-b.length).slice(0,3);
   return (
@@ -367,16 +366,7 @@ function ProductDetailContent({ compare, toggle }) {
               Review the current technical data sheet before specifying or
               applying a product.
             </p>
-            <a
-              className="text-link"
-              href={p.source}
-              onClick={p.source.startsWith("/documents/") ? (event)=>{event.preventDefault();setTdsOpen(true);} : undefined}
-              target="_blank"
-              rel="noreferrer"
-            >
-              {p.source.startsWith("/documents/") ? "Source technical data sheet" : "Official product source"} <ArrowUpRight size={15} />
-            </a>
-            {needsReview && <p className="notice">{p.sourceNotes.join(" ")}</p>}
+
           </div>
           <div className="technical-accordion">
             <details open>
@@ -408,7 +398,7 @@ function ProductDetailContent({ compare, toggle }) {
               <summary>
                 Specifications <span>+</span>
               </summary>
-              <p className="fineprint">
+              {p.specs.length === 0 ? <p>Contact our technical team for product specifications and application guidance.</p> : <><p className="fineprint">
                 {p.tdsVersion
                   ? `Source: final approved TDS ${p.tdsVersion}, page${p.specPages.length > 1 ? "s" : ""} ${p.specPages.join(", ")}. Checked 9 October 2026.`
                   : "Published product-page values; not checked against a replacement TDS in the October 2026 review. Confirm current specifications with the technical team."}
@@ -434,7 +424,7 @@ function ProductDetailContent({ compare, toggle }) {
                       ))}
                   </tbody>
                 </table>
-              </div>
+              </div></>}
             </details>
             <details>
               <summary>

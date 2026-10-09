@@ -1,6 +1,6 @@
-import React, { useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
-import { ArrowDown, ArrowUpRight, ChevronLeft, ChevronRight } from "lucide-react";
+import { ArrowDown, ArrowUpRight, ChevronLeft, ChevronRight, Pause, Play } from "lucide-react";
 import { solutions, featured, products } from "./data";
 
 const featuredSummaries = {
@@ -12,24 +12,55 @@ const featuredSummaries = {
 };
 
 const scenes = [
-  { id: "roof", label: "Roof & terrace", image: "/images/hero-roof-coating.webp",
+  { id: "roof", label: "Roof Waterproofing", image: "/images/hero-roof-coating.webp",
     lead: "Your roof.", accent: "Protected.", productId: "trubuild-rooftect-advanced",
     detail: "A seamless waterproof coating for exposed roofs and terraces." },
-  { id: "tiling", label: "Interior flooring", image: "/images/hero-interior-floor.webp",
-    lead: "A lasting finish", accent: "starts beneath.", productId: "trufix-110",
+  { id: "tiling", label: "Interior Flooring", image: "/images/hero-interior-floor.webp",
+    lead: "Your tiles.", accent: "Better bonded.", productId: "trufix-110",
     detail: "Grey cement-based tile adhesive for interior floors." },
-  { id: "exterior", label: "Exterior walls", image: "/images/hero-exterior-coating.webp",
-    lead: "Exterior walls.", accent: "Covered.", productId: "trubuild-walltect-top-coat",
+  { id: "exterior", label: "Exterior Waterproofing", image: "/images/hero-exterior-home-v3.webp",
+    lead: "Your walls.", accent: "Protected.", productId: "trubuild-walltect-top-coat",
     detail: "Waterproof protection for exterior walls." },
 ].map(scene => ({ ...scene, product: products.find(p => p.id === scene.productId) }));
 export default function Home() {
   const [scene, setScene] = useState(0);
+  const heroRef = useRef(null);
+  const [paused, setPaused] = useState(false);
+  const [hovered, setHovered] = useState(false);
+  const [focused, setFocused] = useState(false);
+  const [visible, setVisible] = useState(false);
+  const [pageVisible, setPageVisible] = useState(true);
+  useEffect(() => {
+    const motion = window.matchMedia("(prefers-reduced-motion: reduce)");
+    const updateMotion = () => setPaused(motion.matches);
+    const updateVisibility = () => setPageVisible(!document.hidden);
+    updateMotion(); updateVisibility();
+    motion.addEventListener("change", updateMotion);
+    document.addEventListener("visibilitychange", updateVisibility);
+    const observer = new IntersectionObserver(([entry]) => setVisible(entry.isIntersecting), { threshold: 0 });
+    observer.observe(heroRef.current);
+    return () => {
+      observer.disconnect();
+      motion.removeEventListener("change", updateMotion);
+      document.removeEventListener("visibilitychange", updateVisibility);
+    };
+  }, []);
+  const playing = !paused && !hovered && !focused && visible && pageVisible;
+  useEffect(() => {
+    if (!playing) return;
+    const timer = window.setTimeout(() => setScene(current => (current + 1) % scenes.length), 6000);
+    return () => window.clearTimeout(timer);
+  }, [scene, playing]);
   const active = scenes[scene];
   const touchStart = useRef(null);
   const changeScene = (direction) => setScene(current => (current + direction + scenes.length) % scenes.length);
   return (
     <div className="new-home">
-      <section className="product-hero" aria-label="TruBuild products and applications"
+      <section ref={heroRef} className="product-hero" aria-label="TruBuild products and applications"
+        onPointerEnter={event => { if (event.pointerType === "mouse") setHovered(true); }}
+        onPointerLeave={() => setHovered(false)}
+        onFocusCapture={() => setFocused(true)}
+        onBlurCapture={event => { if (!event.currentTarget.contains(event.relatedTarget)) setFocused(false); }}
         onTouchStart={event => { touchStart.current = { x: event.touches[0].clientX, y: event.touches[0].clientY }; }}
         onTouchEnd={event => {
           if (!touchStart.current) return;
@@ -43,7 +74,7 @@ export default function Home() {
             className={scene === index ? "is-active" : ""} fetchPriority={index === 0 ? "high" : "auto"} />)}
         </div>
         <div className="product-hero-stage">
-          <div className="product-hero-copy" key={active.id} aria-live="polite" aria-atomic="true">
+          <div className="product-hero-copy" key={active.id} aria-live={playing ? "off" : "polite"} aria-atomic="true">
             <p className="product-hero-eyebrow">TRUBUILD / {active.label}</p>
             <h1>{active.lead}{" "}<br /><span>{active.accent}</span></h1>
             <p className="product-hero-description">{active.detail}</p>
@@ -73,6 +104,7 @@ export default function Home() {
             </button>)}
           </div>
           <div className="product-hero-arrows">
+            <button type="button" aria-label={paused ? "Start slideshow" : "Pause slideshow"} onClick={() => setPaused(value => !value)}>{paused ? <Play size={18} /> : <Pause size={18} />}</button>
             <button type="button" aria-label="Previous featured product" onClick={() => changeScene(-1)}><ChevronLeft size={20} /></button>
             <button type="button" aria-label="Next featured product" onClick={() => changeScene(1)}><ChevronRight size={20} /></button>
           </div>
@@ -231,11 +263,6 @@ export default function Home() {
           </div>
         </Link>
         <Link to="/about" className="discovery-panel discovery-brand">
-          <img
-            src="/images/about.avif"
-            alt="TruBuild brand imagery"
-            loading="lazy"
-          />
           <div className="discovery-copy">
             <span className="mono-label">PART OF ASTRAL</span>
             <h2>

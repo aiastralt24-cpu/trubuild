@@ -9,6 +9,7 @@ import {
   X,
   Check,
   Columns2,
+  Facebook, Instagram, Youtube,
   FileDown,
 } from "lucide-react";
 import { solutions, shortDescription } from "./data";
@@ -170,12 +171,15 @@ export function Footer() {
             <br />
             Tiling & grouting. Built to perform.
           </p>
+          <nav className="footer-social" aria-label="Follow TruBuild">
+            {[["Facebook", "https://www.facebook.com/astraltrubuild", Facebook], ["Instagram", "https://www.instagram.com/astral_trubuild/", Instagram], ["YouTube", "https://www.youtube.com/@AstralTrubuild", Youtube]].map(([name, href, Icon]) => <a key={name} href={href} target="_blank" rel="noopener noreferrer" aria-label={`TruBuild on ${name}`}><Icon size={20} /></a>)}
+          </nav>
         </div>
         <div>
           <h3>Explore</h3>
           <Link to="/solutions">Our solutions</Link>
           <Link to="/products">Product catalogue</Link>
-          <Link to="/advisor">Product Advisor</Link>
+          <Link to="/advisor">Product advisor</Link>
         </div>
         <div>
           <h3>TruBuild</h3>
