@@ -9,7 +9,7 @@ try {
   for(const route of [...publicRoutes, '/compare', '/sources', '/404']) {
     const m = metadata(route);
     const head = `<title>${escape(m.title)}</title>\n<meta name="description" content="${escape(m.description)}" />\n<meta name="robots" content="${m.robots}" />\n<link rel="canonical" href="${escape(m.url)}" />\n` +
-      Object.entries({'og:title':m.title,'og:description':m.description,'og:url':m.url,'og:image':m.image,'og:type':'website','og:site_name':'TruBuild','og:locale':'en_IN'}).map(([key,value])=>`<meta property="${key}" content="${escape(value)}" />`).join('\n') + '\n' +
+      Object.entries({'og:title':m.title,'og:description':m.description,'og:url':m.url,'og:image':m.image,'og:type':m.type,'og:site_name':'TruBuild','og:locale':'en_IN'}).map(([key,value])=>`<meta property="${key}" content="${escape(value)}" />`).join('\n') + '\n' +
       Object.entries({'twitter:card':'summary_large_image','twitter:title':m.title,'twitter:description':m.description,'twitter:image':m.image}).map(([key,value])=>`<meta name="${key}" content="${escape(value)}" />`).join('\n') +
       (m.schema ? `\n<script type="application/ld+json" id="page-schema">${safeJson(m.schema)}</script>` : '');
     const html = template.replace(/<title>[\s\S]*?<\/title>/,'').replace(/<meta\s+name="description"[\s\S]*?\/>/,'').replace('</head>',head+'\n</head>').replace('<div id="root"></div>',`<div id="root" data-prerendered="true" data-route="${escape(route)}">${render(route)}</div>`);

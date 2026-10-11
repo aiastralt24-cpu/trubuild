@@ -23,6 +23,6 @@ test('new product families retain separate identities and do not borrow technica
  assert.ok(products.some(p=>p.id==='trubuild-trubond-ds-tape'));
  assert.equal(new Set(products.map(p=>p.id)).size,products.length);
 });
-test('Trushield uses the supplied black membrane reference throughout its gallery',()=>{
- const p=products.find(p=>p.id==='trubuild-trushield');assert.equal(p.image,'/images/packaging/trushield-black-reference.webp');assert.equal(packaging[p.id].images[0].src,p.image);
+test('Trushield uses the supplied black membrane pack shot throughout its gallery',()=>{
+ const p=products.find(p=>p.id==='trubuild-trushield');assert.equal(p.image,'/images/packaging/trushield-black.webp');assert.equal(packaging[p.id].images[0].src,p.image);
 });

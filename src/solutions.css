@@ -81,15 +81,18 @@
 .solution-guide .solution-detail-hero h1 > span {color:var(--yellow)}
 
 /* Keep guide wayfinding below the compact floating header. */
-.solution-guide-nav {position:sticky;top:100px;z-index:40;display:block;padding:0;background:var(--paper);border-bottom:1px solid var(--line);box-shadow:0 5px 14px #19211f08}
+.solution-guide-nav {--solution-header-bottom:90px;position:sticky;top:var(--solution-header-bottom);z-index:39;display:block;padding:0;background:var(--paper);border-bottom:1px solid var(--line);box-shadow:0 5px 14px #19211f08}
+/* Close the area behind the floating header only once the section bar sticks. */
+.solution-guide-nav.is-stuck::before {content:"";position:absolute;left:0;right:0;bottom:100%;height:var(--solution-header-bottom);background:var(--paper);pointer-events:none}
 .solution-guide-nav-inner {display:flex;align-items:center;gap:28px;overflow-x:auto;scrollbar-width:thin;overscroll-behavior-x:contain}
 .solution-guide-nav a {flex:none;display:flex;align-items:center;min-height:60px;padding:12px 0;white-space:nowrap;border-bottom:3px solid transparent}
-.solution-guide-nav a:hover,.solution-guide-nav a:focus-visible {border-bottom-color:var(--yellow)}
+.solution-guide-nav a[aria-current="location"] {border-bottom-color:var(--yellow);font-weight:700}
+.solution-guide-nav a:hover {color:#796100}
 .solution-guide-nav a:focus-visible {outline:2px solid var(--ink);outline-offset:-4px}
 /* Added to the document's existing 90px scroll-padding. */
 .solution-guide [id] {scroll-margin-top:100px}
 @media(max-width:650px) {
- .solution-guide-nav {top:80px}
+ .solution-guide-nav {--solution-header-bottom:70px}
  .solution-guide-nav-inner {gap:22px}
  .solution-guide-nav a {min-height:54px;font-size:12px}
  .solution-guide [id] {scroll-margin-top:70px}

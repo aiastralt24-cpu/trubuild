@@ -22,6 +22,7 @@ import {
 } from "./components";
 import { solutionContent } from "./solutionContent.mjs";
 import { NotFound } from "./Catalogue";
+import { SolutionGuideNav } from "./SolutionGuideNav";
 export function Solutions() {
   return (
     <div className="solutions-page">
@@ -83,11 +84,7 @@ export function SolutionDetail({ compare, toggle }) {
         </div>
         <img src={s.image} alt={s.imageAlt} fetchPriority="high" />
       </section>
-      <nav className="solution-guide-nav" aria-label="On this page">
-        <div className="solution-guide-nav-inner wrap">
-        <a href="#selection">Choose a system</a><a href="#preparation">Plan the application</a><a href="#products">Explore products</a><a href="#questions">Common questions</a><a href="#documents">Technical data</a>
-        </div>
-      </nav>
+      <SolutionGuideNav key={id} />
       <section className="solution-answer wrap" aria-labelledby="answer-heading">
         <div><span className="eyebrow">START WITH THE RIGHT QUESTION</span><h2 id="answer-heading">{content.question}</h2></div>
         <div><p className="solution-direct-answer">{content.answer}</p><p>{content.intro}</p></div>
@@ -213,6 +210,7 @@ export function Resources() {
         description="Explore official product data sheets, application guides and brochures. Find the detail you need before your next step."
       />
       <section className="wrap section">
+        <div className="guides-promo"><div><h2>Understand the application.</h2><p>Practical guides to choosing materials, preparing surfaces and planning your work.</p></div><Link to="/blogs">Explore guides & advice <ArrowUpRight size={20}/></Link></div>
         <div className="resource-toolbar">
           <div className="search-box">
             <Search size={20} />
@@ -540,7 +538,7 @@ export function Sources() {
         <p>
           Product pack shots and the company image come from the official
           TruBuild website. The wordmark follows the supplied brand artwork.
-          Architectural and interior images are AI-generated concepts and do not
+          Architectural, interior and blog application images are AI-generated illustrations and do not
           depict actual company facilities, documented projects or product
           performance.
         </p>

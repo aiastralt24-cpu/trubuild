@@ -126,6 +126,7 @@ export function Header() {
               ["/products", "Products", "Find the right material."],
               ["/solutions", "Solutions", "Start with your application."],
               ["/resources", "Resources", "Technical data and guidance."],
+              ["/blogs", "Guides & advice", "Practical answers for your project."],
             ].map(([to,label,description]) => <Link className="menu-nav-item" to={to} key={to} onClick={close} aria-current={location.pathname.startsWith(to) ? "page" : undefined}>
               <span>{label}<small>{description}</small></span><ArrowUpRight/>
             </Link>)}
@@ -180,6 +181,7 @@ export function Footer() {
           <Link to="/solutions">Our solutions</Link>
           <Link to="/products">Product catalogue</Link>
           <Link to="/advisor">Product advisor</Link>
+          <Link to="/blogs">Guides & advice</Link>
         </div>
         <div>
           <h3>TruBuild</h3>

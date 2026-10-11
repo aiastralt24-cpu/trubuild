@@ -8,7 +8,8 @@
     "build": "vite build && node scripts/prerender.mjs",
     "preview": "vite preview --host 0.0.0.0",
     "test": "node --test tests/*.test.mjs",
-    "test:seo": "npm run build && node scripts/check-seo.mjs"
+    "test:seo": "npm run build && node scripts/check-seo.mjs",
+    "test:blogs": "npm run build && node scripts/check-blogs.mjs"
   },
   "dependencies": {
     "lucide-react": "^0.468.0",

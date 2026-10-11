@@ -255,9 +255,9 @@
   "trubuild-trushield": {
     "images": [
       {
-        "src": "/images/packaging/trushield-black-reference.webp",
-        "thumbnail": "/images/packaging/trushield-black-reference-thumb.webp",
-        "label": "Black membrane — supplied product reference"
+        "src": "/images/packaging/trushield-black.webp",
+        "thumbnail": "/images/packaging/trushield-black-thumb.webp",
+        "label": "Black membrane packaging"
       }
     ]
   },

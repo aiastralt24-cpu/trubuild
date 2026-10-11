@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
-import { ArrowDown, ArrowUpRight, ChevronLeft, ChevronRight, Pause, Play } from "lucide-react";
+import { ArrowDown, ArrowUpRight } from "lucide-react";
 import { solutions, featured, products } from "./data";
 
 const featuredSummaries = {
@@ -102,11 +102,6 @@ export default function Home() {
               <span><small>{item.label}</small><strong>{item.product.name}</strong></span>
               <ArrowUpRight size={18} aria-hidden="true" />
             </button>)}
-          </div>
-          <div className="product-hero-arrows">
-            <button type="button" aria-label={paused ? "Start slideshow" : "Pause slideshow"} onClick={() => setPaused(value => !value)}>{paused ? <Play size={18} /> : <Pause size={18} />}</button>
-            <button type="button" aria-label="Previous featured product" onClick={() => changeScene(-1)}><ChevronLeft size={20} /></button>
-            <button type="button" aria-label="Next featured product" onClick={() => changeScene(1)}><ChevronRight size={20} /></button>
           </div>
         </div>
       </section>
@@ -222,6 +217,7 @@ export default function Home() {
           </span>
         </div>
       </section>
+      <section className="wrap guides-promo"><div><p className="eyebrow">GUIDES & ADVICE</p><h2>A better start to every application.</h2><p>Explore 50 practical guides to waterproofing, tile installation and repair.</p></div><Link to="/blogs">Explore the guides <ArrowUpRight size={20}/></Link></section>
       <section
         className="discovery-panels"
         aria-label="Resources and our story"

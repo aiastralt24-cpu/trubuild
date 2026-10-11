@@ -3,6 +3,7 @@ import { Routes, Route, useLocation, Link } from "react-router-dom";
 import { X, ArrowRight } from "lucide-react";
 import { Header, Footer } from "./components";
 import Home from "./Home";
+import { BlogIndex, BlogDetail } from "./Blogs.jsx";
 import { Catalogue, ProductDetail, Compare, NotFound } from "./Catalogue";
 import Advisor from "./Advisor";
 import {
@@ -68,6 +69,8 @@ export default function App() {
           />
           <Route path="/advisor" element={<Advisor {...shared} />} />
           <Route path="/compare" element={<Compare {...shared} />} />
+          <Route path="/blogs" element={<BlogIndex />} />
+          <Route path="/blogs/:slug" element={<BlogDetail />} />
           <Route path="/about" element={<About />} />
           <Route path="/resources" element={<Resources />} />
           <Route path="/contact" element={<Contact key={loc.search} />} />

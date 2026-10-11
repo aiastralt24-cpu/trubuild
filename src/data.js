@@ -1,6 +1,6 @@
 import data from "./products.json";
 import documents from "./resources.json";
-export const products = [...data].sort((a, b) => a.name.localeCompare(b.name, "en", { numeric: true, sensitivity: "base" }));
+export const products = data.map(p => ({ ...p, name: p.name.toUpperCase() })).sort((a, b) => a.name.localeCompare(b.name, "en", { numeric: true, sensitivity: "base" }));
 export const resources = documents;
 export const categories = [...new Set(products.map((p) => p.category))].sort((a, b) => a.localeCompare(b, "en"));
 export const solutions = [

@@ -1,0 +1,140 @@
+{
+  "mode": "built-in image_gen",
+  "images": [
+    {
+      "id": "roof",
+      "prompt": "Use case: photorealistic-natural. Create a landscape editorial photograph for a construction advice blog, 3:2 composition. A real accessible Indian residential flat concrete terrace, clean pale grey waterproof finished surface, low plastered parapet, neatly formed wall-to-floor junction, functional rainwater outlet visible, distant low-rise buildings. Grounded materials, subtle wear, soft daylight, professional architectural documentation rather than luxury fantasy. Main subject roof surface and its junctions, fully visible. No people, no product containers, no branding, no text, no diagrams, no watermark. This is an illustrative roof waterproofing context, not a claimed project result.",
+      "source": "/Users/bunny/.codex/generated_images/01a10b8b-6803-7861-87aa-e0b9181b5220/exec-44afc9f8-e935-4a98-8473-475143363a02.png"
+    },
+    {
+      "id": "drainage",
+      "prompt": "Use case: photorealistic-natural. Asset: topic-led construction advice blog cover. Generate one landscape 3:2 editorial photograph, realistic material textures, natural light, restrained neutral colors, no text or logos, no branded products, no before/after collage, no infographic. Illustrative scene, not a claimed completed TruBuild project. Subject: Close editorial view of an actual Indian residential concrete terrace after rain: a shallow puddle on slightly uneven pale grey screed near a low parapet and a small square grated floor drain, a few fallen leaves beside the grate. Show the visible low point and water route realistically, not a flood. No people.",
+      "source": "/Users/bunny/.codex/generated_images/01a10b8b-6803-7861-87aa-e0b9181b5220/exec-0a88ee61-82fd-4454-92d4-be6e9e408183.png"
+    },
+    {
+      "id": "roof-junction",
+      "prompt": "Use case: photorealistic-natural. Asset: topic-led construction advice blog cover. Generate one landscape 3:2 editorial photograph, realistic material textures, natural light, restrained neutral colors, no text or logos, no branded products, no before/after collage, no infographic. Illustrative scene, not a claimed completed TruBuild project. Subject: Close architectural documentation of a clean flat grey terrace floor meeting a plastered parapet with a neatly formed rounded corner fillet and continuous grey coating returning up the wall. Side lighting reveals texture and the junction. No striped layers, no diagram, no tools.",
+      "source": "/Users/bunny/.codex/generated_images/01a10b8b-6803-7861-87aa-e0b9181b5220/exec-7439a5c1-42c2-465e-a8c6-47140521f3ac.png"
+    },
+    {
+      "id": "tiled-terrace",
+      "prompt": "Use case: photorealistic-natural. Asset: topic-led construction advice blog cover. Generate one landscape 3:2 editorial photograph, realistic material textures, natural light, restrained neutral colors, no text or logos, no branded products, no before/after collage, no infographic. Illustrative scene, not a claimed completed TruBuild project. Subject: Indian residential terrace surfaced with small irregular white china mosaic pieces in grey joints, a low white parapet and simple rainwater outlet; slightly weathered but intact. Daylight, low eye-level viewpoint highlighting texture, no interior room.",
+      "source": "/Users/bunny/.codex/generated_images/01a10b8b-6803-7861-87aa-e0b9181b5220/exec-6f2b8033-c456-46e6-b353-dd3b65080121.png"
+    },
+    {
+      "id": "wall-damp",
+      "prompt": "Use case: photorealistic-natural. Asset: topic-led construction advice blog cover. Generate one landscape 3:2 editorial photograph, realistic material textures, natural light, restrained neutral colors, no text or logos, no branded products, no before/after collage, no infographic. Illustrative scene, not a claimed completed TruBuild project. Subject: A modest plastered exterior house wall near a window after rain, with a realistically localized dark damp patch, faint tide mark and a small area of flaking pale paint. No dramatic ruin or black mould. Close enough to examine the surface while retaining the window edge as context.",
+      "source": "/Users/bunny/.codex/generated_images/01a10b8b-6803-7861-87aa-e0b9181b5220/exec-d8f275cf-a3de-4298-8c5b-52ead9290add.png"
+    },
+    {
+      "id": "wall-finish",
+      "prompt": "Use case: photorealistic-natural. Asset: topic-led construction advice blog cover. Generate one landscape 3:2 editorial photograph, realistic material textures, natural light, restrained neutral colors, no text or logos, no branded products, no before/after collage, no infographic. Illustrative scene, not a claimed completed TruBuild project. Subject: Real contemporary Indian low-rise house facade, smooth off-white plastered masonry walls, restrained window openings, exterior corner and eaves clearly visible, freshly maintained wall finish in soft sun. Entire subject is exterior plaster and painted walls, no stone cladding, no elaborate concrete sculpture.",
+      "source": "/Users/bunny/.codex/generated_images/01a10b8b-6803-7861-87aa-e0b9181b5220/exec-29b0be40-221b-45b8-ac51-4399225708cc.png"
+    },
+    {
+      "id": "crack",
+      "prompt": "Use case: photorealistic-natural. Asset: topic-led construction advice blog cover. Generate one landscape 3:2 editorial photograph, realistic material textures, natural light, restrained neutral colors, no text or logos, no branded products, no before/after collage, no infographic. Illustrative scene, not a claimed completed TruBuild project. Subject: Macro construction-documentation photo of a narrow static hairline crack in pale cement plaster; a small clean unbranded metal scraper rests nearby on a ledge. No structural rupture, no exposed steel, realistic fine granular plaster texture, no measurement markings.",
+      "source": "/Users/bunny/.codex/generated_images/01a10b8b-6803-7861-87aa-e0b9181b5220/exec-ffa86926-a57c-461d-a799-33c6f529d49f.png"
+    },
+    {
+      "id": "stone-brick",
+      "prompt": "Use case: photorealistic-natural. Asset: topic-led construction advice blog cover. Generate one landscape 3:2 editorial photograph, realistic material textures, natural light, restrained neutral colors, no text or logos, no branded products, no before/after collage, no infographic. Illustrative scene, not a claimed completed TruBuild project. Subject: Close-up of a real exterior wall built from warm porous brick beside a small pale natural sandstone section. Natural fine pores, dry mortar joints and soft side lighting. A few subtle rain droplets on the surface, no glossy resin layer, no exaggerated waterproof effect.",
+      "source": "/Users/bunny/.codex/generated_images/01a10b8b-6803-7861-87aa-e0b9181b5220/exec-b1eebaa1-b48b-40a4-ad2e-7033562f8ca5.png"
+    },
+    {
+      "id": "tiling",
+      "prompt": "Use case: photorealistic-natural. Asset: topic-led construction advice blog cover. Generate one landscape 3:2 editorial photograph, realistic material textures, natural light, restrained neutral colors, no text or logos, no branded products, no before/after collage, no infographic. Illustrative scene, not a claimed completed TruBuild project. Subject: Realistic close construction photograph of interior floor tile installation: one square light grey ceramic tile partly positioned next to a uniform bed of straight parallel grey adhesive ridges on prepared screed. Only a professional gloved hand and a notched trowel in view, correct natural proportions. No bathroom or kitchen fixtures, no buckets or brands.",
+      "source": "/Users/bunny/.codex/generated_images/01a10b8b-6803-7861-87aa-e0b9181b5220/exec-b27c80c6-e8ae-4302-88e5-35c571bd188c.png"
+    },
+    {
+      "id": "grout",
+      "prompt": "Use case: photorealistic-natural. Asset: topic-led construction advice blog cover. Generate one landscape 3:2 editorial photograph, realistic material textures, natural light, restrained neutral colors, no text or logos, no branded products, no before/after collage, no infographic. Illustrative scene, not a claimed completed TruBuild project. Subject: Macro editorial photo of a clean beige ceramic tile floor, straight even medium-grey grout lines forming a simple cross, subtle grout texture and a clean black rubber grout float resting near the edge. Realistic shallow depth of field without hiding the joint. No hands, no packaging.",
+      "source": "/Users/bunny/.codex/generated_images/01a10b8b-6803-7861-87aa-e0b9181b5220/exec-1902b5aa-ed2f-4785-84fd-e5c922aae92d.png"
+    },
+    {
+      "id": "bathroom",
+      "prompt": "Use case: photorealistic-natural. Asset: topic-led construction advice blog cover. Generate one landscape 3:2 editorial photograph, realistic material textures, natural light, restrained neutral colors, no text or logos, no branded products, no before/after collage, no infographic. Illustrative scene, not a claimed completed TruBuild project. Subject: Unfinished residential shower area before tile installation. Plain cementitious grey waterproof layer on floor and lower walls, continuous corner transitions, secure round floor drain in a gently sloping floor, no standing water. Empty room, ordinary plumbing openings, soft daylight, not a luxury finished bathroom.",
+      "source": "/Users/bunny/.codex/generated_images/01a10b8b-6803-7861-87aa-e0b9181b5220/exec-8eff64ee-9078-477a-881e-ed0549a2a89a.png"
+    },
+    {
+      "id": "pipe",
+      "prompt": "Use case: photorealistic-natural. Asset: topic-led construction advice blog cover. Generate one landscape 3:2 editorial photograph, realistic material textures, natural light, restrained neutral colors, no text or logos, no branded products, no before/after collage, no infographic. Illustrative scene, not a claimed completed TruBuild project. Subject: Close construction photo of a single upright grey PVC pipe passing through a concrete wet-area floor. Show a neat solid mortar-colored annular repair around the pipe with a continuous grey waterproofing surface surrounding it, clear realistic geometry, no exaggerated cutaway, no water spray, no labels.",
+      "source": "/Users/bunny/.codex/generated_images/01a10b8b-6803-7861-87aa-e0b9181b5220/exec-be1101e0-f3cf-4971-aa5d-f46ec4f212fc.png"
+    },
+    {
+      "id": "repair",
+      "prompt": "Use case: photorealistic-natural. Asset: topic-led construction advice blog cover. Generate one landscape 3:2 editorial photograph, realistic material textures, natural light, restrained neutral colors, no text or logos, no branded products, no before/after collage, no infographic. Illustrative scene, not a claimed completed TruBuild project. Subject: Close editorial photograph of localized non-structural repair to a concrete step edge, a small freshly trowelled grey repair mortar patch visible against sound weathered concrete. A clean steel finishing trowel lies on the adjacent surface. No exposed reinforcement, no collapsed structure, no branded tools.",
+      "source": "/Users/bunny/.codex/generated_images/01a10b8b-6803-7861-87aa-e0b9181b5220/exec-a8db6604-e49b-4145-ba0e-16452891e96b.png"
+    },
+    {
+      "id": "plaster",
+      "prompt": "Use case: photorealistic-natural. Asset: topic-led construction advice blog cover. Generate one landscape 3:2 editorial photograph, realistic material textures, natural light, restrained neutral colors, no text or logos, no branded products, no before/after collage, no infographic. Illustrative scene, not a claimed completed TruBuild project. Subject: Close photograph of grey concrete wall receiving a neat area of fresh cement plaster, unfinished concrete still visible to one side, cropped gloved hand holding a flat plastering trowel at the boundary. Simple construction worksite, natural light, no product packaging, no graffiti.",
+      "source": "/Users/bunny/.codex/generated_images/01a10b8b-6803-7861-87aa-e0b9181b5220/exec-8ed8f4c0-b3e8-4c9e-9129-50c590576592.png"
+    },
+    {
+      "id": "basement",
+      "prompt": "Use case: photorealistic-natural. Asset: topic-led construction advice blog cover. Generate one landscape 3:2 editorial photograph, realistic material textures, natural light, restrained neutral colors, no text or logos, no branded products, no before/after collage, no infographic. Illustrative scene, not a claimed completed TruBuild project. Subject: Real construction-documentation photo from a safely accessible foundation work area before backfilling: below-ground concrete wall with a continuous black sheet waterproofing membrane, neat overlapping sheets, protected completed section with dark protection board beside it. Bare earth foreground, no workers, daylight, no exposed luxury basement interior.",
+      "source": "/Users/bunny/.codex/generated_images/01a10b8b-6803-7861-87aa-e0b9181b5220/exec-819c04a5-b58d-409c-8c30-e62867bf7cda.png"
+    },
+    {
+      "id": "tank",
+      "prompt": "Use case: photorealistic-natural. Asset: topic-led construction advice blog cover. Generate one landscape 3:2 editorial photograph, realistic material textures, natural light, restrained neutral colors, no text or logos, no branded products, no before/after collage, no infographic. Illustrative scene, not a claimed completed TruBuild project. Subject: View into an empty clean rectangular concrete water tank under construction, grey mineral-coated floor and walls, clean continuous internal corners and a simple outlet pipe. Daylight enters from the top, practical modest scale, no people, no water, no swimming pool furniture, no diagram.",
+      "source": "/Users/bunny/.codex/generated_images/01a10b8b-6803-7861-87aa-e0b9181b5220/exec-0ea9b491-723b-40be-8dee-2ad8a8b4f897.png"
+    },
+    {
+      "id": "sealant",
+      "prompt": "Use case: photorealistic-natural. Asset: topic-led construction advice blog cover. Generate one landscape 3:2 editorial photograph, realistic material textures, natural light, restrained neutral colors, no text or logos, no branded products, no before/after collage, no infographic. Illustrative scene, not a claimed completed TruBuild project. Subject: Close photograph of a straight narrow vertical movement joint between two pale grey precast concrete panels, filled with a tidy dark-grey flexible sealant bead set slightly back from the face. Soft side light reveals joint depth and concrete texture. No tube or branding, no structural crack.",
+      "source": "/Users/bunny/.codex/generated_images/01a10b8b-6803-7861-87aa-e0b9181b5220/exec-2164facb-fb43-49b9-b41a-c8c6dad7ab2c.png"
+    },
+    {
+      "id": "planning",
+      "prompt": "Use case: photorealistic-natural. Asset: topic-led construction advice blog cover. Generate one landscape 3:2 editorial photograph, realistic material textures, natural light, restrained neutral colors, no text or logos, no branded products, no before/after collage, no infographic. Illustrative scene, not a claimed completed TruBuild project. Subject: Editorial tabletop photograph at a construction site office: unbranded blank technical sheets with only faint unreadable grey lines, metal tape measure, concrete and tile sample pieces, pencil, safety glasses, soft natural window light. No legible numbers or words, no logos, no laptop, practical uncluttered composition.",
+      "source": "/Users/bunny/.codex/generated_images/01a10b8b-6803-7861-87aa-e0b9181b5220/exec-032c778d-de51-44e1-9966-d08af036a62b.png"
+    },
+    {
+      "id": "pool",
+      "prompt": "Empty unfinished modest rectangular outdoor swimming pool shell at a residential project, grey cementitious waterproof lining on floor and walls before tiles, clear pool steps at shallow end, side inlet openings, surrounding level walkway. Photographic daylight, no water, no people, no furniture.",
+      "source": "/Users/bunny/.codex/generated_images/01a10b8b-6803-7861-87aa-e0b9181b5220/exec-0ac1e9bd-0ba6-4f83-8abf-30b75884ba3d.png"
+    },
+    {
+      "id": "mixing",
+      "prompt": "Close editorial photograph of preparation for mixing a two-component cementitious waterproofing material. Plain unbranded liquid jug and a plain paper sack beside a clean grey mixing pail and a stopped mixing paddle on a clean concrete floor. Gloved hands holding the pail, no active swirling or dust, no readable markings, no imagined product labels.",
+      "source": "/Users/bunny/.codex/generated_images/01a10b8b-6803-7861-87aa-e0b9181b5220/exec-019f2877-d519-4831-85b9-2fcc05224571.png"
+    },
+    {
+      "id": "baseplate",
+      "prompt": "Construction detail photograph of a large steel machine baseplate with four anchor bolts on a sound concrete foundation, neat fresh grey non-shrink grout shoulder under plate, clean industrial environment, low close perspective clearly showing grout filling the gap beneath plate. No labels or branding, no human figures.",
+      "source": "/Users/bunny/.codex/generated_images/01a10b8b-6803-7861-87aa-e0b9181b5220/exec-fa5dd20e-abd4-4159-8c46-2da58faedecb.png"
+    },
+    {
+      "id": "wall-salts",
+      "prompt": "Close editorial documentation of localized powdery white salt deposits at the base of an older pale beige masonry plaster wall, slight darker moisture band and a few flaking paint edges, natural side light revealing powdery crystalline texture. Not mould, no dramatic collapsed structure, no text or containers.",
+      "source": "/Users/bunny/.codex/generated_images/01a10b8b-6803-7861-87aa-e0b9181b5220/exec-b0161d85-7f8f-4a2a-8826-4631c5ad3a37.png"
+    },
+    {
+      "id": "interior-floor",
+      "prompt": "Low angle architectural photograph across a modest contemporary dry living room with beautifully installed large light-grey ceramic floor tiles and straight narrow grout lines. Focus on the broad floor plane, minimal neutral furniture at far edge, ordinary window daylight. No bathroom, kitchen, sink or bath.",
+      "source": "/Users/bunny/.codex/generated_images/01a10b8b-6803-7861-87aa-e0b9181b5220/exec-a61a97f1-6667-43aa-8b8f-ced6c8af3cb6.png"
+    },
+    {
+      "id": "wall-tiles",
+      "prompt": "Close architectural photograph of an exterior low-rise building wall finished with neat rectangular pale ceramic facade tiles, visible consistent joints, window edge and outdoor daylight establishing exterior context. Practical modest scale, no tall tower, no hands, no product containers.",
+      "source": "/Users/bunny/.codex/generated_images/01a10b8b-6803-7861-87aa-e0b9181b5220/exec-a9876efe-fc08-436d-805f-fa6c1eeb231a.png"
+    },
+    {
+      "id": "board-tiling",
+      "prompt": "Editorial construction photograph of a small cement-board wall section awaiting tiling in a dry interior renovation, screw-fixed grey board on stable framing, a few square ceramic tiles attached at one side and clean straight grey adhesive ridges in a small adjacent area. Clear simple geometry, no pipes, no bathroom fixtures, no text, no product packaging.",
+      "source": "/Users/bunny/.codex/generated_images/01a10b8b-6803-7861-87aa-e0b9181b5220/exec-2b49efd3-c59a-442d-9cd3-a1dd789c596e.png"
+    },
+    {
+      "id": "hdpe",
+      "prompt": "Construction-documentation photograph of pale off-white pre-applied HDPE waterproofing sheets laid flat on a prepared concrete blinding slab inside an excavation before reinforcement or fresh concrete placement. Clean aligned overlapping seams, one partly unrolled pale sheet at the edge, modest jobsite, no black bitumen rolls, no labels or workers.",
+      "source": "/Users/bunny/.codex/generated_images/01a10b8b-6803-7861-87aa-e0b9181b5220/exec-ae73904a-e86a-4562-a400-0cd1e8de8470.png"
+    },
+    {
+      "id": "tile-sealant",
+      "prompt": "Macro editorial photograph of a clean tiled interior floor meeting a tiled wall at a right angle. The horizontal change-of-plane joint has a neat grey flexible sealant bead, separate narrow cement-grey grout joints between the large beige ceramic tiles. No tools, no packaging, clear realistic joint and tile geometry.",
+      "source": "/Users/bunny/.codex/generated_images/01a10b8b-6803-7861-87aa-e0b9181b5220/exec-61b5cd1a-5cdb-4ae9-b105-d84ca83f3903.png"
+    }
+  ]
+}
