@@ -1,7 +1,9 @@
 import React, { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
-import { ArrowDown, ArrowUpRight } from "lucide-react";
+import { ArrowDown, ArrowUpRight, Pause, Play } from "lucide-react";
 import { solutions, featured, products } from "./data";
+import { useHomeMotion } from "./useHomeMotion";
+import "./home-motion.css";
 
 const featuredSummaries = {
   "trubuild-rooftect-advanced":
@@ -24,6 +26,9 @@ const scenes = [
 ].map(scene => ({ ...scene, product: products.find(p => p.id === scene.productId) }));
 export default function Home() {
   const [scene, setScene] = useState(0);
+  const homeRef = useRef(null);
+  useHomeMotion(homeRef);
+  const [reducedMotion, setReducedMotion] = useState(false);
   const heroRef = useRef(null);
   const [paused, setPaused] = useState(false);
   const [hovered, setHovered] = useState(false);
@@ -32,7 +37,7 @@ export default function Home() {
   const [pageVisible, setPageVisible] = useState(true);
   useEffect(() => {
     const motion = window.matchMedia("(prefers-reduced-motion: reduce)");
-    const updateMotion = () => setPaused(motion.matches);
+    const updateMotion = () => setReducedMotion(motion.matches);
     const updateVisibility = () => setPageVisible(!document.hidden);
     updateMotion(); updateVisibility();
     motion.addEventListener("change", updateMotion);
@@ -45,7 +50,7 @@ export default function Home() {
       document.removeEventListener("visibilitychange", updateVisibility);
     };
   }, []);
-  const playing = !paused && !hovered && !focused && visible && pageVisible;
+  const playing = !reducedMotion && !paused && !hovered && !focused && visible && pageVisible;
   useEffect(() => {
     if (!playing) return;
     const timer = window.setTimeout(() => setScene(current => (current + 1) % scenes.length), 6000);
@@ -55,8 +60,8 @@ export default function Home() {
   const touchStart = useRef(null);
   const changeScene = (direction) => setScene(current => (current + direction + scenes.length) % scenes.length);
   return (
-    <div className="new-home">
-      <section ref={heroRef} className="product-hero" aria-label="TruBuild products and applications"
+    <div className="new-home" ref={homeRef}>
+      <section ref={heroRef} className="product-hero" data-playing={playing} aria-roledescription="carousel" aria-label="TruBuild products and applications"
         onPointerEnter={event => { if (event.pointerType === "mouse") setHovered(true); }}
         onPointerLeave={() => setHovered(false)}
         onFocusCapture={() => setFocused(true)}
@@ -68,7 +73,7 @@ export default function Home() {
           const dy = event.changedTouches[0].clientY - touchStart.current.y;
           if (Math.abs(dx) > 60 && Math.abs(dx) > Math.abs(dy) * 1.5) changeScene(dx < 0 ? 1 : -1);
           touchStart.current = null;
-        }}>
+        }} onTouchCancel={() => { touchStart.current = null; }}>
         <div className="product-hero-background" aria-hidden="true">
           {scenes.map((item, index) => <img key={item.id} src={item.image} alt=""
             className={scene === index ? "is-active" : ""} fetchPriority={index === 0 ? "high" : "auto"} />)}
@@ -76,7 +81,7 @@ export default function Home() {
         <div className="product-hero-stage">
           <div className="product-hero-copy" key={active.id} aria-live={playing ? "off" : "polite"} aria-atomic="true">
             <p className="product-hero-eyebrow">TRUBUILD / {active.label}</p>
-            <h1>{active.lead}{" "}<br /><span>{active.accent}</span></h1>
+            <h1 aria-label={`${active.lead} ${active.accent}`}><span className="hero-line" aria-hidden="true"><span>{active.lead}</span></span><span className="hero-line hero-line-accent" aria-hidden="true"><span>{active.accent}</span></span></h1>
             <p className="product-hero-description">{active.detail}</p>
             <div className="product-hero-actions">
             <Link className="product-hero-cta" to={"/products/" + active.product.id}>
@@ -91,7 +96,7 @@ export default function Home() {
               className={scene === index ? "is-active" : ""} width="500" height="500"
               alt={scene === index ? item.product.name + " official packaging" : ""}
               aria-hidden={scene !== index} />)}
-            <span className="product-hero-caption">{active.product.name}</span>
+            <span key={active.id} className="product-hero-caption">{active.product.name}</span>
           </div>
         </div>
         <div className="product-hero-navigation">
@@ -103,14 +108,17 @@ export default function Home() {
               <ArrowUpRight size={18} aria-hidden="true" />
             </button>)}
           </div>
+          <button className="hero-playback" type="button" disabled={reducedMotion} onClick={() => setPaused(value => !value)} aria-label={reducedMotion ? "Autoplay off: reduced motion" : paused ? "Play slideshow" : "Pause slideshow"} aria-pressed={paused || reducedMotion}>
+            {paused || reducedMotion ? <Play size={17}/> : <Pause size={17}/>}
+          </button>
         </div>
       </section>
       <section className="build-index" id="solutions">
-        <div className="index-top">
+        <div className="index-top" data-motion>
           <span className="mono-label">FIND YOUR APPLICATION</span>
           <ArrowDown size={28} />
         </div>
-        <div className="index-intro">
+        <div className="index-intro" data-motion>
           <h2>
             Solutions for
             <br />
@@ -123,9 +131,10 @@ export default function Home() {
           </p>
         </div>
         <div className="application-mosaic">
-          {solutions.map((s) => (
+          {solutions.map((s, index) => (
             <Link
               key={s.id}
+              data-motion data-motion-order={index % 3}
               to={"/solutions/" + s.id}
               className={"application-tile tile-" + s.id}
             >
@@ -144,7 +153,7 @@ export default function Home() {
             </Link>
           ))}
         </div>
-        <div className="index-foot">
+        <div className="index-foot" data-motion>
           <span>Not sure where to begin?</span>
           <Link to="/advisor">
             Let’s find your product <ArrowUpRight size={20} />
@@ -152,7 +161,7 @@ export default function Home() {
         </div>
       </section>
       <section className="product-edit">
-        <div className="edit-heading">
+        <div className="edit-heading" data-motion>
           <div>
             <span className="mono-label">THE MATERIAL DIFFERENCE</span>
             <h2>
@@ -166,8 +175,8 @@ export default function Home() {
           </Link>
         </div>
         <div className="product-lineup">
-          {featured.map((p) => (
-            <Link className="specimen" to={"/products/" + p.id} key={p.id}>
+          {featured.map((p, index) => (
+            <Link data-motion data-motion-order={index} className="specimen" to={"/products/" + p.id} key={p.id}>
               <div className="specimen-top">
                 <span>{p.category}</span>
                 <span className="specimen-arrow">
@@ -196,33 +205,33 @@ export default function Home() {
             alt="Illustrative architectural courtyard"
             loading="lazy"
           />
-          <span>EVERY LAYER COUNTS.</span>
+          <span data-motion>EVERY LAYER COUNTS.</span>
         </div>
         <div className="studio-copy">
-          <span className="mono-label">YOUR NEXT MOVE</span>
-          <h2>
+          <span className="mono-label" data-motion>YOUR NEXT MOVE</span>
+          <h2 data-motion>
             Tell us about
             <br />
             <em>your project.</em>
           </h2>
-          <p>
+          <p data-motion data-motion-order="1">
             Tell us about your surface, your space and your plans. The TruBuild
             Product Advisor helps you narrow down the options.
           </p>
-          <Link to="/advisor" className="studio-cta">
+          <Link to="/advisor" className="studio-cta" data-motion data-motion-order="2">
             Find my solution <ArrowUpRight size={28} />
           </Link>
-          <span className="studio-note">
+          <span className="studio-note" data-motion data-motion-order="3">
             Guided selection. Clear reasons. Technical support when you need it.
           </span>
         </div>
       </section>
-      <section className="wrap guides-promo"><div><p className="eyebrow">GUIDES & ADVICE</p><h2>A better start to every application.</h2><p>Explore 50 practical guides to waterproofing, tile installation and repair.</p></div><Link to="/blogs">Explore the guides <ArrowUpRight size={20}/></Link></section>
+      <section className="wrap guides-promo" data-motion><div><p className="eyebrow">GUIDES & ADVICE</p><h2>A better start to every application.</h2><p>Explore 50 practical guides to waterproofing, tile installation and repair.</p></div><Link to="/blogs">Explore the guides <ArrowUpRight size={20}/></Link></section>
       <section
         className="discovery-panels"
         aria-label="Resources and our story"
       >
-        <Link to="/resources" className="discovery-panel discovery-resources">
+        <Link to="/resources" className="discovery-panel discovery-resources" data-motion>
           <div className="discovery-copy">
             <span className="mono-label">THE RESOURCE LIBRARY</span>
             <h2>
@@ -258,7 +267,7 @@ export default function Home() {
             </div>
           </div>
         </Link>
-        <Link to="/about" className="discovery-panel discovery-brand">
+        <Link to="/about" className="discovery-panel discovery-brand" data-motion data-motion-order="1">
           <div className="discovery-copy">
             <span className="mono-label">PART OF ASTRAL</span>
             <h2>

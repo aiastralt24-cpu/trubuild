@@ -4,6 +4,7 @@ import { ProductGallery, ProductColour, PackSizeSelector, StickyProductEnquiry }
 import React, { useState, useEffect, useRef } from "react";
 import { Link, useParams, useSearchParams } from "react-router-dom";
 import {
+  ChevronDown,
   LayoutGrid,
   List,
   Search,
@@ -28,9 +29,42 @@ import {
   Breadcrumb,
   AdvisorBanner,
 } from "./components";
+import "./catalogue-refinement.css";
+
+const categoryGroups = [
+  { name: "Waterproofing", categories: ["Roof Acrylic Coatings", "Exterior Acrylic Coatings", "Cementitious Coatings", "Crystalline Waterproofing", "PU Coatings", "Sheet Membranes", "Membrane Accessories"] },
+  { name: "Tiles & grouts", categories: ["Cementitious Tile Adhesives", "PU Modified Hybrid Epoxy Adhesive", "Cementitious Grouts", "Epoxy Tile Grouts"] },
+  { name: "Repair & bonding", categories: ["Bonding Agents", "Integral and Latex Polymers", "Repair Grouts"] },
+  { name: "Protection & sealants", categories: ["Epoxy Coatings", "Protective Coatings", "Professional Sealants"] },
+];
+const categoryDescriptions = {
+  "Roof Acrylic Coatings": "Explore acrylic waterproof coatings for roof applications.",
+  "Exterior Acrylic Coatings": "Explore acrylic coatings for exterior wall protection.",
+  "Cementitious Coatings": "Explore cement-based waterproofing coatings and systems.",
+  "Crystalline Waterproofing": "Explore crystalline treatments for concrete waterproofing.",
+  "PU Coatings": "Explore polyurethane coating options for waterproofing applications.",
+  "Sheet Membranes": "Explore sheet membrane waterproofing systems.",
+  "Membrane Accessories": "Find accessories for membrane installation and detailing.",
+  "Cementitious Tile Adhesives": "Explore cement-based adhesives for tile installation.",
+  "PU Modified Hybrid Epoxy Adhesive": "Explore hybrid epoxy adhesive options for tile installation.",
+  "Cementitious Grouts": "Explore cement-based grouts for tile joints.",
+  "Epoxy Tile Grouts": "Explore epoxy grout options for tile joints.",
+  "Bonding Agents": "Explore bonding agents for construction and repair work.",
+  "Integral and Latex Polymers": "Explore integral admixtures and latex polymer options.",
+  "Repair Grouts": "Explore grouts for repair and construction applications.",
+  "Epoxy Coatings": "Explore epoxy coating options for your project.",
+  "Protective Coatings": "Explore protective treatments for construction surfaces.",
+  "Professional Sealants": "Explore sealants for joints and construction detailing.",
+};
+
 export function Catalogue({ compare, toggle }) {
   const [params, setParams] = useSearchParams();
   const [filtersOpen, setFiltersOpen] = useState(false);
+  const [openGroup, setOpenGroup] = useState(() => categoryGroups.find(g => g.categories.includes(params.get("category")))?.name || "Waterproofing");
+  useEffect(() => {
+    const selected = categoryGroups.find(g => g.categories.includes(params.get("category")));
+    if (selected) setOpenGroup(selected.name);
+  }, [params]);
   const filterRef = useRef(null);
   const filterTrigger = useRef(null);
   const view = params.get("view") === "list" ? "list" : "grid";
@@ -76,7 +110,7 @@ export function Catalogue({ compare, toggle }) {
   }
   const activeCount = Number(!!cat) + Number(!!application);
   return (
-    <div className="catalogue-v2 catalogue-v3">
+    <div className="catalogue-v2 catalogue-v3 catalogue-refined">
       <section className="catalogue-masthead">
         <Breadcrumb items={[{ label: "Products" }]} />
         <div className="catalogue-title-row">
@@ -126,7 +160,7 @@ export function Catalogue({ compare, toggle }) {
         >
           <SlidersHorizontal size={18} /> Filters{" "}
           {activeCount > 0 && <span>{activeCount}</span>}
-          <span>{filtersOpen ? "Close" : "Show"}</span>
+          <span>{cat || "All categories"}</span>
         </button>
         {filtersOpen && <button className="catalogue-filter-backdrop" aria-label="Close filters" onClick={() => setFiltersOpen(false)} />}
         <aside
@@ -149,15 +183,22 @@ export function Catalogue({ compare, toggle }) {
               <span>All products</span>
               <small>{products.length}</small>
             </button>
-            {categories.map((c) => (
-              <button
-                key={c}
-                aria-pressed={cat === c}
-                onClick={() => update("category", cat === c ? "" : c)}
-              >
-                <span>{c}</span>
-                <small>{products.filter((p) => p.category === c).length}</small>
-              </button>
+            {categoryGroups.map(group => (
+              <div className="category-family" key={group.name}>
+                <button className="category-family-toggle" aria-expanded={openGroup === group.name}
+                  aria-controls={"category-" + group.name.split(" ")[0].toLowerCase()}
+                  onClick={() => setOpenGroup(current => current === group.name ? "" : group.name)}>
+                  <span>{group.name}{group.categories.includes(cat) && <i aria-label="Contains selected category" />}</span>
+                  <ChevronDown size={16} />
+                </button>
+                <div id={"category-" + group.name.split(" ")[0].toLowerCase()} className="category-family-items" hidden={openGroup !== group.name}>
+                  {group.categories.filter(c => categories.includes(c)).map(c => (
+                    <button key={c} aria-pressed={cat === c} onClick={() => update("category", cat === c ? "" : c)}>
+                      <span>{c}</span><small>{products.filter(p => p.category === c).length}</small>
+                    </button>
+                  ))}
+                </div>
+              </div>
             ))}
           </div>
           <div className="application-filter">
@@ -183,12 +224,13 @@ export function Catalogue({ compare, toggle }) {
         </aside>
         <section className="catalogue-results" aria-label="Product results">
           <div className="catalogue-results-top">
-            <h2>
+            <div className="catalogue-category-intro"><h2>
               {cat || "All products"}{" "}
               <span role="status">
                 {filtered.length} result{filtered.length === 1 ? "" : "s"}
               </span>
             </h2>
+            <p>{categoryDescriptions[cat] || "Browse the range, or choose a category to narrow your search."}</p></div>
             <div className="catalogue-view-switch" role="group" aria-label="Product display">
               <button aria-pressed={view === "grid"} onClick={() => update("view", "")}><LayoutGrid size={16} /> Grid</button>
               <button aria-pressed={view === "list"} onClick={() => update("view", "list")}><List size={17} /> List</button>

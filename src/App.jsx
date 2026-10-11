@@ -3,6 +3,7 @@ import { Routes, Route, useLocation, Link } from "react-router-dom";
 import { X, ArrowRight } from "lucide-react";
 import { Header, Footer } from "./components";
 import Home from "./Home";
+import Experience from "./Experience";
 import { BlogIndex, BlogDetail } from "./Blogs.jsx";
 import { Catalogue, ProductDetail, Compare, NotFound } from "./Catalogue";
 import Advisor from "./Advisor";
@@ -29,6 +30,7 @@ export default function App() {
   const [compare, setCompare] = useState([]),
     [notice, setNotice] = useState("");
   const loc = useLocation();
+  const isExperience = loc.pathname.replace(/\/+$/, '') === '/experience';
   useEffect(() => {
     if (!loc.hash) window.scrollTo({ top: 0, left: 0, behavior: "instant" });
     applyMetadata(loc.pathname);
@@ -56,10 +58,11 @@ export default function App() {
   const shared = { compare, toggle };
   return (
     <>
-      <Header />
+      {!isExperience && <Header />}
       <main id="main" tabIndex={-1}>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/experience" element={<Experience />} />
           <Route path="/products" element={<Catalogue {...shared} />} />
           <Route path="/products/:id" element={<ProductDetail {...shared} />} />
           <Route path="/solutions" element={<Solutions />} />
@@ -78,8 +81,8 @@ export default function App() {
           <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
-      <Footer />
-      {compare.length > 0 && loc.pathname !== "/compare" && (
+      {!isExperience && <Footer />}
+      {compare.length > 0 && loc.pathname !== "/compare" && !isExperience && (
         <div className="compare-bar">
           <div>
             <strong>{compare.length} / 3 products selected</strong>
