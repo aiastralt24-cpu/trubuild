@@ -1,8 +1,8 @@
 export const tasks = [
   ["roof", "Waterproof a roof", "Exposed terraces and roof surfaces"],
-  ["wet", "Waterproof a wet area", "Bathrooms, basements and water tanks"],
+  ["wet", "Waterproof a bathroom, basement or tank", "Bathrooms, basements and water tanks"],
   ["tiles", "Fix tiles", "Tile adhesives for walls and floors"],
-  ["grout", "Fill tile joints", "Cementitious and epoxy grouts"],
+  ["grout", "Fill gaps between tiles", "Cementitious and epoxy grouts"],
   [
     "other",
     "Something else / I’m not sure",
@@ -14,11 +14,11 @@ export function questions(task) {
     return [
       {
         key: "condition",
-        title: "What conditions will the roof face?",
+        title: "Is the roof open to sun and rain?",
         options: [
           ["exposed", "Exposed to sun and rain"],
-          ["covered", "Protected under a covering"],
-          ["ponding", "Standing water or heavy traffic"],
+          ["covered", "Under tiles or another covering"],
+          ["ponding", "Water collects on it, or it gets heavy foot traffic"],
           ["unsure", "I’m not sure"],
         ],
       },
@@ -26,7 +26,7 @@ export function questions(task) {
         key: "surface",
         title: "What is the roof surface?",
         options: [
-          ["screed", "Cement mortar or screed"],
+          ["screed", "Cement mortar / screed", "A cement-and-sand finishing layer over the roof slab"],
           ["mosaic", "China mosaic or roof tiles"],
           ["other", "Metal, other surface or not sure"],
         ],
@@ -46,10 +46,10 @@ export function questions(task) {
       },
       {
         key: "surface",
-        title: "What surface will be coated?",
+        title: "What surface are you waterproofing?",
         options: [
           ["concrete", "Concrete"],
-          ["masonry", "Cement or masonry"],
+          ["masonry", "Cement plaster, brick or blockwork"],
           ["other", "Existing tiles, other surface or not sure"],
         ],
       },
@@ -70,7 +70,7 @@ export function questions(task) {
         key: "surface",
         title: "What will the tiles be fixed onto?",
         options: [
-          ["cement", "Fully cured, sound cementitious surface"],
+          ["cement", "Firm, fully cured cement or concrete", "It has finished curing and is not loose, dusty or crumbling"],
           ["other", "Existing tiles, wood, metal or not sure"],
         ],
       },
@@ -78,9 +78,9 @@ export function questions(task) {
         key: "size",
         title: "What is the tile size?",
         options: [
-          ["medium", "Larger than 300 × 300, up to 600 × 600 mm"],
-          ["small", "300 × 300 mm or smaller"],
-          ["large", "Larger than 600 × 600 mm"],
+          ["medium", "Over 30 × 30 cm, up to 60 × 60 cm"],
+          ["small", "30 × 30 cm or smaller"],
+          ["large", "Over 60 × 60 cm"],
           ["unsure", "I’m not sure"],
         ],
       },
@@ -91,7 +91,7 @@ export function questions(task) {
         key: "area",
         title: "Where are the tile joints?",
         options: [
-          ["home", "Domestic indoor or outdoor area"],
+          ["home", "Inside or outside a home"],
           ["pool", "Swimming pool or fountain"],
           ["chemical", "Industrial or chemical exposure"],
           ["unsure", "I’m not sure"],
@@ -99,7 +99,7 @@ export function questions(task) {
       },
       {
         key: "surface",
-        title: "Which material are you grouting?",
+        title: "What are the tiles made of?",
         options: [
           ["ceramic", "Ceramic tile"],
           ["stone", "Marble or natural stone"],

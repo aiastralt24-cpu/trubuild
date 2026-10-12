@@ -15,6 +15,7 @@ import {
 import { tasks, questions, recommend, summary } from "./advisorRules.mjs";
 import { products, enquiryUrl } from "./data";
 import { Button, ProductGrid, Breadcrumb } from "./components";
+import "./advisor-simple.css";
 const icons = [House, Droplets, Grid2X2, Layers, HelpCircle];
 export default function Advisor({ compare, toggle }) {
   const [answers, setAnswers] = useState({});
@@ -30,27 +31,32 @@ export default function Advisor({ compare, toggle }) {
   const result = recommend(answers);
   const matches = products.filter((p) => result.ids.includes(p.id));
   function pick(key, val) {
-    setAnswers((a) => (key === "task" ? { task: val } : { ...a, [key]: val }));
-    setStep(step + 1);
+    // Changing an earlier answer clears later answers so the summary stays accurate.
+    setAnswers(a => key === "task" ? { task: val } : {
+      task: a.task,
+      ...Object.fromEntries(qs.slice(0, step - 1).filter(item => a[item.key]).map(item => [item.key, a[item.key]])),
+      [key]: val,
+    });
+    const needsHelp = key !== "task" && ["unsure", "other"].includes(val);
+    setStep(needsHelp ? total : step + 1);
   }
   function restart() {
     setAnswers({});
     setStep(0);
   }
   return (
-    <section className="advisor-page wrap">
-      <Breadcrumb items={[{ label: "Product Advisor" }]} />
+    <section className="advisor-page advisor-simple wrap">
+      <Breadcrumb items={[{ label: "Find my product" }]} />
       <div className="advisor-layout">
         <aside className="advisor-sidebar">
-          <span className="eyebrow">PRODUCT ADVISOR</span>
+          <span className="eyebrow">FIND MY PRODUCT</span>
           <h1>
-            Find a product for
+            A few answers.
             <br />
-            <em>your project.</em>
+            <em>The right direction.</em>
           </h1>
           <p>
-            Start with your project. Discover products using published TruBuild
-            application information.
+            Tell us what you’re working on. We’ll help you find products to consider, or connect you with someone who can help.
           </p>
           <div className="advisor-progress" aria-label="Progress">
             <span>
@@ -66,8 +72,8 @@ export default function Advisor({ compare, toggle }) {
             </span>
           </div>
           {answers.task && (
-            <div className="answers-summary">
-              <h3>Your project so far</h3>
+            <details className="answers-summary"><summary>Your choices</summary>
+
               <p>{tasks.find((t) => t[0] === answers.task)?.[1]}</p>
               {qs.map(
                 (x, i) =>
@@ -82,7 +88,7 @@ export default function Advisor({ compare, toggle }) {
                     </div>
                   ),
               )}
-            </div>
+            </details>
           )}
           <div className="advisor-help">
             <p>Prefer to speak to someone?</p>
@@ -98,7 +104,7 @@ export default function Advisor({ compare, toggle }) {
                 <span>
                   {step === 0
                     ? "START HERE"
-                    : `QUESTION ${step + 1} OF ${total}`}
+                    : `QUESTION ${step} OF ${qs.length}`}
                 </span>
                 {step > 0 && (
                   <button onClick={restart}>
@@ -106,12 +112,14 @@ export default function Advisor({ compare, toggle }) {
                   </button>
                 )}
               </div>
-              <h2>{step === 0 ? "What are you working on?" : q.title}</h2>
+              <h2>{step === 0 ? "What do you need help with?" : q.title}</h2>
               <p className="muted">
                 {step === 0
-                  ? "Choose the task that best describes your project."
-                  : "Choose one option. Not sure? We’ll help you ask the right questions."}
+                  ? "Choose one to get started. Most paths take just 2–3 questions."
+                  : "Choose the closest match. If you’re not sure, we can help you identify what you need."}
               </p>
+              {step > 0 && <div className="advisor-step-track" role="progressbar" aria-label="Questions completed" aria-valuemin={0} aria-valuemax={qs.length} aria-valuenow={step - 1}><span style={{width: `${((step - 1) / qs.length) * 100}%`}} /></div>}
+              {q?.key === "size" && <p className="advisor-size-help">Measure one tile’s length and width. For reference: 30 cm = 300 mm; 60 cm = 600 mm.</p>}
               <div
                 className={"choice-grid " + (step === 0 ? "task-choices" : "")}
               >
@@ -121,9 +129,11 @@ export default function Advisor({ compare, toggle }) {
                     <button
                       key={o[0]}
                       className="choice"
+                      aria-pressed={answers[step === 0 ? "task" : q.key] === o[0]}
                       onClick={() => pick(step === 0 ? "task" : q.key, o[0])}
                     >
                       {step === 0 && <Icon className="choice-icon" size={25} />}
+                      {q?.key === "size" && o[0] !== "unsure" && <span className={"advisor-tile-size size-" + o[0]} aria-hidden="true" />}
                       <div>
                         <strong>{o[1]}</strong>
                         {o[2] && <span>{o[2]}</span>}
@@ -152,10 +162,11 @@ export default function Advisor({ compare, toggle }) {
               </div>
               <h2>
                 {matches.length
-                  ? "A considered shortlist."
-                  : "Let’s bring in an expert."}
+                  ? "Products to consider for your project."
+                  : "Let’s help you choose."}
               </h2>
-              <p>{result.reason}</p>
+              <p>{matches.length ? "These options match the details you’ve shared. Check the requirements below before choosing." : "We need a little more information to suggest a suitable product. Send your answers to our team and we’ll help with the next step."}</p>
+              {matches.length > 0 && <details className="advisor-match-explanation"><summary>Why these products?</summary><p>{result.reason}</p></details>}
               <div className="notice">
                 <strong>
                   {matches.length ? "Before you choose" : "What happens next"}
@@ -177,8 +188,8 @@ export default function Advisor({ compare, toggle }) {
                   )}
                 >
                   {matches.length
-                    ? "Discuss my shortlist"
-                    : "Ask for technical guidance"}
+                    ? "Get help choosing"
+                    : "Help me find my product"}
                 </Button>
                 {compare.length > 0 && (
                   <Link to="/compare" className="text-link">
@@ -187,15 +198,13 @@ export default function Advisor({ compare, toggle }) {
                 )}
                 <button
                   className="text-link"
-                  onClick={() => setStep(Math.max(0, total - 1))}
+                  onClick={() => setStep(Math.max(0, qs.findLastIndex(item => answers[item.key]) + 1))}
                 >
                   <ArrowLeft size={17} /> Edit answers
                 </button>
               </div>
               <p className="fineprint">
-                Your answers will be included in the enquiry. Matches use
-                explicit application rules; no AI-generated compatibility advice
-                is used.
+                Your choices will be included in the enquiry, so you won’t need to explain everything again.
               </p>
             </>
           )}

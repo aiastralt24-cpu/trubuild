@@ -1,0 +1,31 @@
+.advisor-simple .advisor-sidebar h1{font-size:clamp(32px,3.3vw,48px);line-height:1.15}
+.advisor-simple .advisor-sidebar>p{font-size:16px;line-height:1.65}
+.advisor-simple .answers-summary summary,.advisor-simple .advisor-match-explanation summary{cursor:pointer;font-weight:600;min-height:44px;display:list-item;padding:12px 0}
+.advisor-simple .answers-summary>p{margin:12px 0;font-weight:600}
+.advisor-simple .answers-summary>div{display:flex;align-items:center;justify-content:space-between;gap:12px;border-top:1px solid var(--line);padding:12px 0;font-size:14px}
+.advisor-simple .answers-summary button{min-height:44px;text-decoration:underline}
+.advisor-simple .choice{min-height:98px;border-radius:3px;gap:18px;padding:22px;transition:background .18s,border-color .18s}
+.advisor-simple .choice[aria-pressed=true]{border-color:var(--ink);box-shadow:inset 3px 0 var(--yellow)}
+.advisor-simple .choice strong{font-size:18px;line-height:1.4}
+.advisor-simple .choice span{line-height:1.5}
+.advisor-simple .advisor-step-track{height:3px;background:#dde2d6;margin:24px 0}
+.advisor-simple .advisor-step-track>span{display:block;height:100%;background:var(--ink)}
+.advisor-simple .advisor-size-help{font-size:14px;padding:14px 18px;background:#e9ece3;line-height:1.6}
+.advisor-simple .advisor-tile-size{display:block;flex-shrink:0;width:32px;height:32px;border:2px solid #78816e;background:linear-gradient(135deg,#eeeede,#d7dcce)}
+.advisor-simple .advisor-tile-size.size-medium{width:40px;height:40px}
+.advisor-simple .advisor-tile-size.size-large{width:48px;height:48px}
+.advisor-simple .advisor-match-explanation{border-bottom:1px solid var(--line);margin:20px 0}
+.advisor-simple .advisor-match-explanation p{font-size:15px;line-height:1.65;padding:0 0 16px}
+@media(max-width:700px){
+.advisor-simple .advisor-layout{display:flex;flex-direction:column;gap:24px}
+.advisor-simple .advisor-sidebar{display:contents}
+.advisor-simple .advisor-sidebar>.eyebrow,.advisor-simple .advisor-sidebar>h1,.advisor-simple .advisor-sidebar>p,.advisor-simple .advisor-progress{display:none}
+.advisor-simple .advisor-main{order:0;width:100%;padding:24px 18px}
+.advisor-simple .answers-summary{order:1;margin:0;border-top:1px solid var(--line)}
+.advisor-simple .advisor-help{display:block;order:2;margin:0 0 24px}
+.advisor-simple .choice-grid{grid-template-columns:1fr}
+.advisor-simple .choice{padding:18px 16px;min-height:84px;gap:14px}
+.advisor-simple .choice strong{font-size:17px}
+.advisor-simple .advisor-main>h2{font-size:29px;line-height:1.2}
+}
+@media(prefers-reduced-motion:reduce){.advisor-simple .choice{transition:none}}
