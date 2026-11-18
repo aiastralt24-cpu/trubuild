@@ -101,13 +101,38 @@ export const rooms = [
         [-0.8, 1],
       ],
       mask: [
-        [0, 0.326],
-        [0.16, 0.303],
-        [0.42, 0.273],
-        [0.58, 0.256],
-        [0.81, 0.279],
-        [0.87, 0.309],
-        [1, 0.344],
+        [0, 0.299681],
+        [0.052632, 0.29543],
+        [0.052632, 0.308183],
+        [0.065789, 0.311371],
+        [0.101675, 0.310308],
+        [0.118421, 0.306057],
+        [0.118421, 0.285866],
+        [0.197967, 0.285866],
+        [0.197967, 0.300744],
+        [0.207536, 0.301807],
+        [0.209928, 0.283741],
+        [0.316388, 0.268863],
+        [0.316388, 0.27949],
+        [0.322967, 0.27949],
+        [0.322967, 0.2678],
+        [0.407297, 0.260361],
+        [0.409689, 0.272051],
+        [0.415072, 0.272051],
+        [0.416866, 0.258236],
+        [0.424641, 0.257173],
+        [0.431818, 0.260361],
+        [0.447368, 0.260361],
+        [0.453947, 0.253985],
+        [0.488636, 0.256111],
+        [0.503589, 0.259299],
+        [0.581938, 0.259299],
+        [0.585526, 0.25186],
+        [0.815789, 0.272051],
+        [0.819378, 0.277365],
+        [0.864234, 0.27949],
+        [0.864234, 0.311371],
+        [1, 0.328374],
         [1, 1],
         [0, 1],
       ],
@@ -116,10 +141,10 @@ export const rooms = [
     },
     wall: {
       quad: [
-        [0.865, 0],
+        [0.867823, 0],
         [1, 0],
-        [1, 0.292],
-        [0.865, 0.277],
+        [1, 0.282678],
+        [0.867823, 0.274176],
       ],
       cols: 2,
       rows: 3,
@@ -139,12 +164,25 @@ export const rooms = [
         [-0.18, 1],
       ],
       mask: [
-        [0, 0.879],
-        [0.2, 0.73],
-        [0.795, 0.73],
-        [0.8, 0.81],
-        [0.835, 0.91],
-        [0.88, 1],
+        [0, 0.880037],
+        [0.2, 0.731022],
+        [0.26125, 0.727273],
+        [0.299375, 0.719775],
+        [0.299375, 0.727273],
+        [0.309375, 0.72821],
+        [0.3225, 0.714152],
+        [0.576875, 0.713215],
+        [0.576875, 0.72821],
+        [0.58625, 0.72821],
+        [0.58625, 0.713215],
+        [0.666875, 0.712277],
+        [0.68625, 0.787254],
+        [0.69, 0.787254],
+        [0.69, 0.712277],
+        [0.796875, 0.712277],
+        [0.796875, 0.77507],
+        [0.805625, 0.802249],
+        [0.89625, 1],
         [0, 1],
       ],
       cols: 4,
@@ -152,13 +190,87 @@ export const rooms = [
     },
     wall: {
       quad: [
-        [0.265, 0],
-        [0.665, 0],
-        [0.665, 0.592],
-        [0.265, 0.592],
+        [0.261875, 0],
+        [0.798125, 0],
+        [0.798125, 0.712277],
+        [0.261875, 0.712277],
       ],
       cols: 4,
       rows: 4,
+      mask: [
+        [0.261875, 0],
+        [0.798125, 0],
+        [0.798125, 0.548266],
+        [0.784375, 0.548266],
+        [0.784375, 0.62418],
+        [0.798125, 0.640112],
+        [0.798125, 0.712277],
+        [0.261875, 0.727273],
+      ],
+      exclusions: [
+        [
+          [0.665625, 0],
+          [0.66875, 0],
+          [0.66875, 0.712277],
+          [0.665625, 0.712277],
+        ],
+        [
+          [0.686875, 0],
+          [0.69, 0],
+          [0.69, 0.712277],
+          [0.686875, 0.712277],
+        ],
+        [
+          [0.761875, 0.342081],
+          [0.798125, 0.342081],
+          [0.798125, 0.414246],
+          [0.761875, 0.414246],
+        ],
+        [
+          [0.735625, 0.081537],
+          [0.798125, 0.081537],
+          [0.798125, 0.091846],
+          [0.741875, 0.091846],
+          [0.740625, 0.109653],
+          [0.760625, 0.114339],
+          [0.76375, 0.123711],
+          [0.755, 0.132146],
+          [0.733125, 0.133083],
+          [0.715625, 0.125586],
+          [0.713125, 0.117151],
+          [0.71875, 0.111528],
+          [0.734375, 0.108716],
+        ],
+        [
+          [0.29, 0.604499],
+          [0.306875, 0.594189],
+          [0.336875, 0.594189],
+          [0.35, 0.584817],
+          [0.384375, 0.581068],
+          [0.404375, 0.589503],
+          [0.406875, 0.579194],
+          [0.423125, 0.573571],
+          [0.43375, 0.57732],
+          [0.433125, 0.589503],
+          [0.428125, 0.595127],
+          [0.59375, 0.594189],
+          [0.59625, 0.604499],
+          [0.59625, 0.621368],
+          [0.58625, 0.621368],
+          [0.58625, 0.712277],
+          [0.576875, 0.712277],
+          [0.576875, 0.621368],
+          [0.39375, 0.621368],
+          [0.3925, 0.675726],
+          [0.335, 0.680412],
+          [0.335, 0.621368],
+          [0.3225, 0.621368],
+          [0.3225, 0.712277],
+          [0.299375, 0.727273],
+          [0.299375, 0.620431],
+          [0.29, 0.620431],
+        ],
+      ],
     },
   },
 ];
@@ -207,7 +319,7 @@ function cachedLighting(photo, w, h) {
   lightingCache.set(photo, { key, data });
   return data;
 }
-function cachedMask(geometry, w, h) {
+function cachedMask(geometry, w, h, photo) {
   const key = `${w}x${h}`;
   let cache = maskCache.get(geometry);
   if (cache?.key === key) return cache;
@@ -217,6 +329,38 @@ function cachedMask(geometry, w, h) {
   const mc = mask.getContext("2d", { willReadFrequently: true });
   polygon(mc, geometry.mask || geometry.quad, w, h);
   mc.fill();
+  // Keep fixtures visible inside a surface, not just along its perimeter.
+  mc.globalCompositeOperation = "destination-out";
+  for (const exclusion of geometry.exclusions || []) {
+    polygon(mc, exclusion, w, h);
+    mc.fill();
+  }
+  mc.globalCompositeOperation = "source-over";
+  if (geometry.foliage?.length) {
+    const detail = document.createElement("canvas");
+    detail.width = w;
+    detail.height = h;
+    const dc = detail.getContext("2d", { willReadFrequently: true });
+    for (const outline of geometry.foliage) {
+      polygon(dc, outline, w, h);
+      dc.fill();
+    }
+    const region = dc.getImageData(0, 0, w, h).data;
+    dc.clearRect(0, 0, w, h);
+    dc.drawImage(photo, 0, 0, w, h);
+    const original = dc.getImageData(0, 0, w, h).data;
+    const cutout = mc.getImageData(0, 0, w, h);
+    for (let i = 0; i < region.length; i += 4) {
+      if (!region[i + 3]) continue;
+      const luminance =
+        original[i] * 0.2126 +
+        original[i + 1] * 0.7152 +
+        original[i + 2] * 0.0722;
+      const background = Math.max(0, Math.min(1, (luminance - 110) / 40));
+      cutout.data[i + 3] *= 1 - (region[i + 3] / 255) * (1 - background);
+    }
+    mc.putImageData(cutout, 0, 0);
+  }
   cache = { key, mask, mc, alpha: mc.getImageData(0, 0, w, h) };
   maskCache.set(geometry, cache);
   return cache;
@@ -227,7 +371,7 @@ export function renderSurface(ctx, photo, geometry, finish) {
     h = ctx.canvas.height;
   const inv = invert(homography(geometry.quad));
   if (!inv) return;
-  const { mask, mc, alpha } = cachedMask(geometry, w, h);
+  const { mask, mc, alpha } = cachedMask(geometry, w, h, photo);
   const pixels = new ImageData(new Uint8ClampedArray(alpha.data), w, h);
   const light = cachedLighting(photo, w, h);
   const material =
