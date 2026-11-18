@@ -20,16 +20,22 @@ const types = {
     title: "Tile adhesive",
     intro: "Plan the bags you need to lay your tiles.",
     icon: Grid2X2,
+    image: "/images/hero-interior-floor.webp",
+    number: "01",
   },
   grout: {
     title: "Tile grout",
     intro: "Calculate joint filling quantities from your tile dimensions.",
     icon: PaintBucket,
+    image: "/images/guides/grout.webp",
+    number: "02",
   },
   waterproofing: {
     title: "Waterproofing",
     intro: "Estimate coating quantities for your surface area.",
     icon: Droplets,
+    image: "/images/hero-roof-coating.webp",
+    number: "03",
   },
 };
 function available(kind) {
@@ -48,21 +54,24 @@ export default function MaterialCalculators() {
   return (
     <div className="material-calcs">
       <header>
-        <Link to="/">
-          TRU<span>BUILD</span>
+        <Link to="/" aria-label="TruBuild home">
+          <img src="/images/wordmark-clean.webp" alt="TruBuild" />
         </Link>
+        <span className="calc-header-caption">
+          PROJECT PLANNING / MATERIAL CALCULATORS
+        </span>
         <Link to="/calculator">
           <ArrowLeft size={16} /> All calculators
         </Link>
       </header>
       {!kind ? (
         <>
-          <div className="calc-heading">
+          <div className="calc-heading calc-home-heading">
             <p className="calc-eyebrow">PLAN YOUR PROJECT</p>
             <h1>
-              Every material.
+              Build with a plan.
               <br />
-              Its own calculator.
+              Start with the right quantity.
             </h1>
             <p>
               Choose what you’re working on. Get a clear quantity estimate and
@@ -72,7 +81,13 @@ export default function MaterialCalculators() {
           <div className="calc-options">
             {Object.entries(types).map(([key, t]) => (
               <Link key={key} to={`/calculator/${key}`}>
-                <t.icon size={32} />
+                <div className="calc-card-image">
+                  <img src={t.image} alt="" />
+                  <span className="calc-card-number">{t.number}</span>
+                  <span className="calc-card-icon">
+                    <t.icon size={24} />
+                  </span>
+                </div>
                 <h2>{t.title}</h2>
                 <p>{t.intro}</p>
                 <span>
@@ -167,7 +182,13 @@ function Calculator({ kind }) {
       </nav>
       <div className="calc-layout">
         <form onSubmit={calculate}>
-          <h2>Project details</h2>
+          <div className="calc-section-title">
+            <span>01</span>
+            <div>
+              <h2>Project details</h2>
+              <p>A few measurements. A clearer material plan.</p>
+            </div>
+          </div>
           <label>
             Choose your product
             <select
@@ -273,7 +294,21 @@ function Calculator({ kind }) {
           </button>
         </form>
         <aside aria-live="polite">
-          <img src={product.image} alt={product.name} />
+          <MeasurementDiagram
+            kind={kind}
+            input={input}
+            thickness={rule?.thickness}
+          />
+          <div className="calc-selected-product">
+            <div className="calc-pack-image">
+              <img src={product.image} alt={product.name} />
+            </div>
+            <div>
+              <p className="calc-eyebrow">SELECTED PRODUCT</p>
+              <h3>{product.name}</h3>
+              <span>{input.pack} kg pack</span>
+            </div>
+          </div>
           <p className="calc-eyebrow">YOUR MATERIAL ESTIMATE</p>
           {result ? (
             <>
@@ -316,7 +351,7 @@ function Calculator({ kind }) {
             </>
           ) : (
             <>
-              <h2>Ready when you are.</h2>
+              <h2>Your project, quantified.</h2>
               <p>
                 Enter your project details to see required kilograms and whole
                 packs.
@@ -326,5 +361,91 @@ function Calculator({ kind }) {
         </aside>
       </div>
     </>
+  );
+}
+
+function MeasurementDiagram({ kind, input, thickness }) {
+  const tile = kind === "grout";
+  const ratio = tile
+    ? Math.max(
+        0.45,
+        Math.min(2, Number(input.length) / Number(input.width) || 1),
+      )
+    : 1.65;
+  const w = 180 * Math.sqrt(ratio),
+    h = 110 / Math.sqrt(ratio),
+    x = (360 - w) / 2,
+    y = (230 - h) / 2;
+  const gap = tile ? Math.max(3, Math.min(16, Number(input.joint) || 3)) : 5;
+  const area =
+    Number(input.area) > 0
+      ? `${fmt(Number(input.area))} ${input.unit === "ft2" ? "sq ft" : "m²"}`
+      : "Your surface area";
+  return (
+    <div className="calc-diagram">
+      <div className="calc-diagram-heading">
+        <span>{tile ? "JOINT & TILE PREVIEW" : "SURFACE PREVIEW"}</span>
+        <span>Illustrative · not to scale</span>
+      </div>
+      <svg
+        viewBox="0 0 360 250"
+        role="img"
+        aria-label={
+          tile
+            ? `Tile ${input.length} by ${input.width} mm, joint ${input.joint} mm, depth ${input.depth} mm`
+            : area
+        }
+      >
+        <path
+          d="M20 230H340 M20 210H340 M20 190H340 M20 170H340 M20 150H340 M20 130H340 M20 110H340 M20 90H340 M20 70H340 M20 50H340 M40 35V230 M80 35V230 M120 35V230 M160 35V230 M200 35V230 M240 35V230 M280 35V230 M320 35V230"
+          stroke="#dbe1d4"
+          strokeWidth=".6"
+        />
+        <rect x={x} y={y + 8} width={w} height={h} rx="3" fill="#aab8a1" />
+        <rect
+          x={x}
+          y={y}
+          width={w}
+          height={h}
+          rx="3"
+          fill={tile ? "#ffcc00" : "#d2dcc9"}
+          stroke="#778b6b"
+        />
+        {tile &&
+          [0, 1, 2, 3].map((i) => (
+            <rect
+              key={i}
+              x={x + ((i % 2) * (w + gap)) / 2}
+              y={y + (Math.floor(i / 2) * (h + gap)) / 2}
+              width={(w - gap) / 2}
+              height={(h - gap) / 2}
+              rx="2"
+              fill="#f5f3eb"
+              stroke="#b6bcae"
+            />
+          ))}
+        <path
+          d={`M${x} ${y - 14}h${w} M${x} ${y - 19}v10 M${x + w} ${y - 19}v10`}
+          fill="none"
+          stroke="#52634a"
+        />
+        <text
+          x="180"
+          y={y - 24}
+          textAnchor="middle"
+          fill="#34442e"
+          fontSize="12"
+        >
+          {tile ? `${input.length || "—"} mm` : area}
+        </text>
+        <text x="180" y="235" textAnchor="middle" fill="#34442e" fontSize="12">
+          {tile
+            ? `${input.width || "—"} mm wide · ${input.joint || "—"} mm joints · ${input.depth || "—"} mm deep`
+            : kind === "tile-adhesive"
+              ? `${thickness} mm adhesive bed · published coverage`
+              : "Coating system included in the published rate"}
+        </text>
+      </svg>
+    </div>
   );
 }
