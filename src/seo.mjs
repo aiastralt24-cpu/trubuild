@@ -4,6 +4,10 @@ import { solutionContent } from './solutionContent.mjs';
 export const SITE_URL = (import.meta.env?.VITE_SITE_URL || 'https://www.trubuild.in').replace(/\/$/, '');
 const defaults = {
   "/search": ["Search Products, Guides & Technical Data | TruBuild", "Find TruBuild products and source-backed guidance for your project."],
+  '/calculator/tile-adhesive': ['Tile Adhesive Calculator | TruBuild', 'Estimate tile adhesive quantities and whole bags using published coverage.'],
+  '/calculator/grout': ['Tile Grout Calculator | TruBuild', 'Estimate grout quantities from tile size and joint dimensions.'],
+  '/calculator/waterproofing': ['Waterproofing Calculator | TruBuild', 'Estimate waterproofing coating quantities and whole packs.'],
+  '/calculator/project': ['Project Quotation Workspace | TruBuild', 'Plan multiple applications and project quotations.'],
   '/calculator': ['Project Usage Calculator | TruBuild', 'Plan material quantities, compare whole-pack options and request a project quotation.'],
   '/workspace': ['Sales Workspace | TruBuild', 'Authorised lead and quotation workspace.'],
   '/visualizer': ['Tile & Grout Visualizer | TruBuild', 'Explore tile finishes, grout colours and layouts in a sample room or your own photo. Compare finishes and download your illustrative TruBuild room preview.'],

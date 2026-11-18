@@ -1,3 +1,4 @@
+import MaterialCalculators from "./MaterialCalculators";
 import SearchPage from "./SearchPage";
 import { CompareProducts } from "./CompareProducts";
 import React, { useEffect, useState } from "react";
@@ -49,7 +50,8 @@ export default function App() {
   const isStudio =
     loc.pathname.replace(/\/+$/, "") === "/visualizer" ||
     ["/calculator", "/workspace"].includes(loc.pathname.replace(/\/+$/, "")) ||
-    loc.pathname.startsWith("/quotation/");
+    loc.pathname.startsWith("/quotation/") ||
+    loc.pathname.startsWith("/calculator/");
   useEffect(() => {
     if (!loc.hash) window.scrollTo({ top: 0, left: 0, behavior: "instant" });
     applyMetadata(loc.pathname);
@@ -85,7 +87,9 @@ export default function App() {
           <Route path="/" element={<Home />} />
           <Route path="/experience" element={<Experience />} />
           <Route path="/visualizer" element={<Visualizer />} />
-          <Route path="/calculator" element={<CalculatorPortal />} />
+          <Route path="/calculator" element={<MaterialCalculators />} />
+          <Route path="/calculator/project" element={<CalculatorPortal />} />
+          <Route path="/calculator/:kind" element={<MaterialCalculators />} />
           <Route path="/workspace" element={<SalesWorkspace />} />
           <Route path="/quotation/:token" element={<QuotationPortal />} />
           <Route
