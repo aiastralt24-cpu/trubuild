@@ -1,3 +1,4 @@
+import { CompareProducts } from "./CompareProducts";
 import React, { useEffect, useState } from "react";
 import { Routes, Route, useLocation, Link } from "react-router-dom";
 import { X, ArrowRight } from "lucide-react";
@@ -5,7 +6,7 @@ import { Header, Footer } from "./components";
 import Home from "./Home";
 import Experience from "./Experience";
 import { BlogIndex, BlogDetail } from "./Blogs.jsx";
-import { Catalogue, ProductDetail, Compare, NotFound } from "./Catalogue";
+import { Catalogue, ProductDetail, NotFound } from "./Catalogue";
 import Advisor from "./Advisor";
 import {
   Solutions,
@@ -71,7 +72,7 @@ export default function App() {
             element={<SolutionDetail {...shared} />}
           />
           <Route path="/advisor" element={<Advisor {...shared} />} />
-          <Route path="/compare" element={<Compare {...shared} />} />
+          <Route path="/compare" element={<CompareProducts compare={compare} onSelectionChange={setCompare} />} />
           <Route path="/blogs" element={<BlogIndex />} />
           <Route path="/blogs/:slug" element={<BlogDetail />} />
           <Route path="/about" element={<About />} />

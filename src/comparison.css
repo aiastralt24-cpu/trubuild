@@ -1,0 +1,357 @@
+.cp-page {
+  padding-top: 42px;
+  padding-bottom: 80px;
+}
+.cp-back {
+  font-size: 13px;
+  color: #596456;
+}
+.cp-intro {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 60px;
+  margin: 42px 0;
+}
+.cp-intro h1 {
+  font-size: clamp(36px, 4.7vw, 68px);
+  line-height: 1.07;
+  letter-spacing: -2px;
+  margin: 16px 0 0;
+}
+.cp-intro h1 em {
+  font-style: normal;
+  color: #73806d;
+}
+.cp-intro > p {
+  max-width: 360px;
+  line-height: 1.7;
+  color: #65705f;
+  margin-bottom: 3px;
+}
+.cp-toolbar {
+  border-top: 1px solid #d9ddd3;
+  padding: 20px 0;
+  display: flex;
+  gap: 28px;
+  align-items: center;
+  font-size: 13px;
+}
+.cp-toolbar > span {
+  margin-right: auto;
+  color: #697160;
+}
+.cp-toolbar strong {
+  color: #20281e;
+}
+.cp-toolbar label {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  cursor: pointer;
+}
+.cp-toolbar input {
+  width: 17px;
+  height: 17px;
+  accent-color: #354b30;
+}
+.cp-toolbar button {
+  background: none;
+  border: 0;
+  text-decoration: underline;
+  cursor: pointer;
+  color: #626b5c;
+}
+.cp-notice {
+  font-size: 13px;
+  padding: 14px 18px;
+  background: #f4efd9;
+  border-left: 3px solid #b9a243;
+  margin: 0 0 20px;
+}
+.cp-scroll {
+  overflow: auto;
+  border: 1px solid #d9ddd3;
+  isolation: isolate;
+}
+.cp-table {
+  width: 100%;
+  min-width: 980px;
+  border-collapse: separate;
+  border-spacing: 0;
+  table-layout: fixed;
+  background: #fcfbf7;
+}
+.cp-label-col {
+  width: 190px;
+}
+.cp-table th,
+.cp-table td {
+  border-right: 1px solid #dddcd2;
+  border-bottom: 1px solid #dddcd2;
+  text-align: left;
+  vertical-align: top;
+  padding: 26px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.65;
+  overflow-wrap: anywhere;
+}
+.cp-table tr > *:last-child {
+  border-right: 0;
+}
+.cp-table tbody tr:last-child > * {
+  border-bottom: 0;
+}
+.cp-table tbody th {
+  position: sticky;
+  left: 0;
+  z-index: 2;
+  background: #f1f0e8;
+  color: #697063;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.cp-table tbody th small {
+  display: block;
+  font-size: 10px;
+  font-weight: 400;
+  text-transform: none;
+  letter-spacing: 0;
+  margin-top: 8px;
+}
+.cp-table td > span {
+  white-space: pre-line;
+  display: block;
+}
+.cp-table .cp-corner {
+  background: #f1f0e8;
+  color: #72796b;
+}
+.cp-corner > span {
+  font-size: 10px;
+  letter-spacing: 1.3px;
+  font-weight: 700;
+}
+.cp-corner p {
+  font-size: 23px;
+  line-height: 1.3;
+  color: #343d30;
+  margin: 22px 0;
+}
+.cp-corner small {
+  font-size: 12px;
+  line-height: 1.7;
+  display: block;
+}
+.cp-table .cp-product {
+  padding: 22px 26px 28px;
+  position: relative;
+}
+.cp-product select {
+  width: 100%;
+  background: #fff;
+  border: 1px solid #d4d9ce;
+  border-radius: 3px;
+  padding: 10px 28px 10px 10px;
+  font: inherit;
+  font-size: 11px;
+  color: #4b5744;
+  cursor: pointer;
+}
+.cp-product .cp-remove {
+  position: absolute;
+  right: 20px;
+  top: 80px;
+  width: 28px;
+  height: 28px;
+  border: 1px solid #dddcd2;
+  border-radius: 50%;
+  background: #fff;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+}
+.cp-pack {
+  height: 160px;
+  margin: 24px 0 18px;
+  display: flex;
+  justify-content: center;
+}
+.cp-pack img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  mix-blend-mode: multiply;
+}
+.cp-category {
+  display: block;
+  font-size: 9px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #6d7665;
+}
+.cp-product h2 {
+  font-size: clamp(20px, 2.2vw, 30px);
+  line-height: 1.15;
+  margin: 10px 0 14px;
+  letter-spacing: -0.7px;
+}
+.cp-product > p {
+  font-size: 13px;
+  line-height: 1.65;
+  color: #697160;
+  margin: 0 0 20px;
+}
+.cp-product a,
+.cp-document {
+  display: inline-flex;
+  gap: 7px;
+  align-items: center;
+  font-size: 13px;
+  font-weight: 600;
+  color: #334e2c;
+}
+.cp-placeholder {
+  min-height: 365px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #747c6d;
+}
+.cp-placeholder > span {
+  font-size: 54px;
+  font-weight: 300;
+  color: #c5cbbb;
+}
+.cp-placeholder h2 {
+  font-size: 21px;
+  color: #7b8475;
+}
+.cp-placeholder p {
+  font-size: 13px;
+  font-weight: 400;
+}
+.cp-table .cp-group th {
+  background: #e5e8de;
+  padding: 12px 26px;
+  font-size: 10px;
+  color: #7b8471;
+  position: static;
+  letter-spacing: 1.5px;
+}
+.cp-group span {
+  margin-left: 18px;
+  color: #384631;
+}
+.cp-missing,
+.cp-empty-value {
+  color: #92998b;
+  font-size: 12px;
+}
+.cp-version {
+  display: block;
+  margin-top: 8px;
+  color: #7e8677;
+  font-size: 11px;
+}
+.cp-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  margin-top: 24px;
+}
+.cp-bottom p {
+  font-size: 12px;
+  line-height: 1.8;
+  color: #747d6c;
+  max-width: 650px;
+}
+.cp-bottom > a {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  flex-shrink: 0;
+  background: #293d24;
+  color: white;
+  padding: 17px 23px;
+  font-size: 13px;
+}
+.cp-scroll-hint {
+  display: none;
+}
+.cp-sr {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+}
+.cp-page :focus-visible {
+  outline: 2px solid #9a7d18;
+  outline-offset: 3px;
+}
+@media (max-width: 760px) {
+  .cp-page {
+    padding-top: 25px;
+  }
+  .cp-intro {
+    display: block;
+    margin: 28px 0;
+  }
+  .cp-intro h1 {
+    letter-spacing: -1px;
+  }
+  .cp-intro > p {
+    font-size: 14px;
+    margin-top: 20px;
+  }
+  .cp-toolbar {
+    gap: 14px;
+    flex-wrap: wrap;
+    font-size: 12px;
+  }
+  .cp-toolbar > span {
+    width: 100%;
+  }
+  .cp-table {
+    min-width: 920px;
+  }
+  .cp-label-col {
+    width: 130px;
+  }
+  .cp-table th,
+  .cp-table td {
+    padding: 18px;
+  }
+  .cp-table .cp-product {
+    padding: 18px;
+  }
+  .cp-table tbody th {
+    font-size: 10px;
+    letter-spacing: 0.5px;
+  }
+  .cp-corner p {
+    font-size: 19px;
+  }
+  .cp-scroll-hint {
+    display: block;
+    font-size: 11px;
+    color: #697160;
+    margin: 0 0 12px;
+  }
+  .cp-bottom {
+    display: block;
+  }
+  .cp-bottom > a {
+    margin-top: 20px;
+    width: fit-content;
+  }
+}
+/* Keep removal controls above the product image's compositing layer. */
+.cp-product .cp-remove { z-index: 3; }
