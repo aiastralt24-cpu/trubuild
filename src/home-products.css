@@ -1,0 +1,115 @@
+/* Featured products: brighter packaging stages with consistent visual weight. */
+.new-home .product-lineup {
+  gap: 20px;
+  background: transparent;
+  border: 0;
+  align-items: stretch;
+}
+.new-home .specimen {
+  display: flex;
+  flex-direction: column;
+  background: #fffefa;
+  border: 1px solid #e0e3d9;
+  border-radius: 8px;
+  padding: 24px;
+  box-shadow: 0 4px 18px #19271f04;
+  transition: border-color .2s, box-shadow .2s;
+}
+.new-home .specimen:hover,
+.new-home .specimen:focus-visible {
+  border-color: #b9c4af;
+  box-shadow: 0 12px 28px #19271f0b;
+}
+.new-home .specimen-top {
+  font-size: 11px;
+  line-height: 1.5;
+  min-height: 34px;
+  letter-spacing: .04em;
+  color: #52604b;
+  align-items: flex-start;
+}
+.new-home .specimen-image {
+  height: clamp(220px, 22vw, 300px);
+  margin: 8px -8px 18px;
+  overflow: visible;
+}
+.new-home .specimen-image::after {
+  content: "";
+  position: absolute;
+  width: 52%;
+  height: 13px;
+  bottom: 9px;
+  left: 24%;
+  border-radius: 50%;
+  background: #36442c;
+  opacity: .10;
+  filter: blur(10px);
+  z-index: -1;
+}
+.new-home .specimen-image img {
+  width: 87%;
+  height: 91%;
+  max-height: 91%;
+  mix-blend-mode: normal;
+  object-fit: contain;
+  filter: drop-shadow(0 8px 6px #18271f12);
+}
+.new-home .specimen-kit .specimen-image img {
+  width: 100%;
+  height: 100%;
+  max-height: 100%;
+}
+.new-home .specimen-bottom {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  border-top: 1px solid #e0e4d9;
+  padding: 22px 0 0;
+}
+.new-home .specimen-bottom h3 {
+  font-size: clamp(21px, 1.85vw, 29px);
+  font-weight: 600;
+  line-height: 1.2;
+  margin: 0 0 12px;
+  letter-spacing: -.025em;
+}
+.new-home .specimen-bottom p {
+  color: #54604e;
+  font-size: 14px;
+  line-height: 1.6;
+  max-width: 34ch;
+  min-height: 3.2em;
+  margin-bottom: 24px;
+}
+.new-home .specimen-cta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: auto;
+  font-size: 13px;
+  font-weight: 600;
+  color: #1c2b22;
+}
+.new-home .specimen-arrow {
+  width: 38px;
+  height: 38px;
+  flex-shrink: 0;
+  background: #ffcc00;
+  border: 0;
+}
+@media (max-width: 900px) and (min-width: 701px) {
+  .new-home .product-lineup { gap: 12px; }
+  .new-home .specimen { padding: 18px; }
+}
+@media (max-width: 700px) {
+  .new-home .product-lineup { gap: 18px; grid-template-columns: 1fr; }
+  .new-home .specimen { padding: 22px; }
+  .new-home .specimen-image { height: 260px; margin: 6px 0 16px; }
+  .new-home .specimen-bottom h3 { font-size: 26px; }
+  .new-home .specimen-image img { max-width: 290px; }
+  .new-home .specimen-kit .specimen-image img { max-width: 330px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .new-home .specimen, .new-home .specimen-image img { transition: none; }
+}

@@ -5,6 +5,7 @@ import { solutions, featured, products } from "./data";
 import { useHomeMotion } from "./useHomeMotion";
 import HomeVisualizer from "./HomeVisualizer";
 import "./home-motion.css";
+import "./home-products.css";
 
 // Temporarily hide the homepage preview; retain the studio and its links.
 const SHOW_HOME_VISUALIZER = false;
@@ -182,12 +183,9 @@ export default function Home() {
         </div>
         <div className="product-lineup">
           {featured.map((p, index) => (
-            <Link data-motion data-motion-order={index} className="specimen" to={"/products/" + p.id} key={p.id}>
+            <Link data-motion data-motion-order={index} className={`specimen${p.id === "trubuild-aqualock-flexi" ? " specimen-kit" : ""}`} to={"/products/" + p.id} key={p.id}>
               <div className="specimen-top">
                 <span>{p.category}</span>
-                <span className="specimen-arrow">
-                  <ArrowUpRight size={22} />
-                </span>
               </div>
               <div className="specimen-image">
                 <img
@@ -199,6 +197,7 @@ export default function Home() {
               <div className="specimen-bottom">
                 <h3>{p.name.replace(/^TruBuild /i, "")}</h3>
                 <p>{featuredSummaries[p.id]}</p>
+                <span className="specimen-cta">Explore product<span className="specimen-arrow" aria-hidden="true"><ArrowUpRight size={20} /></span></span>
               </div>
             </Link>
           ))}
