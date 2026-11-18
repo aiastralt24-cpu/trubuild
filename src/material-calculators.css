@@ -667,3 +667,59 @@
     transition: none !important;
   }
 }
+
+.calc-breadcrumb {
+  padding-top: 23px;
+}
+.calc-breadcrumb ol {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+  line-height: 1.6;
+}
+.calc-breadcrumb li {
+  display: inline-flex;
+  align-items: center;
+  min-width: 0;
+}
+.calc-breadcrumb li + li::before {
+  content: "";
+  width: 5px;
+  height: 5px;
+  border-top: 1px solid #7c8875;
+  border-right: 1px solid #7c8875;
+  transform: rotate(45deg);
+  margin: 0 14px 0 11px;
+  flex-shrink: 0;
+}
+.calc-breadcrumb a {
+  color: #58684f;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.calc-breadcrumb a:hover {
+  color: #19271f;
+}
+.calc-breadcrumb [aria-current] {
+  color: #19271f;
+  font-weight: 500;
+}
+.calc-breadcrumb + .calc-heading {
+  padding-top: 26px;
+}
+@media (max-width: 700px) {
+  .calc-breadcrumb {
+    padding-top: 18px;
+  }
+  .calc-breadcrumb ol {
+    font-size: 12px;
+  }
+  .calc-breadcrumb + .calc-heading {
+    padding-top: 22px;
+  }
+}

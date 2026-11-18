@@ -1,12 +1,6 @@
 import React, { useState } from "react";
 import { Link, useParams } from "react-router-dom";
-import {
-  ArrowLeft,
-  ArrowRight,
-  Grid2X2,
-  PaintBucket,
-  Droplets,
-} from "lucide-react";
+import { ArrowRight, Grid2X2, PaintBucket, Droplets } from "lucide-react";
 import { products } from "./data";
 import {
   adhesiveRules,
@@ -60,10 +54,30 @@ export default function MaterialCalculators() {
         <span className="calc-header-caption">
           PROJECT PLANNING / MATERIAL CALCULATORS
         </span>
-        <Link to="/calculator">
-          <ArrowLeft size={16} /> All calculators
-        </Link>
       </header>
+      <nav className="calc-breadcrumb" aria-label="Breadcrumb">
+        <ol>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            {kind ? (
+              <Link to="/calculator">Calculators</Link>
+            ) : (
+              <span aria-current="page">Calculators</span>
+            )}
+          </li>
+          {kind && (
+            <li>
+              <span aria-current="page">
+                {types[kind]
+                  ? `${types[kind].title} calculator`
+                  : "Page not found"}
+              </span>
+            </li>
+          )}
+        </ol>
+      </nav>
       {!kind ? (
         <>
           <div className="calc-heading calc-home-heading">
