@@ -35,7 +35,7 @@ Product, general and TDS enquiries use a shared Supabase Edge Function. TDS down
 
 ## Deployment
 
-`npm run build` produces prerendered route HTML, metadata, robots.txt and a sitemap in `dist/`. The approved canonical origin is https://www.trubuild.in (override at build time with VITE_SITE_URL if needed). Serve generated route files before fallback and return a real HTTP 404 using `404.html` for unknown routes. Do not use the prerendered home page as a universal fallback. See [SEO deployment and research notes](docs/SEO-AEO-STRATEGY.md). No live deployment or search-engine submission has been performed.
+`npm run build` produces prerendered route HTML, metadata, robots.txt and a sitemap in `dist/`. The approved canonical origin is https://www.trubuild.in (override at build time with VITE_SITE_URL if needed). Serve generated route files before fallback and return a real HTTP 404 using `404.html` for unknown routes. Do not use the prerendered home page as a universal fallback. See [SEO deployment and research notes](docs/SEO-AEO-STRATEGY.md). The GitHub `main` branch is connected to Vercel production at https://trubuild-sage.vercel.app. The corporate canonical hostname remains https://www.trubuild.in; this does not mean its DNS is connected to this project. No search-engine submission has been performed.
 
 ## TDS update — 9 October 2026
 
@@ -48,3 +48,13 @@ CPS 111's published product URL redirects to different product content; its auth
 ## Solution SEO checks
 
 Run `npm run test:seo` to build and check prerendered content, metadata, canonical URLs, visible FAQ/schema consistency, links and sitemap. Eight solution guides include distinct search intent, product selection guidance and 33 source-backed FAQs.
+
+## Tile & grout studio
+
+Open `/visualizer` for interactive floor/wall material previews, grout colours and widths, grid/brick layouts, original comparison, local photo mapping and PNG export. Linked from navigation and the tiling solution page. Colours are illustrative; uploaded photos use manual four-corner surface selection and stay in the browser. See [implementation and QA notes](docs/visualizer/README.md) for verification and production limitations.
+
+## Unified search and navigation
+
+Open `/search` for typo-tolerant product, guide, application and technical-document search, with maintained Hindi/Hinglish phrases, source-linked excerpts and common clarification prompts. The expandable menu offers live suggestions. No AI credentials are needed; this release does not include open-ended AI generation. See [search scope and maintenance](docs/SEARCH.md).
+
+The linked project calculator and sales workspace run in clearly labelled demonstration mode until configured. See [portal setup](docs/PORTAL-SETUP.md). Supabase migrations and functions are source deliverables; a Vercel deployment does not deploy them.

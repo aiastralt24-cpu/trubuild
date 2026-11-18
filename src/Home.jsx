@@ -3,7 +3,11 @@ import { Link } from "react-router-dom";
 import { ArrowDown, ArrowUpRight, Pause, Play } from "lucide-react";
 import { solutions, featured, products } from "./data";
 import { useHomeMotion } from "./useHomeMotion";
+import HomeVisualizer from "./HomeVisualizer";
 import "./home-motion.css";
+
+// Temporarily hide the homepage preview; retain the studio and its links.
+const SHOW_HOME_VISUALIZER = false;
 
 const featuredSummaries = {
   "trubuild-rooftect-advanced":
@@ -88,6 +92,7 @@ export default function Home() {
               Explore {active.product.name} <ArrowUpRight size={20} />
             </Link>
             <Link className="product-hero-solution" to={"/solutions/" + active.id}>Explore the application <ArrowUpRight size={20} /></Link>
+            {active.id === "tiling" && <Link className="product-hero-visualizer" to="/visualizer">Visualize your space <ArrowUpRight size={17} /></Link>}
             </div>
           </div>
           <div className="product-hero-display">
@@ -160,6 +165,7 @@ export default function Home() {
           </Link>
         </div>
       </section>
+      {SHOW_HOME_VISUALIZER && <HomeVisualizer />}
       <section className="product-edit">
         <div className="edit-heading" data-motion>
           <div>

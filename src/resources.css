@@ -1,0 +1,15 @@
+/* Matched, labelled controls for the resource library. */
+.wrap .resource-toolbar{display:grid;grid-template-columns:minmax(0,1fr) 290px;gap:24px;align-items:end}
+.resource-toolbar .resource-search-field{min-width:0}
+.resource-toolbar .resource-search-field>label,.resource-toolbar .resource-filter>span:first-child{display:block;font-size:13px;font-weight:500;line-height:1.5;margin-bottom:9px;color:var(--ink)}
+.resource-toolbar .search-box{display:flex;align-items:center;gap:12px;height:56px;min-height:56px;width:100%;padding:0 17px;margin:0;background:#fff;border:1px solid var(--line);border-radius:5px}
+.resource-toolbar .search-box>svg{color:var(--muted)}
+.resource-toolbar .search-box input{flex:1;min-width:0;width:100%;height:100%;padding:0;margin:0;border:0;background:transparent;color:var(--ink);font-size:16px;line-height:1.5;outline:none}
+.resource-toolbar .search-box input::placeholder{color:#73796f;opacity:1}
+.resource-toolbar .resource-filter{display:block;min-width:0;margin:0}
+.resource-toolbar .resource-select-wrap{position:relative;display:block}
+.resource-toolbar .resource-filter select{appearance:none;-webkit-appearance:none;display:block;width:100%;max-width:none;height:56px;min-height:56px;padding:0 44px 0 16px;margin:0;border:1px solid var(--line);border-radius:5px;background:#fff;color:var(--ink);font-family:inherit;font-size:16px;line-height:1.5;cursor:pointer}
+.resource-select-wrap>svg{position:absolute;right:16px;top:50%;transform:translateY(-50%);pointer-events:none;color:var(--muted)}
+.resource-toolbar .search-box:focus-within,.resource-toolbar .resource-filter select:focus-visible{border-color:#a08000;outline:2px solid #ffca05;outline-offset:2px}
+.wrap .resource-result-count{margin:14px 0 0;font-size:12px;line-height:1.5;color:var(--muted)}
+@media(max-width:700px){.wrap .resource-toolbar{grid-template-columns:1fr;gap:18px}.resource-toolbar .search-box,.resource-toolbar .resource-filter select{height:52px;min-height:52px}.resource-toolbar .resource-search-field>label,.resource-toolbar .resource-filter>span:first-child{margin-bottom:7px}.wrap .resource-result-count{margin-top:16px}}

@@ -1,10 +1,23 @@
+import SearchPage from "./SearchPage";
 import { CompareProducts } from "./CompareProducts";
 import React, { useEffect, useState } from "react";
-import { Routes, Route, useLocation, Link } from "react-router-dom";
+import {
+  Routes,
+  Route,
+  useLocation,
+  useNavigate,
+  Link,
+} from "react-router-dom";
 import { X, ArrowRight } from "lucide-react";
 import { Header, Footer } from "./components";
 import Home from "./Home";
 import Experience from "./Experience";
+import Visualizer from "./Visualizer";
+import {
+  CalculatorPortal,
+  SalesWorkspace,
+  QuotationPortal,
+} from "./portal/Portal";
 import { BlogIndex, BlogDetail } from "./Blogs.jsx";
 import { Catalogue, ProductDetail, NotFound } from "./Catalogue";
 import Advisor from "./Advisor";
@@ -31,14 +44,21 @@ export default function App() {
   const [compare, setCompare] = useState([]),
     [notice, setNotice] = useState("");
   const loc = useLocation();
-  const isExperience = loc.pathname.replace(/\/+$/, '') === '/experience';
+  const navigate = useNavigate();
+  const isExperience = loc.pathname.replace(/\/+$/, "") === "/experience";
+  const isStudio =
+    loc.pathname.replace(/\/+$/, "") === "/visualizer" ||
+    ["/calculator", "/workspace"].includes(loc.pathname.replace(/\/+$/, "")) ||
+    loc.pathname.startsWith("/quotation/");
   useEffect(() => {
     if (!loc.hash) window.scrollTo({ top: 0, left: 0, behavior: "instant" });
     applyMetadata(loc.pathname);
     if (!loc.hash)
       document.getElementById("main")?.focus({ preventScroll: true });
   }, [loc.pathname, loc.hash]);
-  useEffect(() => { setCompare(getComparison()); }, []);
+  useEffect(() => {
+    setCompare(getComparison());
+  }, []);
   useEffect(() => {
     try {
       sessionStorage.setItem("trubuild-compare", JSON.stringify(compare));
@@ -59,11 +79,26 @@ export default function App() {
   const shared = { compare, toggle };
   return (
     <>
-      {!isExperience && <Header />}
+      {!isExperience && !isStudio && <Header />}
       <main id="main" tabIndex={-1}>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/experience" element={<Experience />} />
+          <Route path="/visualizer" element={<Visualizer />} />
+          <Route path="/calculator" element={<CalculatorPortal />} />
+          <Route path="/workspace" element={<SalesWorkspace />} />
+          <Route path="/quotation/:token" element={<QuotationPortal />} />
+          <Route
+            path="/search"
+            element={
+              <SearchPage
+                onCompare={(ids) => {
+                  setCompare(ids);
+                  navigate("/compare");
+                }}
+              />
+            }
+          />
           <Route path="/products" element={<Catalogue {...shared} />} />
           <Route path="/products/:id" element={<ProductDetail {...shared} />} />
           <Route path="/solutions" element={<Solutions />} />
@@ -72,7 +107,15 @@ export default function App() {
             element={<SolutionDetail {...shared} />}
           />
           <Route path="/advisor" element={<Advisor {...shared} />} />
-          <Route path="/compare" element={<CompareProducts compare={compare} onSelectionChange={setCompare} />} />
+          <Route
+            path="/compare"
+            element={
+              <CompareProducts
+                compare={compare}
+                onSelectionChange={setCompare}
+              />
+            }
+          />
           <Route path="/blogs" element={<BlogIndex />} />
           <Route path="/blogs/:slug" element={<BlogDetail />} />
           <Route path="/about" element={<About />} />
@@ -82,27 +125,30 @@ export default function App() {
           <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
-      {!isExperience && <Footer />}
-      {compare.length > 0 && loc.pathname !== "/compare" && !isExperience && (
-        <div className="compare-bar">
-          <div>
-            <strong>{compare.length} / 3 products selected</strong>
-            {notice && <span role="status">{notice}</span>}
+      {!isExperience && !isStudio && <Footer />}
+      {compare.length > 0 &&
+        loc.pathname !== "/compare" &&
+        !isExperience &&
+        !isStudio && (
+          <div className="compare-bar">
+            <div>
+              <strong>{compare.length} / 3 products selected</strong>
+              {notice && <span role="status">{notice}</span>}
+            </div>
+            <Link to="/compare">
+              Compare products <ArrowRight size={17} />
+            </Link>
+            <button
+              onClick={() => {
+                setCompare([]);
+                setNotice("");
+              }}
+              aria-label="Clear product comparison"
+            >
+              <X size={18} />
+            </button>
           </div>
-          <Link to="/compare">
-            Compare products <ArrowRight size={17} />
-          </Link>
-          <button
-            onClick={() => {
-              setCompare([]);
-              setNotice("");
-            }}
-            aria-label="Clear product comparison"
-          >
-            <X size={18} />
-          </button>
-        </div>
-      )}
+        )}
     </>
   );
 }

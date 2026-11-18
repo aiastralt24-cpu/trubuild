@@ -1,3 +1,9 @@
 project_id = "trubuild"
 [functions.enquiries]
 verify_jwt = false
+
+[functions.portal]
+verify_jwt = false
+
+[functions.portal-worker]
+verify_jwt = false

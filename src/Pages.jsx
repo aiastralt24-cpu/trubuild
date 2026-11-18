@@ -1,4 +1,5 @@
 import offices from "./offices.json";
+import "./resources.css";
 import { submitEnquiry } from "./enquiries.mjs";
 import { TdsLink } from "./TdsDownload";
 import React, { useState } from "react";
@@ -11,6 +12,7 @@ import {
   Phone,
   MapPin,
   Check,
+  ChevronDown,
 } from "lucide-react";
 import { solutions, products, resources, enquiryUrl, documentFor } from "./data";
 import {
@@ -81,6 +83,7 @@ export function SolutionDetail({ compare, toggle }) {
           <h1>{content.heading}{" "}<br /><span>{content.accent}</span></h1>
           <p>{s.description}</p>
           <Button to={enquiryUrl("", s.name)}>Discuss your project</Button>
+          {id === 'tiling' && <Button to="/visualizer">Try the tile & grout studio</Button>}
         </div>
         <img src={s.image} alt={s.imageAlt} fetchPriority="high" />
       </section>
@@ -212,11 +215,10 @@ export function Resources() {
       <section className="wrap section">
         <div className="guides-promo"><div><h2>Understand the application.</h2><p>Practical guides to choosing materials, preparing surfaces and planning your work.</p></div><Link to="/blogs">Explore guides & advice <ArrowUpRight size={20}/></Link></div>
         <div className="resource-toolbar">
+          <div className="resource-search-field">
+            <label htmlFor="resource-search">Search resources</label>
           <div className="search-box">
-            <Search size={20} />
-            <label className="sr-only" htmlFor="resource-search">
-              Search documents
-            </label>
+            <Search size={20} aria-hidden="true" />
             <input
               id="resource-search"
               value={q}
@@ -228,16 +230,20 @@ export function Resources() {
               }
             />
           </div>
+          </div>
           <label className="resource-filter">
-            Document type
+            <span>Document type</span>
+            <span className="resource-select-wrap">
             <select value={kind} onChange={(e) => setKind(e.target.value)}>
               <option value="all">All documents</option>
               {resources.some(r => r.kind === "brochure") && <option value="brochure">Brochures & guides</option>}
               <option value="tds">Technical data sheets</option>
             </select>
+            <ChevronDown size={18} aria-hidden="true" />
+            </span>
           </label>
         </div>
-        <p className="fineprint" role="status">
+        <p className="fineprint resource-result-count" role="status" aria-live="polite">
           {filtered.length} documents · Published by TruBuild
         </p>
         <div className="resource-list">

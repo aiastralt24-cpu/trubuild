@@ -1,7 +1,8 @@
+import { buildIndex, search } from "./searchEngine.mjs";
 import { TdsDownload, TdsLink } from "./TdsDownload";
 import packaging from "./packaging.json";
 import { ProductGallery, ProductColour, PackSizeSelector, StickyProductEnquiry } from "./ProductGallery";
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect, useRef, useMemo } from "react";
 import { Link, useParams, useSearchParams } from "react-router-dom";
 import {
   ChevronDown,
@@ -31,6 +32,7 @@ import {
 } from "./components";
 import "./catalogue-refinement.css";
 
+const catalogueSearchIndex = buildIndex({ products });
 const categoryGroups = [
   { name: "Waterproofing", categories: ["Roof Acrylic Coatings", "Exterior Acrylic Coatings", "Cementitious Coatings", "Crystalline Waterproofing", "PU Coatings", "Sheet Membranes", "Membrane Accessories"] },
   { name: "Tiles & grouts", categories: ["Cementitious Tile Adhesives", "PU Modified Hybrid Epoxy Adhesive", "Cementitious Grouts", "Epoxy Tile Grouts"] },
@@ -89,15 +91,8 @@ export function Catalogue({ compare, toggle }) {
   const q = params.get("search") || "",
     cat = params.get("category") || "",
     application = params.get("application") || "";
-  const filtered = products.filter(
-    (p) =>
-      (!cat || p.category === cat) &&
-      (!application || p.applications.includes(application)) &&
-      (!q ||
-        q.trim().toLowerCase().split(/\s+/).every(term =>
-          [p.name, ...(p.aliases || []), p.description, p.category, ...p.fields, ...p.applications]
-            .join(" ").toLowerCase().includes(term))),
-  );
+  const matchedProducts = useMemo(() => q.trim() ? search(catalogueSearchIndex, q).results.map(r => r.product) : products, [q]);
+  const filtered = matchedProducts.filter(p => (!cat || p.category === cat) && (!application || p.applications.includes(application)));
   function update(key, val) {
     setParams(
       (prev) => {
